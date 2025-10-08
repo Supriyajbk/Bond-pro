@@ -1,0 +1,28 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config build/webpack.dev.conf.js",
+    "build": "webpack --config build/webpack.prod.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
+    "browser-sync-webpack-plugin": "^2.4.0",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.2",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "mini-css-extract-plugin": "^2.9.4",
+    "pixrem": "^5.0.0",
+    "postcss-loader": "^8.2.0",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
