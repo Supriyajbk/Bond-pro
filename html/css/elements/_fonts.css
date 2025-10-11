@@ -1,6 +1,6 @@
 :root{
-    --body-font: "Plus Jakarta Sans", sans-serif;
-    --heading-font: "Plus Jakarta Sans", sans-serif;
-    --manrope-font: "Manrope", sans-serif;
+    --text-font:  "Poppins", sans-serif;
+    --heading-font: "Calluna", sans-serif;
 }
-.body-font{font-family: var(--body-font);}
+.text-font{font-family: var(--body-font);}
+.heading-font{font-family: var(--body-font);}
