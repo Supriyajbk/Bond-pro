@@ -1,0 +1,27 @@
+
+
+
+
+
+.midstream-text{padding: 93.5px 0;}
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .midstream-main{gap: 80px;}
+    .midstream-text{flex: 0 0 560px;}
+    .midstream-btns{gap: 32px;}
+}
+
+
+
+
+
+
+
+
+
+
+
