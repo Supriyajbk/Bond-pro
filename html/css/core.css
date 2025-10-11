@@ -9,10 +9,11 @@
 
 
 
+@import url('./sections/featured-section.css');
+@import url('./sections/optional-repeater-section.css');
 
 @import url('./sections/reports-section.css');
 @import url('./sections/bookend-section.css');
 @import url('./sections/signup-cta-section.css');
 @import url('./sections/short-intro-section.css');
-@import url('./sections/featured-section.css');
 
