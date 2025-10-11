@@ -409,7 +409,7 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 .no-letterspace{letter-spacing: 0;}
 
 
-
+.blur-100{filter: blur(100px);}
 
 
   /*-- media css starts here --*/

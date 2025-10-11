@@ -1,0 +1,55 @@
+
+
+
+
+.reports-col{padding: 24px;}
+
+.mins-read{gap: 6px; color: var(--Foreground-50);}
+.mins-read i{top: 1px; position: relative;}
+.month-read{gap: 6px; color: var(--Foreground-50);}
+.month-read i, .month-read svg, .month-read img{top: 1px; position: relative; max-width: 12px;}
+
+
+.reports-text h2 a{color: var(--Foreground);}
+.reports-text h2 a:hover{color: var(--Yellow);}
+
+.reports-image{margin-bottom: 19px;}
+ul.categorys{gap: 0 8px; margin-bottom: 19px;}
+ul.categorys > li > a{ color: var(--Foreground); font-size: 12px; font-weight: 600; line-height: 20px; letter-spacing: 0.96px; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: none; text-decoration-color: var(--Green); text-decoration-thickness: 2px; text-underline-offset: 1px; text-underline-position: from-font; text-transform: uppercase; display: block; }
+ul.categorys > li > a:hover{text-decoration-color: transparent;}
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .reports-main{padding: 80px 0 73px;}
+    .reports-head{padding-bottom: 55px;}
+    .reports-title{flex: 1;}
+    .reports-row{gap: 40px;}
+    .reports-col{flex: 0 0 calc(25% - 30px); flex-grow: 1;}
+}
+@media only screen and (min-width: 760px){
+    .reports-btn{display: none;}
+    .reports-head .reports-btn{display: block; width: fit-content; margin-left: auto;}
+}
+@media screen and (max-width: 1023px) and (min-width: 760px){
+    .reports-main{padding: 48px 0 48px;}
+    .reports-head{padding-bottom: 40px;}
+    .reports-title{flex: 1;}
+    .reports-row{gap: 28px;}
+    .reports-col{flex: 0 0 calc(50% - 14px);}
+}
+@media screen and (max-width: 759px) and (min-width: 0px){
+    .reports-main{padding: 29px 0 32px; flex-direction: column;}
+    .reports-head{padding-bottom: 32px; flex-direction: column;}
+    .reports-title{flex: 1;}
+    .reports-row{display: block;}
+    .reports-col{flex: 0 0 100%;}
+    .reports-col:not(:last-child){margin-bottom: 25px;}
+    .reports-text h2{margin-bottom: 13px; font-size: 18px; line-height: 25px; letter-spacing: -0.18px;}
+    .reports-head .reports-btn.edge-btn{display: none;}
+    .reports-btn{margin-top: 33px;}
+    .reports-btn .button{padding: 24px 60px 24px 24px;}
+    .reports-btn .button i{color: var(--White);}
+    ul.categorys{margin-bottom: 12px;}
+}
