@@ -1,7 +1,6 @@
 :root{
-    --text-font:  "Poppins", sans-serif;
-    --body-font:  "Poppins", sans-serif;
-    --heading-font: "Calluna", sans-serif;
+    --text-font: "calluna", serif;
+    --heading-font: "Poppins", serif;
 }
-.text-font{font-family: var(--body-font);}
-.heading-font{font-family: var(--body-font);}
+.text-font{font-family: var(--text-font);}
+.heading-font{font-family: var(--heading-font);}

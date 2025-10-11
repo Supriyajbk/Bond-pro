@@ -21,9 +21,11 @@
   <link rel="icon" type="image/png" sizes="192x192" href="images/web-app-manifest-512x512.png" />
   <link rel="icon" type="image/png" sizes="512x512" href="images/apple-touch-icon.png" />
 
-  <!-- Font Base -->
+  <!-- Icon Base -->
   <script src="https://kit.fontawesome.com/01565105f3.js" crossorigin="anonymous"></script>
 
+  <!-- Font Base -->
+  <link rel="stylesheet" href="https://use.typekit.net/hik7zds.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -40,9 +42,78 @@
 </head>
 
 <body>
-  <main>
-  </main><!-- site starts here -->
-  <footer class="site-footer inverted base-bg">
+  <header class="site-header">
+    <div class="container x-lg">
+      <div class="header flex flex-vcenter">
+        <div class="logo">
+          <a href="index.html">
+            <img width="209" height="48" src="images/logo.svg" alt="logo" />
+          </a>
+        </div>
+        <div role="button" aria-label="Open menu" class="humburger-btn mbl-blue-bg white-bg flex flex-col flex-center">
+          <span class="humburger-line"></span>
+          <span class="humburger-line"></span>
+          <span class="humburger-line"></span>
+        </div>
+        <div class="header_right flex flex-vcenter">
+          <nav role="navigation" class="navigation flex relative">
+            <ul class="main_menu m-0 flex flex-vcenter no-disc">
+              <li class="">
+                <a href="#">Loyalty Advisory</a>
+
+              </li>
+              <li id="menu-item-1968" class="">
+                <a href="#">Loyalty Technology</a>
+
+              </li>
+              <li class=""><a href="#">Marketing Operations</a>
+
+              </li>
+              <li class="">
+                <a href="#">CX</a>
+              </li>
+              <li><a href="#">BondX</a></li>
+              <li><a href="#">Insights</a></li>
+              <li><a href="#">About</a></li>
+              <li class="button"><a href="#">Contact.</a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+  </header>
+  <main class="site-main-cover"><!-- site starts here -->
+    <section class="booked-cta-section">
+      <div class="container">
+        <div class="booked-cta-main">
+          <div class="booked-cta-text">
+            <span class="optional-text">bookend cta</span>
+            <h2 class="fs-64 f-500">We’re <span>the</span> customer loyalty company. From <span>hello</span> to
+              <span>hooked</span>, we help
+              the
+              world’s biggest brands turn every moment into a <span>lasting</span> connection<span>.</span>
+            </h2>
+
+            <a href="#" class="button lg">Let’s go.</a>
+          </div>
+          <div class="booked-cta-text"></div>
+        </div>
+      </div>
+    </section>
+    <section class="signup-cta-section dark-gray-bg">
+      <div class="container">
+        <div class="signup-cta-main inverted">
+          <div class="signup-cta-text">
+            <figure class="object"><img src="images/email@2x.jpg" alt="email@2x"></figure>
+            <h2 class="fs-48 lh-60 f-500 mb-0">Get weekly insights.</h2>
+
+          </div>
+          <div class="signup-cta-text"></div>
+        </div>
+      </div>
+    </section>
+  </main><!-- site ends here -->
+  <footer class="site-footer inverted base-bg heading-font">
     <div class="container">
       <div class="footer flex">
         <div class="footer-top flex flex-vcenter">
