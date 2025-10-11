@@ -12,10 +12,10 @@ a:hover{color: var(--Sky-Blue);}
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Base-Foreground); font-weight: 600; font-family: var(--heading-font); text-transform: none;}
 .h1, h1{font-size: 64px; line-height: 110%; margin-bottom: 24px; letter-spacing: 0px;}
-.h2, h2{font-size: 48px; line-height: 60px; margin-bottom: 20px; letter-spacing: -0.48px;}
-.h3, h3{font-size: 36px; line-height: 48px; margin-bottom: 19px; letter-spacing: -0.4px;}
-.h4, h4{font-size: 32px; line-height: 40px; margin-bottom: 20px; letter-spacing: -0.32px;}
-.h5, h5{font-size: 24px; line-height: 30px; margin-bottom: 19px; letter-spacing: -0.24px;}
+.h2, h2{font-size: 56px; line-height: 125%; margin-bottom: 20px; letter-spacing: -0.48px;}
+.h3, h3{font-size: 40px; line-height: 125%; margin-bottom: 19px; letter-spacing: -0.4px;}
+.h4, h4{font-size: 32px; line-height: 125%; margin-bottom: 20px; letter-spacing: -0.32px;}
+.h5, h5{font-size: 28px; line-height: 125; margin-bottom: 19px; letter-spacing: -0.24px;}
 .h6, h6{font-size: 20px; line-height: 24px; margin-bottom: 18px; letter-spacing: -0.2px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--Base-Foreground);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--Fuschia);}
@@ -105,7 +105,7 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 .button.lg{padding: 21px 24px 19px; border-radius: 30px;}
 
 
-a.text-link{gap: 8px; color: var(--Foreground); font-size: 14px; line-height: 14px; letter-spacing: 1.68px; font-weight: 500;}
+a.text-link{gap: 8px; color: var(--Foreground); font-size: 14px; line-height: 100%; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font);}
 a.text-link em{color: var(--Fuschia); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 1px; transition: all .5s ease;}
 a.text-link.white{color: var(--White);}
 a.text-link.white:hover em{color: var(--White);}
