@@ -6,7 +6,7 @@ ul.social-icons{margin: 0; gap: 16px;}
 ul.social-icons li{display: inline-block; margin: 0;}
 ul.social-icons li::before{display: none;}
 ul.social-icons li a{width: 48px; height: 48px; background-color: var( --Fuschia); color: var(--Foreground); display: flex; align-items: center; justify-content: center;}
-ul.social-icons li a:hover{background-color: var(--btn-color);}
+ul.social-icons li a:hover{background-color: var(--White);}
 ul.social-icons li a span{transition: all 0.5s ease-in-out;}
 ul.social-icons li a:hover span{transform: rotate(360deg);}
 

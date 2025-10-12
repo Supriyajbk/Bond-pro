@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .locations-main{gap: 80px;}
+    .locations-text{flex: 0 0 400px;}
+    .locations-row{gap: 32px; flex: 1;}
+    .locations-list{flex: 0 0 calc(25%  - 32px);}
+}
+
+
+
+
