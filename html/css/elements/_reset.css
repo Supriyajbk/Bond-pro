@@ -105,7 +105,7 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 .button.lg{padding: 21px 24px 19px; border-radius: 30px;}
 
 
-a.text-link{gap: 8px; color: var(--Foreground); font-size: 14px; line-height: 100%; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font);}
+a.text-link{gap: 8px; color: var(--Foreground); font-size: 16px; line-height: 100%; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font);}
 a.text-link em{color: var(--Fuschia); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 1px; transition: all .5s ease;}
 a.text-link.white{color: var(--White);}
 a.text-link.white:hover em{color: var(--White);}
