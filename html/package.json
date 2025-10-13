@@ -24,5 +24,9 @@
     "postcss-loader": "^8.2.0",
     "webpack": "^5.102.1",
     "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1",
+    "swiper": "^12.0.2"
   }
 }

@@ -9,20 +9,27 @@
 .signup-cta-text{gap: 25px; flex: 1;}
 .signup-cta-icon{width: 62px;}
 
-.signup-cta-form{flex: 0 0 470px;}
+.signup-cta-form{flex: 0 0 470px; padding: 0 0 10px 20px;}
 
-body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field{margin: 0;}
+
+.signup-cta-line{width: 1px; height: 100%; top: 0; left: 0;}
+body .signup-cta-form .frm_forms .frm_form_fields .frm_fields_container{align-items: center;}
+body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field{margin: 0; flex: 1;}
+body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field.frm_right{width: fit-content; flex: 0 0 auto; top: 5px; position: relative;}
 body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field input{
     font-size: 24px;
     line-height: 36px;
     font-weight: 300;
-    padding: 0;
+    padding: 7px 0 0;
     background: none;
     border: none;
 }
 
 body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field input:not([type="checkbox"]):focus, body  .signup-cta-form  .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus:focus{ background: none; border: none; }
-
+body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit{
+    border-radius: 30px;
+    padding: 21px 24px 19px;
+}
 
 
 

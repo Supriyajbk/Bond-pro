@@ -9,6 +9,22 @@
 @import url('./elements/_formidable.css');
 
 
+
+
+/*--  06th Analytics page --*/
+@import url('./sections/scrl-explainer-section.css');
+
+
+
+/*--  11th news page --*/
+@import url('./sections/feature-post-section.css');
+
+
+
+
+
+
+
 /*--  14th contact page --*/
 @import url('./sections/contact-form-section.css');
 @import url('./sections/locations-section.css');

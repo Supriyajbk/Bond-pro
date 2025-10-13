@@ -1,0 +1,60 @@
+.scrl-explainer-inner{padding: 28px; border: 4px solid var(--White);}
+.scrl-explainer{padding: 8px; border: 1px solid var(--Blue);}
+.scrl-explainer-btns{margin-top: 32px; padding: 8px; border: 1px solid var(--Blue); }
+.scrl-explainer-btns .button{width: 100%; gap: 8px; justify-content: center;}
+.scrl-explainer-card:nth-child(1):last-child{flex: 0 0 100%;}
+.scrl-explainer-desc h2{margin-bottom: 9px;}
+.scrl-explainer-desc p{margin-bottom: 8px;}
+.scrl-explainer-icon{width: 128px; height: 128px; padding: 26px;}
+.scrl-explainer-icon svg{width: 100%; height: 100%; object-fit: contain;}
+.scrl-explainer-rect{clip-path: polygon(0 0, 100% 100%, 0 100%);}
+
+.page-template-campaign .scrl-explainer-main{padding: 40px 0;}
+.scrl-explainer-inner hr.purple{background-color: var(--RF-Purple);}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .scrl-explainer-main{gap: 80px; padding: 80px 0 88px;}
+    .scrl-explainer-card{flex: 0 0 350px;}
+
+    .page-template-campaign .scrl-explainer-main {padding: 80px 0 80px;}
+    .page-template-service-tier-1 .scrl-explainer-section.repeater-top{margin: 80px 0 0 ;}
+    .scrl-explainer-btns .button{justify-content: space-between;}
+}
+@media only screen and (min-width: 860px){
+    .scrl-explainer-inner hr[data-animate]{margin-bottom: 20px;}
+}
+@media only screen and (min-width: 560px){
+    .scrl-explainer-main{flex-direction: row-reverse;}
+    .scrl-explainer-segments{flex: 1; gap: 48px; flex-direction: column;}
+    .scrl-explainer-icon svg{max-width: 80px;}
+    .scrl-explainer-desc{flex: 1; padding: 15px 0 16px 40px;}
+    .scrl-explainer-line{width: 2px; height: 100%; bottom: 0; left: 0; display: block;}
+    .scrl-explainer-rect{clip-path: polygon(0 0, 100% 100%, 100% 0);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 810px){
+    .scrl-explainer-main{flex-direction: column; gap: 60px; padding: 60px 0 68px;}
+}
+@media only screen and (max-width: 809px) and (min-width: 560px){
+    .scrl-explainer-main{gap: 31px; padding: 40px 0 40px; flex-direction: column;}
+    .scrl-explainer-line{height: 100%;}
+}
+@media only screen and (max-width: 559px) and (min-width: 200px){
+    .scrl-explainer-main{padding: 40px 0 40px; gap: 31px; flex-direction: column;}
+    .scrl-explainer-segments{gap: 31px; flex-direction: column;}
+    .scrl-explainer-seg{display: block;}
+    .scrl-explainer-desc{padding-top: 26px;}
+    .scrl-explainer-icon{width: 80px; height: 80px; padding: 16px;}
+    .scrl-explainer-icon svg{max-width: 48px;}
+    .scrl-explainer-line{width: 100%; height: 2px; top: 0; left: 0; display: block;}
+
+    .page-template-service-tier-1 .scrl-explainer-btns .button { font-size: 1rem;}
+}
+@media only screen and (max-width: 389px) and (min-width: 200px){
+    .scrl-explainer-inner{padding: 24px;}
+}
+@media only screen and (max-width: 374px) and (min-width: 200px){
+    .scrl-explainer-btns .button{font-size: 0.813rem;}
+    
+}
