@@ -3,19 +3,16 @@
 
 .contact-bg-overlay{background: linear-gradient(215deg, rgba(28, 28, 28, 0.00) 9.94%, #1C1C1C 50.27%);}
 
-.contact-form-lt{color: var(--White);}
-.contact-form-lt h1{margin-bottom: 33px;}
-.contact-form-rt{ border-radius: 20px; border: 1px solid var(--Dark-Gray); background: rgba(19, 19, 19, 0.70); }
+.contact-form-lt h1{margin-bottom: 17px;}
 
 .contact-form-full .contact-form-lt, .contact-form-full .contact-form-rt{flex: 1;}
 .contact-form-full .contact-form-lt{border-radius: 24px;}
 
-.contact-form-lt span.optional-text{margin-bottom: 7px;}
+.contact-form-lt span.optional-text{margin-bottom: 20px;}
 .contact-form-lt p{margin-bottom: 33px;}
-.contact-form-links{padding: 24px 24px 16px; border: 1px dashed var(--Spun-Pearl);}
-.contact-form-links::before{ content: ""; display: block; }
-.contact-form-link{gap: 24px; margin-bottom: 8px;}
-.contact-form-link svg{width: 21px; height: 20px;}
+.contact-form-link{gap: 15px; color: var(--Foreground);}
+.contact-form-link:hover{color: var(--Fuschia);}
+.contact-form-link svg{width: 24px; height: 18px;}
 
 .contact-form-link.visible:nth-child(1) svg path:not(:last-child){animation: phoneAnim 2s infinite;}
 .contact-form-link.visible:nth-child(1) svg path:nth-child(1){ animation-delay: -0.2s;}
@@ -27,9 +24,10 @@
 
 .contact-form-desc{letter-spacing: -0.2px;}
 
+
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
-    .contact-form-main{padding: 183px 0 80px; gap: 80px;}
+    .contact-form-main{padding: 80px 0 80px; gap: 80px;}
     .contact-form-lt{flex: 0 0 350px;}
     .contact-form-rt{flex: 1; padding: 47px 48px 48px;}
     .contact-form-ellipse { left: -384px; bottom: -196px; width: 484px; height: 484px; z-index: -1;}

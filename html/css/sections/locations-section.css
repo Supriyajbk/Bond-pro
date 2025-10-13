@@ -4,20 +4,19 @@
 
 
 
-
-
-
-
-
+.locations-text h2{margin-bottom: 25px;}
+.locations-address span.h6{margin-bottom: 13px;}
+.locations-icon{margin-bottom: 9px; max-width: 64px;}
+.locations-icon svg, .locations-icon img{object-fit: contain;}
 
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .locations-main{gap: 80px;}
+    .locations-main{gap: 80px; padding: 80px 0 80px;}
     .locations-text{flex: 0 0 400px;}
     .locations-row{gap: 32px; flex: 1;}
-    .locations-list{flex: 0 0 calc(25%  - 32px);}
+    .locations-list{flex: 0 0 calc(25%  - 24px);}
 }
 
 

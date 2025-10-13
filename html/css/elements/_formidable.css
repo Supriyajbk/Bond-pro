@@ -1,7 +1,7 @@
 
 
 /* Input fields */
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label, label{padding-bottom: 3px; display: flex; font-size: 16px; line-height: 24px; letter-spacing: 0; font-weight: 600; font-family: var(--body-font); color: var(--White);}
+body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label, label{padding-bottom: 3px; display: flex; font-size: 16px; line-height: 24px; letter-spacing: 0; font-weight: 600; font-family: var(--heading-font); color: var(--Foreground);}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span, label span{ color: var(--Muted-Ochre); font-family: var(--manrope-font);; font-size: 14px; font-weight: 600; line-height: 22px; margin-left: auto; display: block; }
 textarea {width: 100%; resize: none; height: 118px;}
 input:focus, textarea:focus{outline: 0;}

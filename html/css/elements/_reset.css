@@ -237,6 +237,7 @@ span.optional-text.mb-0{margin-bottom: 0;}
 .lh-14{line-height: 14px;}
 .lh-16{line-height: 16px;}
 .lh-19{line-height: 19px;}
+.lh-21{line-height: 21px;}
 .lh-24{line-height: 24px;}
 .lh-25{line-height: 25px;}
 .lh-28{line-height: 28px;}
@@ -412,6 +413,10 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 
 .blur-100{filter: blur(100px);}
 
+
+.divider{gap: 33px; padding: 24px 0;}
+span.dot{ width: 6px; height: 6px; background: var(--Elevated); }
+span.dot.fuschia{background-color: var(--Fuschia);}
 
   /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
