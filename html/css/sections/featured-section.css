@@ -15,6 +15,9 @@
 .featured-text:only-child { height: 100%; display: flex; flex-direction: column; justify-content: flex-end;}
 
 .featured-section.no_video .featured-main{padding: 0;}
+.feature-icon figure img {mix-blend-mode: multiply;}
+
+body.page-template-default .featured-section{background-color: var(--Elevated);}
 
 body.page-template-career  .featured-list p:last-of-type {
   margin-bottom: 0;
