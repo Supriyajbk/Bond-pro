@@ -29,22 +29,18 @@
 @media screen and (min-width: 1024px) {
     .contact-form-main{padding: 80px 0 80px; gap: 80px;}
     .contact-form-lt{flex: 0 0 350px;}
-    .contact-form-rt{flex: 1; padding: 47px 48px 48px;}
+    .contact-form-rt{flex: 1;}
     .contact-form-ellipse { left: -384px; bottom: -196px; width: 484px; height: 484px; z-index: -1;}
     .contact-rt-ellipse{bottom: 0; right: 0; width: 234px; height: 237px; z-index: -1;}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
-    .contact-form-main{gap: 32px;}
-    .contact-form-rt{padding: 32px;}
+
 }
 @media screen and (max-width: 1023px) and (min-width: 760px) {
     .contact-form-main{padding: 60px 0 40px; display: block;}
     .contact-form-lt{margin-bottom: 60px;}
-    .contact-form-rt{ padding: 32px;}
     .contact-form-rt span.optional-text{margin-bottom: 24px;}
 }
 @media screen and (max-width: 759px) and (min-width: 200px) {
-    .contact-form-main{padding: 33px 0 40px;}
-    .contact-form-lt{flex: 100%; padding: 24px 24px 70px; border-radius: 24px 24px 0px 0px;}
-    .contact-form-rt{flex: 100%; padding: 24px;}
+    .contact-form-main{padding: 33px 0 40px; display: block;}
 }
