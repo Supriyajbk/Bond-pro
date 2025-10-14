@@ -1,0 +1,28 @@
+.connected-section{position: relative; width: 100% ; clear: both; display: block;}
+.connected-main{padding: 40px 0 80px;}
+
+.connected-icon{width: 40px; height: 40px; margin-bottom: 16px;}
+.connected-icon figure img{object-fit: contain;}
+
+
+
+.connected-text:only-child { height: 100%; display: flex; flex-direction: column; justify-content: flex-end;}
+
+
+
+
+@media only screen and (min-width: 1024px) {
+    .connected-row{gap: 56px;}
+    .connected-list{flex: 0 0 calc(33.3333333333% - 56px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+.connected-main{padding: 60px 0;}
+.connected-list { flex: 0 0 calc(50% - 16px); }
+
+}
+
+@media only screen and (max-width: 767px) and (min-width:200px) {
+.connected-main{padding: 0; display: block;}
+
+
+}

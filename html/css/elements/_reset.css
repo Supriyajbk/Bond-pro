@@ -242,6 +242,7 @@ span.optional-text.mb-0{margin-bottom: 0;}
 .lh-24{line-height: 24px;}
 .lh-25{line-height: 25px;}
 .lh-28{line-height: 28px;}
+.lh-29{line-height: 29px;}
 .lh-30{line-height: 30px;}
 .lh-36{line-height: 36px;}
 .lh-38{line-height: 38px;}
@@ -361,7 +362,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .white-bg-50{background-color: var(--White-50);}
 .white-bg-80{background-color: var(--White-80);}
 .white-bg-90{background-color: var(--White-90);}
-.yellow-bg{background-color: var(--Fuschia);}
+.fuschia-bg{background-color: var(--Fuschia);}
 .dark-gray-bg{background-color: var(--Dark-Gray);}
 .gray-bg{background: var(--Background);}
 .gray-bg{background: var(--Background);}

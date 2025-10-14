@@ -1,0 +1,47 @@
+
+
+.common-intro-text{color: var(--Text-Color-1);}
+.common-intro-line{width: 1px; height: 100%; top: 0; left: 0;}
+
+p a{
+    color: var(--Coal);
+
+
+font-weight: 700;
+line-height: 150%;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-color: color(display-p3 0.8157 0 0.6196);
+text-decoration-thickness: 12%;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+p a:hover{
+    text-decoration-color: transparent;
+    color: var(--Fuschia);
+}
+
+.common-intro-text p{margin-bottom: 21px;}
+.common-intro-title{color: var(--Fuschia);}
+.common-intro-subtitle{margin-bottom: 29px;}
+.common-intro-btns{gap: 16px; padding-top: 20px;}
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .common-intro-main{padding: 80px 0;}
+    .common-intro-head{flex: 1; padding: 24px 64px 24px 0;}
+    .common-intro-text{flex: 1; padding: 16px 0 16px 64px}
+}
+
+
+
+
+
+
+
+
+
+
+
+

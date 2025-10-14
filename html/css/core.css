@@ -15,14 +15,21 @@
 @import url('./sections/scrl-explainer-section.css');
 
 
+/*--  09th About page --*/
+@import url('./sections/common-intro-section.css');
+@import url('./sections/tabs-section.css');
+
+
+
+
 
 /*--  11th news page --*/
 @import url('./sections/feature-post-section.css');
 
 
-
-
-
+/*--  13th Connect page --*/
+@import url('./sections/connect-banner-section.css');
+@import url('./sections/connected-section.css');
 
 
 /*--  14th contact page --*/
