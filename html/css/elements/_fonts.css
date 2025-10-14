@@ -1,6 +1,8 @@
 :root{
     --text-font: "calluna", serif;
     --heading-font: "Poppins", serif;
+    --mono-font: "mono45-headline", monospace;
 }
 .text-font{font-family: var(--text-font);}
 .heading-font{font-family: var(--heading-font);}
+.mono-font{font-family: var(--mono-font);}
