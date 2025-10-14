@@ -1,5 +1,15 @@
-.counter-stats:only-child{padding-bottom: 16px;}
-.counter-list{flex: 0 0 200px; flex-grow: 1; }
-.counter-list p{font-size: 1.125rem; font-weight: 500; line-height: 1.33; color: var(--white); text-align: left;}
-span.counter{font-size: 4rem; font-weight: 800; color: var(--white); line-height: 1.5; margin-bottom: 2px; display: block;   letter-spacing: -1.92px; position: relative; }
-/* .counter-symmblo{color: var(--signal); display: inline-block; font-size: 2rem; top: 11px; position: relative; font-weight: 700;} */
+.counter-main-wrap{padding: 40px 0 80px;}
+.counter-stats{gap: 32px 0;}
+.counter-list{ flex-grow: 1; padding: 24px 29px; border-left: 1px solid var(--Foreground-25); flex: 0 0 25%}
+.counter-list p{font-size: 16px; font-weight: 300; line-height: 150%;  }
+span.counter{  display: block;   letter-spacing: -1.92px; position: relative; }
+.counter-top{font-family: var(--mono-font); font-size: 64px; font-weight: 300; color: var(--Fuschia); text-transform: uppercase; margin-bottom: 6px; line-height: 1;}
+.counter-list .h6{font-weight: 700;}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .counter-list {flex: 0 0 50%;}
+
+
+
+}
