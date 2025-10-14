@@ -47,7 +47,6 @@ ul.categorys > li > a:hover{text-decoration-color: transparent;}
     .reports-col{flex: 0 0 100%;}
     .reports-col:not(:last-child){margin-bottom: 25px;}
     .reports-text h2{margin-bottom: 13px; font-size: 18px; line-height: 25px; letter-spacing: -0.18px;}
-    .reports-head .reports-btn.edge-btn{display: none;}
     .reports-btn{margin-top: 33px;}
     .reports-btn .button{padding: 24px 60px 24px 24px;}
     .reports-btn .button i{color: var(--White);}

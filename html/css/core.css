@@ -7,8 +7,8 @@
 @import url('./elements/_header.css');
 @import url('./elements/_footer.css');
 @import url('./elements/_formidable.css');
-
-
+@import url('./elements/swiper-bundle.min.css');
+@import url('./elements/_swiper.css');
 
 
 /*--  06th Analytics page --*/
