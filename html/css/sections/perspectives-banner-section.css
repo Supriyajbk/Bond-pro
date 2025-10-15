@@ -1,0 +1,28 @@
+.perspectives-banner-gradient{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.80)); backdrop-filter: blur(0px); }
+.perspectives-banner-text {max-width: 960px; width: 100%;}
+.perspectives-banner-text h2{margin-bottom: 14px; max-width: 500px; font-size: 46px; line-height: 56px; letter-spacing: -0.92px;}
+.perspectives-banner-btns .button svg{width: 24px; height: 24px;}
+
+ul.perspectives-category{gap: 16px; padding-bottom: 24px;}
+ul.perspectives-category li{letter-spacing: 1.4px;}
+ul.perspectives-category li > a{padding: 6px 12px; display: block; border-radius: 16px; background-color: var(--White); color: var(--Fuschia);} 
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .perspectives-banner-main {padding: 324px 0 60px;}
+    .perspectives-banner-text p{margin-bottom: 33px;}
+    .perspectives-banner-btns{gap: 32px;}
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .perspectives-banner-main {padding: 197px 0 80px;}
+    .perspectives-banner-text p{margin-bottom: 33px;}
+    .perspectives-banner-btns{gap: 32px;}
+}
+@media only screen and (max-width: 759px) and (min-width: 0px){
+    .perspectives-banner-main {padding: 172px 0 40px; display: block;}
+    .perspectives-banner-text{color: var(--White-80);}
+    .perspectives-banner-text p{margin-bottom: 24px;}
+    .perspectives-banner-btns{display: block;}
+    .perspectives-banner-btns .button:not(:last-child){margin-bottom: 16px;}
+}

@@ -11,8 +11,20 @@
 @import url('./elements/_swiper.css');
 
 
+/*--  05th The Loyalty Report page --*/
+@import url('./sections/masthead-alt-section.css');
+
+
 /*--  06th Analytics page --*/
 @import url('./sections/scrl-explainer-section.css');
+
+
+/*--  07th Perspectives page --*/
+@import url('./sections/featured-insights-section.css');
+
+
+/*--  08th Perspectives Post page --*/
+@import url('./sections/perspectives-banner-section.css');
 
 
 /*--  09th About page --*/
@@ -21,10 +33,14 @@
 
 
 
+/*--  10th Why Bond Is Better page --*/
+@import url('./sections/custom-testimonial-section.css');
 
 
 /*--  11th news page --*/
 @import url('./sections/feature-post-section.css');
+@import url('./sections/blog-news-section.css');
+
 
 
 /*--  13th Connect page --*/
