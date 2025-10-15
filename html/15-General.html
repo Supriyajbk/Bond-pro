@@ -84,23 +84,37 @@
   </header>
   <main class="site-main-cover"><!-- site starts here -->
     <section class="default-banner-section relative">
-      <div class="default-banner-bg background-bg">
+      <div class="default-banner-bg background-bg o-hidden">
         <picture class="object-fit">
           <source srcset="images/analytics-banner-bg@2x.jpg" media="(min-width:760px)">
-          <img src="images/general-banner-mobile@2x.jpg" alt="default-banner-mobile" title="default-banner-mobile">
+          <img src="images/analytics-banner-bg@2x.jpg" alt="default-banner-mobile" title="default-banner-mobile">
         </picture>
-        <div class="default-banner-overlay background-text"></div>
+        <!-- <div class="default-banner-overlay background-text"></div> -->
+        <div class="container default-banner-glows">
+          <div class="default-banner-glow blur-100 background-bg radius-50 fuschia-bg"></div>
+        </div>
       </div>
       <div class="container">
-        <div class="default-banner-main flex">
-          <div class="default-banner-text inverted fs-20 lh-30 white-70 f-500">
-            <h1>General Default</h1>
-            <p>Grow an online education business that gives you peace of mind, a sense of purpose, and
-              steady profits for the future</p>
+        <div class="default-banner-main flex relative">
+          <div class="default-banner-image relative">
+            <picture class="default-banner-thumb object-fit radius-img-50">
+              <source srcset='images/default-banner@2x.jpg' media='(min-width: 760px)' type='image/jpeg'>
+              <img src='images/default-banner@2x.jpg' alt=''>
+            </picture>
+          </div>
+          <div class="default-banner-text inverted white-80">
+            <span class="optional-text">Optional Pre-header</span>
+            <h1 class="h2 f-700">General Page Template<span class="fs-64">.</span></h1>
+            <p>Font connection connection align move polygon. Style invite bold rectangle edit fill vector union edit.
+              Variant select prototype align rotate italic. Device library line polygon align star.</p>
             <div class="default-banner-btns flex">
-              <a href="05-Blog-Post.html" class="button flex flex-vcenter w-fit">CTA
-                Button</a>
-              <a href="#" class="button">Optional CTA Button</a>
+              <a href="#" class="button flex w-fit">Optional link</a>
+              <a href="#" class="text-link white flex w-fit flex-vcenter">Secondary link<svg
+                  xmlns="http://www.w3.org/2000/svg" width="5" height="9" viewBox="0 0 5 9" fill="none">
+                  <path
+                    d="M4.80994 4.09866C5.06335 4.31271 5.06335 4.68729 4.80994 4.90134L1.06725 8.32609C0.833333 8.55797 0.423977 8.55797 0.190058 8.32609C-0.0633528 8.11204 -0.0633528 7.73746 0.190058 7.52341L3.48441 4.49108L0.190058 1.47659C-0.0633528 1.26254 -0.0633528 0.88796 0.190058 0.673913C0.423977 0.442029 0.833333 0.442029 1.06725 0.673913L4.80994 4.09866Z"
+                    fill="#D0009E" style="fill:#D0009E;fill:color(display-p3 0.8157 0.0000 0.6196);fill-opacity:1;" />
+                </svg></a>
             </div>
           </div>
         </div>
@@ -110,7 +124,8 @@
       <div class="container">
         <div class="short-intro-main">
           <span class="optional-text">Optional Preheader</span>
-          <h2>Short introduction with <span>highlighted</span> word scale align vertical asset vector undo export boolean frame.
+          <h2>Short introduction with <span>highlighted</span> word scale align vertical asset vector undo export
+            boolean frame.
             Variant subtract object <span>emphasized</span> stroke text content invite scrolling stroke.</h2>
         </div>
       </div>
@@ -208,7 +223,8 @@
       <div class="container">
         <div class="short-intro-main">
           <span class="optional-text">SIMPLE CAPABILITIES</span>
-          <h2>Short introduction with <span>highlighted</span> word scale align vertical asset vector undo export boolean frame.
+          <h2>Short introduction with <span>highlighted</span> word scale align vertical asset vector undo export
+            boolean frame.
             Variant subtract object <span>emphasized</span> stroke text content invite scrolling stroke.</h2>
         </div>
       </div>
@@ -223,22 +239,25 @@
             <div class="optional-repeater-text fs-18 lh-27" data-animate="fade-in-up">
               <span class="optional-text fs-16 f-700">Preheader</span>
               <h2 data-animate="lines" class="h3">Repeater Module</h2>
-              <p>Main mask flows bullet blur ellipse editor reesizing vertical connection. Clip opacity blur boolean polygon background main scale. Line outline bold draft strikethrough. Community asset prototype follower arrow image export. Layer component team blur pencil ellipse. Ellipse layer ipsum line arrange line draft flows. </p>
+              <p>Main mask flows bullet blur ellipse editor reesizing vertical connection. Clip opacity blur boolean
+                polygon background main scale. Line outline bold draft strikethrough. Community asset prototype follower
+                arrow image export. Layer component team blur pencil ellipse. Ellipse layer ipsum line arrange line
+                draft flows. </p>
               <ul>
                 <li>Strikethrough rotate device undo pen slice draft share layer</li>
                 <li>Device share clip community star rotate invite style text thumbnail</li>
                 <li>Line undo draft link italic follower editor image opacity</li>
               </ul>
               <div class="btn-wrap flex flex-vcenter">
-              <a href="#" class="button w-fit flex flex-center text-upper">Optional link </a>
-              <a href="" class="text-link w-fit flex flex-vcenter">
+                <a href="#" class="button w-fit flex flex-center text-upper">Optional link </a>
+                <a href="" class="text-link w-fit flex flex-vcenter">
                   <span>Secondary link</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M9.80994 6.59866C10.0634 6.81271 10.0634 7.18729 9.80994 7.40134L6.06725 10.8261C5.83333 11.058 5.42398 11.058 5.19006 10.8261C4.93665 10.612 4.93665 10.2375 5.19006 10.0234L8.48441 6.99108L5.19006 3.97659C4.93665 3.76254 4.93665 3.38796 5.19006 3.17391C5.42398 2.94203 5.83333 2.94203 6.06725 3.17391L9.80994 6.59866Z"
                       fill="#D0009E" style="fill:#D0009E;fill:color(display-p3 0.8157 0.0000 0.6196);fill-opacity:1;" />
                   </svg></a>
-                  </div>
+              </div>
             </div>
           </div>
           <div class="optional-repeater-main flex flex-vcenter">
@@ -248,22 +267,25 @@
             <div class="optional-repeater-text fs-18 lh-27" data-animate="fade-in-up">
               <span class="optional-text fs-16 f-700"> Preheader</span>
               <h2 data-animate="lines" class="h3">Repeater Module</h2>
-              <p>Main mask flows bullet blur ellipse editor reesizing vertical connection. Clip opacity blur boolean polygon background main scale. Line outline bold draft strikethrough. Community asset prototype follower arrow image export. Layer component team blur pencil ellipse. Ellipse layer ipsum line arrange line draft flows. </p>
+              <p>Main mask flows bullet blur ellipse editor reesizing vertical connection. Clip opacity blur boolean
+                polygon background main scale. Line outline bold draft strikethrough. Community asset prototype follower
+                arrow image export. Layer component team blur pencil ellipse. Ellipse layer ipsum line arrange line
+                draft flows. </p>
               <ul>
                 <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
                 <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
                 <li>Cursus eu imperdiet egestas ligula proin sit vitae blandit</li>
               </ul>
               <div class="btn-wrap flex flex-vcenter">
-              <a href="#" class="button w-fit flex flex-center text-upper">Optional link </a>
-              <a href="" class="text-link w-fit flex flex-vcenter">
+                <a href="#" class="button w-fit flex flex-center text-upper">Optional link </a>
+                <a href="" class="text-link w-fit flex flex-vcenter">
                   <span>Secondary link</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M9.80994 6.59866C10.0634 6.81271 10.0634 7.18729 9.80994 7.40134L6.06725 10.8261C5.83333 11.058 5.42398 11.058 5.19006 10.8261C4.93665 10.612 4.93665 10.2375 5.19006 10.0234L8.48441 6.99108L5.19006 3.97659C4.93665 3.76254 4.93665 3.38796 5.19006 3.17391C5.42398 2.94203 5.83333 2.94203 6.06725 3.17391L9.80994 6.59866Z"
                       fill="#D0009E" style="fill:#D0009E;fill:color(display-p3 0.8157 0.0000 0.6196);fill-opacity:1;" />
                   </svg></a>
-                  </div>
+              </div>
             </div>
           </div>
         </div>
@@ -273,61 +295,67 @@
       <div class="container">
         <div class="short-intro-main">
           <span class="optional-text">Optional Pre-header</span>
-          <h2>Short introduction with <span>highlighted</span> word scale align vertical asset vector undo export boolean frame. Variant subtract object <span>emphasized</span> stroke text content invite scrolling stroke..</h2>
+          <h2>Short introduction with <span>highlighted</span> word scale align vertical asset vector undo export
+            boolean frame. Variant subtract object <span>emphasized</span> stroke text content invite scrolling stroke..
+          </h2>
         </div>
       </div>
     </section>
     <section class="counter-section bg-elevated">
-     <div class="container">
-         <div class="counter-main-wrap pos-relative">
-                            
-                <div class="counter-stats flex" data-counter-main="counter-main">
-                    
-                    <div class="counter-list">
-                        <div class="counter-top flex  pos-relative">
-                        <span class="counter counter-symmblo">$</span>
-                        <span class="counter" data-duration="3000" data-count-to="125">125</span>
-                        <span class="counter counter-symmblo">k</span>
-                        </div>
-                        <div class="h6">Statistic subhead</div>
-                        <p>Undo bullet flatten layout bold square polygon boolean figma frame blur undo create resizing community.</p>
-                    </div>
-                    
-                     <div class="counter-list">
-                        <div class="counter-top flex  pos-relative">
-                        <span class="counter" data-duration="3000" data-count-to="500">500</span>
-                        <span class="counter counter-symmblo">+</span>
-                        </div>
-                        <div class="h6">Statistic subhead</div>
-                        <p>Rectangle community union text select shadow group duplicate effect move font align polygon move vertical draft.</p>
-                    </div>
-                     <div class="counter-list">
-                        <div class="counter-top flex  pos-relative">
-                        <span class="counter" data-duration="3000" data-count-to="85">85</span>
-                        <span class="counter counter-symmblo">%</span>
-                        </div>
-                        <div class="h6">Statistic subhead</div>
-                        <p>Variant italic pen export component pixel ellipse shadow variant share arrange slice content mask slice.</p>
-                    </div>
-                     <div class="counter-list">
-                        <div class="counter-top flex  pos-relative">
-                        <span class="counter" data-duration="3000" data-count-to="25">25.5</span>
-                        <span class="counter counter-symmblo">M</span>
-                        </div>
-                        <div class="h6">Statistic subhead</div>
-                        <p>Frame hand figjam content pencil create rotate opacity hand invite clip prototype flows hand layout flows.</p>
-                    </div>
-                    
-                    
-                   
-                    </div>
-            
-         </div>
-                    
-        
-       
-     </div>
-</section>
+      <div class="container">
+        <div class="counter-main-wrap pos-relative">
+
+          <div class="counter-stats flex" data-counter-main="counter-main">
+
+            <div class="counter-list">
+              <div class="counter-top flex  pos-relative">
+                <span class="counter counter-symmblo">$</span>
+                <span class="counter" data-duration="3000" data-count-to="125">125</span>
+                <span class="counter counter-symmblo">k</span>
+              </div>
+              <div class="h6">Statistic subhead</div>
+              <p>Undo bullet flatten layout bold square polygon boolean figma frame blur undo create resizing community.
+              </p>
+            </div>
+
+            <div class="counter-list">
+              <div class="counter-top flex  pos-relative">
+                <span class="counter" data-duration="3000" data-count-to="500">500</span>
+                <span class="counter counter-symmblo">+</span>
+              </div>
+              <div class="h6">Statistic subhead</div>
+              <p>Rectangle community union text select shadow group duplicate effect move font align polygon move
+                vertical draft.</p>
+            </div>
+            <div class="counter-list">
+              <div class="counter-top flex  pos-relative">
+                <span class="counter" data-duration="3000" data-count-to="85">85</span>
+                <span class="counter counter-symmblo">%</span>
+              </div>
+              <div class="h6">Statistic subhead</div>
+              <p>Variant italic pen export component pixel ellipse shadow variant share arrange slice content mask
+                slice.</p>
+            </div>
+            <div class="counter-list">
+              <div class="counter-top flex  pos-relative">
+                <span class="counter" data-duration="3000" data-count-to="25">25.5</span>
+                <span class="counter counter-symmblo">M</span>
+              </div>
+              <div class="h6">Statistic subhead</div>
+              <p>Frame hand figjam content pencil create rotate opacity hand invite clip prototype flows hand layout
+                flows.</p>
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </section>
     <section class="midstream-section foreground-bg">
       <div class="container">
         <div class="midstream-main flex flex-vcenter">
@@ -338,17 +366,17 @@
             <div class="midstream-btns flex flex-vcenter">
               <a href="#" class="button flex flex-vcenter w-fit">Optional link</a>
               <a href="#" class="text-link white flex w-fit">Secondary link
-                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M9.80994 6.59866C10.0634 6.81271 10.0634 7.18729 9.80994 7.40134L6.06725 10.8261C5.83333 11.058 5.42398 11.058 5.19006 10.8261C4.93665 10.612 4.93665 10.2375 5.19006 10.0234L8.48441 6.99108L5.19006 3.97659C4.93665 3.76254 4.93665 3.38796 5.19006 3.17391C5.42398 2.94203 5.83333 2.94203 6.06725 3.17391L9.80994 6.59866Z"
-                      fill="#D0009E" style="fill:#D0009E;fill:color(display-p3 0.8157 0.0000 0.6196);fill-opacity:1;" />
-                  </svg>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M9.80994 6.59866C10.0634 6.81271 10.0634 7.18729 9.80994 7.40134L6.06725 10.8261C5.83333 11.058 5.42398 11.058 5.19006 10.8261C4.93665 10.612 4.93665 10.2375 5.19006 10.0234L8.48441 6.99108L5.19006 3.97659C4.93665 3.76254 4.93665 3.38796 5.19006 3.17391C5.42398 2.94203 5.83333 2.94203 6.06725 3.17391L9.80994 6.59866Z"
+                    fill="#D0009E" style="fill:#D0009E;fill:color(display-p3 0.8157 0.0000 0.6196);fill-opacity:1;" />
+                </svg>
               </a>
             </div>
           </div>
           <div class="midstream-images">
             <div class="">
-              
+
             </div>
           </div>
         </div>

@@ -378,6 +378,8 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .w-fit{width: fit-content;}
 
 .white-50{color: var(--White-50);}
+.white-70{color: var(--White-70);}
+.white-80{color: var(--White-80);}
 
 [data-vbg] iframe{max-width: inherit;}
 

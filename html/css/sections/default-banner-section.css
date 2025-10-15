@@ -1,22 +1,21 @@
 .default-banner-gradient{ background: linear-gradient(270deg, rgba(28, 28, 28, 0.00) 50%, #1C1C1C 83.65%); }
 .default-banner-overlay{ opacity: 0.5; background-color: var(--Text-Color);}
-.default-banner-text {max-width: 560px; width: 100%; letter-spacing: -0.4px;}
-.default-banner-text h2{margin-bottom: 14px; max-width: 500px; font-size: 46px; line-height: 56px; letter-spacing: -0.92px;}
-.default-banner-btns .button svg{width: 24px; height: 24px;}
-
+.default-banner-text span.optional-text{margin-bottom: 9px;}
+.default-banner-text h1{line-height: 110%; margin-bottom: 21px;}
+.default-banner-text p{margin-bottom: 25px;}
+.default-banner-btns{gap: 16px;}
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .default-banner-main {padding: 197px 0 80px;}
-    .default-banner-text p{margin-bottom: 33px;}
-    .default-banner-btns{gap: 32px;}
-
+    .default-banner-main {padding: 138px 0 137px;}
+    .default-banner-text {max-width: 512px; width: 100%;}
+    .default-banner-image{width: 688px; height: 688px; top: -47px; right: 0; position: absolute;}
+    .default-banner-glows{ min-height: 688px; top: 0; left: 0; right: 0; position: absolute; }
+    .default-banner-glow{ width: 688px; height: 688px; top: 0; right: 0; margin-left: auto; z-index: 0; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
-    .default-banner-main {padding: 197px 0 80px;}
-    .default-banner-text p{margin-bottom: 33px;}
-    .default-banner-btns{gap: 32px;}
+
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .default-banner-main {padding: 197px 0 40px; display: block;}
