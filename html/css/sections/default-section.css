@@ -12,6 +12,9 @@ ul.aside-links > li:before{display: none;}
 .aside-block{background: var(--Foreground); color: var(--White); padding: 24px;}
 .aside-block h5{color: var(--White);}
 
+.video-main{padding: 36px 0 70px;}
+
+
 
 @media only screen and (min-width: 1024px) {
   .default-article { flex: 1; }
