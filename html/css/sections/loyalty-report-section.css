@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loyalty-report-image{margin-bottom: 31px;}
+.fuschia-desc{color: var(--Fuschia);}
+.loyalty-report-desc{padding-top: 16px;}
+.loyalty-report-desc p{margin-bottom: 21px;}
+.loyalty-report-row{padding: 32px;}
+.loyalty-report-row:not(:last-child){margin-bottom: 20px;}
+.loyalty-report-text{padding-top: 16px;}
+.loyalty-report-text p{margin-bottom: 21px;}
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .loyalty-report-main{gap: 40px;}
+    .loyalty-report-left{padding: 32px; flex: 0 0 400px;}
+    .loyalty-report-right{flex: 1;}
+}
