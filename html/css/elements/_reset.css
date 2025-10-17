@@ -48,7 +48,7 @@ blockquote dl dt::before{background-color: var(--White);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 16px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 10px;}
-ul > li:before{top: 13px; left: -13px; width: 4px; height: 4px; border-radius: 50%; opacity: 1; background-color: var(--Fuschia); content: ""; position: absolute;} 
+ul > li::before{top: 50%; left: -13px; transform: translateY(-50%); width: 4px; height: 4px; border-radius: 50%; opacity: 1; background-color: var(--Fuschia); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 28px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
@@ -104,7 +104,6 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 
 .button.lg{padding: 21px 24px 19px; border-radius: 30px;}
 
-.btn-wrap{gap: 16px;}
 
 a.text-link{gap: 8px; color: var(--Foreground); font-size: 16px; line-height: 100%; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font);}
 a.text-link em{color: var(--Fuschia); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 1px; transition: all .5s ease;}
@@ -193,7 +192,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 .text-link.txt-color-fgd-80{color: var(--Foreground-80);}
 
 /*-- custom css starts here --*/
-body{margin: 0; padding: 0; font-size: 18px; line-height: 27px; font-weight: 300; font-family: var(--text-font); position: relative; overflow-x: hidden; color: var(--Base-Foreground);}
+body{margin: 0; padding: 0; font-size: 18px; line-height: 27px; font-weight: 300; font-family: var(--text-font); position: relative; overflow-x: hidden; color: var(--Dark-Gray);}
 .d-block{display: block;}
 
 span.optional-text{gap: 8px; display: flex; flex-wrap: wrap; width: 100%; color: var(--Fuschia); font-size: 14px; font-weight: 500; line-height: 100%; letter-spacing: 1.4px; margin-bottom: 22px; text-transform: uppercase; font-family: var(--heading-font);}
@@ -423,6 +422,9 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 span.dot{ width: 6px; height: 6px; background: var(--Elevated); }
 span.dot.fuschia{background-color: var(--Fuschia);}
 
+.btn-wrap{gap: 16px;}
+
+
   /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
@@ -435,10 +437,10 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 }
 
 @media only screen and (max-width: 1359px) and (min-width: 1200px){
-    .container:not(.sm){padding: 0 72px; max-width: 100%;}
+    .container:not(.sm){padding: 0 56px; max-width: 100%;}
 }
 @media only screen and (max-width: 1199px) and (min-width: 760px){
-    .container{padding: 0 72px; max-width: 100%;}
+    .container{padding: 0 56px; max-width: 100%;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .hide-tablet{display: none;}
@@ -448,11 +450,16 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
-    .container{padding: 0 36px;}
+    .container{padding: 0 28px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
 
 
+    .btn-wrap{display: block;}
+    .btn-wrap .button{width: 100%;}
+    .btn-wrap .text-link{margin-top: 15px;}
+
+    span.optional-text{font-size: 12px; line-height: 12px; letter-spacing: 1.2px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
 
@@ -461,4 +468,5 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 @media screen and (max-width: 374px) and (min-width: 200px){
   
 }
+
 
