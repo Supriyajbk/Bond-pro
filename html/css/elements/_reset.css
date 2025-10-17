@@ -46,9 +46,9 @@ dl:last-child{margin-bottom: 0;}
 dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: var(--Base-Foreground); content: ""; display: inline-block; vertical-align: middle;}
 blockquote dl dt::before{background-color: var(--White);}
 dd {margin-bottom: 24px;}
-ul {list-style: none; margin: 0 0 26px 26px;}
-ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before{top: 13px; left: -16px; width: 5px; height: 5px; border-radius: 50%; opacity: 1; background-color: var(--Base-Foreground); content: ""; position: absolute;} 
+ul {list-style: none; margin: 0 0 26px 16px;}
+ul > li {counter-increment: li; position: relative; margin-bottom: 10px;}
+ul > li:before{top: 13px; left: -13px; width: 4px; height: 4px; border-radius: 50%; opacity: 1; background-color: var(--Fuschia); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 28px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
@@ -289,7 +289,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .object-fit img, .object-fit-img img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
 
 .play-btn-main {width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; position: absolute; overflow: hidden;}
-.play-btn-main .play-btn{width: 82px; height: 82px; z-index: 1; color: var(--Foreground); outline: 8px solid rgba(254, 220, 49, 0.50);} 
+.play-btn-main .play-btn{width: 82px; height: 82px; z-index: 1; color: var(--Foreground);} 
 .play-btn-main .play-btn:hover{background-color: var(--White); outline-color: var(--White-50);}
 .play-btn-bg{width: 100%; height: 100%; transition: all 0.3s ease-in-out;}
 .play-btn-bg img{margin-left: 3px; transform: scale(1); transition: all 0.3s ease-in-out;}
