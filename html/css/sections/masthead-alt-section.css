@@ -1,14 +1,23 @@
 
 
 
+.masthead-alt-text span.optional-text{margin-bottom: 9px;}
+.masthead-alt-text h1{line-height: 110%; margin-bottom: 21px;}
+.masthead-alt-text p{margin-bottom: 25px;}
+.masthead-alt-btns{gap: 16px;}
 
 
 
 
-
-
-
-
+/*-- media css starts here --*/
+@media only screen and (min-width: 1440px){
+    .masthead-alt-bg{ max-width: 64.5vw; margin-left: auto; left: auto; right: 0; }
+}
+@media only screen and (min-width: 1024px){
+    .masthead-alt-text{max-width: 432px; padding: 142px 0;}
+    /* picture.masthead-alt-thumb img{object-position: center top;} */
+    .masthead-alt-gradient{ background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)) }
+}
 
 
 
