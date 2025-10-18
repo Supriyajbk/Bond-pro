@@ -1,5 +1,5 @@
 
-.swiper-button-next, .swiper-button-prev{width: 80px; height: 80px; margin: 0; background-color: var(--Fuschia); color: var(--White); transition: var(--b-transition);}
+.swiper-button-next, .swiper-button-prev{width: 80px; height: 80px; margin: 0; top: 50%; transform: translateY(-50%); background-color: var(--Fuschia); color: var(--White); transition: var(--b-transition);}
 .swiper-button-next::after, .swiper-button-prev::after{display: none;}
 .swiper-button-next:hover, .swiper-button-prev:hover{background-color: var(--White); color: var(--Fuschia);}
 svg.swiper-navigation-icon{display: none;}
@@ -8,8 +8,8 @@ svg.swiper-navigation-icon{display: none;}
 .swiper-horizontal span.swiper-pagination-bullet.swiper-pagination-bullet-active{width: 16px; height: 16px; background-color: var(--Yellow);}
 
 @media only screen and (min-width: 1024px){
-    .swiper-button-next{right: 40px;}
-    .swiper-button-prev{left: 40px;}
+    .swiper-button-next{right: -50px;}
+    .swiper-button-prev{left: -60px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .swiper-button-next, .swiper-button-prev{width: 64px; height: 64px;}

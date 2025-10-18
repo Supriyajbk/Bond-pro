@@ -50,7 +50,8 @@
             <img width="209" height="48" src="images/logo.svg" alt="logo" />
           </a>
         </div>
-        <div role="button" aria-label="Open menu" class="humburger-btn mbl-blue-bg white-bg flex flex-col flex-center">
+        <div role="button" aria-label="Open menu"
+          class="humburger-btn foreground-bg flex flex-col flex-center radius-50">
           <span class="humburger-line"></span>
           <span class="humburger-line"></span>
           <span class="humburger-line"></span>
@@ -135,7 +136,7 @@
         <div class="featured-main">
           <div class="featured-lists flex">
             <div class="featured-list">
-              <div class="feature-icon">
+              <div class="feature-icon" data-animate="bounce">
                 <figure class="object-fit">
                   <img src="images/featured-one@2x.png" alt="">
                 </figure>
@@ -155,7 +156,7 @@
               </div>
             </div>
             <div class="featured-list">
-              <div class="feature-icon">
+              <div class="feature-icon" data-animate="bounce">
                 <figure class="object-fit">
                   <img src="images/featured-two@2x.png" alt="">
                 </figure>
@@ -175,7 +176,7 @@
               </div>
             </div>
             <div class="featured-list">
-              <div class="feature-icon">
+              <div class="feature-icon" data-animate="bounce">
                 <figure class="object-fit">
                   <img src="images/featured-three@2x.png" alt="">
                 </figure>
@@ -195,7 +196,7 @@
               </div>
             </div>
             <div class="featured-list">
-              <div class="feature-icon">
+              <div class="feature-icon" data-animate="bounce">
                 <figure class="object-fit">
                   <img src="images/featured-four@2x.png" alt="">
                 </figure>
@@ -233,13 +234,13 @@
       <div class="container">
         <div class="optional-repeater-wrap flex flex-col">
           <div class="optional-repeater-main flex flex-vcenter">
-            <div class="optional-repeater-image radius-img-50 relative" data-animate="fade-in-up">
-              <div class="optional-repeater-thumb">
+            <div class="optional-repeater-image radius-img-50 relative">
+              <div class="optional-repeater-thumb" data-animate="gelatine">
                 <figure class="object-fit"><img src="images/default-repeater-three@2x.jpg" alt=""></figure>
               </div>
               <div class="optional-repeater-pattern absolute"></div>
             </div>
-            <div class="optional-repeater-text fs-18 lh-27 relative z-1" data-animate="fade-in-up">
+            <div class="optional-repeater-text fs-18 lh-27 relative z-1" data-animate="fade-in-left">
               <span class="optional-text fs-16 f-700">Preheader</span>
               <h2 data-animate="lines" class="h3">Repeater Module</h2>
               <p>Main mask flows bullet blur ellipse editor reesizing vertical connection. Clip opacity blur boolean
@@ -264,14 +265,14 @@
             </div>
           </div>
           <div class="optional-repeater-main flex flex-vcenter">
-            <div class="optional-repeater-image radius-img-50 relative" data-animate="fade-in-up">
-              <div class="optional-repeater-thumb">
+            <div class="optional-repeater-image radius-img-50 relative">
+              <div class="optional-repeater-thumb" data-animate="gelatine">
                 <figure class="object-fit"><img src="images/default-repeater-two@2x.jpg" alt=""></figure>
               </div>
               <div class="optional-repeater-pattern absolute"></div>
 
             </div>
-            <div class="optional-repeater-text fs-18 lh-27 relative z-1" data-animate="fade-in-up">
+            <div class="optional-repeater-text fs-18 lh-27 relative z-1" data-animate="fade-in-right">
               <span class="optional-text fs-16 f-700"> Preheader</span>
               <h2 data-animate="lines" class="h3">Repeater Module</h2>
               <p>Main mask flows bullet blur ellipse editor reesizing vertical connection. Clip opacity blur boolean
@@ -317,7 +318,7 @@
             <div class="counter-list">
               <div class="counter-top flex  pos-relative">
                 <span class="counter counter-symmblo">$</span>
-                <span class="counter" data-duration="3000" data-count-to="125">125</span>
+                <span class="counter" data-animate="counter" data-duration="3000" data-count-to="125">0</span>
                 <span class="counter counter-symmblo">k</span>
               </div>
               <div class="h6">Statistic subhead</div>
@@ -327,7 +328,7 @@
 
             <div class="counter-list">
               <div class="counter-top flex  pos-relative">
-                <span class="counter" data-duration="3000" data-count-to="500">500</span>
+                <span class="counter" data-animate="counter" data-duration="3000" data-count-to="500">0</span>
                 <span class="counter counter-symmblo">+</span>
               </div>
               <div class="h6">Statistic subhead</div>
@@ -336,7 +337,7 @@
             </div>
             <div class="counter-list">
               <div class="counter-top flex  pos-relative">
-                <span class="counter" data-duration="3000" data-count-to="85">85</span>
+                <span class="counter" data-animate="counter" data-duration="3000" data-count-to="85">0</span>
                 <span class="counter counter-symmblo">%</span>
               </div>
               <div class="h6">Statistic subhead</div>
@@ -345,7 +346,7 @@
             </div>
             <div class="counter-list">
               <div class="counter-top flex  pos-relative">
-                <span class="counter" data-duration="3000" data-count-to="25">25.5</span>
+                <span class="counter" data-animate="counter" data-duration="3000" data-count-to="25.5">0</span>
                 <span class="counter counter-symmblo">M</span>
               </div>
               <div class="h6">Statistic subhead</div>
@@ -418,13 +419,18 @@
                 </picture>
                 <div class="play-btn-main flex flex-center ">
                   <div class="play-btn relative">
-                    <a href="https://www.youtube.com/watch?v=m4UDncEqwjg"
+                    <a data-type="youtube" href="https://www.youtube.com/watch?v=iRtFDvGORQk"
                       class="popup-youtube play-btn-bg flex flex-center radius-50">
-                      <i class="fa-light fa-sharp fa-play" aria-hidden="true"></i>
+                      <svg data-animate="bounce" xmlns="http://www.w3.org/2000/svg" width="39" height="43"
+                        viewBox="0 0 39 43" fill="none">
+                        <path
+                          d="M5.53125 0.750098L37.0312 18.0001C38.25 18.6563 39 19.8751 39 21.2813C39 22.6876 38.25 23.9063 37.0312 24.5626L5.53125 41.8126C4.40625 42.4688 3 42.4688 1.875 41.7188C0.75 41.0626 0 39.8438 0 38.5313V4.03135C0 2.71885 0.65625 1.5001 1.875 0.843848C3 0.0938481 4.40625 0.0938481 5.53125 0.750098Z"
+                          fill="white" style="fill:white;fill-opacity:1;" />
+                      </svg>
                       <span class="btn-circle"></span>
+                      <span class=""></span>
                       <span></span>
-                      <span></span>
-                      video
+                      <span class="hide">video</span>
                     </a>
                   </div>
                 </div>
@@ -443,31 +449,40 @@
               <li>Vector image component project editor prototype list undo inspect.</li>
             </ul>
 
-      <section class="micro-cta-module pos-relative">
-        <div class="container">
-            <div class="micro-cta-main flex">
-                   <div class="micro-cta-thumb">
+            <section class="micro-cta-module pos-relative">
+              <div class="container">
+                <div class="micro-cta-main flex flex-vcenter row-reverse">
+                  <div class="micro-cta-thumb relative z-2">
                     <picture class="object-fit">
-                        <source srcset="" media="(min-width768px)">
-                        <img  src="" alt="Author-thumb-mob" title="Author-thumb-mob@2x">
+                      <source srcset="images/micro-cta@2x.png" media="(min-width768px)">
+                      <img src="images/micro-cta@2x.png" alt="Author-thumb-mob" title="Author-thumb-mob@2x">
                     </picture>
-                </div>
-                  <div class="micro-cta-text">
-                  <span class="signal optional-text">MICRO CALL TO ACTION</span>
+                  </div>
+                  <div class="micro-cta-text foreground-bg inverted relative">
+                    <div class="micro-cta-desc">
 
-                  <div class="h3">Short call to action content shows here spanning two lines of text as needed.</div>
-                        <div class="btn-wrap">
-                          <a href="" class="button" download="">Optional link</a>
-                          <a href="" class="text-link w-fit flex flex-vcenter">
+                      <span class="signal optional-text">MICRO CALL TO ACTION</span>
+
+                      <h2 class="h4">Short call to action content shows here spanning two lines of text as
+                        needed<span>.</span>
+                      </h2>
+                      <div class="btn-wrap flex flex-vcenter">
+                        <a href="" class="button" download="">Optional link</a>
+                        <a href="" class="text-link white w-fit flex flex-vcenter">
                           <span>Secondary link</span>
-                          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.80994 6.59866C10.0634 6.81271 10.0634 7.18729 9.80994 7.40134L6.06725 10.8261C5.83333 11.058 5.42398 11.058 5.19006 10.8261C4.93665 10.612 4.93665 10.2375 5.19006 10.0234L8.48441 6.99108L5.19006 3.97659C4.93665 3.76254 4.93665 3.38796 5.19006 3.17391C5.42398 2.94203 5.83333 2.94203 6.06725 3.17391L9.80994 6.59866Z" fill="#D0009E" style="fill:#D0009E;fill:color(display-p3 0.8157 0.0000 0.6196);fill-opacity:1;"></path>
+                          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.80994 6.59866C10.0634 6.81271 10.0634 7.18729 9.80994 7.40134L6.06725 10.8261C5.83333 11.058 5.42398 11.058 5.19006 10.8261C4.93665 10.612 4.93665 10.2375 5.19006 10.0234L8.48441 6.99108L5.19006 3.97659C4.93665 3.76254 4.93665 3.38796 5.19006 3.17391C5.42398 2.94203 5.83333 2.94203 6.06725 3.17391L9.80994 6.59866Z"
+                              fill="#D0009E"
+                              style="fill:#D0009E;fill:color(display-p3 0.8157 0.0000 0.6196);fill-opacity:1;"></path>
                           </svg></a>
-                        </div><!-- end btn wrap -->
+                      </div><!-- end btn wrap -->
                     </div>
                   </div>
-        </div>
-    </section>
+                </div>
+              </div>
+            </section>
 
             <h3>Medium Header </h3>
             <p>Asset image bold bold flatten. Link layer asset style editor. Device reesizing comment main arrow
@@ -481,6 +496,23 @@
               underline reesizing. Rotate connection follower asset figma shadow union. Strikethrough underline edit
               rotate thumbnail pen.</p>
 
+
+            <div class="case-studies-cta-wrap">
+              <div class="case-studies-cta-main flex flex-vcenter dark-gray-bg">
+                <div class="case-studies-cta-icon">
+                  <figure class="object-fit">
+                    <img src="images/insights-carousel1@2x.jpg" alt="">
+                  </figure>
+                </div>
+                <div class="case-studies-cta-title inverted">
+                  <h2 class="h5 mb-0">Short call to action shows here spanning two lines of text<span>.</span></h2>
+                </div>
+                <div class="case-studies-cta-link">
+                  <a href="#" class="button flex flex-center text-upper w-fit">Call to action
+                  </a>
+                </div>
+              </div>
+            </div>
 
             <h4>Small Header </h4>
 
@@ -501,44 +533,74 @@
               <div class="accordion-list">
                 <div class="accordion-header">
                   <span class="accordion-title">Variant undo vector object editor?</span>
-                 
+
                 </div>
                 <div class="accordion-content">
-                 <div class="accordion-desc">
-                   Underline pixel component distribute fill hand. Star boolean blur auto group. Polygon horizontal style rotate object object flows. Align vertical device hand effect effect text bullet select draft. Move  component connection edit. Create union fill background rectangle. Star device plugin pen move hand plugin opacity overflow. Vertical align connection layer union align strikethrough. Variant thumbnail flows star rectangle figma variant object. Line link library horizontal italic device strikethrough. Font edit inspect project variant prototype distribute strikethrough invite overflow. Blur underline opacity vector auto duplicate thumbnail blur component. Figjam pen vertical distribute outline group. Team comment team layer line outline overflow text.
+                  <div class="accordion-desc">
+                    Underline pixel component distribute fill hand. Star boolean blur auto group. Polygon horizontal
+                    style rotate object object flows. Align vertical device hand effect effect text bullet select draft.
+                    Move component connection edit. Create union fill background rectangle. Star device plugin pen move
+                    hand plugin opacity overflow. Vertical align connection layer union align strikethrough. Variant
+                    thumbnail flows star rectangle figma variant object. Line link library horizontal italic device
+                    strikethrough. Font edit inspect project variant prototype distribute strikethrough invite overflow.
+                    Blur underline opacity vector auto duplicate thumbnail blur component. Figjam pen vertical
+                    distribute outline group. Team comment team layer line outline overflow text.
                   </div>
                 </div>
               </div>
               <div class="accordion-list">
                 <div class="accordion-header">
-                  <span class="accordion-title">Arrange subtract bold flatten connection figma horizontal arrange?</span>
-                 
+                  <span class="accordion-title">Arrange subtract bold flatten connection figma horizontal
+                    arrange?</span>
+
                 </div>
                 <div class="accordion-content">
-                   <div class="accordion-desc">
-                   Underline pixel component distribute fill hand. Star boolean blur auto group. Polygon horizontal style rotate object object flows. Align vertical device hand effect effect text bullet select draft. Move  component connection edit. Create union fill background rectangle. Star device plugin pen move hand plugin opacity overflow. Vertical align connection layer union align strikethrough. Variant thumbnail flows star rectangle figma variant object. Line link library horizontal italic device strikethrough. Font edit inspect project variant prototype distribute strikethrough invite overflow. Blur underline opacity vector auto duplicate thumbnail blur component. Figjam pen vertical distribute outline group. Team comment team layer line outline overflow text.
+                  <div class="accordion-desc">
+                    Underline pixel component distribute fill hand. Star boolean blur auto group. Polygon horizontal
+                    style rotate object object flows. Align vertical device hand effect effect text bullet select draft.
+                    Move component connection edit. Create union fill background rectangle. Star device plugin pen move
+                    hand plugin opacity overflow. Vertical align connection layer union align strikethrough. Variant
+                    thumbnail flows star rectangle figma variant object. Line link library horizontal italic device
+                    strikethrough. Font edit inspect project variant prototype distribute strikethrough invite overflow.
+                    Blur underline opacity vector auto duplicate thumbnail blur component. Figjam pen vertical
+                    distribute outline group. Team comment team layer line outline overflow text.
                   </div>
                 </div>
               </div>
               <div class="accordion-list">
                 <div class="accordion-header">
                   <span class="accordion-title">Undo thumbnail main pen text polygon boolean?</span>
-                 
+
                 </div>
                 <div class="accordion-content">
-                   <div class="accordion-desc">
-                   Underline pixel component distribute fill hand. Star boolean blur auto group. Polygon horizontal style rotate object object flows. Align vertical device hand effect effect text bullet select draft. Move  component connection edit. Create union fill background rectangle. Star device plugin pen move hand plugin opacity overflow. Vertical align connection layer union align strikethrough. Variant thumbnail flows star rectangle figma variant object. Line link library horizontal italic device strikethrough. Font edit inspect project variant prototype distribute strikethrough invite overflow. Blur underline opacity vector auto duplicate thumbnail blur component. Figjam pen vertical distribute outline group. Team comment team layer line outline overflow text.
+                  <div class="accordion-desc">
+                    Underline pixel component distribute fill hand. Star boolean blur auto group. Polygon horizontal
+                    style rotate object object flows. Align vertical device hand effect effect text bullet select draft.
+                    Move component connection edit. Create union fill background rectangle. Star device plugin pen move
+                    hand plugin opacity overflow. Vertical align connection layer union align strikethrough. Variant
+                    thumbnail flows star rectangle figma variant object. Line link library horizontal italic device
+                    strikethrough. Font edit inspect project variant prototype distribute strikethrough invite overflow.
+                    Blur underline opacity vector auto duplicate thumbnail blur component. Figjam pen vertical
+                    distribute outline group. Team comment team layer line outline overflow text.
                   </div>
                 </div>
               </div>
               <div class="accordion-list">
                 <div class="accordion-header">
-                  <span class="accordion-title">Project distribute ipsum slice prototype image follower plugin group?</span>
-                 
+                  <span class="accordion-title">Project distribute ipsum slice prototype image follower plugin
+                    group?</span>
+
                 </div>
                 <div class="accordion-content">
                   <div class="accordion-desc">
-                   Underline pixel component distribute fill hand. Star boolean blur auto group. Polygon horizontal style rotate object object flows. Align vertical device hand effect effect text bullet select draft. Move  component connection edit. Create union fill background rectangle. Star device plugin pen move hand plugin opacity overflow. Vertical align connection layer union align strikethrough. Variant thumbnail flows star rectangle figma variant object. Line link library horizontal italic device strikethrough. Font edit inspect project variant prototype distribute strikethrough invite overflow. Blur underline opacity vector auto duplicate thumbnail blur component. Figjam pen vertical distribute outline group. Team comment team layer line outline overflow text.
+                    Underline pixel component distribute fill hand. Star boolean blur auto group. Polygon horizontal
+                    style rotate object object flows. Align vertical device hand effect effect text bullet select draft.
+                    Move component connection edit. Create union fill background rectangle. Star device plugin pen move
+                    hand plugin opacity overflow. Vertical align connection layer union align strikethrough. Variant
+                    thumbnail flows star rectangle figma variant object. Line link library horizontal italic device
+                    strikethrough. Font edit inspect project variant prototype distribute strikethrough invite overflow.
+                    Blur underline opacity vector auto duplicate thumbnail blur component. Figjam pen vertical
+                    distribute outline group. Team comment team layer line outline overflow text.
                   </div>
                 </div>
               </div>
@@ -592,8 +654,8 @@
             </div>
           </div>
           <div class="reports-row flex">
-            <div class="reports-col white-bg fs-16 lh-24 f-300" data-animate="fade-in-up">
-              <div class="reports-image">
+            <div class="reports-col white-bg fs-16 lh-24 f-300">
+              <div class="reports-image" data-animate="bounce2">
                 <figure class="object-fit"><img src="images/report-thumb1@2x.jpg" alt=""></figure>
               </div>
               <div class="reports-text">
@@ -603,8 +665,8 @@
                 <a href="#" class="button">Download</a>
               </div>
             </div>
-            <div class="reports-col white-bg fs-16 lh-24 f-300" data-animate="fade-in-up">
-              <div class="reports-image">
+            <div class="reports-col white-bg fs-16 lh-24 f-300">
+              <div class="reports-image" data-animate="bounce2">
                 <figure class="object-fit"><img src="images/report-thumb1@2x.jpg" alt=""></figure>
               </div>
               <div class="reports-text">
@@ -614,8 +676,8 @@
                 <a href="#" class="button">Download</a>
               </div>
             </div>
-            <div class="reports-col white-bg fs-16 lh-24 f-300" data-animate="fade-in-up">
-              <div class="reports-image">
+            <div class="reports-col white-bg fs-16 lh-24 f-300">
+              <div class="reports-image" data-animate="bounce2">
                 <figure class="object-fit"><img src="images/report-thumb1@2x.jpg" alt=""></figure>
               </div>
               <div class="reports-text">
@@ -625,8 +687,8 @@
                 <a href="#" class="button">Download</a>
               </div>
             </div>
-            <div class="reports-col white-bg fs-16 lh-24 f-300" data-animate="fade-in-up">
-              <div class="reports-image">
+            <div class="reports-col white-bg fs-16 lh-24 f-300">
+              <div class="reports-image" data-animate="bounce2">
                 <figure class="object-fit"><img src="images/report-thumb1@2x.jpg" alt=""></figure>
               </div>
               <div class="reports-text">
@@ -778,6 +840,26 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="divider-section">
+      <div class="container">
+        <div class="divider flex">
+          <span class="dot radius-50"></span>
+          <span class="dot radius-50"></span>
+          <span class="dot radius-50 fuschia"></span>
+          <span class="dot radius-50"></span><span class="dot radius-50"></span><span class="dot radius-50"></span><span
+            class="dot radius-50"></span><span class="dot radius-50"></span><span class="dot radius-50"></span><span
+            class="dot radius-50"></span><span class="dot radius-50"></span><span class="dot radius-50"></span><span
+            class="dot radius-50"></span><span class="dot radius-50 fuschia"></span><span
+            class="dot radius-50"></span><span class="dot radius-50"></span><span class="dot radius-50"></span><span
+            class="dot radius-50"></span><span class="dot radius-50"></span><span class="dot radius-50"></span><span
+            class="dot radius-50"></span><span class="dot radius-50"></span><span class="dot radius-50 "></span><span
+            class="dot radius-50 fuschia"></span><span class="dot radius-50"></span><span
+            class="dot radius-50"></span><span class="dot radius-50"></span><span class="dot radius-50"></span><span
+            class="dot radius-50"></span><span class="dot radius-50 fuschia"></span><span
+            class="dot radius-50"></span><span class="dot radius-50"></span><span class="dot radius-50"></span>
         </div>
       </div>
     </section>
