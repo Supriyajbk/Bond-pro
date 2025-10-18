@@ -3,13 +3,9 @@
 
 
 
-.signup-cta-main{padding: 40px 0;}
 
 
-.signup-cta-text{gap: 25px; flex: 1;}
-.signup-cta-icon{width: 62px;}
 
-.signup-cta-form{flex: 0 0 470px; padding: 0 0 10px 20px;}
 
 
 .signup-cta-line{width: 1px; height: 100%; top: 0; left: 0;}
@@ -34,7 +30,45 @@ body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit bu
 
 
 
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .signup-cta-main{padding: 40px 0;}
+    .signup-cta-form{flex: 0 0 470px; padding: 0 0 10px 20px;}
+    .signup-cta-icon{width: 62px;}
+    .signup-cta-title{flex: 1;}
+    .signup-cta-text{gap: 25px; flex: 1;}
+    
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .signup-cta-icon{width: 52px;}
+    .signup-cta-text{gap: 16px;}
+    .signup-cta-title h2{font-size: 34px;}
 
+}
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .signup-cta-main{display: block; padding: 40px 0;}
+    .signup-cta-form{padding: 0 0 10px 20px;}
+    .signup-cta-icon{width: 62px;}
+    .signup-cta-title{flex: 1;}
+    .signup-cta-text{gap: 25px; margin-bottom: 30px;}
+    body .signup-cta-form .frm_forms{width: 100%;}
+}
+@media only screen and (max-width: 759px) and (min-width: 0px){
+    .signup-cta-main{display: block; padding: 29px 0 16px;}
+    .signup-cta-text{display: block;}
+    .signup-cta-icon{width: 44px; margin-bottom: 28px;}
+    .signup-cta-title{margin-bottom: 30px;}
+    .signup-cta-title h2{font-size: 32px; line-height: 40px;}
+    .signup-cta-line{height: 75px;}
+    .signup-cta-form{display: block;}
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field.in_field{padding: 0 0 0 20px;}
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_fields_container{display: block;}
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field input{font-size: 20px; line-height: 30px;}
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field span{font-size: 14px; line-height: 21px;}
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field.frm_right{width: 100%; top: 0;}
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit{margin-top: 50px;}
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit{width: 100%; justify-content: center;}
+}
 
 
 

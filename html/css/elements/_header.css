@@ -197,22 +197,24 @@ a.no_link{pointer-events: none;}
   body.home .site-main-cover{padding-top: 0;}
 
 
-    .header{padding: 12px 0; gap: 16px;}
-    .logo{flex: 0 0 80px; margin-right: auto; z-index: 1;}
-    .humburger-btn{gap: 5px; width: 48px; height: 48px; cursor: pointer; position: relative; z-index: 1;}
+    .header{padding: 12px 0; gap: 16px; flex-direction: row-reverse;}
+    .logo{flex: 0 0 80px; margin: 0 auto; z-index: 1;}
+    .humburger-btn{gap: 5px; width: 48px; height: 48px; left: 20px; cursor: pointer; position: absolute; z-index: 1;}
    
     .humburger-btn span{position: absolute;}
-    .humburger-btn span:first-child { top: 11px; } 
-    .humburger-btn span:nth-child(2) { top: 18px; } 
-    .humburger-btn span:nth-child(3) { top: 25px; }
+    .humburger-btn span:first-child { top: 16px; } 
+    .humburger-btn span:nth-child(2) { top: 22px; } 
+    .humburger-btn span:nth-child(3) { top: 28px; }
     .humburger-btn.open span{background-color: var(--Umber);}
     .humburger-btn.open span:first-child { top: 19px; transform:rotate(45deg) } 
     .humburger-btn.open span:nth-child(2) { transform:scale(0) } 
     .humburger-btn.open span:nth-child(3) { top: 19px; transform:rotate(-45deg) }
-    .humburger-line{width: 18px; height: 3px; display: block; background-color: var(--White);}
+    .humburger-line{width: 18px; height: 2px; display: block; background-color: var(--White);}
 
     .header_right{top: 70px; transform: translateX(100%); left: 0; width: 100vw; height: 125vh; position: absolute; transition: transform 0.5s ease; display: block; flex-direction: column; background-color: var(--White); overflow-y: auto;}
     .header_right.open{transform: translateX(0);}
+
+    .comment-icon{width: 48px; height: 48px; right: 20px; color: var(--White);}
     
     
     nav.navigation{display: block;}

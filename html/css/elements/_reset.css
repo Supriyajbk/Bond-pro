@@ -97,8 +97,9 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 
 /* Buttons */
 .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, button{padding: 11px 16px 9px; gap: 8px; font-size: 16px; font-weight: 700; line-height: 20px; letter-spacing: 0; font-family: var(--heading-font); display: inline-block; background: var(--Fuschia); color: var(--White); border: none; border-radius: 20px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none;  outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0; }
-.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: var(--Fuschia); color: var(--Foreground);}
+.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: var(--Foreground); color: var(--White); animation: gelatine 1s ease forwards;}
 
+.button.btn-hover-white:hover{background-color: var(--White); color: var(--Fuschia);}
 .button.reverse{flex-direction: row-reverse;}
 
 
@@ -407,7 +408,7 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 
 
 .divider{gap: 33px; padding: 24px 0;}
-span.dot{ width: 6px; height: 6px; background: var(--Elevated); }
+span.dot{ min-width: 6px; width: 6px; height: 6px; background: var(--Elevated); }
 span.dot.fuschia{background-color: var(--Fuschia);}
 
 .btn-wrap{gap: 16px;}
@@ -444,8 +445,11 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 
 
     .btn-wrap{display: block;}
-    .btn-wrap .button{width: 100%;}
+    .btn-wrap .button{width: 100%; justify-content: center;}
     .btn-wrap .text-link{margin-top: 15px;}
+
+
+    .divider{gap: 8px; padding: 18px 0; justify-content: space-between;}
 
     span.optional-text{font-size: 12px; line-height: 12px; letter-spacing: 1.2px;}
 }

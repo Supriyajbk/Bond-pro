@@ -3,7 +3,6 @@
 .default-banner-text span.optional-text{margin-bottom: 9px;}
 .default-banner-text h1{line-height: 110%; margin-bottom: 21px;}
 .default-banner-text p{margin-bottom: 25px;}
-.default-banner-btns{gap: 16px;}
 
 
 /*-- media css starts here --*/
@@ -24,6 +23,6 @@
     .default-banner-text h1 span{font-size: inherit; line-height: inherit;}
     .default-banner-text p{margin-bottom: 24px;}
     
-    .default-banner-btns{display: block;}
-    .default-banner-btns .button:not(:last-child){margin-bottom: 16px; width: 100%; justify-content: center;}
+   
+    .default-banner-image{margin-bottom: 40px;}
 }

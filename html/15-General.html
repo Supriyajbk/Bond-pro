@@ -56,6 +56,9 @@
           <span class="humburger-line"></span>
           <span class="humburger-line"></span>
         </div>
+        <div class="comment-icon flex flex-center fuschia-bg radius-50 absolute hide-desktop">
+          <i class="fa-light fa-comment fs-20 lh-20"></i>
+        </div>
         <div class="header_right flex flex-vcenter">
           <nav role="navigation" class="navigation flex relative">
             <ul class="main_menu m-0 flex flex-vcenter no-disc">
@@ -108,8 +111,8 @@
             <h1 class="h2 f-700">General Page Template<span class="fs-64">.</span></h1>
             <p>Font connection connection align move polygon. Style invite bold rectangle edit fill vector union edit.
               Variant select prototype align rotate italic. Device library line polygon align star.</p>
-            <div class="default-banner-btns flex">
-              <a href="#" class="button flex w-fit">Optional link</a>
+            <div class="btn-wrap flex">
+              <a href="#" class="button btn-hover-white flex w-fit">Optional link</a>
               <a href="#" class="text-link white flex w-fit flex-vcenter">Secondary link<svg
                   xmlns="http://www.w3.org/2000/svg" width="5" height="9" viewBox="0 0 5 9" fill="none">
                   <path
@@ -364,15 +367,39 @@
 
       </div>
     </section>
-    <section class="midstream-section foreground-bg">
+    <section class="midstream-section foreground-bg o-hidden">
       <div class="container">
         <div class="midstream-main flex flex-vcenter">
+          <div class="midstream-images">
+            <div class="midstream-thumbs relative">
+              <div class="midstream-thumb midstream-thumb1 absolute"><img src="images/midstream-four@2x.png" alt="">
+              </div>
+              <div class="midstream-thumb midstream-thumb2 absolute"><img src="images/midstream-four@2x.png" alt="">
+              </div>
+              <div class="midstream-thumb midstream-thumb3 absolute"><img src="images/midstream-four@2x.png" alt="">
+              </div>
+              <div class="midstream-thumb midstream-thumb4 absolute"><img src="images/midstream-four@2x.png" alt="">
+              </div>
+              <div class="midstream-thumb midstream-thumb5 absolute"><img src="images/midstream-four@2x.png" alt="">
+              </div>
+              <div class="midstream-thumb midstream-thumb6 absolute"><img src="images/midstream-four@2x.png" alt="">
+              </div>
+              <div class="midstream-thumb midstream-thumb7 absolute"><img src="images/midstream-four@2x.png" alt="">
+              </div>
+              <div class="midstream-thumb midstream-thumb8 absolute"><img src="images/midstream-four@2x.png" alt="">
+              </div>
+              <div class="midstream-thumb midstream-thumb9 absolute"><img src="images/midstream-four@2x.png" alt="">
+              </div>
+              <div class="midstream-thumb midstream-thumb10 absolute"><img src="images/midstream-four@2x.png" alt="">
+              </div>
+            </div>
+          </div>
           <div class="midstream-text inverted">
             <span class="optional-text">MIDSTREAM CTA</span>
             <h2>We help the world’s biggest brands turn every moment into <span>lasting</span> connection<span>.</span>
             </h2>
-            <div class="midstream-btns flex flex-vcenter">
-              <a href="#" class="button flex flex-vcenter w-fit">Optional link</a>
+            <div class="btn-wrap flex flex-vcenter">
+              <a href="#" class="button btn-hover-white flex flex-vcenter w-fit">Optional link</a>
               <a href="#" class="text-link white flex w-fit">Secondary link
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -380,11 +407,6 @@
                     fill="#D0009E" style="fill:#D0009E;fill:color(display-p3 0.8157 0.0000 0.6196);fill-opacity:1;" />
                 </svg>
               </a>
-            </div>
-          </div>
-          <div class="midstream-images">
-            <div class="">
-
             </div>
           </div>
         </div>
@@ -467,7 +489,7 @@
                         needed<span>.</span>
                       </h2>
                       <div class="btn-wrap flex flex-vcenter">
-                        <a href="" class="button" download="">Optional link</a>
+                        <a href="" class="button btn-hover-white" download="">Optional link</a>
                         <a href="" class="text-link white w-fit flex flex-vcenter">
                           <span>Secondary link</span>
                           <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
@@ -628,7 +650,7 @@
                 <h5>Optional sidebar call to action panel.</h5>
                 <p>Ellipse asset align reesizing editor main. Style ellipse polygon layout align editor. Image link
                   scrolling community flatten thumbnail underline.</p>
-                <a href="#" class="button flex flex-vcenter w-fit">Learn More</a>
+                <a href="#" class="button btn-hover-white flex flex-vcenter w-fit">Learn More</a>
               </div>
             </div>
           </aside>
@@ -845,7 +867,7 @@
     </section>
     <section class="divider-section">
       <div class="container">
-        <div class="divider flex">
+        <div class="divider flex no-wrap">
           <span class="dot radius-50"></span>
           <span class="dot radius-50"></span>
           <span class="dot radius-50 fuschia"></span>
@@ -882,7 +904,7 @@
     </section>
     <section class="signup-cta-section dark-gray-bg">
       <div class="container">
-        <div class="signup-cta-main inverted flex">
+        <div class="signup-cta-main inverted flex flex-vcenter">
           <div class="signup-cta-text flex flex-vcenter">
             <div class="signup-cta-icon">
               <figure class="object"><img src="images/email@2x.jpg" alt="email@2x"></figure>
@@ -891,7 +913,7 @@
               <h2 class="fs-48 lh-60 f-500 mb-0">Get weekly insights.</h2>
             </div>
           </div>
-          <div class="signup-cta-form relative">
+          <div class="signup-cta-form relative flex flex-vcenter">
             <div class="signup-cta-line absolute white-bg"></div>
             <div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_5_container">
               <form enctype="multipart/form-data" method="post" class="frm-show-form  frm_pro_form "
@@ -908,7 +930,7 @@
                       type="hidden" name="_wp_http_referer" value="/contact-us/">
 
                     <div id="frm_field_2_container"
-                      class="frm_form_field form-field  frm_required_field frm_blank_field frm_none_container">
+                      class="frm_form_field form-field in_field frm_required_field frm_blank_field frm_none_container">
                       <label for="Email Address" class="hide">Email Address</label>
                       <input type="email" id="field_ocfup1" name="item_meta[2]" value=""
                         placeholder="Type your email address here." data-reqmsg="This field cannot be blank."

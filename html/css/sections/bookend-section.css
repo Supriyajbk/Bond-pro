@@ -12,3 +12,12 @@
 .bookend-blur{width: 512px; height: 512px; opacity: 0.1; z-index: -1; background: var(--Fuschia);}
 .bookend-blur.one{top: 0; right: 0;}
 .bookend-blur.two{top: 66px; left: 0px; background: var(--Orange);}
+
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .bookend-main{padding: 48px 0 48px;}
+    .bookend-main h2{font-size: 46px; line-height: 50px; margin-bottom: 24px;}
+}
+@media only screen and (max-width: 759px) and (min-width: 0px){
+    .bookend-main{padding: 28px 0 28px;}
+    .bookend-main h2{font-size: 40px; line-height: 44px; margin-bottom: 24px;}
+}
