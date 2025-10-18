@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .micro-cta-module {width: 100%; z-index: 1; position: relative; clear: both; overflow: hidden; margin:39px 0 64px; background-color: var(--Foreground); color: var(--white)}
 .micro-cta-main {margin: 0 auto; width: 100%; flex-direction: row-reverse;}
 
@@ -13,10 +14,22 @@
 .micro-cta-main .micro-cta-text .btn-wrap .readmore:hover:after{background-image: url("data:image/svg+xml,%3Csvg width='13' height='13' viewBox='0 0 13 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.499992 10.7872L8.36519 2.92213H0.5V0.5H12.5V12.5H10.0779V4.63485L2.21284 12.5L0.499992 10.7872Z' fill='%23152022'/%3E%3C/svg%3E"); background-repeat: no-repeat;}
 
 .micro-cta-text .btn-wrap a.text-link {color: var(--White);}
+=======
+.micro-cta-module {width: 100%; z-index: 1; position: relative; clear: both; overflow: hidden; margin:39px 0 64px;}
 
-/*-- media starts here --*/
+
+.micro-cta-text{background-color: var(--Foreground); padding:46px 40px 40px;}
+>>>>>>> afea766e294120db27e455b1e876d0e7953a4e93
+
+.micro-cta-desc{max-width: 387px;}
 
 
+/*-- media css starts here --*/
+.micro-cta-text::after{width: 80px; height: 100%; right: -80px; top: 0; position: absolute; content: ""; display: block; background-color: var(--Foreground);  z-index: -1;}
+
+@media only screen and (min-width: 1024px){
+	.micro-cta-thumb{flex: 0 0 398px;}
+}
 @media only screen and (max-width:1400px) and (min-width:768px){
 .micro-cta-module .container{padding: 0;}
 
@@ -25,11 +38,11 @@
 }
 
 
-@media only screen and (max-width:1023px) and (min-width:768px){
+@media only screen and (max-width:1023px) and (min-width: 760px){
 .micro-cta-main .micro-cta-text {padding:46px 30px 40px;}
 }
 
-@media only screen and (max-width: 767px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 0px){
 	.micro-cta-module {margin: 39px 0 37px;}
 	.micro-cta-thumb {width: 100%;}
 	.micro-cta-main .micro-cta-text .optional-text { font-size: 0.75rem;}

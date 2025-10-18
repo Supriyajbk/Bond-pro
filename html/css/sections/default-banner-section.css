@@ -18,9 +18,12 @@
 
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
-    .default-banner-main {padding: 197px 0 40px; display: block;}
-    .default-banner-text{color: var(--White-80);}
+    .default-banner-main {padding: 0 0 32px; display: block;}
+    .default-banner-text{color: var(--White-80); font-size: 16px; line-height: 24px;}
+    .default-banner-text h1{font-size: 40px; line-height: 44px; margin-bottom: 17px;}
+    .default-banner-text h1 span{font-size: inherit; line-height: inherit;}
     .default-banner-text p{margin-bottom: 24px;}
+    
     .default-banner-btns{display: block;}
-    .default-banner-btns .button:not(:last-child){margin-bottom: 16px;}
+    .default-banner-btns .button:not(:last-child){margin-bottom: 16px; width: 100%; justify-content: center;}
 }

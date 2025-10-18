@@ -48,7 +48,7 @@ blockquote dl dt::before{background-color: var(--White);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 16px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 10px;}
-ul > li:before{top: 13px; left: -13px; width: 4px; height: 4px; border-radius: 50%; opacity: 1; background-color: var(--Fuschia); content: ""; position: absolute;} 
+ul > li::before{top: 50%; left: -13px; transform: translateY(-50%); width: 4px; height: 4px; border-radius: 50%; opacity: 1; background-color: var(--Fuschia); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 28px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
@@ -104,7 +104,6 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 
 .button.lg{padding: 21px 24px 19px; border-radius: 30px;}
 
-.btn-wrap{gap: 16px;}
 
 a.text-link{gap: 8px; color: var(--Foreground); font-size: 16px; line-height: 100%; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font);}
 a.text-link em{color: var(--Fuschia); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 1px; transition: all .5s ease;}
@@ -193,7 +192,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 .text-link.txt-color-fgd-80{color: var(--Foreground-80);}
 
 /*-- custom css starts here --*/
-body{margin: 0; padding: 0; font-size: 18px; line-height: 27px; font-weight: 300; font-family: var(--text-font); position: relative; overflow-x: hidden; color: var(--Base-Foreground);}
+body{margin: 0; padding: 0; font-size: 18px; line-height: 27px; font-weight: 300; font-family: var(--text-font); position: relative; overflow-x: hidden; color: var(--Dark-Gray);}
 .d-block{display: block;}
 
 span.optional-text{gap: 8px; display: flex; flex-wrap: wrap; width: 100%; color: var(--Fuschia); font-size: 14px; font-weight: 500; line-height: 100%; letter-spacing: 1.4px; margin-bottom: 22px; text-transform: uppercase; font-family: var(--heading-font);}
@@ -290,24 +289,12 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 .play-btn-main {width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; position: absolute; overflow: hidden;}
 .play-btn-main .play-btn{width: 82px; height: 82px; z-index: 1; color: var(--Foreground);} 
-.play-btn-main .play-btn:hover{background-color: var(--White); outline-color: var(--White-50);}
 .play-btn-bg{width: 100%; height: 100%; transition: all 0.3s ease-in-out;}
-.play-btn-bg img{margin-left: 3px; transform: scale(1); transition: all 0.3s ease-in-out;}
-.play-btn-bg:hover img{transform: scale(1.125);}
-.play-btn-bg:hover::before{opacity: 1;}
-.play-btn-bg > span.circle{background: linear-gradient(180deg,rgba(18,39,80,0) 0,rgba(18,39,80,.5) 100%),var(--Fuschia); z-index: 3; }
-.play-btn-bg > span.circle:after{ left: calc(50% + 1px); width: 31px; height: 31px; top: 50%; transform: translate(-50%,-50%); background-repeat: no-repeat; background-size: contain; background-position: center; content: ""; display: block; position: absolute; transition-duration: 0.5s; transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); transition-property: all; transition-delay: 0s; }
-.play-btn-bg > span.circle:hover:after{ transform: translate(-50%,-50%) scale(1.1); }
 .play-btn-bg > span { transition: all 0.5s ease; transition-delay: 0s; border-radius: 50%; bottom: 0; content: " "; left: 0; position: absolute; right: 0; top: 0; }
 .play-btn-bg > span:not(:first-child){transform: scale(1); background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%), var(--Fuschia); }
-.play-btn-bg > span:not(:first-child):nth-child(2) {width: 112px; height: 112px;background: rgba(18, 39, 80, 0.10); backdrop-filter: blur(6px); left: 50%; transform: translate(-50%, -50%); top: 50%; z-index: 2;}
-.play-btn-bg > span:not(:first-child):nth-child(3) {width: 143px; height: 143px; background: rgba(18, 39, 80, 0.2); left: 50%; transform: translate(-50%, -50%); top: 50%; z-index: 1; opacity: 0; transition: opacity 1s ease; animation: playCircle 3s linear forwards infinite;}
-.play-btn-bg:hover > span:not(:first-child):nth-child(3){opacity: 1;}
-@keyframes playCircle{
-    0%{opacity: 0;}
-    50%{opacity: 0.5;}
-    100%{opacity: 0.25;}
-}
+.play-btn-bg > span:not(:first-child):nth-child(2) {width: 112px; height: 112px; background: var(--Fuschia); left: 50%; transform: translate(-50%, -50%); top: 50%; z-index: 2;}
+.play-btn-bg > span:not(:first-child):nth-child(3) {width: 143px; height: 143px; background: rgba(228, 0, 162, 0.20); left: 50%; transform: translate(-50%, -50%); top: 50%; z-index: 1; transition: opacity 1s ease;}
+.play-btn-bg svg{width: 39px; height: 43px; margin: auto; display: block; position: relative; z-index: 3;}
 
 .m-auto{margin: auto;}
 .ml-auto{margin-left: auto;}
@@ -423,6 +410,9 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 span.dot{ width: 6px; height: 6px; background: var(--Elevated); }
 span.dot.fuschia{background-color: var(--Fuschia);}
 
+.btn-wrap{gap: 16px;}
+
+
   /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
@@ -435,10 +425,10 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 }
 
 @media only screen and (max-width: 1359px) and (min-width: 1200px){
-    .container:not(.sm){padding: 0 72px; max-width: 100%;}
+    .container:not(.sm){padding: 0 56px; max-width: 100%;}
 }
 @media only screen and (max-width: 1199px) and (min-width: 760px){
-    .container{padding: 0 72px; max-width: 100%;}
+    .container{padding: 0 56px; max-width: 100%;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .hide-tablet{display: none;}
@@ -448,11 +438,16 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
-    .container{padding: 0 36px;}
+    .container{padding: 0 28px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
 
 
+    .btn-wrap{display: block;}
+    .btn-wrap .button{width: 100%;}
+    .btn-wrap .text-link{margin-top: 15px;}
+
+    span.optional-text{font-size: 12px; line-height: 12px; letter-spacing: 1.2px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
 
@@ -461,4 +456,5 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 @media screen and (max-width: 374px) and (min-width: 200px){
   
 }
+
 
