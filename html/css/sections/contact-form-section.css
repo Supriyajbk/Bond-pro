@@ -28,7 +28,7 @@
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
     .contact-form-main{padding: 80px 0 80px; gap: 80px;}
-    .contact-form-lt{flex: 0 0 350px;}
+    .contact-form-lt{flex: 0 0 335px;}
     .contact-form-rt{flex: 1;}
     .contact-form-ellipse { left: -384px; bottom: -196px; width: 484px; height: 484px; z-index: -1;}
     .contact-rt-ellipse{bottom: 0; right: 0; width: 234px; height: 237px; z-index: -1;}
