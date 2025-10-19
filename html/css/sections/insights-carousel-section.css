@@ -31,7 +31,7 @@ letter-spacing: 1.4px;
     .insights-carousel-wrap{padding: 80px 0; gap: 56px 0;}
     .insights-carousel-title{flex: 1;}
     .insights-carousel-main{gap: 40px; flex-wrap: nowrap;}
-    .insights-carousel-list{flex: 0 0 calc(33.333333333333% - 30px);}
+    .insights-carousel-list:not(.swiper-slide){flex: 0 0 calc(33.333333333333% - 30px);}
     .swiper-initialized .insights-carousel-list{width: 380px; margin-right: 40px;}
 }
 @media only screen and (min-width: 760px){
@@ -39,19 +39,29 @@ letter-spacing: 1.4px;
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
     .insights-carousel-main{gap: 32px;}
-    .insights-carousel-list{flex: 0 0 calc(25% - 24px);}
+    .insights-carousel-list:not(.swiper-slide){flex: 0 0 calc(25% - 24px);}
 }
 @media screen and (max-width: 1023px) and (min-width: 760px){
-    .insights-carousel-wrap{padding: 48px 0; gap: 40px 0;}
-    .insights-carousel-main{gap: 28px;}
-    .insights-carousel-list{flex: 0 0 calc(50% - 14px);}
+    .insights-carousel-wrap{padding: 48px 0 52px; display: block;}
+    .insights-carousel-main{display: block;}
+
+    .insights-carousel-head{margin-bottom: 29px;}
+    .insights-carousel-title{flex: 1;}
+    .insights-carousel-title h2{font-size: 32px;}
+    .insights-carousel-text h2{font-size: 18px; line-height: 22px;}
+
+    .swiper-initialized .insights-carousel-list{width: 308px; margin-right: 26px;}
 }
 @media screen and (max-width: 759px) and (min-width: 0px){
-    .insights-carousel-wrap{padding: 32px 0; gap: 31px 0; flex-direction: column;}
-    .insights-carousel-main{gap: 24px 0; flex-direction: column;}
-    .insights-carousel-list{flex: 0 0 calc(100%);}
+    .insights-carousel-wrap{padding: 18px 0 32px; display: block;}
+    .insights-carousel-main{display: block;}
 
+    .insights-carousel-head{display: block; margin-bottom: 19px;}
+    .insights-carousel-title h2{font-size: 32px;}
+    .insights-carousel-text h2{font-size: 18px; line-height: 22px;}
 
+    .swiper-initialized .insights-carousel-list{width: 308px; margin-right: 26px;}
+    .insights-carousel-btn{margin-top: 24px;}
 }
 
 
