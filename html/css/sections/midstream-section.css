@@ -33,11 +33,14 @@
     .midstream-text{flex: 0 0 460px;}
     .midstream-text h2{font-size: 46px;}
 }
+@media only screen and (max-width: 759px) and (min-width: 425px){
+    .midstream-images{max-width: 425px; margin: 0 auto;}
+    .midstream-thumbs{left: 39px;}
+}
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .midstream-main{display: block; padding: 0 0 28px;}
     .midstream-text{padding-top: 28px;}
     .midstream-text h2{font-size: 32px; margin-bottom: 23px;}
-    .midstream-images{}
     .midstream-thumbs{min-width: 390px; min-height: 285px;}
     .midstream-thumb{width: 98px; height: 98px;}
     .midstream-thumb1{top: -8px; left: 9px;}
