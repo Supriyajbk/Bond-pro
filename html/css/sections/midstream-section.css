@@ -9,10 +9,13 @@
 
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 1440px){
+    .midstream-images{margin-right: 0;}
+}
 @media only screen and (min-width: 1024px){
     .midstream-main{gap: 80px; flex-wrap: nowrap; flex-direction: row-reverse;}
     .midstream-text{flex: 0 0 560px; padding: 93.5px 0;}
-    .midstream-images{flex: 1;}
+    .midstream-images{flex: 1; margin-right: -368px;}
     .midstream-thumbs{min-width: 720px; min-height: 577px;}
     .midstream-thumb{width: 202px; height: 202px;}
     .midstream-thumb1{top: -16px; left: 113px;}
@@ -34,6 +37,7 @@
     .midstream-main{display: block; padding: 0 0 28px;}
     .midstream-text{padding-top: 28px;}
     .midstream-text h2{font-size: 32px; margin-bottom: 23px;}
+    .midstream-images{}
     .midstream-thumbs{min-width: 390px; min-height: 285px;}
     .midstream-thumb{width: 98px; height: 98px;}
     .midstream-thumb1{top: -8px; left: 9px;}
