@@ -1,6 +1,6 @@
 
-.accordion-header {padding: 18px 64px 18px 8px;  cursor: pointer; position: relative; border-top: 1px solid var(--Dark-Gray);} 
-.accordion-list:first-child .accordion-header{border-top: none;}
+.accordion-header {padding: 18px 64px 18px 8px;  cursor: pointer; position: relative; } 
+.accordion-list{border-bottom: 1px solid var(--Dark-Gray);}
 
 .accordion-icon svg{top: 50%; left: 50%; transform: translate(-50%,-50%); transition: top 0.5s ease; position: absolute;}
 .accordion-header:hover .accordion-icon svg:first-child{top: calc(50% - 3px);}

@@ -452,6 +452,8 @@ span.dot.fuschia{background-color: var(--Fuschia);}
     .divider{gap: 8px; padding: 18px 0; justify-content: space-between;}
 
     span.optional-text{font-size: 12px; line-height: 12px; letter-spacing: 1.2px;}
+
+    .play-btn-bg > span:not(:first-child):nth-child(2) {width: 56px; height: 56px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
 
