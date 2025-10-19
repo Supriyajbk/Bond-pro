@@ -33,9 +33,22 @@
     .midstream-text{flex: 0 0 460px;}
     .midstream-text h2{font-size: 46px;}
 }
-@media only screen and (max-width: 759px) and (min-width: 425px){
-    .midstream-images{max-width: 425px; margin: 0 auto;}
-    .midstream-thumbs{left: 39px;}
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .midstream-main{display: block; padding: 0 0 68px;}
+    .midstream-text{padding-top: 68px;}
+    .midstream-images{margin-left: -100px;}
+    .midstream-thumbs{min-width: 720px; min-height: 577px;}
+    .midstream-thumb{width: 202px; height: 202px;}
+    .midstream-thumb1{top: -16px; left: 113px;}
+    .midstream-thumb2{top: -16px; left: 339px;}
+    .midstream-thumb3{top: -16px; left: 566px;}
+    .midstream-thumb4{top: 187px; left: 0;}
+    .midstream-thumb5{top: 187px; left: 226px;}
+    .midstream-thumb6{top: 187px; left: 453px;}
+    .midstream-thumb7{top: 187px; left: 680px;}
+    .midstream-thumb8{top: 390px; left: 113px;}
+    .midstream-thumb9{top: 390px; left: 339px;}
+    .midstream-thumb10{top: 390px; left: 566px;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .midstream-main{display: block; padding: 0 0 28px;}
