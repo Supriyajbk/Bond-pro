@@ -14,7 +14,7 @@ span.counter{  display: block;   letter-spacing: -1.92px; position: relative; }
 
 }
 
-@media only screen and (max-width: 767px) and (min-width: 200px) {
+@media only screen and (max-width: 759px) and (min-width: 0px) {
     .counter-stats{gap: 0}
     .counter-list {flex: 0 0 100%; border-left: none; border-bottom:  1px solid var(--Foreground-25);     padding: 20px 0 42px;}
     .counter-list .h6{margin-bottom: 12px; font-size: 16px;}
