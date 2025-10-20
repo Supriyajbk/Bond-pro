@@ -42,5 +42,7 @@
     .contact-form-rt span.optional-text{margin-bottom: 24px;}
 }
 @media screen and (max-width: 759px) and (min-width: 200px) {
-    .contact-form-main{padding: 33px 0 40px; display: block;}
+    .contact-form-main{padding: 33px 0 30px; display: block;}
+    .contact-form-lt p { font-size: 16px; line-height: 150%; margin-bottom: 24px;}
+    .contact-form-lt{margin-bottom: 64px;}
 }
