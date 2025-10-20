@@ -102,7 +102,7 @@ body .with_frm_style .frm_form_field.frm_html_container:empty{margin: 0;}
 
 body .frm_forms .frm_form_fields .frm_filed_wrapper  .frm_form_field.form-field.frm_none_container{flex: 0 0 100px}
 body .frm_forms .frm_form_fields .frm_filed_wrapper .frm_form_field.form-field.vertical_radio.frm_none_container {flex: 0 0 calc(100% - 132px);}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input[type="checkbox"] { background-color: var(--Fuschia); border-radius: 4px; cursor: pointer; height: 32px !important; left: 0; min-width: 32px !important; overflow: hidden; padding: 0; position: absolute; top: 50%; transform: translateY(-50%); width: 32px !important; }
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input[type="checkbox"] { background-color: var(--Fuschia)!important; border: none; cursor: pointer; height: 32px !important; left: 0; min-width: 32px !important; overflow: hidden; padding: 0; position: absolute; top: 50%; transform: translateY(-50%); width: 32px !important; }
 
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
@@ -188,7 +188,7 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_s
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container .frm_checkbox{flex: 0 0 calc(50% - 4px);} 
     body .contact-form-form .frm_forms .frm_form_fields .vertical_radio .frm_radio{flex: initial;}
 
-    body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(50% - 12px); margin-left: 9px; margin-right: 9px; float: none; clear: none; display: inline-block; vertical-align: top;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(50% - 10px);   float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_left{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_right{margin-right: 0;}
 }
@@ -201,7 +201,7 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_s
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container .frm_checkbox{flex: 0 0 calc(25% - 6px);} 
 
 
-    body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(50% - 12px); margin-left: 9px; margin-right: 9px; float: none; clear: none; display: inline-block; vertical-align: top;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(50% - 12px);  float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_left{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_right{margin-right: 0;}
 
@@ -249,6 +249,12 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_s
 
  
     body .frm_forms form .frm_required_field div.frm_error{bottom: -15px; position: static;}
+
+
+    .frm_filed_wrapper{display: block;}
+    body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox label {font-size: 12px; line-height: 150%; padding: 0 0 0 48px;}
+    body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit {justify-content: center;}
+
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container, body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column; margin-bottom: 8px;}
