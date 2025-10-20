@@ -9,7 +9,7 @@
 .contact-form-full .contact-form-lt{border-radius: 24px;}
 
 .contact-form-lt span.optional-text{margin-bottom: 20px;}
-.contact-form-lt p{margin-bottom: 33px;}
+.contact-form-lt p{margin-bottom: 40px; font-size: 18px; letter-spacing: normal;}
 .contact-form-link{gap: 15px; color: var(--Foreground);}
 .contact-form-link:hover{color: var(--Fuschia);}
 .contact-form-link svg{width: 24px; height: 18px;}
