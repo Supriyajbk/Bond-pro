@@ -48,6 +48,14 @@
 @import url('./sections/blog-news-section.css');
 
 
+/*--  12th Careers page --*/
+@import url('./sections/view-signup-section.css');
+@import url('./sections/columns-section.css');
+@import url('./sections/careers-video-section.css');
+@import url('./sections/two-column-section.css');
+@import url('./sections/collaborative-section.css');
+
+
 
 /*--  13th Connect page --*/
 @import url('./sections/connect-banner-section.css');

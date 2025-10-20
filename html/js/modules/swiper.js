@@ -28,6 +28,18 @@ class Slider {
         },
       });
     }
+
+    if (this.selector === '.image-carousel-slider') {
+      this.swiper = new Swiper(this.element, {
+        navigation: {
+          nextEl: '.carousel-slider .swiper-button-next',
+          prevEl: '.carousel-slider .swiper-button-prev',
+        },
+        pagination: {
+          el: '.carousel-slider .swiper-pagination',
+        },
+      });
+    }
   }
 }
 export const swiper = new Slider('.carousel-slider');
