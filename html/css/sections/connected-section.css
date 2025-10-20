@@ -16,7 +16,8 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
 .connected-main{padding: 60px 0;}
-.connected-list { flex: 0 0 calc(50% - 16px); }
+.connected-row{gap: 32px;}
+.connected-list { flex: 0 0 calc(50% - 20px); }
 
 }
 
