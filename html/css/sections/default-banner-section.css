@@ -7,7 +7,8 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .default-banner-main {padding: 138px 0 137px;}
+    .default-banner-main {padding: 80px 0; min-height: 600px;}
+    /* .default-banner-main{padding: 138px 0 137px; } */
     .default-banner-text {max-width: 512px;}
     .default-banner-image{width: 688px; height: 688px; top: -47px; right: 0;}
     .default-banner-glows{ min-height: 688px; top: 0;}
