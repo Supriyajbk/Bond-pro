@@ -1,7 +1,7 @@
 import { anime } from './modules/animate';
 import { counter } from './modules/counter';
 import { menu } from './modules/menu';
-import { swiper } from './modules/swiper';
+import { swiper, imageSwiper } from './modules/swiper';
 import { tabHandler } from './modules/tabSection';
 import { trustBy } from './modules/trustBySlider';
 import { accordion } from './modules/accordion';
@@ -17,4 +17,5 @@ document.addEventListener('DOMContentLoaded', function () {
   accordion.init();
   youtube.init();
   vimeo.init();
+  imageSwiper.init();
 });

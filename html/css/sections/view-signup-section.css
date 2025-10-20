@@ -13,9 +13,9 @@
     .view-signup-main{gap: 64px; padding: 48px 0;}
     .view-signup-text{flex: 1;}
 }
-
-
-
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .view-signup-main h2{font-size: 44px; line-height: 52px;}
+}
 
 
 
