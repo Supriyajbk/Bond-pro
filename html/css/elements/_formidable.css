@@ -105,10 +105,10 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox in
 
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
-input::-webkit-input-placeholder {color: var(--Charleston-Green); font-family: var(--text-font); opacity: 1;}
-input:-moz-placeholder {color: var(--Charleston-Green); font-family: var(--text-font);  opacity: 1;}
-input::-moz-placeholder {color: var(--Charleston-Green); font-family: var(--text-font); opacity: 1;}
-input:-ms-input-placeholder {color: var(--Charleston-Green); font-family: var(--text-font); opacity: 1;}
+input::-webkit-input-placeholder {color: var(--Foreground); font-family: var(--heading-font); opacity: 1;}
+input:-moz-placeholder {color: var(--Foreground); font-family: var(--heading-font);  opacity: 1;}
+input::-moz-placeholder {color: var(--Foreground); font-family: var(--heading-font); opacity: 1;}
+input:-ms-input-placeholder {color: var(--Foreground); font-family: var(--heading-font); opacity: 1;}
 
 body.page-template-application-form #frm_field_97_container{padding-bottom: 36px; border-bottom: 1px solid rgba(94,103,131,.25); margin-bottom: 39px;}
 body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field.frm12{font-size: 1rem !important; line-height: 1.5 !important; padding-bottom: 39px !important; border-bottom: 1px solid rgba(94, 103, 131, 0.25); margin-bottom: 34px !important;}
@@ -143,7 +143,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field  div.fr
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: transparent;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_checkbox .frm_opt_container .frm_checkbox{flex: 1;} 
 
-.with_frm_style input::placeholder, .with_frm_style textarea::placeholder { font-size: var(--text-font); }
+.with_frm_style input::placeholder, .with_frm_style textarea::placeholder { font-size: var(--heading-font); }
 
 body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 

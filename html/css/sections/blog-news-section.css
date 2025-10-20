@@ -6,6 +6,7 @@ border: 1.25px solid var(--Fuschia);
 background: var(--Elevated);
 color: var(--Foreground);
 font-family: var(--heading-font);
+padding: 15px 20px;
 }
 .blog-news-srch button{background: none;
     color: var(--Fuschia);
@@ -15,9 +16,16 @@ font-family: var(--heading-font);
     transform: translateY(-50%);
     position: absolute;
 }
-
-ul.blog-categories{
-    
+ul.blog-categories{gap: 12px; margin-bottom: 48px;}
+ul.blog-categories > li > a{
+    padding: 8px 16px;
+color: var(--Foreground-75);
+display: block;
+}
+ul.blog-categories > li > a.open,
+ul.blog-categories > li > a:hover{
+    background-color: var(--Foreground);
+    color: var(--White);
 }
 .blog-news-bg{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0.75) 75%);
@@ -25,7 +33,8 @@ ul.blog-categories{
 }
 
 .blog-news-text{padding: 32px;}
-.blog-news-text h2{margin-bottom: 19px;}
+.blog-news-text h2{margin-bottom: 10px;}
+.blog-news-text p{margin-bottom: 22px;}
 
 
 
@@ -45,7 +54,8 @@ letter-spacing: 1.4px;
 
 span.date{letter-spacing: 1.4px; flex: 1;}
 
-
+.blog_load_more{gap: 16px; margin-top: 47px;}
+.blog_load_more hr{flex: 1; opacity: 0.2;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

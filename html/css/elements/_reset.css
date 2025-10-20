@@ -270,6 +270,7 @@ span.optional-text.mb-0{margin-bottom: 0;}
 .radius-32, .radius-img-32 img{border-radius: 32px;}
 .radius-40, .radius-img-40 img{border-radius: 40px;}
 .radius-50, .radius-img-50 img{border-radius: 50%;}
+.radius-60, .radius-img-60 img{border-radius: 60px;}
 .radius-72, .radius-img-72 img{border-radius: 72px;}
 .radius-80, .radius-img-80 img{border-radius: 80px;}
 
@@ -368,6 +369,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 .w-fit{width: fit-content;}
 
+.white{color: var(--White);}
 .white-50{color: var(--White-50);}
 .white-70{color: var(--White-70);}
 .white-80{color: var(--White-80);}
