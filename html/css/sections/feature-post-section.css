@@ -10,7 +10,6 @@
 .feature-post-bg{min-height: 276px; top: auto; bottom: 0; background-image: linear-gradient(180deg, rgba(164, 39, 143, 0.00) 0%, #122750 100%); border-radius: 0 0 16px 16px;}
 /* .feature-post-bg::after{ background-image: linear-gradient(to bottom,#fff0,var(--Accent)); content: ""; display: block; height: 100%; width: 100%; opacity: 0.5; bottom: 0; border-radius: 0 0 16px 16px; position: absolute; } */
 .feature-post-bg::after{background-image: linear-gradient(180deg,rgba(164,39,143,0) 0,#a4278f82 80%,#122750 100%); content: ""; display: block; height: 100%; width: 100%; opacity: 0.5; bottom: 0; border-radius: 0 0 16px 16px; position: absolute; }
-.post-feature-bg{border: 1px solid var(--Translucent);}
 .no_post_feature_thumb{min-height: 120px;}
 .post-feature-row{gap: 16px;}
 .post-feature-thumb{flex: 0 0 104px;}
@@ -21,7 +20,9 @@ ul.post-categories{margin: 0 0 4px 0; gap: 8px 10px;}
 ul.post-categories > li{margin: 0; position: relative; line-height:15px;}
 ul.post-categories > li::before{content: ""; position: static; top: 0; left: -10px; margin-right: 10px; height: 100%; width: 2px; border-radius: 1px; opacity: 0.25; background: var(--Raisin-Black);}
 ul.post-categories > li:first-child::before{display: none;}
-ul.post-categories > li{font-size: 0.75rem; line-height: 1rem; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; color: var(--Accent); position: relative; padding: 2px 0; display: flex;}
+ul.post-categories > li{padding: 4px 8px 5px; background: rgba(228, 0, 162, 0.20);
+
+  font-size: 12px; line-height: 15px; font-weight: 600; letter-spacing: 0; text-transform: capitalize; color: var(--Fuschia); position: relative; display: flex;}
 ul.post-categories > li > a:hover{color: var(--Raisin-Black);}
 ul.post-categories.white > li > a:hover{color: var(--Sky-Blue);}
 ul.post-categories.white > li{color: var(--White);}
@@ -41,7 +42,7 @@ h2.page-title{margin-top: 2rem;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
-    .feature-post-main{gap: 40px; padding: 80px 0 0;}
+    .feature-post-main{gap: 40px; padding: 80px 0 188px;}
     .feature-post-image{flex: 0 0 840px;}
     
     .post-feature-rows{flex: 1; gap: 24px; flex-direction: column;}
