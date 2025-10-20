@@ -54,6 +54,9 @@
           <span class="humburger-line"></span>
           <span class="humburger-line"></span>
         </div>
+        <div class="comment-icon flex flex-center fuschia-bg radius-50 absolute hide-desktop">
+          <i class="fa-light fa-comment fs-20 lh-20"></i>
+        </div>
         <div class="header_right flex flex-vcenter">
           <nav role="navigation" class="navigation flex relative">
             <ul class="main_menu m-0 flex flex-vcenter no-disc">
@@ -83,32 +86,31 @@
   </header>
   <main class="site-main-cover"><!-- site starts here -->
     <section class="connect-banner-section relative">
-      <div class="background-bg connect-banner-bg">
-        <picture class="object-fit">
-          <source srcset="images/connect-banner@2x.jpg" media="(min-width:1024px)">
-          <img src="images/connect-banner-mobile@2x.jpg" alt="">
-        </picture>
-      </div>
-      <div class="background-bg connect-banner-video">
+      <div class="connect-banner-mbl">
+        <div class="background-bg connect-banner-bg">
+          <picture class="object-fit">
+            <source srcset="images/connect-banner@2x.jpg" media="(min-width: 760px)">
+            <img src="images/connect-banner-mobile@2x.jpg" alt="">
+          </picture>
+        </div>
+        <!-- <div class="background-bg connect-banner-video"> -->
         <!-- <div data-vbg-lazyloading data-vbg="https://www.youtube.com/watch?v=eEpEeyqGlxA"></div> -->
         <!-- <div data-vbg-lazyloading data-vbg="https://vimeo.com/185681071"></div> -->
-        <video autoplay muted loop>
+        <!-- <video autoplay muted loop>
           <source src="images/connect-video.mp4" type="video/mp4" />
-        </video>
+        </video> -->
+        <!-- </div> -->
+        <div class="background-text connect-banner-gradient"></div>
       </div>
-      <div class="background-text connect-banner-overlay"></div>
-      <div class="container relative z-3" data-animate="rule-rect-line">
-        <div class="rule-line-main absolute">
-          <span class="rule-rectangle yellow-bg absolute"></span>
-        </div>
+      <div class="container relative z-2">
         <div class="connect-banner-wrap flex flex-end">
           <div class="connect-banner-main inverted">
-            <div class="connect-banner-text fs-21 lh-30">
-              <h1 class="f-600" data-animate="words">Connect with us.</h1>
+            <div class="connect-banner-text white-80">
+              <h1 class="f-600" data-animate="words">Connect<br> with us.</h1>
               <p>Font connection connection align move polygon. Style invite bold rectangle edit fill vector union edit.
                 Variant select prototype align rotate italic.</p>
-              <div class="connect-banner-btns flex flex-vcenter">
-                <a href="#" class="button">Optional link</a>
+              <div class="btn-wrap flex flex-vcenter">
+                <a href="#" class="button flex w-fit">Optional link</a>
                 <a href="#" class="text-link white w-fit flex flex-vcenter">Secondary link<svg
                     xmlns="http://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5 8" fill="none">
                     <path
