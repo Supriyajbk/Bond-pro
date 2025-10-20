@@ -212,7 +212,7 @@ a.no_link{pointer-events: none;}
     .header_right{top: 70px; transform: translateX(100%); left: 0; width: 100vw; height: 125vh; position: absolute; transition: transform 0.5s ease; display: block; flex-direction: column; background-color: var(--White); overflow-y: auto;}
     .header_right.open{transform: translateX(0);}
 
-    .comment-icon{width: 48px; height: 48px; right: 20px; color: var(--White);}
+    .comment-icon{width: 48px; height: 48px; right: 20px; color: var(--White); cursor: pointer;}
     
     
     nav.navigation{display: block;}
