@@ -1,0 +1,29 @@
+
+
+.two-column-text{color: var(--Text-Color-1);}
+.two-column-line{width: 1px; height: 100%; top: 0; left: 0;}
+
+
+.two-column-text p{margin-bottom: 21px;}
+.two-column-title{color: var(--Fuschia);}
+.two-column-subtitle{margin-bottom: 29px;}
+.two-column-btns{gap: 16px; padding-top: 20px;}
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .two-column-main{padding: 80px 0;}
+    .two-column-head{flex: 1; padding: 24px 80px 11px 0;}
+    .two-column-text{flex: 1; padding: 6px 0 16px 80px}
+}
+@media only screen and (min-width: 760px){
+    .two-column-head h2{font-size: 28px;}
+}
+
+
+
+
+
+
+
+
+

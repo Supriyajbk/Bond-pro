@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 760px){
+    .view-signup-main{gap: 64px; padding: 48px 0;}
+    .view-signup-text{flex: 1;}
+}
+
+
+
+
+
+

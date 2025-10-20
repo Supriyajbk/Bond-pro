@@ -1,0 +1,40 @@
+
+
+
+
+.columns-icon{width: 80px; height: 80px; margin-bottom: 16px; mix-blend-mode: multiply;}
+.columns-icon figure img{object-fit: contain;}
+.columns-text h2{color: var(--Foreground); font-weight: 700; letter-spacing: -0.48px; margin-bottom: 16px; line-height: 125%;}
+.columns-text p{font-size: 16px; font-weight: 400; line-height: 1.7; margin-bottom: 21px; font-family: var(--text-font);}
+
+
+
+.columns-col:only-child { height: 100%; display: flex; flex-direction: column; justify-content: flex-end;}
+
+.columns-icon figure img {mix-blend-mode: multiply;}
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .columns-main{padding: 40px 0 40px;}
+    .columns-row{gap: 43px 48px}
+    .columns-col{flex: 0 0 calc(25% - 36px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 760px) {
+.columns-col { flex: 0 0 calc(50% - 40px); }
+
+
+}
+
+@media only screen and (max-width: 759px) and (min-width:200px) {
+  .columns-main{padding: 0 0 28px;}
+  .columns-row{gap: 38px}
+  .columns-col{flex:  0 0 100%;}
+  .columns-col h2 {font-size: 20px;}
+
+
+
+  .columns-col p {font-size: 14px; margin-bottom: 18px;}
+
+}

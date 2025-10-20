@@ -1,5 +1,5 @@
 
-.accordion-header {padding: 18px 64px 18px 8px;  cursor: pointer; position: relative; } 
+.accordion-header{padding: 18px 64px 18px 8px;  cursor: pointer; position: relative; } 
 .accordion-list{border-bottom: 1px solid var(--Dark-Gray);}
 
 .accordion-icon svg{top: 50%; left: 50%; transform: translate(-50%,-50%); transition: top 0.5s ease; position: absolute;}
@@ -15,7 +15,7 @@
 
 .accordion-header.open{color: var(--Accent);} 
 .accordion-header.open span.ui-plus { transform: rotate(45deg); } 
-.accordion-title{display: block; transition: transform 0.5s ease; color: var(--Dark-Gray); font-size: 18px; font-weight: 600; line-height: 125%; font-family: var(--heading-font);}
+.accordion-title{display: block; transition: transform 0.5s ease; color: var(--Dark-Gray); font-family: var(--heading-font);}
 
 .accordion-header .accordion-title::after {color: var(--Fuschia); content: "\f078"; font-family: "Font Awesome 7 Pro"; font-style: normal; font-weight: 400; font-size: 24px; line-height: 32px;  right: 9px; position: absolute; top: 50%; transform: translate(0, -50%);}
 .accordion-header.open .accordion-title::after { content: "\f077";}
@@ -39,9 +39,13 @@ span.ui-plus::after { width: 2px; height: 24px; }
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .accordion-main{padding: 10px 0 64px;}
+    .two-column-text .accordion-main{padding: 0;}
     body.career-template-default .accordion-main{padding: 19px 0 25px;}
     .application-main{margin-top: 40px;}
 
+}
+@media only screen and (min-width: 760px){
+    .accordion-header.lg{padding: 24px 64px 31px 8px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 760px){
     .accordion-main{padding: 40px 0 60px;}
