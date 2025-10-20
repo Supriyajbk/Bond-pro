@@ -1,4 +1,3 @@
-.default-main{padding: 80px 0 55px; gap: 80px;}
 .default-article p span{font-size: 24px; line-height: 300px; line-height: 150%;}
 .asidebar-nav .h5{font-size: 28px; font-weight: 500; line-height: 125%; margin-bottom: 15px;}
 .asidebar-nav hr{margin-bottom: 0;}
@@ -24,14 +23,24 @@ ul.aside-links > li:before{display: none;}
 .people-saying-main .mini-wrap p:not(:first-child){font-weight: 400; border-left: 1px solid var(--Fuschia); padding-left: 13px;}
 
 @media only screen and (min-width: 1024px) {
+  .default-main{padding: 80px 0 55px; gap: 80px;}
   .default-article { flex: 1; }
   .default-aside{flex: 0 0 335px;}
 }
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+  .default-main{gap: 40px;}
+  .default-aside{flex: 0 0 315px;}
 
-@media only screen and (max-width: 767px) and (min-width:200px) {
+}
+@media screen and (max-width: 1023px) and (min-width: 760px){
+  .default-main{padding: 80px 0 55px; display: block;}
+
+}
+@media only screen and (max-width: 759px) and (min-width: 0px) {
   .default-main {padding: 30px 0;}
- .default-article .h2{font-size: 40px;}
- .default-article p span {font-size: 20px;}
-.default-article .h2 + p{margin-bottom: 20px;}
-.default-article p{font-size: 16px;}
+  .default-article .h2{font-size: 40px;}
+  .default-article p span {font-size: 20px;}
+  .default-article .h2 + p{margin-bottom: 20px;}
+  .default-article p{font-size: 16px;}
+  .asidebar-nav .h5{font-size: 18px; line-height: 22px;}
 }

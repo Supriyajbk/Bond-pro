@@ -443,6 +443,8 @@ span.dot.fuschia{background-color: var(--Fuschia);}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
 
+    .h3, h3{font-size: 24px; line-height: 30px;}
+    .h4, h4{font-size: 20px; line-height: 25px;}
 
     .btn-wrap{display: block;}
     .btn-wrap .button{width: 100%; justify-content: center;}
@@ -453,6 +455,9 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 
     span.optional-text{font-size: 12px; line-height: 12px; letter-spacing: 1.2px;}
 
+    .play-btn-main .play-btn{width: 56px; height: 56px;}
+    .play-btn-bg > span:not(:first-child):nth-child(3){width: 80px; height: 80px;}
+    .play-btn-bg svg{width: 18px; height: 19px;}
     .play-btn-bg > span:not(:first-child):nth-child(2) {width: 56px; height: 56px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
