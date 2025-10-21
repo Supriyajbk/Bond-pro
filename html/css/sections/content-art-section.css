@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- media css starts here --*/
+@media screen and (min-width: 1024px){
+    .content-art-main{gap: 80px; padding: 40px 0 80px;}
+    .content-art-text{flex: 0 0 512px;}
+    .content-art-image{flex: 1;}
+}

@@ -65,7 +65,8 @@ body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit bu
     body .signup-cta-form .frm_forms .frm_form_fields .frm_fields_container{display: block;}
     body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field input{font-size: 20px; line-height: 30px;}
     body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field span{font-size: 14px; line-height: 21px;}
-    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field.frm_right{width: 100%; top: 0;}
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field{padding-left: 20px;}
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field.frm_right{width: 100%; top: 0; padding: 0;}
     body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit{margin-top: 50px;}
     body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit{width: 100%; justify-content: center;}
 }

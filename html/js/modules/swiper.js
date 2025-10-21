@@ -28,6 +28,23 @@ class Slider {
         },
       });
     }
+
+    if (this.selector === '.work-carousel-slider') {
+      this.swiper = new Swiper(this.element, {
+        slidesPerView: 'auto',
+        navigation:
+          swiperNext && swiperPrev
+            ? {
+                nextEl: swiperNext,
+                prevEl: swiperPrev,
+              }
+            : undefined,
+        pagination: {
+          el: swiperPagination,
+        },
+      });
+    }
+
     if (this.selector === '.image-carousel-slider') {
       this.swiper = new Swiper(this.element, {
         slidesPerView: 'auto',
@@ -47,4 +64,5 @@ class Slider {
   }
 }
 export const swiper = new Slider('.carousel-slider');
+export const workSwiper = new Slider('.work-carousel-slider');
 export const imageSwiper = new Slider('.image-carousel-slider');
