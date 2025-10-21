@@ -1,7 +1,7 @@
 .connected-section{position: relative; width: 100% ; clear: both; display: block;}
 .connected-main{padding: 40px 0 80px;}
 
-.connected-icon{width: 40px; height: 40px; margin-bottom: 16px;}
+.connected-icon{width: 40px; height: 40px; margin-bottom: 26px;}
 .connected-icon figure img{object-fit: contain;}
 
 
@@ -21,8 +21,11 @@
 
 }
 
-@media only screen and (max-width: 759px) and (min-width: 0px) {
-.connected-main{padding: 0; display: block;}
-
-
+@media only screen and (max-width: 759px) and (min-width: 200px) {
+.connected-main{padding: 0 0 30px; display: block;}
+.connected-row{display: block;}
+.connected-list{margin-bottom: 28px;}
+.connected-list:last-child{margin-bottom: 0;}
+.connected-icon{margin-bottom: 18px;}
+.connected-text .h5{margin-bottom: 10px;}
 }
