@@ -1,6 +1,7 @@
 .counter-main-wrap{padding: 40px 0 80px;}
 .counter-stats{gap: 32px 0;}
-.counter-list{ flex-grow: 1; padding: 24px 29px; border-left: 1px solid var(--Foreground-25); flex: 0 0 25%}
+.counter-list{ padding: 24px 29px; border-left: 1px solid var(--Foreground-25); flex: 0 0 25%; flex-grow: 1; }
+.counter-list.inverted{border-left-color: var(--White-25);}
 .counter-list p{font-size: 16px; font-weight: 300; line-height: 150%;  }
 span.counter{  display: block;   letter-spacing: -1.92px; position: relative; }
 .counter-top{font-family: var(--mono-font); font-size: 64px; font-weight: 300; color: var(--Fuschia); text-transform: uppercase; margin-bottom: 6px; line-height: 1;}
@@ -14,9 +15,10 @@ span.counter{  display: block;   letter-spacing: -1.92px; position: relative; }
 
 }
 
-@media only screen and (max-width: 759px) and (min-width: 0px) {
+@media only screen and (max-width: 759px) and (min-width: 0px){
     .counter-stats{gap: 0}
     .counter-list {flex: 0 0 100%; border-left: none; border-bottom:  1px solid var(--Foreground-25);     padding: 20px 0 42px;}
+    .counter-list.inverted{border-bottom-color: var(--White-25); border-left-color: transparent;}
     .counter-list .h6{margin-bottom: 12px; font-size: 16px;}
     .counter-main-wrap{padding-top: 0; padding-bottom: 0;}
     .counter-list:last-child{border-bottom: none;}

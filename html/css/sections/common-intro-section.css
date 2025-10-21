@@ -1,7 +1,6 @@
 
 
 .common-intro-text{color: var(--Text-Color-1);}
-.common-intro-line{width: 1px; height: 100%; top: 0; left: 0;}
 
 p a{
     color: var(--Coal);
@@ -26,15 +25,41 @@ p a:hover{
 .common-intro-title{color: var(--Fuschia);}
 .common-intro-subtitle{margin-bottom: 29px;}
 .common-intro-btns{gap: 16px; padding-top: 20px;}
+.common-intro-btns a.text-link svg{width: 14px; height: 14px; right: 2px;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .common-intro-main{padding: 80px 0;}
-    .common-intro-head{flex: 1; padding: 24px 64px 24px 0;}
-    .common-intro-text{flex: 1; padding: 16px 0 16px 64px}
+    .common-intro-head{padding: 24px 64px 24px 0;}
+    .common-intro-text{padding: 16px 0 16px 64px;}
 }
+@media only screen and (min-width: 760px){
+    .common-intro-head{flex: 1;}
+    .common-intro-text{flex: 1;}
+    .common-intro-line{width: 1px; height: 100%; top: 0; left: 0;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .common-intro-main{padding: 45px 0 43px;}
+    .common-intro-head{padding: 24px 32px 24px 0;}
+    .common-intro-head h2{font-size: 32px;}
+    .common-intro-text{padding: 16px 0 16px 32px;}
+    .common-intro-title, .common-intro-subtitle{font-size: 18px; line-height: 22.5px;}
+    .common-intro-subtitle{margin-bottom: 18px;}
+    .common-intro-text{font-size: 18px; line-height: 27px;}
 
-
+}
+@media only screen and (max-width: 759px) and (min-width: 0px){
+    .common-intro-main{padding: 45px 0 23px; display: block;}
+    .common-intro-btns{padding-top: 6px; display: block;}
+    .common-intro-btns .button{width: 100%; text-align: center;}
+    .common-intro-btns a.text-link{margin-top: 15px;}
+    .common-intro-line{width: 100%; height: 1px; top: 0; left: 0;}
+    .common-intro-head:not(:last-child){padding-bottom: 62px;}
+    .common-intro-title, .common-intro-subtitle{font-size: 18px; line-height: 22.5px;}
+    .common-intro-subtitle{margin-bottom: 18px;}
+    .common-intro-text{padding-top: 54px; font-size: 18px; line-height: 27px;}
+    .common-intro-text p{margin-bottom: 19px;}
+}
 
 
 

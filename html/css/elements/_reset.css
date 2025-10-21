@@ -116,7 +116,7 @@ a.text-link.blue{color: var(--Blue);}
 a.text-link:hover em{left: 8px;}
 
 a.text-link.yellow-i i{color: var(--Fuschia);}
-a.text-link svg{transition: var(--b-transition);}
+a.text-link svg{width: 5px; height: 8px; top: 0.5px; position: relative; transition: var(--b-transition); object-fit: contain;}
 
 
 a.text-link:hover {color: var(--Fuschia);}
