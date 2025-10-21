@@ -16,7 +16,7 @@ ul.tab-links > li > a.active i{font-size: 14px;}
 
 .tab-arrow{flex: 0 0 24px; opacity: 0; transform: translate(0,0); transition: all 0.5s ease;  color: var(--Orange); cursor: pointer;} 
 .tab-image{height: 100%;}
-.tab-text{min-height: 102px; cursor: pointer; transition: all 0.5s ease; background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: -10px; width: 100%; padding: 22px 24px 34px; overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;}
+.tab-text{min-height: 102px; cursor: pointer; transition: all 0.5s ease; color: var(--White); bottom: -10px; width: 100%; padding: 22px 24px 34px; overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;}
 .tab-text::-webkit-scrollbar { display: none; }
   
 .tab-list:hover .tab-text{bottom: 0;}
@@ -29,7 +29,6 @@ ul.tab-links > li > a.active i{font-size: 14px;}
 .tab-text h2 a{color: var(--White);}
 .tab-text h2 a:hover{color: var(--Orange);}
 .tab-text span{font-size: 1rem; color: var(--Light-Blue); line-height: 1.5rem;}
-.tab-image img{border-radius: 24px;}
 
 .tab-desc{max-height: 0; overflow: hidden;}
 
