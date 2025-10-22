@@ -50,9 +50,9 @@ p a:hover{
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .common-intro-main{padding: 45px 0 23px; display: block;}
-    .common-intro-btns{padding-top: 6px; display: block;}
+    /* .common-intro-btns{padding-top: 6px; display: block;}
     .common-intro-btns .button{width: 100%; text-align: center;}
-    .common-intro-btns a.text-link{margin-top: 15px;}
+    .common-intro-btns a.text-link{margin-top: 15px;} */
     .common-intro-line{width: 100%; height: 1px; top: 0; left: 0;}
     .common-intro-head:not(:last-child){padding-bottom: 62px;}
     .common-intro-title, .common-intro-subtitle{font-size: 18px; line-height: 22.5px;}
