@@ -48,8 +48,10 @@
 
 
 @media only screen and (max-width: 1023px) and (min-width: 760px){
-    .scrl-explainer-main{ gap: 40px; padding: 60px 0 68px;}
-     .scrl-explainer-card{flex: 0 0 200px;}
+    .scrl-explainer-main{ gap: 32px; padding: 60px 0 68px;}
+    .scrl-explainer-segments{gap: 32px;}
+     .scrl-explainer-card{flex: 0 0 240px;}
+     .scrl-explainer-inner .h3{font-size: 28px; line-height: 36px;}
 }
 @media only screen and (max-width: 759px) and (min-width: 560px){
     .scrl-explainer-main{gap: 31px; padding: 40px 0 40px; flex-direction: column;}
