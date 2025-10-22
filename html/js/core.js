@@ -5,7 +5,7 @@ import { swiper, workSwiper, imageSwiper } from './modules/swiper';
 import { tabHandler } from './modules/tabSection';
 import { trustBy } from './modules/trustBySlider';
 import { accordion } from './modules/accordion';
-import { youtube, vimeo } from './modules/popup';
+import { youtube, vimeo, video } from './modules/popup';
 
 document.addEventListener('DOMContentLoaded', function () {
   counter.init();
@@ -18,5 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
   accordion.init();
   youtube.init();
   vimeo.init();
+  video.init();
   imageSwiper.init();
 });

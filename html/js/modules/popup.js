@@ -17,8 +17,15 @@ class Popup {
           type: 'inline',
         });
       }
+      if (ele.dataset.type === 'video') {
+        Fancybox.bind('.popup-video', {
+          type: 'inline',
+          src: ele.getAttribute('href'),
+        });
+      }
     });
   }
 }
 export const youtube = new Popup('.popup-youtube');
 export const vimeo = new Popup('.popup-vimeo');
+export const video = new Popup('.popup-video');
