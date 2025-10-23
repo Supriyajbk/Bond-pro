@@ -2,7 +2,7 @@ import { anime } from './modules/animate';
 import { counter } from './modules/counter';
 import { menu } from './modules/menu';
 import { swiper, workSwiper, imageSwiper } from './modules/swiper';
-// import { tabHandler } from './modules/tabSection';
+import { tabHandler } from './modules/tabSection';
 import { trustBy } from './modules/trustBySlider';
 import { accordion } from './modules/accordion';
 import { youtube, vimeo, video } from './modules/popup';
