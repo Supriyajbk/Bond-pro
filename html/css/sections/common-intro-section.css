@@ -21,9 +21,9 @@ p a:hover{
     color: var(--Fuschia);
 }
 
-.common-intro-text p{margin-bottom: 21px;}
+.common-intro-text p{margin-bottom: 21px; }
 .common-intro-title{color: var(--Fuschia);}
-.common-intro-subtitle{margin-bottom: 29px;}
+.common-intro-subtitle{margin-bottom: 29px; line-height: 150%;}
 .common-intro-btns{gap: 16px; padding-top: 20px;}
 .common-intro-btns a.text-link svg{width: 14px; height: 14px; right: 2px;}
 
