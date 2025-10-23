@@ -63,11 +63,13 @@ h2.page-title{margin-top: 2rem;}
   .post-feature-text h2{display: -webkit-box; -webkit-line-clamp: 3; text-overflow: ellipsis; overflow: hidden; -webkit-box-orient: vertical; }
 }
 @media screen and (max-width: 1023px) and (min-width: 760px){
-  .feature-post-main{gap: 40px; padding: 80px 0 0;}
-  .post-feature-rows{flex: 100%; gap: 16px;}
-  .post-feature-row{flex: 0 0 calc(50% - 8px)}
+    .feature-post-wrap{padding: 48px 0 46px;}
+  .feature-post-title h1{font-size: 40px;}
+  .feature-post-main{gap: 40px; padding: 20px 0 0;}
+  .post-feature-rows{flex: 100%; gap: 32px;}
+  .post-feature-row{flex: 0 0 calc(50% - 16px)}
 }
-@media screen and (max-width: 767px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 200px){
   .feature-post-wrap{padding: 28px 0 26px;}
   .feature-post-main{padding: 9px 0 0; display: block;}
   .feature-post-text{padding: 32px;}

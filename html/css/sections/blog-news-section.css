@@ -36,8 +36,7 @@ ul.blog-categories > li > a:hover{
 
 }
 
-.blog-news-text{padding: 32px;}
-.blog-news-text h2{margin-bottom: 10px;}
+
 .blog-news-text p{margin-bottom: 22px;}
 
 
@@ -64,12 +63,13 @@ span.date{letter-spacing: 1.4px; flex: 1;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .blog-news-main{padding: 80px 0;}
-    .blog-news-title{flex: 1;}
     .blog-news-row{gap: 40px;}
     .blog-news-list{flex: 0 0 calc(33.333333333333% - 30px);}
 }
 @media only screen and (min-width: 760px){
-    
+    .blog-news-title{flex: 1;}
+    .blog-news-text{padding: 32px;}
+    .blog-news-text h2{margin-bottom: 10px;}
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
    
@@ -80,12 +80,21 @@ span.date{letter-spacing: 1.4px; flex: 1;}
     .blog-news-list{flex: 0 0 calc(50% - 14px);}
 }
 @media screen and (max-width: 759px) and (min-width: 0px){
-    .blog-news-main{padding: 32px 0;}
+    .blog-news-main{padding: 27px 0 28px;}
     .blog-news-row{display: block;}
-    .blog-news-head{display: block;}
+    .blog-news-head{display: block; padding-bottom: 28px;}
     .blog-news-title{padding-bottom: 20px;}
     .blog-news-title h2{font-size: 24px; line-height: 30px;}
     .blog-news-srch input{padding: 12px 16px; font-size: 14px; line-height: 19px;}
+    ul.blog-categories{width: calc(100% + 28px); flex-wrap: nowrap; overflow: auto; -ms-overflow-style: none; scrollbar-width: none; }
+    ul.blog-categories::-webkit-scrollbar { display: none; }
+    ul.blog-categories > li > a{font-size: 14px; line-height: 21px; white-space: nowrap;}
+    .blog-news-list:not(:last-child){margin-bottom: 40px;}
+    .blog-news-thumb img{min-height: 450px;}
+    .blog-news-text{padding: 20px;}
+    .blog-news-text h2{margin-bottom: 8px;}
+    .blog-news-desc{font-size: 14px; line-height: 21px;}
+    .blog_load_more{margin-top: 28px;}
 }
 
 
