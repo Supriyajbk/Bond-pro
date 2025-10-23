@@ -1,5 +1,3 @@
-'use strict';
-
 class TabHandler {
   constructor(tabSelector, tabTextSelector, tabArrowSelector) {
     this.tabSelector = tabSelector || '.tab-text';
@@ -128,6 +126,4 @@ class TabHandler {
       .classList.add('open');
   }
 }
-
-// Initialize the TabHandler class
-// const tabHandler = new TabHandler();
+export const tabHandler = new TabHandler();

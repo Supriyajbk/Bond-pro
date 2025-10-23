@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
   menu.init();
   swiper.init();
   workSwiper.init();
-  // tabHandler.init();
+  tabHandler.init();
   trustBy.slider();
   accordion.init();
   youtube.init();
