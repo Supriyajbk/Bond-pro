@@ -17,6 +17,15 @@
 @media screen and (min-width: 1024px){
     .content-art-main{gap: 80px; padding: 40px 0 80px;}
     .content-art-text{flex: 0 0 512px;}
+}
+@media screen and (min-width: 760px){
+    .content-art-main{flex-direction: row-reverse;}
     .content-art-image{flex: 1;}
 }
-
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .content-art-main{gap: 40px; padding: 20px 0 60px;}
+    .content-art-text{flex: 0 0 312px;}
+}
+@media only screen and (max-width: 759px) and (min-width: 0px){
+    .content-art-main{padding: 28px 0; display: block;}
+}

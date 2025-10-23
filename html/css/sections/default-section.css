@@ -4,7 +4,7 @@
 
 ul.aside-links { margin: 0 0 40px; }
 ul.aside-links > li { margin: 0; }
-ul.aside-links > li > a { gap: 10px; border-bottom: 1px solid var(--Elevated); padding: 12px 0 12px; font-weight: 700; color: var(--Foreground); }
+ul.aside-links > li > a { gap: 10px; border-bottom: 1px solid var(--Elevated); padding: 12px 0 12px; color: var(--Foreground); }
 ul.aside-links > li > a:hover{color: var(--Fuschia)}
 ul.aside-links > li:before{display: none;}
 

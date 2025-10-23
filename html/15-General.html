@@ -87,7 +87,7 @@
       </div>
   </header>
   <main class="site-main-cover"><!-- site starts here -->
-    <section class="default-banner-section relative">
+    <section class="default-banner-section relative"> <!-- no_banner_img -->
       <div class="default-banner-bg background-bg o-hidden">
         <picture class="object-fit">
           <source srcset="images/analytics-banner-bg@2x.jpg" media="(min-width:760px)">
@@ -370,37 +370,15 @@
 
       </div>
     </section>
-    <section class="midstream-section foreground-bg o-hidden">
-      <div class="container">
-        <div class="midstream-main flex flex-vcenter">
-          <div class="midstream-images">
-            <div class="midstream-thumbs relative">
-              <div class="midstream-thumb midstream-thumb1 absolute"><img src="images/brand-thumb-one@2x.png" alt="">
-              </div>
-              <div class="midstream-thumb midstream-thumb2 absolute"><img src="images/brand-thumb-two@2x.png" alt="">
-              </div>
-              <div class="midstream-thumb midstream-thumb3 absolute"><img src="images/brand-thumb-three@2x.png" alt="">
-              </div>
-              <div class="midstream-thumb midstream-thumb4 absolute"><img src="images/brand-thumb-four@2x.png" alt="">
-              </div>
-              <div class="midstream-thumb midstream-thumb5 absolute"><img src="images/brand-thumb-five@2x.png" alt="">
-              </div>
-              <div class="midstream-thumb midstream-thumb6 absolute"><img src="images/brand-thumb-six@2x.png" alt="">
-              </div>
-              <div class="midstream-thumb midstream-thumb7 absolute"><img src="images/brand-thumb-seven@2x.png" alt="">
-              </div>
-              <div class="midstream-thumb midstream-thumb8 absolute"><img src="images/brand-thumb-eight@2x.png" alt="">
-              </div>
-              <div class="midstream-thumb midstream-thumb9 absolute"><img src="images/brand-thumb-nine@2x.png" alt="">
-              </div>
-              <div class="midstream-thumb midstream-thumb10 absolute"><img src="images/brand-thumb-ten@2x.png" alt="">
-              </div>
-            </div>
-          </div>
+    <section class="midstream-section relative o-hidden">
+      <div class="foreground-bg midstream-bg background-bg"></div>
+      <div class="container mobile-0">
+        <div class="midstream-main flex relative">
           <div class="midstream-text inverted">
             <span class="optional-text">MIDSTREAM CTA</span>
             <h2>We help the world’s biggest brands turn every moment into <span>lasting</span> connection<span>.</span>
             </h2>
+
             <div class="btn-wrap flex flex-vcenter">
               <a href="#" class="button btn-hover-white flex flex-vcenter w-fit">Optional link</a>
               <a href="#" class="text-link white flex w-fit">Secondary link
@@ -411,6 +389,12 @@
                 </svg>
               </a>
             </div>
+          </div>
+          <div class="midstream-images absolute">
+            <picture class="object-fit">
+              <!-- <source srcset='images/midstream@2x.png' media='(min-width: 760px)' type='image/jpeg'> -->
+              <img src='images/midstream@2x.png' alt=''>
+            </picture>
           </div>
         </div>
       </div>
@@ -439,7 +423,7 @@
             <div class="video-main">
               <div class="video-image relative">
                 <picture class="video-thumb ">
-                  <source srcset="images/perspective-default-thumb@2x.jpg" media="(min-width: 744px)" type="image/webp">
+                  <source srcset="images/perspective-default-thumb@2x.jpg" media="(min-width: 760px)" type="image/webp">
                   <img src="images/video-mob-thumb@2x.jpg" alt="careers-video-thumb">
                 </picture>
                 <div class="play-btn-main flex flex-center ">
@@ -461,6 +445,7 @@
                 </div>
               </div>
             </div>
+
 
             <p>Thumbnail background stroke undo pen layer team align object arrange. Strikethrough thumbnail thumbnail
               bullet invite library background share. Mask figma scale image style editor align select main. Star draft
@@ -667,18 +652,18 @@
             <div class="asidebar-nav">
               <div class="h5">Optional Sidebar Links</div>
               <hr data-animation="width-0-100" class="visible width-0-100">
-              <ul class="aside-links">
-                <li><a href="#" class="fs-18 flex flex-vcenter">A page in this section<em
+              <ul class="aside-links heading-font">
+                <li><a href="#" class="fs-16 lh-24 f-600 flex flex-vcenter">A page in this section<em
                       class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></em></a></li>
-                <li><a href="#" class="fs-18 flex flex-vcenter">Another page in this section<em
+                <li><a href="#" class="fs-16 lh-24 f-600 flex flex-vcenter">Another page in this section<em
                       class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></em></a></li>
-                <li><a href="#" class="fs-18 flex flex-vcenter">A third page in this section<em
+                <li><a href="#" class="fs-16 lh-24 f-600 flex flex-vcenter">A third page in this section<em
                       class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></em></a></li>
-                <li><a href="#" class="fs-18 flex flex-vcenter">A third page in this section<em
+                <li><a href="#" class="fs-16 lh-24 f-600 flex flex-vcenter">A third page in this section<em
                       class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></em></a></li>
               </ul>
 
-              <div class="aside-block">
+              <div class="aside-block heading-font fs-16 lh-24">
                 <h5>Optional sidebar call to action panel.</h5>
                 <p>Ellipse asset align reesizing editor main. Style ellipse polygon layout align editor. Image link
                   scrolling community flatten thumbnail underline.</p>
@@ -1060,7 +1045,7 @@
           </li>
           <li class="mb-0">ABOUT US
             <ul class="m-0 no-disc flex flex-col">
-              <li class="mb-0"><a href="">Why Bond Is Better</a></li>
+              <li class="mb-0"><a href="10-Why-Bond-Is-Better.html">Why Bond Is Better</a></li>
               <li class="mb-0"><a href="11-News.html">News</a></li>
               <li class="mb-0"><a href="12-Careers.html">Careers</a></li>
               <li class="mb-0"><a href="14-Contact.html">Contact</a></li>
