@@ -448,8 +448,15 @@ span.dot.fuschia{background-color: var(--Fuschia);}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
 
+    /*-- Dont Change edited Oct 23 --*/
+    .h1, h1{font-size: 40px; line-height: 125%;}
+    .h2, h2{font-size: 32px; line-height: 125%;}
     .h3, h3{font-size: 24px; line-height: 30px;}
     .h4, h4{font-size: 20px; line-height: 25px;}
+    .h5, h5{font-size: 18px; line-height: 27px;}
+    .h6, h6{font-size: 16px; line-height: 24px;}
+    /*-- Dont Change edited Oct 23 --*/
+
 
     .btn-wrap{display: block;}
     .btn-wrap .button{width: 100%; justify-content: center;}
