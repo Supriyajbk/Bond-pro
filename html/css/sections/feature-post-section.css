@@ -31,7 +31,6 @@ ul.post-categories.white > li{background-color: var(--Fuschia); color: var(--Whi
 .feature-post-head h1{flex: 1;}
 .feature-post-link{width: 64px; height: 64px;}
 
-.post-feature-row{padding: 8px;}
 .post-feature-text h2{margin: 0;}
 .post-feature-text h2 a:hover{color: var(--Fuschia);}
 
@@ -51,6 +50,7 @@ h2.page-title{margin-top: 2rem;}
     .feature-post-image{flex: 0 0 840px;}
     
     .post-feature-rows{flex: 1; gap: 24px; flex-direction: column;}
+.post-feature-row{padding: 8px;}
     
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
@@ -68,8 +68,13 @@ h2.page-title{margin-top: 2rem;}
   .post-feature-row{flex: 0 0 calc(50% - 8px)}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
-  .feature-post-main{gap: 20px; padding: 40px 0 0;}
-  .feature-post-text{padding: 24px;}
+  .feature-post-wrap{padding: 28px 0 26px;}
+  .feature-post-main{padding: 9px 0 0; display: block;}
+  .feature-post-text{padding: 32px;}
   .feature-post-text .h4{font-size: 1.5rem; letter-spacing: -.24px; line-height: 1.875rem;}
-  .post-feature-rows{flex: 100%; gap: 16px;}
+  .feature-post-thumb img{min-height: 449px;}
+  .feature-post-head h1{font-size: 24px; line-height: 30px;}
+  .post-feature-rows{display: block; padding: 28px 0 0;}
+  .post-feature-row:not(:last-child){margin-bottom: 24px;}
+  .feature-post-lmbl-link{padding-top: 28px;}
 }
