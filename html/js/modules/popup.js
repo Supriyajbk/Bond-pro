@@ -2,11 +2,11 @@ import { Fancybox } from '@fancyapps/ui';
 
 class Popup {
   constructor(selector) {
-    this.video = document.querySelectorAll(selector);
+    this.eles = document.querySelectorAll(selector);
   }
   init() {
-    if (this.video.length === 0) return;
-    this.video.forEach((ele) => {
+    if (this.eles.length === 0) return;
+    this.eles.forEach((ele) => {
       if (ele.dataset.type === 'youtube') {
         Fancybox.bind('.popup-youtube', {
           type: 'inline',
@@ -17,12 +17,9 @@ class Popup {
           type: 'inline',
         });
       }
-      if (ele.dataset.type === 'video') {
-        Fancybox.bind('.popup-video', {
-          type: 'inline',
-          src: ele.getAttribute('href'),
-        });
-      }
+      Fancybox.bind('.popup-video', {
+        // Your custom options
+      });
     });
   }
 }

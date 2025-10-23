@@ -21,6 +21,7 @@
 @media screen and (min-width: 760px){
     .content-art-main{flex-direction: row-reverse;}
     .content-art-image{flex: 1;}
+    .content-art-text .accordion-desc p{margin-bottom: 18px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .content-art-main{gap: 40px; padding: 20px 0 60px;}
@@ -28,4 +29,6 @@
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .content-art-main{padding: 28px 0; display: block;}
+    .content-art-text .accordion-main{padding: 40px 0;}
+
 }
