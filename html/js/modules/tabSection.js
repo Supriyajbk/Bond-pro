@@ -130,4 +130,4 @@ class TabHandler {
 }
 
 // Initialize the TabHandler class
-const tabHandler = new TabHandler();
+// const tabHandler = new TabHandler();
