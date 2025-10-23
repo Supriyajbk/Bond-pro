@@ -1,0 +1,19 @@
+
+
+
+
+
+
+.faqs-image{max-width: 168px; margin-bottom: 32px;}
+
+
+
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .faqs-main{gap: 80px; padding: 80px 0 86px;}
+    .faqs-left{flex: 1; padding-top: 23px;}
+    .faqs-right{flex: 0 0 400px; padding: 32px;}
+    .faqs-left .accordion-main{padding: 0;}
+    .faqs-bg{height: 64px; top: 0; bottom: auto;}
+}

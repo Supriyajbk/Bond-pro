@@ -22,6 +22,7 @@
     .optional-repeater-text{flex: 0 0 calc(50% - 40px);}
     .optional-repeater-image{flex: 0 0 calc(50% - 40px);}
     .optional-repeater-thumb{max-width: 543px; max-height: 543px;}
+    body.page-template-loyalty-report .optional-repeater-thumb{max-width: 566px; max-height: 566px;}
     body.page-template-careers .optional-repeater-thumb{max-width: 500px; max-height: 500px; margin-left: auto;}
     .optional-repeater-main:nth-child(even) .optional-repeater-thumb{margin-left: auto;}
     .optional-repeater-pattern{right: -353px;}
