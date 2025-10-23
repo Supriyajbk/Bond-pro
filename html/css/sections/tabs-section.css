@@ -45,13 +45,14 @@ ul.tab-address > li > a i{color: var(--Light-Blue);}
 .tab-section.no-about-intro .tabs-main{padding: 80px 0;}
 
 .tab-image:after{content: "";
-  width: 100%;
-  height: 134px;
-  position: absolute;
-  left: 0;
+ background: linear-gradient(0deg,rgba(0,0,0,.2),rgba(0,0,0,.1)),linear-gradient(180deg,transparent 67.58%,#1b1a1e 90%);
   bottom: 0;
+  content: "";
   display: block;
-  background: linear-gradient(0deg, rgba(0 0 0 / 20%) 0%, rgba(0 0 0 / 20%) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.00) 12.58%, #1B1A1E 90%);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
   z-index: 1;}
 
 /*-- media css starts here --*/
