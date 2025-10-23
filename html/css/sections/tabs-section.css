@@ -14,7 +14,10 @@ ul.tab-links > li > a.active i{font-size: 14px;}
 .tab-head::after { color: var(--Fuschia); content: "\f077"; display: block; font-family: Font Awesome\ 7 Pro; font-size: 2rem; font-weight: 300; line-height: 100%; opacity: 1; position: relative; transition: all .5s ease; bottom: 0; }
 
 /* .tab-list:hover .tab-head::after{opacity: 1; transform: translate(-2px, -50%);} */
-.tab-open .tab-head::after{opacity: 0 !important;}
+.tab-open .tab-head::after{content: "\f078"}
+.tab-open .tab-head{margin-bottom: 16px; align-items: flex-start;}
+.tab-open{background-color: var(--Foreground); opacity: 0.75; }
+.tab-desc a.text-link{color: var(--White); margin-top: auto;}
 
 .tab-arrow{flex: 0 0 24px; opacity: 0; transform: translate(0,0); transition: all 0.5s ease;  color: var(--Orange); cursor: pointer;} 
 .tab-image{height: 100%;}
@@ -27,12 +30,12 @@ ul.tab-links > li > a.active i{font-size: 14px;}
 .tab-open .tab-arrow{opacity: 1;}
 .tab-open .tab-arrow i::before{content: "\f175";}
 
-.tab-text h2{font-size: 1.5rem; line-height: 1.875rem; color: var(--White); margin-bottom: 0;}
+.tab-text h2{font-size: 28px; line-height: 125%; color: var(--White); margin-bottom: 0;}
 .tab-text h2 a{color: var(--White);}
 .tab-text h2 a:hover{color: var(--Orange);}
-.tab-text span{font-size: 1rem; color: var(--Light-Blue); line-height: 1.5rem;}
+.tab-title span{font-size: 18px; line-height: 150%; font-family: var(--text-font); color: var(--White-75);}
 
-.tab-desc{max-height: 0; overflow: hidden;}
+.tab-desc{max-height: 0; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between;}
 
 ul.tab-address{margin: 26px 0 23px; gap: 19px; flex-direction: column;}
 ul.tab-address > li{margin: 0;}
