@@ -32,6 +32,8 @@
     .trust-by-title{margin-bottom: 21px;}
     .trust-by-title h2{font-size: 18px; line-height: 125%; }
     .trust-by-slider-row{gap: 20px;}
-    .trust-by-slide{flex: 0 0 128px;}   
+    .trust-by-slide{flex: 0 0 128px;} 
+    
+    body.page-template-about .trust-by-main { padding: 40px 0 32px; }
 }
 
