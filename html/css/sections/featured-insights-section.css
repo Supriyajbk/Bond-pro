@@ -4,17 +4,34 @@ ul.category-date{gap: 15px; padding-bottom: 24px;}
 ul.category-date li{letter-spacing: 1.4px;}
 ul.category-date li > a{padding: 6px 12px; display: block; border-radius: 16px; background-color: var(--White); color: var(--Fuschia);} 
 .featured-insights-overlay{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.90)); }
+.featured-insights-thumb img{min-height: 449px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .featured-insights-main{gap: 80px; padding: 80px 0;}
     .featured-insights-head{flex: 0 0 400px; padding: 40px 0 20px;}
-    .featured-insights-image{flex: 1;}
+    .featured-insights-thumb img{min-height: 512px;}
     .featured-insights-text{padding: 80px 40px 21px;}
 }
+@media only screen and (min-width: 760px){
+    .featured-insights-main{padding: 80px 0;}
+    .featured-insights-image{flex: 1;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .featured-insights-main{gap: 40px;}
+    .featured-insights-head{flex: 0 0 324px; padding: 40px 0 20px;}
+    .featured-insights-head h1{font-size: 28px;}
+    .featured-insights-text{padding: 80px 32px 21px;}
+    .featured-insights-text h2{font-size: 28px;}
+}
+@media screen and (max-width: 759px) and (min-width: 0px){
+    .featured-insights-main{display: block; padding: 28px 0 28px;}
+    .featured-insights-head{padding-bottom: 10px;}
+    .featured-insights-head span.optional-text{margin-bottom: 18px;}
+    .featured-insights-text h2:last-child{margin-bottom: 0;}
+    .featured-insights-text{padding: 28px 16px 16px;}
 
-
-
+}
 
 
 
