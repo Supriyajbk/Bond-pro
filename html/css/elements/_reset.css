@@ -423,6 +423,7 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
     .container.x-lg{max-width: 1360px;}
+    .container.x-sm{max-width: 880px;}
 
     .hide-desktop{display: none;}
     span.hide-desktop{display: none;}

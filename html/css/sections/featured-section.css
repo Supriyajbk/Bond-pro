@@ -25,7 +25,7 @@ body.page-template-career  .featured-list p:last-of-type {
 
 
 @media only screen and (min-width: 1024px) {
-  body.page-template-about .feature-icon{width: 80px; height: 80px;}
+  body.page-template-about .feature-icon, body.page-template-perspective-post .feature-icon{width: 80px; height: 80px;}
 
   body.page-template-career .featured-section:nth-child(4) .featured-main{padding-top: 0;}
   body.page-template-career .featured-section:nth-child(6) .featured-main{padding-bottom: 46px;}
