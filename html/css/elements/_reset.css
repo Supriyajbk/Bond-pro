@@ -48,7 +48,7 @@ blockquote dl dt::before{background-color: var(--White);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 16px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 10px;}
-ul > li::before{top: 50%; left: -13px; transform: translateY(-50%); width: 4px; height: 4px; border-radius: 50%; opacity: 1; background-color: var(--Fuschia); content: ""; position: absolute;} 
+ul > li::before{top: 12px; left: -13px; width: 4px; height: 4px; border-radius: 50%; opacity: 1; background-color: var(--Fuschia); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 28px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}

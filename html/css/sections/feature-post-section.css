@@ -30,6 +30,7 @@ ul.post-categories.white > li{background-color: var(--Fuschia); color: var(--Whi
 
 .feature-post-head h1{flex: 1;}
 .feature-post-link{width: 64px; height: 64px;}
+.feature-post-link a:hover i{transform: translateX(4px);}
 
 .post-feature-text h2{margin: 0;}
 .post-feature-text h2 a:hover{color: var(--Fuschia);}
