@@ -34,6 +34,7 @@
 /*--  08th Perspectives Post page --*/
 @import url('./sections/perspectives-banner-section.css');
 @import url('./sections/perspective-default.css');
+@import url('./sections/related-perspectives-section.css');
 
 /*--  09th About page --*/
 @import url('./sections/tabs-section.css');
