@@ -13,7 +13,7 @@ ul.aside-links > li:before{display: none;}
 
 .video-main{padding: 36px 0 70px;}
 
-.people-saying{background-color: var(--Foreground); margin-bottom: 70px;}
+.people-saying{margin-bottom: 70px;}
 .people-saying-main{padding: 64px 64px 70px;}
 .people-saying-main .h4{color: var(--White); margin-bottom: 60px;}
 .people-saying-main .h4 span{color: var(--Fuschia);}
