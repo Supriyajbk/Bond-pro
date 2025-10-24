@@ -28,9 +28,16 @@
     .optional-repeater-pattern{right: -353px;}
     .optional-repeater-main:nth-child(even) .optional-repeater-pattern{left: -353px; right: auto;}
     body.page-template-careers .optional-repeater-main:nth-child(odd) .optional-repeater-pattern{left: -253px; right: auto;}
+
+    body.page-template-service-line .optional-repeater-thumb { max-height: 423px; max-width: 423px; margin-left: auto; }
+    body.page-template-service-line .optional-repeater-main:nth-child(2n) .optional-repeater-thumb { margin-right: auto; margin-left: inherit;}
+    body.page-template-service-line .optional-repeater-pattern{left: -129px!important;}
+    body.page-template-service-line .optional-repeater-main:nth-child(even) .optional-repeater-pattern{right: -129px!important; left: auto!important;}
 }
 @media only screen and (min-width: 760px){
     .optional-repeater-main:nth-child(odd){flex-direction: row-reverse;}
+    body.page-template-service-line  .optional-repeater-main:nth-child(even) { flex-direction: row-reverse; }
+    body.page-template-service-line  .optional-repeater-main:nth-child(odd) { flex-direction: row; }
     body.page-template-careers .optional-repeater-main:nth-child(odd){flex-direction: row;}
     body.page-template-careers .optional-repeater-text h2{margin-bottom: 21px;}
     body.page-template-careers .optional-repeater-text p{margin-bottom: 26px;}
