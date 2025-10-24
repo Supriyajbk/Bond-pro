@@ -17,15 +17,12 @@
 .feature-icon figure img {mix-blend-mode: multiply;}
 
 body.page-template-default .featured-section{background-color: var(--Elevated);}
+body.page-template-career  .featured-list p:last-of-type { margin-bottom: 0; }
 
-body.page-template-career  .featured-list p:last-of-type {
-  margin-bottom: 0;
-}
-
-
+.featured-text ul{margin: 0 0 26px 13px;}
 
 @media only screen and (min-width: 1024px) {
-  body.page-template-about .feature-icon, body.page-template-perspective-post .feature-icon{width: 80px; height: 80px;}
+  body.page-template-about .feature-icon, body.page-template-perspective-post .feature-icon,body.page-template-service-line .feature-icon{width: 80px; height: 80px;}
 
   body.page-template-career .featured-section:nth-child(4) .featured-main{padding-top: 0;}
   body.page-template-career .featured-section:nth-child(6) .featured-main{padding-bottom: 46px;}

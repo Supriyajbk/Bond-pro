@@ -31,6 +31,8 @@
 }
 @media only screen and (min-width: 760px){
     .optional-repeater-main:nth-child(odd){flex-direction: row-reverse;}
+    /* body.page-template-service-line  .optional-repeater-main:nth-child(even) { flex-direction: row-reverse; }
+    body.page-template-service-line  .optional-repeater-main:nth-child(odd) { flex-direction: row; } */
     body.page-template-careers .optional-repeater-main:nth-child(odd){flex-direction: row;}
     body.page-template-careers .optional-repeater-text h2{margin-bottom: 21px;}
     body.page-template-careers .optional-repeater-text p{margin-bottom: 26px;}
