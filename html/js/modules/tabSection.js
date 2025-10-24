@@ -1,5 +1,3 @@
-'use strict';
-
 class TabHandler {
   constructor(tabSelector, tabTextSelector, tabArrowSelector) {
     this.tabSelector = tabSelector || '.tab-text';
@@ -36,10 +34,10 @@ class TabHandler {
   bindEvents() {
     this.tabTexts.forEach((tabText) => {
       const tabHead = tabText.querySelector('.tab-head');
-      const tabArrow = tabHead.querySelector(this.tabArrowSelector);
+      // const tabArrow = tabHead.querySelector(this.tabArrowSelector);
 
       tabText.addEventListener('click', (e) => this.onTabClick(e, tabText));
-      tabArrow.addEventListener('click', (e) => this.onArrowClick(e, tabText));
+      // tabArrow.addEventListener('click', (e) => this.onArrowClick(e, tabText));
     });
 
     document.addEventListener('click', (e) => this.onDocumentClick(e));
@@ -128,6 +126,4 @@ class TabHandler {
       .classList.add('open');
   }
 }
-
-// Initialize the TabHandler class
-// const tabHandler = new TabHandler();
+export const tabHandler = new TabHandler();
