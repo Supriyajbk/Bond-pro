@@ -65,10 +65,9 @@ class Slider {
     if (this.selector === '.events-carousel-slider') {
       this.swiper = new Swiper(this.element, {
         slidesPerView: 'auto',
-        centeredSlides: true,
         spaceBetween: 40,
-        loop: true,
-        cssMode: true,
+        speed: 1500,
+        loop: false,
         navigation: {
           nextEl: '.events-carousel-slider .swiper-button-next',
           prevEl: '.events-carousel-slider .swiper-button-prev',
