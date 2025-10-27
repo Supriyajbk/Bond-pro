@@ -7,7 +7,7 @@
 /* body .share-icons-main{min-height: 300px;} */
 body .share-icons{margin: 0; padding: 20px 0 20px;}
 body .share-icons div.st-animated{gap: 8px; display: flex; flex-wrap: nowrap; z-index: 1; flex: 1;}
-body .share-icons div.st-animated .st-btn{padding: 0 !important; margin: 0 !important; width: 100%; height: 56px !important; flex: 0 0 56px !important; min-width: 56px !important; min-height: 56px !important; position: relative; z-index: 1; display: flex !important; align-items: center; justify-content: center; transition: var(--b-transition); border-radius: 20px !important; color: var(--White); border: none !important; background: var(--White) !important; transition: var(--b-transition) !important;}
+body .share-icons div.st-animated .st-btn{padding: 0 !important; margin: 0 !important; width: 100%; height: 56px !important; flex: 0 0 56px !important; min-width: 56px !important; min-height: 56px !important; position: relative; z-index: 1; display: flex !important; align-items: center; justify-content: center; transition: var(--b-transition); border-radius: 20px !important; color: var(--White); border: none !important; background: transparent !important; transition: var(--b-transition) !important;}
 body .share-icons div.st-animated .st-btn[data-network="sharethis"]{background: var(--Muted-Ochre) !important;}
 body .share-icons div.st-animated .st-btn:hover{background: var(--Muted-Ochre) !important; color: var(--White) !important; top: 0 !important; opacity: 1 !important;}
 body .share-icons div.st-animated span.st-label{display: none !important;}
@@ -29,6 +29,7 @@ body .share-icons div.st-animated .st-btn[data-network="email"]:hover::after{bac
 
 body .share-icons div.st-animated img{display: none !important;}
 body .share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: 56px;}
+
 .share-inline-arrow{flex: 0 0 80px; opacity: 0.25;}
 
 
@@ -42,8 +43,11 @@ body.single-post .share-inline-arrow{padding: 35px 0 0 ;}
 body .share-icons div.st-animated{flex-direction: column;}
 }
 @media screen and (min-width: 1024px){
-    .post-video-aside body .share-icons{padding-top: 21px;}
+    body .share-icons{padding-top: 21px;}
+    body .share-icons #st-1{ flex-direction: row; display: flex; justify-content: flex-end;}
     body.page-template-default body .share-icons{margin: 55px 0 0;}
+
+
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     body .share-icons div.st-animated{justify-content: flex-start;}

@@ -9,3 +9,7 @@
 .loyalty-program-main .h3{font-size: 40px;}
 .loyalty-program-main .h3 span{color: var(--Fuschia);}
 
+.share-icon-main{padding: 20px;}
+.share-icon { height: 48px; width: 48px; font-size: 48px; font-weight: 300; color: var(--Fuschia)}
+.share-wrap .h4{margin-bottom: 0;}
+.share-wrap{gap: 20px; flex: 1}
