@@ -414,7 +414,7 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 
 
 .divider{gap: 33px; padding: 24px 0;}
-span.dot{ min-width: 6px; width: 6px; height: 6px; background: var(--Elevated); }
+span.dot{ min-width: 6px; width: 6px; height: 6px; background: var(--Elevated);}
 span.dot.fuschia{background-color: var(--Fuschia);}
 
 .btn-wrap{gap: 16px;}

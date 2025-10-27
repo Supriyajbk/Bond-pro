@@ -1,5 +1,5 @@
 
-.swiper-button-next, .swiper-button-prev{width: 80px; height: 80px; margin: 0; top: 50%; transform: translateY(-50%); background-color: var(--Fuschia); color: var(--White); transition: var(--b-transition);}
+.swiper-button-next, .swiper-button-prev{width: 80px; height: 80px; margin: 0; top: 50%; transform: translateY(-50%); background-color: var(--Fuschia); color: var(--White); transition: var(--transition-in-out);}
 .swiper-button-next::after, .swiper-button-prev::after{display: none;}
 .swiper-button-next:hover, .swiper-button-prev:hover{background-color: var(--Foreground); color: var(--Fuschia);}
 svg.swiper-navigation-icon{display: none;}

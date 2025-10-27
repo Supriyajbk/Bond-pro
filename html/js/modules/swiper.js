@@ -43,6 +43,7 @@ class Slider {
     if (this.selector === '.work-carousel-slider') {
       this.swiper = new Swiper(this.element, {
         slidesPerView: 'auto',
+        speed: 800,
         navigation:
           swiperNext && swiperPrev
             ? {
@@ -52,6 +53,12 @@ class Slider {
             : undefined,
         pagination: {
           el: swiperPagination,
+        },
+        breakpoints: {
+          760: {
+            speed: 1000,
+            slidesPerGroup: 2,
+          },
         },
       });
     }
