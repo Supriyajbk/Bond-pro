@@ -29,7 +29,7 @@
 
      body.page-template-service-line .trust-by-main { padding: 60px 0 60px; }
 }
-@media only screen and (max-width: 759px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 0px){
     .trust-by-main{padding: 0 0 22px;}
     .trust-by-title{margin-bottom: 21px;}
     .trust-by-title h2{font-size: 18px; line-height: 125%; }

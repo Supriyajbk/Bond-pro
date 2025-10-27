@@ -23,7 +23,7 @@
     .case-studies-cta-ellipse{width: 164px; height: 164px; top: 50%; transform: translateY(-50%); right: 0;}
 }
 
-@media screen and (max-width: 759px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 0px){
     .case-studies-cta-wrap{padding: 0 0 40px;}
     .case-studies-cta-main{padding: 20px; display: block;}
     .case-studies-cta-title{margin-bottom: 20px;}

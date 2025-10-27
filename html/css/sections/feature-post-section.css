@@ -7,12 +7,7 @@
 .feature-post-text{padding: 40px; width: 100%;}
 .feature-post-text h1{color: var(--White);}
 .feature-post-text h1:last-child{margin-bottom: 0;}
-.feature-post-text h1 a:hover{color: var(--Sky-Blue);}
-.feature-post-bg{min-height: 232px; top: auto; bottom: 0; 
-
-  background: linear-gradient(-180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 1));
-
-}
+.feature-post-bg{min-height: 232px; top: auto; bottom: 0; background: linear-gradient(-180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 1)); }
 
 
 
@@ -70,7 +65,7 @@ h2.page-title{margin-top: 2rem;}
   .post-feature-rows{flex: 100%; gap: 32px;}
   .post-feature-row{flex: 0 0 calc(50% - 16px)}
 }
-@media screen and (max-width: 759px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 0px){
   .feature-post-wrap{padding: 28px 0 26px;}
   .feature-post-main{padding: 9px 0 0; display: block;}
   .feature-post-text{padding: 32px;}

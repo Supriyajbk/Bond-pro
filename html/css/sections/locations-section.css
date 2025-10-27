@@ -36,7 +36,7 @@
 
 }
 
-@media screen and (max-width: 759px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 0px){
 .locations-main{padding: 20px 0 26px;}
 .locations-text{margin-bottom: 56px;}
 .locations-row{gap: 32px;}
