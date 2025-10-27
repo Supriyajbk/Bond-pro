@@ -350,13 +350,13 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 .elevated-bg{background-color: var(--Elevated);}
 .elevated-bg-72{background-color: var(--Elevated-72);}
+.black-bg{background-color: var(--Black);}
 .white-bg{background-color: var(--White);}
 .white-bg-50{background-color: var(--White-50);}
 .white-bg-80{background-color: var(--White-80);}
 .white-bg-90{background-color: var(--White-90);}
 .fuschia-bg{background-color: var(--Fuschia);}
 .dark-gray-bg{background-color: var(--Dark-Gray);}
-.gray-bg{background: var(--Background);}
 .gray-bg{background: var(--Background);}
 .foreground-bg{background-color: var(--Foreground);}
 .foreground-bg-72{background-color: var(--Foreground-72);}
@@ -402,6 +402,7 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 .pdetail-banner-video button{ border-radius: 9px; padding: 8px 11px 7px; }
 
 .backdrop-4{backdrop-filter: blur(4px);}
+.backdrop-6{backdrop-filter: blur(6px);}
 .backdrop-8{backdrop-filter: blur(8px);}
 .backdrop-12{backdrop-filter: blur(12px);}
 .backdrop-16{backdrop-filter: blur(16px);}

@@ -61,8 +61,25 @@ class Slider {
         },
       });
     }
+
+    if (this.selector === '.events-carousel-slider') {
+      this.swiper = new Swiper(this.element, {
+        slidesPerView: 'auto',
+        spaceBetween: 40,
+        speed: 1500,
+        loop: false,
+        navigation: {
+          nextEl: '.events-carousel-slider .swiper-button-next',
+          prevEl: '.events-carousel-slider .swiper-button-prev',
+        },
+        pagination: {
+          el: '.events-carousel-slider .swiper-pagination',
+        },
+      });
+    }
   }
 }
 export const swiper = new Slider('.carousel-slider');
 export const workSwiper = new Slider('.work-carousel-slider');
 export const imageSwiper = new Slider('.image-carousel-slider');
+export const eventSwiper = new Slider('.events-carousel-slider');

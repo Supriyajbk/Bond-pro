@@ -1,0 +1,30 @@
+
+
+.events-carousel-bg{opacity: 0.75;}
+.events-carousel-pos{padding: 32px;}
+.events-carousel-text{max-width: 600px; padding: 24px;}
+.events-carousel-text h2{margin-bottom: 5px; color: var(--Fuschia);}
+
+
+/*-- media css starts here --*/
+@media screen and (min-width: 1024px){
+    .events-carousel-main{padding: 80px 0 80px;}
+    .events-carousel-slide{width: 1220px; min-width: 1220px;}
+    .events-carousel-slider .swiper-button-prev{left: -60px;}
+    .events-carousel-slider .swiper-button-next{right: 0;}
+    .events-carousel-slide:not(.swiper-slide-active) { transform: scaleY(.91); }
+}
+@media screen and (min-width: 760px){
+    .events-carousel-head{padding-bottom: 47px;}
+    .events-carousel-title{flex: 1;}
+}
+
+
+
+
+
+
+
+
+
+
