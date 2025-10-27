@@ -19,10 +19,12 @@ ul.perspectives-category li > a{padding: 6px 12px; display: block; border-radius
     .perspectives-banner-text p{margin-bottom: 33px;}
     .perspectives-banner-btns{gap: 32px;}
 }
-@media only screen and (max-width: 759px) and (min-width: 0px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .perspectives-banner-main {padding: 172px 0 40px; display: block;}
     .perspectives-banner-text{color: var(--White-80);}
     .perspectives-banner-text p{margin-bottom: 24px;}
     .perspectives-banner-btns{display: block;}
     .perspectives-banner-btns .button:not(:last-child){margin-bottom: 16px;}
+
+    .perspectives-banner-bg picture img{min-height: 600px;}
 }

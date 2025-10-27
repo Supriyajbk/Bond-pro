@@ -44,9 +44,9 @@ body.page-template-perspective-post .custom-testimonial-main {padding: 40px 0!im
 body.page-template-perspective-post .custom-testimonial-quote {padding-bottom: 25px;}
 body.page-template-perspective-post .custom-testimonial-main { margin-bottom: 54px;}
 
-
+.share-icon-main{justify-content: space-between;gap: 10px;}
 .share-icon { color: var(--Foreground); font-size: 32px; }
 .share-wrap .h4{display: none;}
-.share-wrap { flex: 0 0 32px;}
+.share-wrap { flex: 0 0 32px; text-align: center;}
 
 }
