@@ -6,7 +6,7 @@
 
 
 
-
+.content-art-image:not(:first-child){display: none;}
 
 
 
@@ -20,7 +20,7 @@
 }
 @media screen and (min-width: 760px){
     .content-art-main{flex-direction: row-reverse;}
-    .content-art-image{flex: 1;}
+    .content-art-images{flex: 1;}
     .content-art-text .accordion-desc p{margin-bottom: 18px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){

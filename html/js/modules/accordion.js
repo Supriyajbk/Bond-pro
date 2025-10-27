@@ -13,7 +13,7 @@ class Accordion {
       const header = el.querySelector(this._aHeader);
       const content = el.querySelector(this._aContent);
 
-      header.addEventListener('click', () => {
+      header.addEventListener('click', (event) => {
         const isOpen = el.dataset.open === 'true';
 
         // close all
@@ -29,6 +29,16 @@ class Accordion {
           header.classList.add('open');
           content.style.maxHeight = `${content.scrollHeight}px`;
         }
+        // Event Listeners starts here
+        const $attr = event.target.closest('.accordion-list').dataset.content;
+        console.log(
+          document.querySelector(`.content-art-image[data-image="${$attr}"]`)
+        );
+        $(
+          document.querySelector(`.content-art-image[data-image="${$attr}"]`)
+        ).fadeIn(800);
+
+        // Event Listeners ends here
       });
     });
 
