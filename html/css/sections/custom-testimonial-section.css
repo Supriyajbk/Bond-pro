@@ -11,9 +11,11 @@ figure.custom-testimonial-thumb{width: 80px; height: 80px;}
 .custom-testimonial-profile{flex: 1; gap: 12px;}
 .custom-testimonial-profile p{padding-left: 12px; border-left: 1px solid var(--Fuschia);}
 
-
-
-
+body.page-template-perspective-post .custom-testimonial-main { padding: 64px 0; margin-bottom: 64px;}
+ body.page-template-perspective-post .custom-testimonial-section{background-color: var(--Foreground);}
+body.page-template-perspective-post .custom-testimonial-text h2{color: var(--White); font-size: 31px;}
+body.page-template-perspective-post .custom-testimonial-profile span{color: var(--White)}
+body.page-template-perspective-post .custom-testimonial-profile p {color: var(--White);}
 
 
 
