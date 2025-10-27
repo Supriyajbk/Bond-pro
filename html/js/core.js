@@ -7,6 +7,7 @@ import { accordion } from './modules/accordion';
 import { youtube, vimeo, video } from './modules/popup';
 import { swiper, workSwiper, imageSwiper, eventSwiper } from './modules/swiper';
 import { divider } from './modules/divider';
+import { pattern } from './modules/pattern';
 
 document.addEventListener('DOMContentLoaded', function () {
   counter.init();
@@ -26,4 +27,5 @@ document.addEventListener('DOMContentLoaded', function () {
   imageSwiper.init();
   eventSwiper.init();
   divider.load();
+  pattern.load();
 });
