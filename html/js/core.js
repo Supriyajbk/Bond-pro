@@ -6,8 +6,7 @@ import { trustBy } from './modules/trustBySlider';
 import { accordion } from './modules/accordion';
 import { youtube, vimeo, video } from './modules/popup';
 import { swiper, workSwiper, imageSwiper, eventSwiper } from './modules/swiper';
-import { divider } from './modules/divider';
-import { pattern } from './modules/pattern';
+import { divider, pattern } from './modules/divider';
 
 document.addEventListener('DOMContentLoaded', function () {
   counter.init();

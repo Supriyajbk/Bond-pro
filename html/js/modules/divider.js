@@ -6,6 +6,7 @@ class Divider {
     if (this.eles.length === 0) return;
     this.eles.forEach((ele) => {
       Array.from(ele.children).forEach((child) => {
+        child.style.fill = '#F0F0F4';
         child.classList.remove('fuschia');
       });
 
@@ -16,6 +17,7 @@ class Divider {
       const animate = () => {
         clearId = setInterval(() => {
           const random = Math.floor(Math.random() * total);
+          ele.children[random].style.fill = '#D0009E';
           ele.children[random].classList.add('fuschia');
 
           activeCount = Array.from(ele.children).filter((child) =>
@@ -24,11 +26,12 @@ class Divider {
 
           if (activeCount > 4) {
             Array.from(ele.children).forEach((child) => {
+              child.style.fill = '#F0F0F4';
               child.classList.remove('fuschia');
             });
             activeCount = 0;
           }
-        }, 1000);
+        }, 500);
       };
 
       animate();
@@ -42,3 +45,4 @@ class Divider {
 }
 
 export const divider = new Divider('.divider');
+export const pattern = new Divider('.optional-repeater-pattern svg');
