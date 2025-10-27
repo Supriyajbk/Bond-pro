@@ -3,6 +3,9 @@
 .perspective-default-main p span { font-size: 24px; line-height: 300px; line-height: 150%; }
 .perspective-default-main ol > li:before{color: var(--Fuschia); font-weight: 700;}
 
-.loyalty-program-wrap{padding: 64px 64px 0}
+.loyalty-program-wrap{padding: 64px 0 0; margin: 80px 0;}
 .loyalty-program-wrap .counter-main-wrap { padding: 40px 0 40px; }
-.loyalty-program-main span{font-size: 14px; color: var(--Fuschia); font-family: var(--heading-font); text-transform: uppercase; font-weight: 500; letter-spacing: 1.4px; margin-bottom: 24px;}
+.loyalty-program-main span.optional-text{font-size: 14px; color: var(--Fuschia); font-family: var(--heading-font); text-transform: uppercase; font-weight: 500; letter-spacing: 1.4px; margin-bottom: 24px;}
+.loyalty-program-main .h3{font-size: 40px;}
+.loyalty-program-main .h3 span{color: var(--Fuschia);}
+
