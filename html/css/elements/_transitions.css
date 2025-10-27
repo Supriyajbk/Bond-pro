@@ -9,9 +9,9 @@
 
     --b-transition: all 0.4s linear;
 
-    --transition-in: all 0.5s ease-in;
-    --transition-out: all 0.5s ease-out;
-    --transition-in-out: all 0.5s ease-in-out;
+    --transition-in: all 0.4s ease-in;
+    --transition-out: all 0.4s ease-out;
+    --transition-in-out: all 0.4s ease-in-out;
   }
   
   /* Utility Classes */
