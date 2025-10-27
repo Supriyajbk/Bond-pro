@@ -47,5 +47,6 @@ body.page-template-perspective-post .custom-testimonial-main { margin-bottom: 54
 
 .share-icon { color: var(--Foreground); font-size: 32px; }
 .share-wrap .h4{display: none;}
+.share-wrap { flex: 0 0 32px;}
 
 }

@@ -55,12 +55,18 @@ body .share-icons div.st-animated{flex-direction: column;}
 }
 @media screen and (max-width: 759px) and (min-width: 200px){
     body .share-icons{padding: 0;}
-    body .share-icons div.st-animated .st-btn{width: 40px !important; min-width: 40px !important; flex: 0 0 40px !important; height: 40px !important; min-height: 40px !important; border-radius: 14px !important;}
+    body .sharethis-inline-share-button{display: flex!important; flex-direction: row;}
+    body .share-icons div.st-animated .st-btn{width: 40px !important; min-width: 40px !important; flex: 0 0 40px !important; height: 40px !important; min-height: 40px !important; }
     body .share-icons div.st-animated .st-btn[data-network="facebook"]::after { width: 10px; height: 18px;}
     body .share-icons div.st-animated .st-btn[data-network="twitter"]::after { width: 19px; height: 15px;}
     body .share-icons div.st-animated .st-btn[data-network="linkedin"]::after { width: 16px; height: 16px;}
     body .share-icons div.st-animated .st-btn[data-network="email"]::after { width: 18px; height: 14px;}
     body .share-icons div.st-animated .st-btn[data-network="sharethis"]::after { width: 14px; height: 15px;}
     #st-1.st-justified, #st-2.st-justified{justify-content: center;}
+
+    body .share-icons div.st-animated { display: flex !important;}
+
+
+    
 }
 
