@@ -14,6 +14,7 @@ class Accordion {
       const content = el.querySelector(this._aContent);
 
       header.addEventListener('click', (event) => {
+        event.preventDefault();
         const isOpen = el.dataset.open === 'true';
 
         // close all
@@ -31,12 +32,14 @@ class Accordion {
         }
         // Event Listeners starts here
         const $attr = event.target.closest('.accordion-list').dataset.content;
-        console.log(
-          document.querySelector(`.content-art-image[data-image="${$attr}"]`)
-        );
-        $(
-          document.querySelector(`.content-art-image[data-image="${$attr}"]`)
-        ).fadeIn(800);
+        if ($attr) {
+          document.querySelectorAll(`.content-art-image`).forEach((img) => {
+            img.style.display = 'none';
+          });
+          $(
+            document.querySelector(`.content-art-image[data-image="${$attr}"]`)
+          ).fadeIn(1000);
+        }
 
         // Event Listeners ends here
       });

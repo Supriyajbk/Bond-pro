@@ -15,13 +15,14 @@
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
-    .content-art-main{gap: 80px; padding: 40px 0 80px;}
+    .content-art-main{gap: 80px; padding: 40px 0 80px; min-height: 688px;}
     .content-art-text{flex: 0 0 512px;}
 }
 @media screen and (min-width: 760px){
     .content-art-main{flex-direction: row-reverse;}
-    .content-art-images{flex: 1;}
-    .content-art-text .accordion-desc p{margin-bottom: 18px;}
+    .content-art-images{flex: 1; height: auto; justify-content: center; display: flex; flex-direction: column; flex-wrap: wrap;}
+    .content-art-image img{max-width: 688px; max-height: 688px; min-height: 688px;}
+    .content-art-text .accordion-desc p:not(:last-child){margin-bottom: 18px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .content-art-main{gap: 40px; padding: 20px 0 60px;}
