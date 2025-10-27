@@ -1,6 +1,7 @@
 .featured-section{position: relative; width: 100% ; clear: both; display: block;}
 .featured-main{padding: 40px 0 80px;}
 
+.featured-list{mix-blend-mode: multiply;}
 
 .feature-icon{width: 56px; height: 56px; margin-bottom: 16px; mix-blend-mode: multiply;}
 .feature-icon figure img{object-fit: contain;}
