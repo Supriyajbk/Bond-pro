@@ -9,7 +9,43 @@
 .loyalty-program-main .h3{font-size: 40px;}
 .loyalty-program-main .h3 span{color: var(--Fuschia);}
 
-.share-icon-main{padding: 20px;}
+.share-icon-main{padding: 16px; margin: 64px  0 0;}
 .share-icon { height: 48px; width: 48px; font-size: 48px; font-weight: 300; color: var(--Fuschia)}
 .share-wrap .h4{margin-bottom: 0;}
 .share-wrap{gap: 20px; flex: 1}
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+
+}
+
+
+@media only screen and (max-width: 759px) and (min-width: 200px){
+.perspective-default{padding: 32px 0;}
+.perspective-default-main .h3 { font-size: 32px; line-height: 125%; }
+.perspective-default-main p span { font-size: 20px;}
+.perspective-default-main p {font-size: 16px; line-height: 150%; }
+
+.perspective-default-main .video-main { padding: 36px 0 60px; }
+
+.perspective-default-main ul > li{font-size: 16px;}
+.perspective-default-main ol > li{font-size: 16px;}
+.loyalty-program-wrap {margin: 56px 0 56px; padding: 40px 0 0;}
+.loyalty-program-main span.optional-text {font-size: 12px;}
+.perspective-default-main .h3 { font-size: 24px;}
+
+
+.loyalty-program-wrap .counter-main-wrap { padding: 0px 0; }
+
+body.page-template-perspective-post .custom-testimonial-text h2 { color: var(--White); font-size: 20px!important; line-height: 125%; }
+body.page-template-perspective-post .custom-testimonial-main {padding: 40px 0!important;}
+body.page-template-perspective-post .custom-testimonial-quote {padding-bottom: 25px;}
+body.page-template-perspective-post .custom-testimonial-main { margin-bottom: 54px;}
+
+
+.share-icon { color: var(--Foreground); font-size: 32px; }
+.share-wrap .h4{display: none;}
+
+}

@@ -28,7 +28,7 @@
 	
 }
 
-@media only screen and (max-width: 759px) and (min-width: 0px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
 	.micro-cta-module {margin: 39px 0 37px;}
 	.micro-cta-main{display: block;}
 	.micro-cta-thumb {max-width: 286px; margin: 0 auto;}
