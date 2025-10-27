@@ -6,7 +6,7 @@
 
 /* body .share-icons-main{min-height: 300px;} */
 body .share-icons{margin: 0; }
-body .share-icons div.st-animated{ display: flex; flex-wrap: nowrap; z-index: 1; flex: 1;}
+body .share-icons div.st-animated{ display: flex !important; flex-wrap: nowrap; z-index: 1; flex: 1;}
 body .share-icons div.st-animated .st-btn{padding: 0 !important; margin: 0 !important; width: 100%; height: 56px !important; flex: 0 0 60px !important; min-width: 56px !important; min-height: 56px !important; position: relative; z-index: 1; display: flex !important; align-items: center; justify-content: center; transition: var(--b-transition); border-radius: 0 !important; color: var(--Fuschia); border: none !important; background: transparent !important; transition: var(--b-transition) !important; font-size: 30px !important; line-height: 30px !important; border-left:  1px solid rgba(249, 0, 166, 0.25)!important;}
 body .share-icons div.st-animated .st-btn:hover{background: transparent !important; color: var(--Foreground) !important; top: 0 !important; opacity: 1 !important;}
 body .share-icons div.st-animated span.st-label{display: none !important;}
@@ -55,8 +55,7 @@ body .share-icons div.st-animated{flex-direction: column;}
 }
 @media screen and (max-width: 759px) and (min-width: 200px){
     body .share-icons{padding: 0;}
-    body .sharethis-inline-share-button{display: flex!important; flex-direction: row;}
-    body .share-icons div.st-animated .st-btn{width: 40px !important; min-width: 40px !important; flex: 0 0 40px !important; height: 40px !important; min-height: 40px !important; }
+    body .share-icons div.st-animated .st-btn{width: 32px !important; min-width: 32px !important; flex: 0 0 32px !important; height: 32px !important; min-height: 32px !important; }
     body .share-icons div.st-animated .st-btn[data-network="facebook"]::after { width: 10px; height: 18px;}
     body .share-icons div.st-animated .st-btn[data-network="twitter"]::after { width: 19px; height: 15px;}
     body .share-icons div.st-animated .st-btn[data-network="linkedin"]::after { width: 16px; height: 16px;}
@@ -64,7 +63,7 @@ body .share-icons div.st-animated{flex-direction: column;}
     body .share-icons div.st-animated .st-btn[data-network="sharethis"]::after { width: 14px; height: 15px;}
     #st-1.st-justified, #st-2.st-justified{justify-content: center;}
 
-    body .share-icons div.st-animated { display: flex !important;}
+    body .share-icons div.st-animated {gap: 30px;}
 
 
     
