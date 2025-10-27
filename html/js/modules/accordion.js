@@ -40,7 +40,6 @@ class Accordion {
             document.querySelector(`.content-art-image[data-image="${$attr}"]`)
           ).fadeIn(1000);
         }
-
         // Event Listeners ends here
       });
     });
