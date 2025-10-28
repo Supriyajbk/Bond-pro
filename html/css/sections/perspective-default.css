@@ -39,10 +39,6 @@
 
 .loyalty-program-wrap .counter-main-wrap { padding: 0px 0; }
 
-body.page-template-perspective-post .custom-testimonial-text h2 { color: var(--White); font-size: 20px!important; line-height: 125%; }
-body.page-template-perspective-post .custom-testimonial-main {padding: 40px 0!important;}
-body.page-template-perspective-post .custom-testimonial-quote {padding-bottom: 25px;}
-body.page-template-perspective-post .custom-testimonial-main { margin-bottom: 54px;}
 
 .share-icon-main{justify-content: space-between; align-items: center;}
 .share-icon { color: var(--Foreground); font-size: 32px; }
