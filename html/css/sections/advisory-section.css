@@ -52,12 +52,12 @@
   border-radius: 5px;
   flex: 1;
   text-align: center;
-  transition: background 0.3s;
+  
 }
 
 .tab.active {
-  background: #007BFF;
-  color: white;
+  background: var(--White);
+  color: var(--Fuschia);
 }
 
 .tab-content .tab-cont {
@@ -70,11 +70,4 @@
   align-items: flex-start;
 }
 
-.button {
-  padding: 8px 15px;
-  margin-top: 10px;
-  background: #007BFF;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
+
