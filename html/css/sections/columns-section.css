@@ -17,24 +17,19 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .columns-main{padding: 40px 0 40px;}
-    .columns-row{gap: 43px 48px}
-    .columns-col{flex: 0 0 calc(25% - 36px);}
+  .columns-main{padding: 40px 0 40px;}
+  .columns-row{gap: 43px 48px}
+  .columns-col{flex: 0 0 calc(25% - 36px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
-.columns-col { flex: 0 0 calc(50% - 40px); }
-
-
+  .columns-main{padding: 40px 0 40px;}
+  .columns-row{gap: 43px 56px;}
+  .columns-col { flex: 0 0 calc(50% - 28px); }
 }
-
 @media only screen and (max-width: 759px) and (min-width:200px) {
   .columns-main{padding: 0 0 28px;}
   .columns-row{gap: 38px}
   .columns-col{flex:  0 0 100%;}
   .columns-col h2 {font-size: 20px;}
-
-
-
   .columns-col p {font-size: 14px; margin-bottom: 18px;}
-
 }
