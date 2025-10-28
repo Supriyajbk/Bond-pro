@@ -93,7 +93,6 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 ::selection {background-color: var(--Base-Foreground); color: var(--White);}
 ::-moz-selection {background-color: var(--Base-Foreground); color: var(--White);}
 
-.bg-elevated{background-color: var(--Elevated);}
 
 /* Buttons */
 .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, button{padding: 11px 16px 9px; gap: 8px; font-size: 16px; font-weight: 700; line-height: 20px; letter-spacing: 0; font-family: var(--heading-font); display: inline-block; background: var(--Fuschia); color: var(--White); border: none; border-radius: 20px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none;  outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0; }
@@ -102,9 +101,12 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 .button.btn-hover-white:hover{background-color: var(--White); color: var(--Fuschia);}
 .button.reverse{flex-direction: row-reverse;}
 
+.button.foreground-bg:hover{background-color: var(--White); color: var(--Foreground);}
 
+.button.md{padding: 15px 20px 15px; font-size: 20px; line-height: 100%; border-radius: 25px;}
 .button.lg{padding: 21px 24px 19px; border-radius: 30px;}
 
+.button.md span{color: var(--Fuschia);}
 
 a.text-link{gap: 8px; color: var(--Foreground); font-size: 16px; line-height: 100%; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font);}
 a.text-link em{color: var(--Fuschia); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 1px; transition: all .5s ease;}
@@ -237,6 +239,7 @@ span.optional-text.mb-0{margin-bottom: 0;}
 .lh-13{line-height: 13px;}
 .lh-14{line-height: 14px;}
 .lh-16{line-height: 16px;}
+.lh-18{line-height: 18px;}
 .lh-19{line-height: 19px;}
 .lh-21{line-height: 21px;}
 .lh-22{line-height: 22px;}
@@ -373,6 +376,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .white-50{color: var(--White-50);}
 .white-70{color: var(--White-70);}
 .white-80{color: var(--White-80);}
+.fuschia{color: var(--Fuschia);}
 
 [data-vbg] iframe{max-width: inherit;}
 

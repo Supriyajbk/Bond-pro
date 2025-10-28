@@ -68,6 +68,7 @@ class Slider {
         slidesPerView: 'auto',
         centeredSlides: true,
         spaceBetween: 24,
+        speed: 1000,
         loop: true,
         cssMode: true,
         navigation: {

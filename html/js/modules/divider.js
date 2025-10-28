@@ -24,11 +24,29 @@ class Divider {
             child.classList.contains('fuschia')
           ).length;
 
-          if (activeCount > 4) {
-            Array.from(ele.children).forEach((child) => {
-              child.style.fill = '#F0F0F4';
-              child.classList.remove('fuschia');
+          if (activeCount > 5) {
+            const indices = Array.from({ length: total }, (_, i) => i);
+            indices.sort(() => Math.random() - 0.5);
+
+            indices.forEach((index, i) => {
+              setTimeout(() => {
+                ele.children[index].style.fill = '#F0F0F4';
+                ele.children[index].classList.remove('fuschia');
+              }, i * 1000);
             });
+
+            // for (let i = 1; i < 5; i++) {
+            //   setTimeout(() => {
+            //     Array.from(ele.children).forEach((child) => {
+            //       child.style.fill = '#F0F0F4';
+            //       child.classList.remove('fuschia');
+            //     });
+            //   }, i * 1000);
+            // }
+            // Array.from(ele.children).forEach((child) => {
+            //   child.style.fill = '#F0F0F4';
+            //   child.classList.remove('fuschia');
+            // });
             activeCount = 0;
           }
         }, 500);

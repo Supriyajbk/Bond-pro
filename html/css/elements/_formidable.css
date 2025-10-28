@@ -25,7 +25,7 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{displa
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin-left: auto; float: right; font-weight: 500; font-family: var(--text-font); color: var(--Gray); font-size: 0.875rem; line-height: 100%; bottom: -4px; position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; color: var(--White); width: 100%; font-size: 1rem; font-weight: 700; line-height: 100%; letter-spacing: 0; box-shadow: none; padding: 14px 16px 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 0; border: none; border-left: 1px solid var(--Fuschia); background: var(--Elevated); font-family: var(--text-font); -webkit-appearance: none; opacity: 1;}
 
-body .bg-elevated .frm_forms .frm_form_fields .frm_form_field input, body .bg-elevated .frm_forms .frm_form_field textarea, body .bg-elevated .frm_forms .selectBox-dropdown{background-color: var(--White);}
+body .elevated-bg .frm_forms .frm_form_fields .frm_form_field input, body .elevated-bg .frm_forms .frm_form_field textarea, body .elevated-bg .frm_forms .selectBox-dropdown{background-color: var(--White);}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 128px;} 
 body .frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):not([type="range"]):not([readonly]):focus, 
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus,

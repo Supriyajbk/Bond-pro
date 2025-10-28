@@ -1,0 +1,36 @@
+
+.scrolly-cta-line{width: 3px; height: 100%; top: 0; left: 0; background-color: var(--Bluish-Gray);}
+
+
+/*-- media css starts here --*/
+@media screen and (min-width: 760px) {
+    .scrolly-cta-bg{left: 100%; width: 100vw;}
+    .scrolly-cta-main{margin-left: auto;}
+}
+
+@media screen and (min-width: 1024px) {
+    .scrolly-cta-main{padding: 24px 32px; gap: 16px; width: calc(100% - 280px);  }
+    .scrolly-cta-title{flex: 1;}
+    .scrolly-cta-link{width: fit-content;}
+    
+}
+@media screen and (min-width: 1440px) {
+    .scrolly-cta-main{min-width: 1064px; left: 64px;}
+}
+@media screen and (max-width: 1359px) and (min-width: 1024px){
+    .scrolly-cta-main{width: calc(100% - 240px);}   
+}
+@media screen and (max-width: 1023px) and (min-width: 760px){
+    .scrolly-cta-main{padding: 32px; display: block;}
+  .scrolly-cta-title{margin-bottom: 20px;}
+  .scrolly-cta-title h2{font-size: 28px; line-height: 40px; letter-spacing: -0.46px;} 
+  .scrolly-cta-link{width: fit-content;}
+  .scrolly-cta-main{width: calc(100% - 240px);}   
+
+}
+
+@media screen and (max-width: 759px) and (min-width: 200px){
+    .scrolly-cta-main{padding: 24px; display: block;}
+    .scrolly-cta-title{margin-bottom: 19px;}
+    .scrolly-cta-link .button{width: 100%; text-align: center;}
+}
