@@ -15,6 +15,8 @@
 @import url('./elements/__cta.css');
 @import url('./elements/_sharethis.css');
 
+/*--  1 The Home page --*/
+@import url('./sections/advisory-section.css');
 
 /*--  05th The Loyalty Report page --*/
 @import url('./sections/events-carousel-section.css');

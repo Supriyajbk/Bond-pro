@@ -8,6 +8,8 @@ import { youtube, vimeo, video } from './modules/popup';
 import { swiper, workSwiper, imageSwiper, eventSwiper } from './modules/swiper';
 import { divider, pattern } from './modules/divider';
 
+import { tab } from './modules/tab';
+
 document.addEventListener('DOMContentLoaded', function () {
   counter.init();
   anime.init();

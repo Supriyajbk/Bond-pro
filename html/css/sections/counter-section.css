@@ -7,7 +7,7 @@ span.counter{  display: block;   letter-spacing: -1.92px; position: relative; }
 .counter-top{font-family: var(--mono-font); font-size: 64px; font-weight: 300; color: var(--Fuschia); text-transform: uppercase; margin-bottom: 6px; line-height: 1;}
 .counter-list .h6{font-weight: 700;}
 
-
+body.page-template-home .counter-main-wrap{padding: 40px 0;}
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
     .counter-list {flex: 0 0 50%;}
 
