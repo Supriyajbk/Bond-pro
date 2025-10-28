@@ -80,9 +80,6 @@ class Slider {
           el: '.image-carousel-slider .swiper-pagination',
         },
         breakpoints: {
-          1024: {
-            spaceBetween: 24,
-          },
           760: {
             spaceBetween: 24,
           },
