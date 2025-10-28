@@ -4,7 +4,7 @@
 .events-carousel-pos{padding: 32px;}
 .events-carousel-text{max-width: 600px; padding: 24px;}
 .events-carousel-text h2{margin-bottom: 5px; color: var(--Fuschia);}
-
+.events-carousel-slide{transition: transform 0.5s ease;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){

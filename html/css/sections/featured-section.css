@@ -38,7 +38,8 @@ body.page-template-career  .featured-list p:last-of-type { margin-bottom: 0; }
   .featured-list{flex: 0 0 calc(25% - 30px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
-  .featured-list { flex: 0 0 calc(50% - 40px); }
+  .featured-lists{gap: 56px}  /* gap is as per module */
+  .featured-list { flex: 0 0 calc(50% - 28px); }
 }
 @media only screen and (max-width: 759px) and (min-width:200px) {
   .featured-main{padding: 0 0 28px;}
