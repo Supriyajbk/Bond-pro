@@ -20,7 +20,7 @@ svg.swiper-navigation-icon{display: none;}
     .swiper-custom-buttons{margin-top: 28px;}
     .swiper-button-next{right: 0; order: 3;}
     .swiper-button-prev{left: 0; order: 1;}
-    .swiper-button-next, .swiper-button-prev{position: static; transform: none; width: 64px; height: 64px;}
+    .swiper-button-next, .swiper-button-prev{position: static; transform: none; top: 0; width: 64px; height: 64px;}
     .swiper-button-next i, .swiper-button-prev i{font-size: 24px; line-height: 24px;}
     .swiper-horizontal span.swiper-pagination-bullet{width: 12px; height: 12px; background-color: var(--Elevated); border-radius: 50%;}
     .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 2px;}

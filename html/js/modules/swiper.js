@@ -66,8 +66,9 @@ class Slider {
     if (this.selector === '.image-carousel-slider') {
       this.swiper = new Swiper(this.element, {
         slidesPerView: 'auto',
+        slidesPerGroup: 1,
         centeredSlides: true,
-        spaceBetween: 24,
+        spaceBetween: 16,
         speed: 1000,
         loop: true,
         cssMode: true,
@@ -77,6 +78,14 @@ class Slider {
         },
         pagination: {
           el: '.image-carousel-slider .swiper-pagination',
+        },
+        breakpoints: {
+          1024: {
+            spaceBetween: 24,
+          },
+          760: {
+            spaceBetween: 24,
+          },
         },
       });
     }
