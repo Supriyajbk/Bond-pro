@@ -1,10 +1,14 @@
 
 figure.collaborative-thumb img{object-fit: contain;}
-
 .collaborative-text span.optional-text{margin-bottom: 8px;}
-.collaborative-text h3{margin-bottom: 21px;}
+.collaborative-divider .divider{padding: 0; gap: 20px;}
 
 /* media css starts here */
+@media only screen and (min-width: 760px){
+    .collaborative-text h3{margin-bottom: 21px;}
+    .collaborative-divider{left: -14px; top: 0;}
+    .collaborative-divider .divider{flex-direction: column;}
+}
 @media only screen and (min-width: 1024px){
     .collaborative-main{gap: 80px; padding: 91px 0 93px;}
     .collaborative-text{flex: 1;}
@@ -14,12 +18,18 @@ figure.collaborative-thumb img{object-fit: contain;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .collaborative-main{padding: 91px 0 93px; display: block;}
-    .collaborative-text{flex: 1;}
-    .collaborative-images{flex: 1;}
+    .collaborative-images{padding-top: 60px; max-width: 600px; margin: auto;}
     .collaborative-image:nth-child(odd){padding-right: 20px; flex: 0 0 293px;}
     .collaborative-image:nth-child(even){padding-left: 20px; flex: 0 0 293px; margin-left: auto;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
+    .collaborative-main{padding: 56px 0 29px;}
+    .collaborative-text{font-size: 16px; line-height: 24px;}
+    .collaborative-text h3{margin-bottom: 23px;}
+    .collaborative-images{display: block; padding-top: 34px;}
+    .collaborative-image:not(:last-child){padding-bottom: 26px;}
+    .collaborative-image:not(:first-child){padding-top: 26px;}
+    .collaborative-divider{top: 0; left: 0;}
 }
 
 
