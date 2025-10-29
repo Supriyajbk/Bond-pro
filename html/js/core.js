@@ -1,6 +1,6 @@
 import { anime } from './modules/animate';
-import { header } from './modules/header';
 import { counter } from './modules/counter';
+import { header } from './modules/header';
 import { menu } from './modules/menu';
 import { tabHandler } from './modules/tabSection';
 import { trustBy } from './modules/trustBySlider';
