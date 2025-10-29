@@ -27,12 +27,7 @@ body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_for
 
 body .elevated-bg .frm_forms .frm_form_fields .frm_form_field input, body .elevated-bg .frm_forms .frm_form_field textarea, body .elevated-bg .frm_forms .selectBox-dropdown{background-color: var(--White);}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 128px;} 
-body .frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):not([type="range"]):not([readonly]):focus, 
-body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus,
-body .frm_forms .frm_form_fields .frm_form_field input:not([type="checkbox"]):focus, 
-body .frm_forms .frm_form_fields .frm_form_field input:not([type="radio"]):focus,
-textarea:focus{background-color: var(--White); border: 1px solid var(--Dark-Gray); box-shadow: none; color: var(--Charcoal-Black); border-color: var(--Earthy-Blue ); opacity: 1;}
-
+body .frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):not([type="range"]):not([readonly]):focus, body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus, body .frm_forms .frm_form_fields .frm_form_field input:not([type="checkbox"]):focus, body .frm_forms .frm_form_fields .frm_form_field input:not([type="radio"]):focus, textarea:focus{background-color: var(--Elevated); border: none; border-left: 1px solid var(--Fuschia); box-shadow: none; color: var(--Foreground);  opacity: 1;}
 body .frm_forms.with_frm_style .frm_fields_container .frm_radio input[type="radio"]:not([disabled]):checked, 
 body .frm_forms.with_frm_style .frm_fields_container .frm_scale input[type="radio"]:not([disabled]):checked, 
 body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type="checkbox"]:not([disabled]):checked{ border-color: var(--Fuschia) !important; background: var(--Fuschia) !important; box-shadow: none !important; }
@@ -151,22 +146,8 @@ body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 body .frm_forms .frm_form_fields .frm_filed_wrapper .frm_form_field{flex: 1; margin: 0; color: var(--White-60); font-size: 14px; font-weight: 500; line-height: 100%; letter-spacing: -0.14px; }
 body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit{display: flex; margin-left: auto; border-radius: 25px; padding: 15px 16px 15px 18px;}
 
-.frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):not([type="range"]):not([readonly]):focus, 
-.frm_style_formidable-style.with_frm_style select:focus, 
-.frm_style_formidable-style.with_frm_style .form-field textarea:focus, 
-.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="text"], 
-.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="password"], 
-.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="email"], 
-.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="number"], 
-.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="url"], 
-.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="tel"], 
-.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="search"], 
-.frm_form_fields_active_style, .frm_style_formidable-style.with_frm_style .frm_focus_field .frm-card-element.StripeElement{
-box-shadow: none !important; 
-border-left-color: var(--Fuschia) !important;
-
-}
-
+.frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):not([type="range"]):not([readonly]):focus, .frm_style_formidable-style.with_frm_style select:focus, .frm_style_formidable-style.with_frm_style .form-field textarea:focus, .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="text"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="password"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="email"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="number"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="url"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="tel"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="search"], .frm_form_fields_active_style, .frm_style_formidable-style.with_frm_style .frm_focus_field .frm-card-element.StripeElement{ box-shadow: none !important; border-left-color: var(--Fuschia) !important; background-color: var(--Elevated); }
+.frm_style_formidable-style.with_frm_style .frm_blank_field input[type="text"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="password"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="url"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="tel"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="number"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="email"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="checkbox"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="radio"], .frm_style_formidable-style.with_frm_style .frm_blank_field textarea, .frm_style_formidable-style.with_frm_style .frm_blank_field .mce-edit-area iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field select:not(.ui-datepicker-month):not(.ui-datepicker-year), .frm_form_fields_error_style, .frm_style_formidable-style.with_frm_style .frm_blank_field .frm-g-recaptcha iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field .g-recaptcha iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field .frm-card-element.StripeElement, .frm_style_formidable-style.with_frm_style .frm_form_field :invalid{border: none; border-left: 1px solid var(--Red); color: var(--Foreground); background: var(--Elevated);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

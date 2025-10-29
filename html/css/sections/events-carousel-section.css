@@ -1,12 +1,11 @@
 
 
 .events-carousel-text h2{margin-bottom: 5px; color: var(--Fuschia);}
-.events-carousel-slide{transition: transform 0.5s ease;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .events-carousel-main{padding: 80px 0 80px;}
-    .events-carousel-slide{width: 1220px; min-width: 1220px;}
+    .events-carousel-slide{width: 1220px; min-width: 1220px; transition: transform 0.5s ease;}
     .events-carousel-slider .swiper-button-prev{left: -60px;}
     .events-carousel-slider .swiper-button-next{right: 0;}
     .events-carousel-slide:not(.swiper-slide-active) { transform: scaleY(.91); }
@@ -31,9 +30,11 @@
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .events-carousel-main{padding: 28px 0 26px;}
+    .events-carousel-head{padding-bottom: 28px; display: block;}
     .events-carousel-title h2{font-size: 32px; line-height: 40px;}
     .events-carousel-pos{position: static;}
     .events-carousel-bg{border-radius: 0;}
+    .events-carousel-slide{width: 318px; min-width: 318px;}
     .events-carousel-text{padding: 24px;}
     .events-carousel-text h2{margin-bottom: 11px; font-size: 16px; line-height: 20px;}
     .events-carousel-link{padding-top: 28px;}

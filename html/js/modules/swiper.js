@@ -90,8 +90,8 @@ class Slider {
     if (this.selector === '.events-carousel-slider') {
       this.swiper = new Swiper(this.element, {
         slidesPerView: 'auto',
-        spaceBetween: 40,
-        speed: 1500,
+        spaceBetween: 24,
+        speed: 1000,
         loop: false,
         navigation: {
           nextEl: '.events-carousel-slider .swiper-button-next',
@@ -100,6 +100,12 @@ class Slider {
         pagination: {
           el: '.events-carousel-slider .swiper-pagination',
           clickable: true,
+        },
+        breakpoints: {
+          760: {
+            speed: 1500,
+            spaceBetween: 40,
+          },
         },
       });
     }

@@ -1,4 +1,5 @@
 import { anime } from './modules/animate';
+import { header } from './modules/header';
 import { counter } from './modules/counter';
 import { menu } from './modules/menu';
 import { tabHandler } from './modules/tabSection';
@@ -8,10 +9,13 @@ import { youtube, vimeo, video } from './modules/popup';
 import { swiper, workSwiper, imageSwiper, eventSwiper } from './modules/swiper';
 import { divider, pattern } from './modules/divider';
 import { spyScroll } from './modules/spyScroll';
+import { formidable } from './modules/formidable';
+import { text } from './modules/content';
 
 document.addEventListener('DOMContentLoaded', function () {
   counter.init();
   anime.init();
+  header.init();
   menu.init();
 
   tabHandler.init();
@@ -30,4 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
   pattern.load();
 
   spyScroll.init();
+  formidable.error();
+  text.remove();
 });
