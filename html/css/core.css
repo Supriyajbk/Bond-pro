@@ -18,6 +18,7 @@
 
 
 /*--  1 The Home page --*/
+@import url('./sections/home-banner-section.css');
 @import url('./sections/advisory-section.css');
 
 /*--  05th The Loyalty Report page --*/
