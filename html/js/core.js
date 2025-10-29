@@ -9,8 +9,6 @@ import { swiper, workSwiper, imageSwiper, eventSwiper } from './modules/swiper';
 import { divider, pattern } from './modules/divider';
 import { spyScroll } from './modules/spyScroll';
 
-import { tab } from './modules/tab';
-
 document.addEventListener('DOMContentLoaded', function () {
   counter.init();
   anime.init();

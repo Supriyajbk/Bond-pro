@@ -1,8 +1,5 @@
 
 
-.events-carousel-bg{opacity: 0.75;}
-.events-carousel-pos{padding: 32px;}
-.events-carousel-text{max-width: 600px; padding: 24px;}
 .events-carousel-text h2{margin-bottom: 5px; color: var(--Fuschia);}
 .events-carousel-slide{transition: transform 0.5s ease;}
 
@@ -17,7 +14,31 @@
 @media screen and (min-width: 760px){
     .events-carousel-head{padding-bottom: 47px;}
     .events-carousel-title{flex: 1;}
+    .events-carousel-pos{padding: 32px;}
+    .events-carousel-text{max-width: 600px; padding: 24px;}
+    .events-carousel-bg{opacity: 0.75;}
 }
+@media screen and (max-width: 1023px) and (min-width: 760px){
+    .events-carousel-main{padding: 80px 0 80px;}
+    .events-carousel-slide{width: 640px; min-width: 640px; transition: transform .3s ease;}
+    .events-carousel-slide:not(.swiper-slide-active) { transform: scaleY(.84); }
+    .events-carousel-slider .swiper-button-prev{left: 0;}
+    .events-carousel-slider .swiper-button-next{right: 40px;}
+    .events-carousel-bg{border-radius: 8px;}
+}
+@media screen and (max-width: 1023px) and (min-width: 0px){
+    .events-carousel-text{font-size: 16px; line-height: 24px;}
+}
+@media only screen and (max-width: 759px) and (min-width: 0px){
+    .events-carousel-main{padding: 28px 0 26px;}
+    .events-carousel-title h2{font-size: 32px; line-height: 40px;}
+    .events-carousel-pos{position: static;}
+    .events-carousel-bg{border-radius: 0;}
+    .events-carousel-text{padding: 24px;}
+    .events-carousel-text h2{margin-bottom: 11px; font-size: 16px; line-height: 20px;}
+    .events-carousel-link{padding-top: 28px;}
+}
+
 
 
 

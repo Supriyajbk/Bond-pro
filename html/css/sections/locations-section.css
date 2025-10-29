@@ -8,7 +8,7 @@
 .locations-address span.h6{margin-bottom: 13px;}
 .locations-icon{margin-bottom: 9px; max-width: 64px;}
 .locations-icon svg, .locations-icon img{object-fit: contain;}
-
+.locations-text:only-child{flex: 0 0 100%;}
 
 
 /*-- media css starts here --*/
@@ -18,30 +18,22 @@
     .locations-row{gap: 32px; flex: 1;}
     .locations-list{flex: 0 0 calc(25%  - 24px);}
 }
-
-
 @media screen and (max-width: 1199px) and (min-width: 1024px){
- .locations-row {gap: 24px;}
- .locations-text { flex: 0 0 350px; }
- .locations-list { flex: 0 0 calc(25% - 20px); }
-
+    .locations-row {gap: 24px;}
+    .locations-text { flex: 0 0 350px; }
+    .locations-list { flex: 0 0 calc(25% - 20px); }
 }
-
 @media screen and (max-width: 1023px) and (min-width: 760px){
-.locations-main{padding: 40px 0 40px;}
-.locations-row{gap: 30px; padding: 40px 0 0;}
-.locations-list { flex: 0 0 calc(33.33% - 20px); }
-
-
-
+    .locations-main{padding: 40px 0 40px;}
+    .locations-row{gap: 74px 30px; padding: 40px 0 0;}
+    .locations-list {flex: 0 0 calc(25% - 23px); }
 }
-
 @media screen and (max-width: 759px) and (min-width: 0px){
-.locations-main{padding: 20px 0 26px;}
-.locations-text{margin-bottom: 56px;}
-.locations-row{gap: 32px;}
-.locations-list { flex: 0 0 calc(50% - 20px); }
-.locations-address p{font-size: 12px;}
+    .locations-main{padding: 20px 0 26px;}
+    .locations-text{margin-bottom: 56px;}
+    .locations-row{gap: 32px;}
+    .locations-list { flex: 0 0 calc(50% - 20px); }
+    .locations-address p{font-size: 12px;}
 }
 
 

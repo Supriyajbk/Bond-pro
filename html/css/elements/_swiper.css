@@ -7,6 +7,13 @@ svg.swiper-navigation-icon{display: none;}
 .swiper-horizontal span.swiper-pagination-bullet{width: 12px; height: 12px; margin: 0; background-color: var(--White); border-radius: 0; opacity: 1;}
 .swiper-horizontal span.swiper-pagination-bullet.swiper-pagination-bullet-active{width: 24px; height: 12px; border-radius: 12px; background-color: var(--Fuschia);}
 
+.swiper-button-next.swiper-button-disabled, .swiper-button-next.swiper-button-hidden, .swiper-button-prev.swiper-button-disabled, .swiper-button-prev.swiper-button-hidden{
+    opacity: 0.5;
+    background-color: var(--Light-Gray);
+    color: var(--Foreground-50);
+}
+
+/*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .swiper-button-next{right: -50px;}
     .swiper-button-prev{left: -60px;}
@@ -14,13 +21,12 @@ svg.swiper-navigation-icon{display: none;}
 @media only screen and (max-width: 1439px) and (min-width: 1024px){
     .swiper-button-next{right: 22px;}
     .swiper-button-prev{left: -32px;}
-
 }
 @media only screen and (max-width: 1023px) and (min-width: 0px){
     .swiper-custom-buttons{margin-top: 28px;}
     .swiper-button-next{right: 0; order: 3;}
     .swiper-button-prev{left: 0; order: 1;}
-    .swiper-button-next, .swiper-button-prev{position: static; transform: none; top: 0; width: 64px; height: 64px;}
+    .swiper-button-next, .swiper-button-prev{position: relative; transform: none; top: 0; width: 64px; height: 64px;}
     .swiper-button-next i, .swiper-button-prev i{font-size: 24px; line-height: 24px;}
     .swiper-horizontal span.swiper-pagination-bullet{width: 12px; height: 12px; background-color: var(--Elevated); border-radius: 50%;}
     .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 2px;}

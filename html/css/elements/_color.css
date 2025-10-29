@@ -16,10 +16,12 @@
     --Text-Color-1: #24282A;
 
     --Dark-Gray: #302E30;
+    --Light-Gray: #EBEBEB;
 
     --Foreground: #000;
     --Foreground-25: rgba(0, 0, 0, 0.25);
     --Foreground-30: rgba(0, 0, 0, 0.30);
+    --Foreground-50: rgba(0, 0, 0, 0.50);
     --Foreground-75: rgba(0, 0, 0, 0.75);
     --text-color: #000000;
     --body-text: #302E30;
@@ -31,5 +33,8 @@
     --Elevated: #f0f0f4;
 
     --Orange: #FF7A00;
+
+
+    --Red: #f00;
     
 }
