@@ -35,7 +35,7 @@ textarea:focus{background-color: var(--White); border: 1px solid var(--Dark-Gray
 
 body .frm_forms.with_frm_style .frm_fields_container .frm_radio input[type="radio"]:not([disabled]):checked, 
 body .frm_forms.with_frm_style .frm_fields_container .frm_scale input[type="radio"]:not([disabled]):checked, 
-body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type="checkbox"]:not([disabled]):checked{ border-color: var(--Fuschia) !important; background: var(--Fuschia); box-shadow: none !important; }
+body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type="checkbox"]:not([disabled]):checked{ border-color: var(--Fuschia) !important; background: var(--Fuschia) !important; box-shadow: none !important; }
 
 body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--White); font-family: var(--text-font);}
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--White); font-family: var(--text-font);}
@@ -44,7 +44,6 @@ body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, bo
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_primary_label{padding-bottom: 24px; color: var(--White-50);}
 
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{width: 20px; height: 20px; top: 50%; left: 0; transform: translateY(-50%); padding: 0; cursor: pointer; position: absolute; margin: 0; border-radius: 4px; border: 1px solid var(--Dark-Gray); opacity: 1; background-color: var(--Charcoal-Black);}
-/* body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type="checkbox"]:not([disabled]):checked{ border-color: transparent !important; background: var(--White) !important;} */
 
 
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 12px; left: 8px; width: 20px; height: 20px; margin: 0; border-radius: 2px; border: solid 1px transparent; background-color: var(--White); }
@@ -52,7 +51,7 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radi
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked::before{content: ""; position: absolute !important; width: 10px; height: 10px; top: 50%; left: 50%; transform: translate(-50%, -50%); background: var(--Muted-Ochre); border-radius: 0%; margin: 0;}
 
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input[type="checkbox"]{top: 50%; transform: translateY(-50%); left: 0; width: 24px !important; height: 24px !important; min-width: 24px !important; padding: 0; background-color: var(--Charcoal-Black) !important; border: 1px solid var(--Dark-Gray); overflow: hidden; position: absolute; cursor: pointer; border-radius: 4px;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{ width: auto; height: auto; top: 50%; transform: translate(-50%, -50%); left: 50%; box-shadow: none; position: absolute !important; display: block; background: none; font-weight: 900; font-family: "Font Awesome 7 Pro"; content: "\f00c"; font-size: 14px; line-height: 14px; color: var(--White);}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{ width: auto !important; height: auto !important; top: 50%; transform: translate(-50%, -50%); left: 50%; box-shadow: none !important; position: absolute !important; display: block; background: none; font-weight: 900; font-family: "Font Awesome 7 Pro"; content: "\f00c"; font-size: 14px; line-height: 14px; color: var(--White);}
 
 
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin: 0;}
@@ -73,7 +72,7 @@ body .contact-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_subm
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background-size: 14px 14px;}
-body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--red); position: absolute;}
+body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.7rem; line-height: 0.875rem; color: var(--Red); position: absolute; font-family: var(--heading-font);}
 body .frm_success_style, body .with_frm_style .frm_message{font-weight: 700; font-size: 1.125rem; line-height: 1.625rem; letter-spacing: normal; font-weight: 400; font-family: var(--text-font); color: var(--Raisin-Black); background: none; padding: 0; text-align: left; border: none; border-radius: 0;}
 body .with_frm_style .frm_message p{font-weight: 700; color: var(--Raisin-Black); letter-spacing: inherit;}
 
@@ -83,7 +82,7 @@ body .contact-form-form .frm_forms .frm_form_fields .vertical_radio .frm_radio{m
 body .contact-form-form .frm_forms .frm_form_fields .vertical_radio .frm_radio label{color: var(--Foreground); padding: 0 0 0 28px; font-size: 14px; line-height: 18px; font-weight: 500; position: relative; cursor: pointer;}
 body .flyout-form-overlay .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column;}
 body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block;}
-body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox label{padding: 0 0 0 40px; font-size: 14px; line-height: 150%; letter-spacing: -0.14px; position: relative; cursor: pointer; color: var(--White-60); font-weight: 300; font-family: var(--text-font);}
+body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox label{padding: 0 0 0 48px; font-size: 14px; line-height: 150%; letter-spacing: 0; position: relative; cursor: pointer; color: var(--Foreground-75); font-weight: 300; font-family: var(--text-font);}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block; padding: 0; background: none; border-radius: 0; border: none;}
 
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{position: relative; background-color: transparent;}

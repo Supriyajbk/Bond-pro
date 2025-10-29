@@ -8,7 +8,7 @@
 .locations-address span.h6{margin-bottom: 13px;}
 .locations-icon{margin-bottom: 9px; max-width: 64px;}
 .locations-icon svg, .locations-icon img{object-fit: contain;}
-
+.locations-text:only-child{flex: 0 0 100%;}
 
 
 /*-- media css starts here --*/

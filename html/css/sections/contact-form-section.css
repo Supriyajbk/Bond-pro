@@ -23,6 +23,7 @@
 
 
 .contact-form-desc{letter-spacing: -0.2px;}
+.contact-form-lt:only-child{flex: 0 0 100%;}
 
 
 /*-- media css starts here --*/
