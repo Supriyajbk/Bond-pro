@@ -48,6 +48,9 @@ h2.page-title{margin-top: 2rem;}
     .post-feature-rows{flex: 1; gap: 24px; flex-direction: column;}
 .post-feature-row{padding: 8px;}
     
+body.home .feature-post-image{flex: 0 0 897px}
+body.home .feature-post-main{padding: 48px 0 80px;}
+
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
   .feature-post-image{flex: 0 0 680px;}
