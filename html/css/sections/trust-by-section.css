@@ -32,6 +32,7 @@
     .trust-by-slide{flex: 0 0 259px;}
 
      body.page-template-service-line .trust-by-main { padding: 60px 0 60px; }
+     body.home .trust-by-main { padding: 60px 0 60px; }
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .trust-by-main{padding: 0 0 22px;}

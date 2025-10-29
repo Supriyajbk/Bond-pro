@@ -40,6 +40,8 @@ ul.post-categories.white > li{background-color: var(--Fuschia); color: var(--Whi
 .blog-show-button hr:not(:first-child){transform: rotate(180deg);}
 h2.page-title{margin-top: 2rem;}
 
+body.home .feature-post-head{flex: 1;}
+
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .feature-post-main{gap: 40px; padding: 80px 0 188px;}
@@ -50,6 +52,8 @@ h2.page-title{margin-top: 2rem;}
     
 body.home .feature-post-image{flex: 0 0 897px}
 body.home .feature-post-main{padding: 48px 0 80px;}
+
+
 
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px){
