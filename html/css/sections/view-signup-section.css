@@ -1,21 +1,15 @@
 
 
-
-
-
-
-
-
-
-
 /*-- media css starts here --*/
 @media only screen and (min-width: 760px){
     .view-signup-main{gap: 64px; padding: 48px 0;}
     .view-signup-text{flex: 1;}
 }
-@media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .view-signup-main h2{font-size: 44px; line-height: 52px;}
+@media only screen and (max-width: 1299px) and (min-width: 760px){
+    .view-signup-text h2{font-size: 44px; line-height: 52px;}
 }
-
-
-
+@media only screen and (max-width: 759px) and (min-width: 0px){
+    .view-signup-main{display: block; padding: 28px 0;}
+    .view-signup-text h2{font-size: 32px; line-height: 40px;}
+    .view-signup-link{padding-top: 20px;}
+}

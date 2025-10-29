@@ -1,7 +1,6 @@
 
 
 .two-column-text{color: var(--Text-Color-1);}
-.two-column-line{width: 1px; height: 100%; top: 0; left: 0;}
 
 
 .two-column-text p{margin-bottom: 21px;}
@@ -12,14 +11,29 @@
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .two-column-main{padding: 80px 0;}
-    .two-column-head{flex: 1; padding: 24px 80px 11px 0;}
+    .two-column-head{flex: 1; padding: 24px 80px 4px 0;}
     .two-column-text{flex: 1; padding: 6px 0 16px 80px}
+    .two-column-line{width: 1px; height: 100%; top: 0; left: 0;}
 }
 @media only screen and (min-width: 760px){
     .two-column-head h2{font-size: 28px;}
 }
-
-
+@media screen and (max-width: 1023px) and (min-width: 0px){
+    .two-column-main{display: block;}
+    .two-column-line{width: 100%; height: 1px; top: 0; left: 0;}
+}
+@media screen and (max-width: 1023px) and (min-width: 760px){
+    .two-column-main{padding: 28px 0 6px;}
+    .two-column-head{padding-bottom: 52px;}
+    .two-column-text{padding-top: 10px;}
+}
+@media screen and (max-width: 759px) and (min-width: 0px){
+    .two-column-main{padding: 52px 0 21px;}
+    .two-column-head{padding-bottom: 58px;}
+    .two-column-head span.optional-text{margin-bottom: 17px;}
+    .two-column-text{padding-top: 28px;}
+    .two-column-text .accordion-main{padding: 0;}
+}
 
 
 

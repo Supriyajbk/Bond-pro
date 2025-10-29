@@ -2,30 +2,11 @@
 
 .common-intro-text{color: var(--Text-Color-1);}
 
-p a{
-    color: var(--Coal);
-
-
-font-weight: 700;
-line-height: 150%;
-text-decoration-line: underline;
-text-decoration-style: solid;
-text-decoration-skip-ink: auto;
-text-decoration-color: color(display-p3 0.8157 0 0.6196);
-text-decoration-thickness: 12%;
-text-underline-offset: auto;
-text-underline-position: from-font;
-}
-p a:hover{
-    text-decoration-color: transparent;
-    color: var(--Fuschia);
-}
 
 .common-intro-text p{margin-bottom: 21px; }
 .common-intro-title{color: var(--Fuschia);}
 .common-intro-subtitle{margin-bottom: 29px; line-height: 150%;}
-.common-intro-btns{gap: 16px; padding-top: 20px;}
-.common-intro-btns a.text-link svg{width: 14px; height: 14px; right: 2px;}
+.common-intro-head .btn-wrap{padding-top: 20px;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
@@ -50,15 +31,15 @@ p a:hover{
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .common-intro-main{padding: 45px 0 23px; display: block;}
-    /* .common-intro-btns{padding-top: 6px; display: block;}
-    .common-intro-btns .button{width: 100%; text-align: center;}
-    .common-intro-btns a.text-link{margin-top: 15px;} */
     .common-intro-line{width: 100%; height: 1px; top: 0; left: 0;}
     .common-intro-head:not(:last-child){padding-bottom: 62px;}
     .common-intro-title, .common-intro-subtitle{font-size: 18px; line-height: 22.5px;}
     .common-intro-subtitle{margin-bottom: 18px;}
     .common-intro-text{padding-top: 54px; font-size: 18px; line-height: 27px;}
     .common-intro-text p{margin-bottom: 19px;}
+    .common-intro-head .btn-wrap{display: flex; padding-top: 6px;}
+    .common-intro-head .btn-wrap .button{width: fit-content;}
+    .common-intro-head .btn-wrap .text-link{margin-top: 0;}
 }
 
 

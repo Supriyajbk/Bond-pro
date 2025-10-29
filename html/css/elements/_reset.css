@@ -423,8 +423,11 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 
 .btn-wrap{gap: 16px;}
 
+p a{ color: var(--Coal); font-weight: 700; line-height: 150%; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: color(display-p3 0.8157 0 0.6196); text-decoration-thickness: 12%; text-underline-offset: auto; text-underline-position: from-font; }
+p a:hover{ text-decoration-color: transparent; color: var(--Fuschia); }
 
-  /*-- media css starts here --*/
+
+/*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
     .container.x-lg{max-width: 1360px;}
@@ -452,6 +455,7 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .container{padding: 0 28px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
+    .mobile-btn-100{width: 100%; text-align: center;}
     .hide-mobile{display: none;} 
 
     /*-- Dont Change edited Oct 23 --*/
