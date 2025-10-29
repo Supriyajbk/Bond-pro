@@ -18,12 +18,8 @@
 
 
 /*--  1 The Home page --*/
-<<<<<<< HEAD
-
-=======
 @import url('./sections/home-banner-section.css');
 @import url('./sections/advisory-section.css');
->>>>>>> 54096d5e84e17fc37aac21eb686ea83726179a8c
 
 /*--  05th The Loyalty Report page --*/
 @import url('./sections/scrolly-section.css');
@@ -89,7 +85,6 @@
 /*--  14th contact page --*/
 @import url('./sections/contact-form-section.css');
 @import url('./sections/locations-section.css');
-
 
 
 /*--  15th default page --*/

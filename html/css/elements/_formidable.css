@@ -51,7 +51,7 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radi
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked::before{content: ""; position: absolute !important; width: 10px; height: 10px; top: 50%; left: 50%; transform: translate(-50%, -50%); background: var(--Muted-Ochre); border-radius: 0%; margin: 0;}
 
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input[type="checkbox"]{top: 50%; transform: translateY(-50%); left: 0; width: 24px !important; height: 24px !important; min-width: 24px !important; padding: 0; background-color: var(--Charcoal-Black) !important; border: 1px solid var(--Dark-Gray); overflow: hidden; position: absolute; cursor: pointer; border-radius: 4px;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{ width: auto !important; height: auto !important; top: 50%; transform: translate(-50%, -50%); left: 50%; box-shadow: none !important; position: absolute !important; display: block; background: none; font-weight: 900; font-family: "Font Awesome 7 Pro"; content: "\f00c"; font-size: 14px; line-height: 14px; color: var(--White);}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{ width: auto !important; height: auto !important; top: 50%; transform: translate(-50%, -50%); left: 50%; box-shadow: none !important; position: absolute !important; display: block; background: none !important; font-weight: 900; font-family: "Font Awesome 7 Pro"; content: "\f00c"; font-size: 14px; line-height: 14px; color: var(--White);}
 
 
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin: 0;}
@@ -150,6 +150,22 @@ body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 /* body .frm_forms .frm_form_fields .frm_filed_wrapper::before{margin:1px 0 24px; width: 100%; height: 1px; opacity: 0.32; content: ""; display: block; background-image: repeating-linear-gradient( to right, transparent, transparent 5px, var(--Spun-Pearl) 5px, var(--Spun-Pearl) 10px ); } */
 body .frm_forms .frm_form_fields .frm_filed_wrapper .frm_form_field{flex: 1; margin: 0; color: var(--White-60); font-size: 14px; font-weight: 500; line-height: 100%; letter-spacing: -0.14px; }
 body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit{display: flex; margin-left: auto; border-radius: 25px; padding: 15px 16px 15px 18px;}
+
+.frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):not([type="range"]):not([readonly]):focus, 
+.frm_style_formidable-style.with_frm_style select:focus, 
+.frm_style_formidable-style.with_frm_style .form-field textarea:focus, 
+.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="text"], 
+.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="password"], 
+.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="email"], 
+.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="number"], 
+.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="url"], 
+.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="tel"], 
+.frm_style_formidable-style.with_frm_style .frm_focus_field input[type="search"], 
+.frm_form_fields_active_style, .frm_style_formidable-style.with_frm_style .frm_focus_field .frm-card-element.StripeElement{
+box-shadow: none !important; 
+border-left-color: var(--Fuschia) !important;
+
+}
 
 
 /*-- media css starts here --*/

@@ -99,6 +99,7 @@ class Slider {
         },
         pagination: {
           el: '.events-carousel-slider .swiper-pagination',
+          clickable: true,
         },
       });
     }

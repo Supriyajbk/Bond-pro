@@ -26,7 +26,10 @@ body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit bu
     border-radius: 30px;
     padding: 21px 24px 19px;
 }
-
+body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit:hover{
+    background-color: var(--White);
+    color: var(--Fuschia);
+}
 
 
 
