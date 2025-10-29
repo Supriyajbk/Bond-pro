@@ -1,0 +1,25 @@
+.home-banner-video video {
+  height:100%;
+  width:100%
+}
+
+.home-banner{min-height: 720px;}
+.home-banner-wrap {  padding: 186px 0 74px;  height: 100%; min-height: 720px;}
+.home-banner-text h1{color: var(--White); font-size: 128px; width: 636px; letter-spacing: -1.28px; line-height: 122px;}
+.home-banner-gradient{background: linear-gradient(180deg,rgba(0,0,0,.1),#000);}
+
+
+@media only screen and (min-width:1024px) {
+
+
+
+}
+@media only screen and (max-width:1023px) and (min-width:760px) {
+  .home-banner-section {
+    padding-left:16px
+  }
+ 
+
+
+  
+}
