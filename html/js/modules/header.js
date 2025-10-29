@@ -8,6 +8,7 @@ class Header {
     window.addEventListener('load', this.scroll.bind(this));
   }
   scroll() {
+    alert('');
     const sc = window.scrollY;
     sc > 0
       ? this.header.classList.add('sticky-header')
