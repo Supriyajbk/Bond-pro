@@ -29,7 +29,6 @@
     body.page-template-home .content-art-main .accordion-header.lg.open { padding: 24px 32px 14px 0; }
    body.page-template-home .content-art-main .accordion-header.lg { padding: 26px 32px 33px 0; }
 
-
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .content-art-main{gap: 40px; padding: 20px 0 60px;}
@@ -37,6 +36,7 @@
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .content-art-main{padding: 28px 0; display: block;}
-    .content-art-text .accordion-main{padding: 40px 0;}
-
+    .content-art-text .accordion-main{padding: 27px 0 40px;}
+    .content-art-text .accordion-desc{font-size: 18px; line-height: 27px;}
+    .content-art-text .accordion-desc p{margin-bottom: 18px;}
 }
