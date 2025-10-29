@@ -55,7 +55,6 @@ class Accordion {
     });
   }
 }
-
 export let accordion = new Accordion(
   '.accordion-list',
   '.accordion-header',
