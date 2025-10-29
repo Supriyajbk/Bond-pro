@@ -28,11 +28,9 @@
 }
 
 @media screen and (max-width: 1023px) and (min-width: 760px){
-.locations-main{padding: 40px 0 40px;}
-.locations-row{gap: 30px; padding: 40px 0 0;}
-.locations-list { flex: 0 0 calc(33.33% - 20px); }
-
-
+    .locations-main{padding: 40px 0 40px;}
+    .locations-row{gap: 30px; padding: 40px 0 0;}
+    .locations-list { flex: 0 0 calc(25% - 20px); }
 
 }
 
