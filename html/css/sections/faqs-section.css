@@ -17,3 +17,11 @@
     .faqs-left .accordion-main{padding: 0;}
     .faqs-bg{height: 64px; top: 0; bottom: auto;}
 }
+@media only screen and (max-width: 1023px) and (min-width: 0px){
+    .faqs-main{display: block;}
+    .faqs-bg{height: 64px; top: 0; bottom: auto;}
+    
+}
+@media only screen and (max-width: 759px) and (min-width: 0px){
+
+}

@@ -22,7 +22,6 @@
 @keyframes bounce { 0%   { transform: scale(1,1) translateY(0); } 10%  { transform: scale(1.1,.9) translateY(0); } 30%  { transform: scale(.9,1.1)   translateY(-5px);} 50%  { transform: scale(1.05,.95) translateY(0); } 58%  { transform: scale(1,1) translateY(-2px); } 65%  { transform: scale(1,1) translateY(0);} 100% { transform: scale(1,1) translateY(0);} }
 
 
-.contact-form-desc{letter-spacing: -0.2px;}
 .contact-form-lt:only-child{flex: 0 0 100%;}
 
 
@@ -43,7 +42,7 @@
     .contact-form-rt span.optional-text{margin-bottom: 24px;}
 }
 @media screen and (max-width: 759px) and (min-width: 200px) {
-    .contact-form-main{padding: 33px 0 30px; display: block;}
+    .contact-form-main{padding: 28px 0 30px; display: block;}
     .contact-form-lt p { font-size: 16px; line-height: 150%; margin-bottom: 24px;}
     .contact-form-lt{margin-bottom: 64px;}
 }

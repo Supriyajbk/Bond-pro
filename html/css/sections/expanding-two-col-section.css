@@ -36,7 +36,8 @@
     .expanding-two-col-main{padding: 37px 0 40px;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
-    .expanding-two-col-main{padding: 37px 0 40px;}
+    .expanding-two-col-main{padding: 52px 0 53px;}
+    .expanding-two-desc{padding-top: 20px; font-size: 18px; line-height: 27px;}
 }
 
 
