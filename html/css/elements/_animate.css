@@ -227,9 +227,9 @@
 }
 
 .grow-lg{
-  animation: grow 2s ease forwards;
+  animation: grow-large 2s ease forwards;
 }
-@keyframes grow {
+@keyframes grow-large {
   from { transform: scale(0.9); }
   to { transform: scale(1); }
 }
