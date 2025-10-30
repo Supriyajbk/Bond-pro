@@ -15,7 +15,7 @@ figure.custom-testimonial-thumb{width: 80px; height: 80px;}
  @media screen and (min-width: 1024px){
     
     body.page-template-default .custom-testimonial-main {padding: 64px;}
-    body.page-template-home .custom-testimonial-text h2 {font-size: 40px;}
+    body.home .custom-testimonial-text h2 {font-size: 40px;}
     
     body.page-template-perspective-post .custom-testimonial-main { padding: 64px 0; margin-bottom: 64px;}
     body.page-template-perspective-post .custom-testimonial-text h2{color: var(--White); font-size: 31px;}

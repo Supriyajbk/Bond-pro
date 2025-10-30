@@ -26,3 +26,9 @@
 
 
 }
+
+@media screen and (max-width: 759px) and (min-width: 200px){
+    .client-say-main{display: block;}
+
+
+}
