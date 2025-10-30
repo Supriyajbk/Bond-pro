@@ -11,24 +11,6 @@ figure.custom-testimonial-thumb{width: 80px; height: 80px;}
 .custom-testimonial-profile{flex: 1; gap: 12px;}
 .custom-testimonial-profile p{padding-left: 12px; border-left: 1px solid var(--Fuschia);}
 
-<<<<<<< HEAD
- .custom-testimonial-section.foreground-bg .custom-testimonial-main { padding: 64px 0; margin-bottom: 64px;}
-
- .custom-testimonial-section.foreground-bg .custom-testimonial-text h2{color: var(--White); font-size: 31px;}
- .custom-testimonial-section.foreground-bg .custom-testimonial-profile span{color: var(--White)}
- .custom-testimonial-section.foreground-bg .custom-testimonial-profile p {color: var(--White);}
-
-body.page-template-default .custom-testimonial-section.foreground-bg .custom-testimonial-main {padding: 64px;}
-
-
-body.page-template-home .custom-testimonial-section.foreground-bg .custom-testimonial-text h2 {font-size: 40px;}
-
-@media only screen and (max-width: 1023px) and (min-width: 760px) {
-
-.custom-testimonial-section.foreground-bg .custom-testimonial-main{padding: 48px 8px;}
-
-
-=======
  /*-- media css starts here --*/
  @media screen and (min-width: 1024px){
     
@@ -40,7 +22,6 @@ body.page-template-home .custom-testimonial-section.foreground-bg .custom-testim
     body.page-template-perspective-post .custom-testimonial-profile span{color: var(--White)}
     body.page-template-perspective-post .custom-testimonial-profile p {color: var(--White);}
 
->>>>>>> 735852a9a158953bc0e02bdcdb11b2c1e532d730
 }
 @media only screen and (max-width: 759px) and (min-width: 0px) {
     .custom-testimonial-main{padding: 28px 0 28px;}
