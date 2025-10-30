@@ -18,6 +18,7 @@ class Slider {
         slidesPerView: 'auto',
         slidesPerGroup: 1,
         speed: 800,
+        // loop: false,
         navigation:
           swiperNext && swiperPrev
             ? {
