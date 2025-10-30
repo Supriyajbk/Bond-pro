@@ -28,7 +28,11 @@
 }
 
 @media screen and (max-width: 759px) and (min-width: 200px){
-    .client-say-main{display: block;}
-
+    .client-say-main{display: block; padding: 28px 0;}
+    .client-say-lt{margin-bottom: 28px;}
+    .client-say-rt{display: block; margin-bottom: 28px;}
+    .client-list{margin-bottom: 20px;}
+    .client-say-text .h5{font-size: 16px;}
+    .client-say-text p { font-size: 12px;}
 
 }
