@@ -14,27 +14,44 @@
 
 
 
+.loyalty-report-icon{mix-blend-mode: multiply;}
 
 
-
-.loyalty-report-image{margin-bottom: 31px;}
-.fuschia-desc{color: var(--Fuschia);}
 .loyalty-report-desc{padding-top: 16px;}
 .loyalty-report-desc p{margin-bottom: 21px;}
 .loyalty-report-row{padding: 32px;}
 .loyalty-report-row:not(:last-child){margin-bottom: 20px;}
-.loyalty-report-text{padding-top: 16px;}
-.loyalty-report-text p{margin-bottom: 21px;}
+.loyalty-report-year{padding-bottom: 16px;}
+.loyalty-report-year h2{margin-bottom: 1px;}
 
 
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 760px){
-    .loyalty-report-persp{}
+    .loyalty-report-row{gap: 32px; flex-direction: row-reverse;}
+    .loyalty-report-icon{flex: 0 0 80px;}
+    .loyalty-report-text{flex: 1;}
+    .loyalty-report-text p{margin-bottom: 20px;}
 }
 @media only screen and (min-width: 1024px){
     .loyalty-report-main{gap: 40px; padding: 39px 0 80px;}
     .loyalty-report-left{padding: 32px; flex: 0 0 400px;}
     .loyalty-report-right{flex: 1;}
+    .loyalty-report-image{margin-bottom: 31px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .loyalty-report-main{padding: 39px 0 48px; display: block;}
+    .loyalty-report-left{padding: 32px; gap: 32px; margin-bottom: 40px; display: flex; flex-wrap: wrap; align-items: center;}
+    .loyalty-report-image, .loyalty-report-summary{flex: 1;}
+}
+@media only screen and (max-width: 759px) and (min-width: 0px){
+    .loyalty-report-main{padding: 29px 0 28px; display: block;}
+    .loyalty-report-left{padding: 20px; margin-bottom: 40px;}
+    .loyalty-report-image{margin-bottom: 20px;}
+    .loyalty-report-summary span.fs-20, .loyalty-report-year span.fs-20{font-size: 18px; line-height: 27px;}
+    .loyalty-report-desc, .loyalty-report-text{padding-top: 13px; font-size: 14px; line-height: 21px;}
+    .loyalty-report-desc p, .loyalty-report-text p{margin-bottom: 16px;}
+    .loyalty-report-icon{max-width: 56px; margin-bottom: 5px;}
+    .loyalty-report-row{padding: 20px;}
 }
