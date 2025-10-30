@@ -1,6 +1,6 @@
 
 
-header.site-header{width: 100%; height: auto; top: 0; left: 0; position: fixed; z-index: 800;  transition: top 0.5s ease-in-out, background-color 0.5s ease-in-out; border-bottom: 1px solid transparent; background-color: transparent;}
+header.site-header{width: 100%; height: auto; top: 0; left: 0; position: fixed; z-index: 800;  transition: top 0.5s ease-in-out, border 0.5s ease-in-out, background-color 0.5s ease-in-out; border-bottom: 1px solid transparent; background-color: transparent;}
 body:not(.home) header.site-header{background-color: var(--White); border-bottom-color: var(--Elevated); }
 header.sticky-header{background-color: var(--White); border-block-color: var(--Elevated);}
 
@@ -8,24 +8,17 @@ header.sticky-header{background-color: var(--White); border-block-color: var(--E
 .logo a{display: inline-block; width: 100%;}
 .logo a img{object-fit: contain;}
 
-
-form.nav-search-form input{padding: 15px 60px 20px 20px; border: 1px solid rgba(24, 24, 24, 0.25); background: var(--Elevated); border-radius: 0; color: var(--Foreground); font-size: 20px; font-weight: 500; line-height: 125%; }
-form.nav-search-form input
-
-form.nav-search-form input:-webkit-input-placeholder { color: var(--Foreground-50); }
-form.nav-search-form input::-moz-placeholder { color: var(--Foreground-50); }
-form.nav-search-form input:-moz-placeholder { color: var(--Foreground-50); }
-form.nav-search-form button{top: 8px; right: 8px; background: none;}
 a.no_link{pointer-events: none;}
+body.home header.site-header:not(.sticky-header) img.black-logo{opacity: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .site-main-cover{padding-top: 72px;}
     body.home .site-main-cover{padding-top: 0;}
 
-    body.home .header{padding-left: 45px;}
     .header{position: relative;}
     .logo{top: 0; position: relative; flex: 0 0 80px;}
+    body.home header.site-header:not(.sticky-header) .logo{flex: 0 0 120px;}
  
     .header_right{gap: 0 24px;}
     .navigation{width: fit-content; margin-left: auto;}
@@ -33,8 +26,8 @@ a.no_link{pointer-events: none;}
     ul.main_menu{gap: 16px 29px; justify-content: flex-end;}
     ul.main_menu > li{margin: 0;}
     ul.main_menu > li > a{padding: 26px 0 27px; font-family: var(--heading-font); position: relative; display: inline-block; font-size: 15px; line-height: 18px; letter-spacing: 0; font-weight: 500; color: var(--Dark-Gray); text-transform: capitalize;}
-
-    body.home header.site-header:not(.sticky-header) ul.main_menu > li:not(.button) > a{color: var(--White-80);}
+  
+    body.home header.site-header:not(.sticky-header) ul.main_menu > li:not(.button) > a{color: var(--White-80); padding: 46px 0 47px;}
 
     ul.main_menu > li.button > a{ padding: 11px 16px; font-weight: 700; border-radius: 20px; background-color: var(--Fuschia); color: var(--White);}
     ul.main_menu > li.current-post-ancestor:not(.button) > a, ul.main_menu > li.current-menu-item:not(.button) > a, ul.main_menu > li.current-menu-parent:not(.button) > a, ul.main_menu > li:hover > a, ul.main_menu > li:not(.button) > a:hover{color: var(--Fuschia);}
@@ -104,8 +97,7 @@ a.no_link{pointer-events: none;}
     ul.main_menu > li.menu-item-projects > ul > li:not(:has(form)){flex: 0 0 calc(16.666666% - 20px); width: calc(16.666666% - 20px);}
     ul.main_menu > li.menu-item-projects > ul > li p{margin-bottom: 18px;}
     ul.main_menu > li.menu-item-projects > ul > li > a:not(.text-link){padding: 0; color: var(--Foreground); font-size: 20px; font-weight: 600; line-height: 125%; letter-spacing: 1.6px; text-transform: uppercase;}
-    form.big-search-form input{padding: 15px 20px 20px 60px; border: 1px solid rgba(24, 24, 24, 0.25); background: var(--Elevated); border-radius: 0; color: var(--Foreground); font-size: 20px; font-weight: 500; line-height: 125%; }
-    form.big-search-form button{top: 8px; left: 8px; background: none;}
+   
     .menu-item-projects-btn{bottom: 8px; left: 8px; width: calc(100% - 16px); position: absolute;}
     .menu-item-projects-btn .button{justify-content: space-between; background-color: var(--White); border: none;}
     .menu-item-projects-btn .button span{flex: 1; text-align: left;}
@@ -286,15 +278,6 @@ a.no_link{pointer-events: none;}
     ul.main_menu > li.insights-menu-item > ul > li:not(:first-child) > ul > li > a.button i{color: var(--White);}
     ul.main_menu > li.insights-menu-item > ul > li:not(:first-child) > ul > li > a.button:hover i{color: var(--Foreground);}
    
-
-
-
-
-    form.big-search-form input{padding: 15px 20px 20px 60px; border: 1px solid rgba(24, 24, 24, 0.25); background: var(--Elevated); border-radius: 0; color: var(--Foreground); font-size: 20px; font-weight: 500; line-height: 125%; }
-    form.big-search-form button{top: 5px; left: 8px; background: none;}
-
-    form.nav-search-form{margin: 23px 24px 23px;}
-
 
 
 
