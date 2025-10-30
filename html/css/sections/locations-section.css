@@ -6,7 +6,7 @@
 
 .locations-text h2{margin-bottom: 25px;}
 .locations-address span.h6{margin-bottom: 13px;}
-.locations-icon{margin-bottom: 9px; max-width: 64px;}
+.locations-icon{margin-bottom: 15px; max-width: 64px;}
 .locations-icon svg, .locations-icon img{object-fit: contain;}
 .locations-text:only-child{flex: 0 0 100%;}
 
@@ -17,6 +17,7 @@
     .locations-text{flex: 0 0 400px;}
     .locations-row{gap: 32px; flex: 1;}
     .locations-list{flex: 0 0 calc(25%  - 24px);}
+    body.page-template-contact {padding: 70px 0 80px;}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .locations-row {gap: 24px;}
@@ -29,11 +30,12 @@
     .locations-list {flex: 0 0 calc(25% - 23px); }
 }
 @media screen and (max-width: 759px) and (min-width: 0px){
-    .locations-main{padding: 20px 0 26px;}
+    .locations-main{padding: 26px 0 26px;}
     .locations-text{margin-bottom: 56px;}
     .locations-row{gap: 32px;}
     .locations-list { flex: 0 0 calc(50% - 20px); }
-    .locations-address p{font-size: 12px;}
+    .locations-address p{font-size: 12px; line-height: 150%;}
+    .locations-address span.h6{margin-bottom: 9px;}
 }
 
 
