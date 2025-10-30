@@ -7,20 +7,17 @@
 .scrl-explainer-icon svg{width: 100%; height: 100%; object-fit: contain;}
 .scrl-explainer-rect{clip-path: polygon(0 0, 100% 100%, 0 100%);}
 
-.page-template-campaign .scrl-explainer-main{padding: 40px 0;}
 .scrl-explainer-inner .h3{font-size: 32px;}
-.scrl-explainer-desc .h6{margin-bottom: 12px;}
+.scrl-explainer-desc .h6{margin-bottom: 9px;}
 .scrl-explainer-desc{border-left: 1px solid  rgba(48, 46, 48, 0.1);}
 
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .scrl-explainer-main{gap: 80px; padding: 80px 0 88px;}
+    .scrl-explainer-main{gap: 80px; padding: 80px 0 81px;}
     .scrl-explainer-card{flex: 0 0 400px;}
-
-    .page-template-campaign .scrl-explainer-main {padding: 80px 0 80px;}
-    .page-template-service-tier-1 .scrl-explainer-section.repeater-top{margin: 80px 0 0 ;}
+    .scrl-explainer-card span.optional-text{margin-bottom: 39px;}
     .scrl-explainer-btns .button{justify-content: space-between;}
 }
 @media only screen and (min-width: 860px){
@@ -33,20 +30,11 @@
     .scrl-explainer-desc{flex: 1; padding: 0 0 0 20px;}
     .scrl-explainer-line{width: 2px; height: 100%; bottom: 0; left: 0; display: block;}
     .scrl-explainer-rect{clip-path: polygon(0 0, 100% 100%, 100% 0);}
-
-
 }
-
-   
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
     .scrl-explainer-main{gap: 40px;}
-   .scrl-explainer-card{flex: 0 0 300px;}
-
-
+    .scrl-explainer-card{flex: 0 0 300px;}
 }
-
-
-
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .scrl-explainer-main{ gap: 32px; padding: 60px 0 68px;}
     .scrl-explainer-segments{gap: 32px;}
@@ -54,12 +42,12 @@
      .scrl-explainer-inner .h3{font-size: 28px; line-height: 36px;}
 }
 @media only screen and (max-width: 759px) and (min-width: 560px){
-    .scrl-explainer-main{gap: 31px; padding: 40px 0 40px; flex-direction: column;}
+    .scrl-explainer-main{gap: 56px; padding: 40px 0 40px; flex-direction: column;}
     .scrl-explainer-line{height: 100%;}
 }
 @media only screen and (max-width: 559px) and (min-width: 200px){
-    .scrl-explainer-main{padding: 20px 0 40px; gap: 40px; flex-direction: column-reverse;}
-    .scrl-explainer-segments{gap: 31px; flex-direction: column;}
+    .scrl-explainer-main{padding: 20px 0 28px; gap: 56px; flex-direction: column-reverse;}
+    .scrl-explainer-segments{gap: 26px; flex-direction: column;}
     .scrl-explainer-seg{display: block;}
     .scrl-explainer-desc{padding-top: 16px; border-top: 1px solid rgba(48,46,48,.1); border-left: none;}
     .scrl-explainer-icon{width: 56px; height: 56px; margin-bottom: 16px; }
@@ -75,6 +63,5 @@
     .scrl-explainer-inner{padding: 24px;}
 }
 @media only screen and (max-width: 374px) and (min-width: 200px){
-    .scrl-explainer-btns .button{font-size: 0.813rem;}
-    
+    .scrl-explainer-btns .button{font-size: 0.813rem;}   
 }

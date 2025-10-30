@@ -34,6 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
   pattern.load();
 
   spyScroll.init();
-  formidable.error();
+  formidable.init();
   text.remove();
 });
