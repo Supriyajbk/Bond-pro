@@ -2425,6 +2425,9 @@ a.current .scrolly-line-circle::before{background-color: var(--Fuschia);}
 
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 760px){
+    .loyalty-report-persp{}
+}
 @media only screen and (min-width: 1024px){
     .loyalty-report-main{gap: 40px; padding: 39px 0 80px;}
     .loyalty-report-left{padding: 32px; flex: 0 0 400px;}
