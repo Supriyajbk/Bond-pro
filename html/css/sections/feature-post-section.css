@@ -44,12 +44,13 @@ body.home .feature-post-head{flex: 1;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
-    .feature-post-main{gap: 40px; padding: 80px 0 188px;}
-    .feature-post-image{flex: 0 0 840px;}
-    
-    .post-feature-rows{flex: 1; gap: 24px; flex-direction: column;}
+.feature-post-main{gap: 40px; padding: 80px 0 188px;}
+.feature-post-image{flex: 0 0 840px;}
+
+.post-feature-rows{flex: 1; gap: 24px; flex-direction: column;}
 .post-feature-row{padding: 8px;}
     
+body.home .feature-post-wrap{padding: 80px 0 0;}
 body.home .feature-post-image{flex: 0 0 897px}
 body.home .feature-post-main{padding: 48px 0 80px;}
 
@@ -82,4 +83,8 @@ body.home .feature-post-main{padding: 48px 0 80px;}
   .post-feature-rows{display: block; padding: 28px 0 0;}
   .post-feature-row:not(:last-child){margin-bottom: 24px;}
   .feature-post-lmbl-link{padding-top: 28px;}
+
+  body.home .feature-post-head h1 {font-size: 32px;}
+
+
 }

@@ -22,7 +22,7 @@
     .trust-by-slider-row{gap: 56px;}
     .trust-by-slide{flex: 0 0 auto; width: fit-content;}
 
-    body.page-template-home .trust-by-main { padding: 60px 0; }
+    body.home .trust-by-main { padding: 60px 0; }
 
 
 }
@@ -31,7 +31,7 @@
     .trust-by-slider-row{gap: 40px;}
     .trust-by-slide{flex: 0 0 259px;}
 
-     body.page-template-service-line .trust-by-main { padding: 60px 0 60px; }
+     body.page-template-services-line .trust-by-main { padding: 60px 0 60px; }
      body.home .trust-by-main { padding: 60px 0 60px; }
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
@@ -43,6 +43,8 @@
     
     body.page-template-about .trust-by-main { padding: 40px 0 32px; }
 
-    body.page-template-service-line .trust-by-main { padding: 40px 28px 32px; }
+    body.page-template-services-line .trust-by-main { padding: 40px 28px 32px; }
+
+    body.home  .trust-by-main{padding: 40px 0 32px;}
 }
 

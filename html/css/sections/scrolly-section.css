@@ -114,8 +114,8 @@ a.current .scrolly-line-circle::before{background-color: var(--Fuschia);}
     .scrolly-btns a:first-child{margin-bottom: 0; width: fit-content; line-height: 1.125rem;}
     .scrolly-btns a:not(.button){gap: 8px; flex: 1;}
 
-    body.page-template-service-line-default .scrolly-main{padding-bottom: 40px;}
-    body.page-template-service-line-default .scrolly-row:not(:last-child){margin-bottom: 40px;}
+    body.page-template-services-line-default .scrolly-main{padding-bottom: 40px;}
+    body.page-template-services-line-default .scrolly-row:not(:last-child){margin-bottom: 40px;}
     .scrolly-sub-lists{gap: 16px 0; padding: 13px 0 19px;}
     .scrolly-sub-list{font-size: 12px; line-height: 18px;}
 }

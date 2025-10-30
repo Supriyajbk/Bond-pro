@@ -27,13 +27,13 @@ body.page-template-career  .featured-list p:last-of-type { margin-bottom: 0; }
   .featured-lists{gap: 56px}
   .featured-list{flex: 0 0 calc(25% - 42px);}
 
-  body.page-template-about .feature-icon, body.page-template-perspective-post .feature-icon,body.page-template-service-line .feature-icon{width: 80px; height: 80px;}
+  body.page-template-about .feature-icon, body.page-template-perspective-post .feature-icon,body.page-template-services-line .feature-icon{width: 80px; height: 80px;}
 
   body.page-template-career .featured-section:nth-child(4) .featured-main{padding-top: 0;}
   body.page-template-career .featured-section:nth-child(6) .featured-main{padding-bottom: 46px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
-  body.page-template-service-line  .featured-text h2{ font-size: 26px; }
+  body.page-template-services-line  .featured-text h2{ font-size: 26px; }
   .featured-lists{gap: 40px}
   .featured-list{flex: 0 0 calc(25% - 30px);}
 }
@@ -57,5 +57,5 @@ body.page-template-career  .featured-list p:last-of-type { margin-bottom: 0; }
   .featured-text p{ margin-bottom: 18px;}
 
   .featured-text ul li{margin-bottom: 8px;}
-  body.page-template-service-line .featured-list p {margin-bottom: 16px;}
+  body.page-template-services-line .featured-list p {margin-bottom: 16px;}
 }

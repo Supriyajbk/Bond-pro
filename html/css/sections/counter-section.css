@@ -7,7 +7,7 @@ span.counter{  display: block;   letter-spacing: -1.92px; position: relative; }
 .counter-top{font-family: var(--mono-font); font-size: 64px; font-weight: 300; color: var(--Fuschia); text-transform: uppercase; margin-bottom: 6px; line-height: 1;}
 .counter-list .h6{font-weight: 700;}
 
-body.page-template-home .counter-main-wrap{padding: 40px 0;}
+body.home .counter-main-wrap{padding: 40px 0;}
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
     .counter-list {flex: 0 0 50%;}
 
@@ -23,4 +23,8 @@ body.page-template-home .counter-main-wrap{padding: 40px 0;}
     .counter-main-wrap{padding-top: 0; padding-bottom: 0;}
     .counter-list:last-child{border-bottom: none;}
     .counter-list p{font-size: 14px;}
+
+    body.home .counter-main-wrap { padding: 0; }
+
+
 }
