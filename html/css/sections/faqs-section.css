@@ -5,7 +5,7 @@
 
 
 .faqs-image{max-width: 168px; margin-bottom: 32px;}
-
+.faqs-main .accordion-desc{color: var(--Dark-Gray-75);}
 
 
 
@@ -18,10 +18,16 @@
     .faqs-bg{height: 64px; top: 0; bottom: auto;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 0px){
-    .faqs-main{display: block;}
-    .faqs-bg{height: 64px; top: 0; bottom: auto;}
+    .faqs-main{display: block; padding: 51px 0 28px;}
+    .faqs-bg{height: 40px; top: 0; bottom: auto;}
+    .faqs-left .accordion-main{padding: 0;}
+    .faqs-right{padding: 20px; margin-top: 28px;}
+    .faqs-main .accordion-header{padding: 16px 34px 16px 9px;}
+    .faqs-main .accordion-title{font-size: 16px; line-height: 20px;}
+    .faqs-main .accordion-title::after{font-size: 24px; line-height: 24px;}
+    .faqs-main .accordion-desc:not(.fs-20){font-size: 14px; line-height: 21px;}
     
 }
-@media only screen and (max-width: 759px) and (min-width: 0px){
-
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .faqs-main{padding-bottom: 76px;}
 }
