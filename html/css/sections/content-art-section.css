@@ -21,7 +21,7 @@
 @media screen and (min-width: 760px){
     .content-art-main{flex-direction: row-reverse;}
     .content-art-images{flex: 1; height: auto; justify-content: center; display: flex; flex-direction: column; flex-wrap: wrap;}
-    .content-art-image img{max-width: 688px; max-height: 688px; min-height: 688px;}
+    .content-art-image img{max-width: 688px; max-height: 688px; min-height: 688px; object-fit: contain;}
     .content-art-text .accordion-desc p:not(:last-child){margin-bottom: 18px;}
 
     body.home .content-art-section.reverse .content-art-main{flex-direction: row;}

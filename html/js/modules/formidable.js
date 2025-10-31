@@ -4,7 +4,6 @@ class Formidable {
   }
   init() {
     if (this.eles.length === 0) return;
-    console.log('test form');
     function errorHide(e) {
       let errorDiv = e.target
         .closest('.frm_blank_field')

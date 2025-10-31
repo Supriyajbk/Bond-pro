@@ -1,25 +1,39 @@
 
+.services-carousel-row:not(:first-child){display: none;}
 
-
-ul.services-carousel-tabs > li{flex: 0 0 170px;}
-ul.services-carousel-tabs > li > a{padding: 16px 21px; min-height: 64px;}
-ul.services-carousel-tabs > li.active > a{background-color: var(--White); color: var(--Fuschia);}
-
-
-.services-carousel-content{padding: 32px 48px;}
-.services-carousel-text{flex: 1;}
-.services-carousel-btn{width: fit-content;}
 
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 760px){
     .services-carousel-section{min-height: 800px;}
     picture.services-for-thumb img{min-height: 800px; max-height: 800px;}
     .services-carousel-pos{bottom: 40px; left: 0;}
+    .services-carousel-for .swiper-wrapper{display: block; height: auto; transform: none;}
     .services-for-slide:not(:first-child){display: none;}
+    .services-for-slide.swiper-slide{height: auto; transform: none;}
+    
+    ul.services-carousel-tabs{overflow: auto;}
+    ul.services-carousel-tabs > li{flex: 0 0 170px;}
+    ul.services-carousel-tabs > li > a{padding: 16px 21px; min-height: 64px;}
+    ul.services-carousel-tabs > li.active > a{background-color: var(--White); color: var(--Fuschia);}
+
+    .services-carousel-content{padding: 32px 48px; gap: 24px;}
+    .services-carousel-text{flex: 1;}
+    .services-carousel-btn{width: fit-content;}
 }
-
-
+@media screen and (max-width: 759px) and (min-width: 200px){
+    .services-carousel-pos{position: relative; background-color: var(--Foreground);}
+    ul.services-carousel-tabs{display: block; margin-top: -30px;}
+    ul.services-carousel-tabs > li > a{padding: 10px 16px; pointer-events: none; background-color: var(--White); color: var(--Fuschia);}
+    ul.services-carousel-tabs > li:not(:first-child) > a{display: none;}
+    .services-carousel-content{display: block;}
+    .services-carousel-row{padding: 24px 0 28px;}
+    .services-carousel-text h2{font-size: 18px; line-height: 125%;}
+    .services-carousel-btn{margin-top: 24px;}
+    .services-carousel-for .swiper-button-next, .services-carousel-for .swiper-button-prev{width: 56px; height: 56px; top: 50%; transform: translateY(-50%); position: absolute;}
+    .services-carousel-for .swiper-button-next{border-radius: 64px 0 0 64px;}
+    .services-carousel-for .swiper-button-prev{border-radius: 0 64px 64px 0;}
+}
 
 
 
