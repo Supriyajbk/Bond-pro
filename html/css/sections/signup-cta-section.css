@@ -24,7 +24,7 @@ body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field input{
 body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field input:not([type="checkbox"]):focus, body  .signup-cta-form  .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus:focus{ background: none; border: none; }
 body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit{
     border-radius: 30px;
-    padding: 21px 24px 19px;
+    padding: 20px 29px 20px;
 }
 body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit:hover{
     background-color: var(--White);
