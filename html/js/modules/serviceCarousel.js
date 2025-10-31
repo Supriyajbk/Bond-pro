@@ -11,7 +11,7 @@ class serviceCarouselSlider {
     if (!this.for && !this.nav) return;
     const media = window.matchMedia('(min-width: 760px)');
     let initialized = false;
-    const serviceCarouselSlick = () => {
+    const serviceCarouselSwiper = () => {
       if (!media.matches) {
         if (!initialized) {
           const swipeNext = this.for.querySelector('.swiper-button-next');
@@ -77,8 +77,8 @@ class serviceCarouselSlider {
         }
       }
     };
-    serviceCarouselSlick();
-    media.addEventListener('change', serviceCarouselSlick);
+    serviceCarouselSwiper();
+    media.addEventListener('change', serviceCarouselSwiper);
   }
 }
 export const serviceCarousel = new serviceCarouselSlider(

@@ -227,10 +227,10 @@
 }
 
 .grow-lg{
-  animation: grow-large 2s ease forwards;
+  animation: grow-large 1s ease forwards;
 }
 @keyframes grow-large {
-  from { transform: scale(0.9); }
+  from { transform: scale(0.75); }
   to { transform: scale(1); }
 }
 
@@ -456,4 +456,13 @@
     opacity: 0;
     transform: translateX(100%) rotate(120deg);
   }
+}
+
+[data-animate="circle"] img{
+  clip-path: circle(0% at 50% 50%);
+  transition: clip-path 2s ease-in-out;
+  transition-delay: 0.5s;
+}
+[data-animate="circle"].visible img{
+  clip-path: circle(100% at 50% 50%);
 }
