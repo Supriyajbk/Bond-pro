@@ -1,0 +1,36 @@
+
+
+
+ul.services-carousel-tabs > li{flex: 0 0 170px;}
+ul.services-carousel-tabs > li > a{padding: 16px 21px; min-height: 64px;}
+ul.services-carousel-tabs > li.active > a{background-color: var(--White); color: var(--Fuschia);}
+
+
+.services-carousel-content{padding: 32px 48px;}
+.services-carousel-text{flex: 1;}
+.services-carousel-btn{width: fit-content;}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .services-carousel-section{min-height: 800px;}
+    picture.services-for-thumb img{min-height: 800px; max-height: 800px;}
+    .services-carousel-pos{bottom: 40px; left: 0;}
+    .services-for-slide:not(:first-child){display: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
