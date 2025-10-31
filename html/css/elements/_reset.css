@@ -443,19 +443,18 @@ p a:hover{ text-decoration-color: transparent; color: var(--Fuschia); }
     .container.md{max-width: 1040px;}
     .container.x-sm{max-width: 880px;}
 
-    .hide-desktop{display: none;}
-    span.hide-desktop{display: none;}
+    .hide-desktop, span.hide-desktop, .swiper-button.hide-desktop{display: none;}
     .text-md-right{text-align: right;}
 
 }
-@media only screen and (max-width: 1359px) and (min-width: 1200px){
+@media only screen and (max-width: 1399px) and (min-width: 1200px){
     .container:not(.sm){padding: 0 32px; max-width: 100%;}
 }
 @media only screen and (max-width: 1199px) and (min-width: 760px){
     .container{padding: 0 40px; max-width: 100%;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
-    .hide-tablet{display: none;}
+    .hide-tablet, .swiper-button.hide-tablet{display: none;}
     .ipad-0{padding-left: 0; padding-right: 0;}
 
     img.aligncenter, img.alignleft, img.alignnone, img.alignright{margin: 25px auto; clear: both; float: none; display: block; width: auto;}
