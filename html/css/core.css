@@ -19,6 +19,7 @@
 
 /*--  1 The Home page --*/
 @import url('./sections/home-banner-section.css');
+@import url('./sections/services-carousel-section.css');
 @import url('./sections/advisory-section.css');
 @import url('./sections/client-say-section.css');
 

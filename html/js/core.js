@@ -11,6 +11,7 @@ import { divider, pattern } from './modules/divider';
 import { spyScroll } from './modules/spyScroll';
 import { formidable } from './modules/formidable';
 import { text } from './modules/content';
+import { slick } from './modules/slick';
 
 document.addEventListener('DOMContentLoaded', function () {
   counter.init();
@@ -36,4 +37,5 @@ document.addEventListener('DOMContentLoaded', function () {
   spyScroll.init();
   formidable.init();
   text.remove();
+  slick.init();
 });
