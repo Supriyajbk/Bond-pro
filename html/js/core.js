@@ -12,6 +12,7 @@ import { spyScroll } from './modules/spyScroll';
 import { formidable } from './modules/formidable';
 import { text } from './modules/content';
 import { serviceCarousel } from './modules/serviceCarousel';
+import { stickme } from './modules/sticksy';
 
 document.addEventListener('DOMContentLoaded', function () {
   counter.init();
@@ -38,4 +39,6 @@ document.addEventListener('DOMContentLoaded', function () {
   formidable.init();
   text.remove();
   serviceCarousel.init();
+
+  stickme.init();
 });
