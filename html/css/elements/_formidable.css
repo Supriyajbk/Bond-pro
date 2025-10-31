@@ -222,7 +222,7 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_s
 
     body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%;}
     body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 34px; margin-top: 0  ; border-top: none;}
-    body .frm_forms .frm_form_fields .frm_form_field textarea{height: 154px;}
+    /* body .frm_forms .frm_form_fields .frm_form_field textarea{height: 154px;} */
     body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 20px;}
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 34px;}
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{padding: 0 0 4px;}
