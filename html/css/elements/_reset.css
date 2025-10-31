@@ -96,7 +96,7 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 
 /* Buttons */
 .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, button{padding: 11px 16px 9px; gap: 8px; font-size: 16px; font-weight: 700; line-height: 20px; letter-spacing: 0; font-family: var(--heading-font); display: inline-block; background: var(--Fuschia); color: var(--White); border: none; border-radius: 20px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none;  outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0; }
-.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: var(--Foreground); color: var(--White); animation: gelatine 1s ease forwards;}
+.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: var(--Foreground); color: var(--Fuschia); animation: gelatine 1s ease forwards;}
 
 .button.btn-hover-white:hover{background-color: var(--White); color: var(--Fuschia);}
 .button.reverse{flex-direction: row-reverse;}

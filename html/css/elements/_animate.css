@@ -226,6 +226,13 @@
   to { transform: scale(1); }
 }
 
+.grow-lg{
+  animation: grow-large 2s ease forwards;
+}
+@keyframes grow-large {
+  from { transform: scale(0.9); }
+  to { transform: scale(1); }
+}
 
 
 .bounce {
