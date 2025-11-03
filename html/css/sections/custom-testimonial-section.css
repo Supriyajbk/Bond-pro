@@ -24,7 +24,7 @@ figure.custom-testimonial-thumb{width: 80px; height: 80px;}
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
-body.page-template-default .custom-testimonial-main{margin-bottom: 55px;}
+body.page-template-default .custom-testimonial-main{margin-bottom: 55px; padding: 48px;}
 
 
 }
@@ -38,6 +38,7 @@ body.page-template-default .custom-testimonial-main{margin-bottom: 55px;}
     .custom-testimonial-profile{gap: 0; font-size: 14px;}
     .custom-testimonial-avatar{padding-top: 5px;}
 
+    
     body.page-template-default .custom-testimonial-section{ width: calc(100% + 56px); left: -28px; position: relative; }
     body.page-template-default .custom-testimonial-main{margin-bottom: 55px; padding: 28px 28px;}
     
