@@ -27,7 +27,6 @@ class Stickmy {
     }
   }
 }
-
 export const stickme = new Stickmy('[data-sticky]', {
   topSpacing: +document.querySelector('[data-top]')?.dataset.top || 0,
   listen: true,
