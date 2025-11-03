@@ -27,8 +27,9 @@ body.page-template-career  .featured-list p:last-of-type { margin-bottom: 0; }
   .featured-lists{gap: 56px}
   .featured-list{flex: 0 0 calc(25% - 42px);}
 
-  body.page-template-about .feature-icon, body.page-template-perspective-post .feature-icon,body.page-template-services-line .feature-icon{width: 80px; height: 80px;}
+  body.page-template-about .feature-icon, body.page-template-perspective-post .feature-icon, body.page-template-services-line .feature-icon{width: 80px; height: 80px;}
 
+  body.page-template-default .feature-icon{width: 100px; height: 80px;}
   body.page-template-career .featured-section:nth-child(4) .featured-main{padding-top: 0;}
   body.page-template-career .featured-section:nth-child(6) .featured-main{padding-bottom: 46px;}
 }
