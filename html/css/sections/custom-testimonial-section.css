@@ -37,7 +37,9 @@ body.page-template-default .custom-testimonial-main{margin-bottom: 55px;}
     .custom-testimonial-profile p { border-left: none; padding-left: 0; font-size: 14px;}
     .custom-testimonial-profile{gap: 0; font-size: 14px;}
     .custom-testimonial-avatar{padding-top: 5px;}
-    body.page-template-default .custom-testimonial-main{margin-bottom: 55px;}
+
+    body.page-template-default .custom-testimonial-section{ width: calc(100% + 56px); left: -28px; position: relative; }
+    body.page-template-default .custom-testimonial-main{margin-bottom: 55px; padding: 28px 28px;}
     
     body.page-template-about .custom-testimonial-main{ padding: 30px 0; }
     body.page-template-perspective-post .custom-testimonial-text h2 { color: var(--White); font-size: 20px; line-height: 125%;}

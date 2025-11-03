@@ -5,14 +5,15 @@ window.ResizeSensor = ResizeSensor;
 
 class Stickmy {
   constructor(selector, options) {
-    this.element = document.querySelector(selector);
+    this.element = document.querySelector(selector)
+      ? document.querySelector(selector)
+      : '';
     this.options = options;
     this.instance = null;
 
     this.media = window.matchMedia('(min-width: 1024px)');
     this.media.addEventListener('change', () => this.init());
   }
-
   init() {
     if (!this.element) return;
 
