@@ -33,3 +33,4 @@ class Animate {
   }
 }
 export const anime = new Animate('[data-animate]');
+
