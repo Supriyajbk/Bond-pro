@@ -18,7 +18,8 @@
     .common-intro-head{flex: 1;}
     .common-intro-text{flex: 1;}
     .common-intro-line{width: 1px; height: 100%; top: 0; left: 0;}
-    .common-intro-circle{width: 60px; height: 60px; top: 60px; left: 50%; transform: translateX(-50%);}
+    .common-intro-circle-main{width: 60px; height: 100%;}
+    .common-intro-circle{ width: 60px; height: 60px; margin-left: -30px; transition: top 1s ease;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .common-intro-main{padding: 45px 0 43px;}
