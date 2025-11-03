@@ -59,6 +59,17 @@ class serviceCarouselSlider {
                 .forEach((tab) => tab.classList.remove('active'));
               $target.parentElement.classList.add('active');
               const $textme = $target.dataset.linkNav;
+              const $targetParentEle = $target.parentElement.closest(
+                '.services-nav-slide'
+              );
+              $targetParentEle.classList.toggle('shuffleBg');
+
+              console.log($targetParentEle.classList.contains('shuffleBg'));
+              if (!$targetParentEle.classList.contains('shuffleBg')) {
+                setTimeout(function () {
+                  $targetParentEle.classList.add('shuffleBg');
+                }, 100);
+              }
               $(document.querySelectorAll('.services-for-slide')).hide();
               $(
                 document.querySelector(

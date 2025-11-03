@@ -12,6 +12,7 @@
   [data-animate].visible {
     visibility: visible;
   }
+  [data-delay="500"]{ animation-delay: 0.0015s; }
   [data-delay="1000"]{ animation-delay: 0.15s; }
   [data-delay="1500"]{ animation-delay: 0.75s; }
   [data-delay="2000"]{ animation-delay: 1s; }
@@ -491,5 +492,26 @@
   }
   100% {
       transform: translateX(0);
+  }
+}
+.shuffleBg {
+  animation: shuffleBg 1s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+}
+
+@keyframes shuffleBg {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateY(2px);
+  }
+  75% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
