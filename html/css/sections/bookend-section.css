@@ -13,6 +13,11 @@
 .bookend-blur.one{top: 0; right: 0;}
 .bookend-blur.two{top: 66px; left: 0px; background: var(--Orange);}
 
+.bookend-text a.button.lg span{color: var(--Foreground);}
+.bookend-text a.button.lg:hover span{color: var(--Fuschia);}
+
+
+
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .bookend-main{padding: 48px 0 48px;}
     .bookend-main h2{font-size: 46px; line-height: 50px; margin-bottom: 24px;}
