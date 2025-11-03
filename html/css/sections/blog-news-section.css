@@ -43,6 +43,7 @@ ul.blog-categories > li > a:hover{
 
 .blog-news-image{width: 100%; height: 100%;}
 
+ul.categories {gap: 12px; margin-bottom: auto;}
 ul.categories > li > a{
     padding: 10px 12px 8px;
     color: var(--Fuschia);

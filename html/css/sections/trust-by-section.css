@@ -15,9 +15,10 @@
   
 .trust-by-slider-row{flex-wrap: nowrap;}
 
-  
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    body.page-template-about .trust-by-title h2{font-size: 40px;}
     .trust-by-main{padding: 56px 0 56px;}
     .trust-by-slider-row{gap: 56px;}
     .trust-by-slide{flex: 0 0 auto; width: fit-content;}
