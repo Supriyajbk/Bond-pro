@@ -5,16 +5,22 @@
 ul.social-icons{margin: 0; gap: 16px;}
 ul.social-icons li{display: inline-block; margin: 0;}
 ul.social-icons li::before{display: none;}
-ul.social-icons li a{width: 48px; height: 48px; background-color: var( --Fuschia); color: var(--Foreground); display: flex; align-items: center; justify-content: center;}
-ul.social-icons li a:hover{background-color: var(--White);}
-ul.social-icons li a span{transition: all 0.5s ease-in-out;}
-ul.social-icons li a:hover span{transform: rotate(360deg);}
+ul.social-icons li a{width: 48px; height: 48px; color: var(--Foreground); display: flex; align-items: center; justify-content: center;}
+ul.social-icons li a:hover{color: var(--Foreground);}
+ul.social-icons li a > span.social-icon-circle{ background-color: var(--Fuschia);}
+ul.social-icons li a:hover > span:not(.social-icon-circle){transform: scale(1.05);}
+ul.social-icons li a:hover > .social-icon-circle{animation: socialOutline 1.5s ease forwards;  transform: scale(1.15);}
+@keyframes socialOutline{ 0%{outline: 4px solid transparent;} 40%, 42%{outline: 4px solid RGB(125, 0, 83);} 50%, 100%{outline: 4px solid transparent;} }
 
 
 ul.footer-links > li{ color: var(--Fuschia); font-size: 14px; font-weight: 500; line-height: 14px; letter-spacing: 1.4px; }
 ul.footer-links > li > ul{padding-top: 14px; gap: 16px 0;}
 ul.footer-links > li > ul > li{margin: 0;}
-ul.footer-links > li > ul > li > a{ color: var(--White); font-size: 14px; font-weight: 400; line-height: 100%; letter-spacing: 0; }
+ul.footer-links > li > ul > li > a{display: inline-block; color: var(--White); font-size: 14px; font-weight: 400; line-height: 100%; letter-spacing: 0;position: relative;}
+ul.footer-links > li > ul > li > a::after{width: 0%; height: 1px; bottom: -1px; left: 0; transition: width 0.5s ease-out; content: ""; display: block; background-color: var(--Fuschia);}
+ul.footer-links > li > ul > li > a:hover::after{width: 100%;}
+ul.footer-links > li > ul > li > a:hover{color: var(--White); animation: shuffleX 0.5s ease-out forwards;}
+
 
 .copyrights-main{margin-top: 67px; padding: 64px 0 0;}
 .footer-line{width: 100%; height: 1px; top: 0; left: 0;}

@@ -481,3 +481,15 @@
 [data-animate="circle"].visible img{
   clip-path: circle(100% at 50% 50%);
 }
+
+@keyframes shuffleX {
+  0% {
+      transform: translateX(0);
+  }
+  25% {
+      transform: translateX(-2px);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
