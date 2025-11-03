@@ -30,11 +30,14 @@
 
 @media only screen and (max-width: 759px) and (min-width: 0px){
 	.micro-cta-module {margin: 39px 0 37px;}
+	body.page-template-default .micro-cta-module .container{padding: 0;}
 	.micro-cta-main{display: block;}
 	.micro-cta-thumb {max-width: 286px; margin: 0 auto;}
 	.micro-cta-text .optional-text { font-size: 0.75rem;}
 	.micro-cta-text {padding: 64px 20px 40px; margin-top: -40px;}
-	.micro-cta-text .btn-wrap {margin-top: 30px;}
+	.micro-cta-text .btn-wrap {margin-top: 15px;}
 	.micro-cta-text h2{font-size: 20px; line-height: 25px;}
+
+	
 
 }
