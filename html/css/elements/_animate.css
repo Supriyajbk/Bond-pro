@@ -5,14 +5,29 @@
 [data-animate] {
     visibility: hidden;
     animation-delay: 0.15s;
-    animation-duration: 0.75s;
+    animation-duration: 0.65s;
     animation-fill-mode: both;
     animation-timing-function: ease-out;
   }
-  
   [data-animate].visible {
     visibility: visible;
   }
+  [data-delay="1000"]{ animation-delay: 0.15s; }
+  [data-delay="1500"]{ animation-delay: 0.75s; }
+  [data-delay="2000"]{ animation-delay: 1s; }
+  [data-delay="2500"]{ animation-delay: 1.25s; }
+  [data-delay="3000"]{ animation-delay: 1.5s; }
+  [data-delay="3500"]{ animation-delay: 1.75s; }
+  [data-delay="4000"]{ animation-delay: 2s; }
+  [data-delay="4500"]{ animation-delay: 2.25s; }
+  [data-delay="5000"]{ animation-delay: 2.5s; }
+  [data-delay="5500"]{ animation-delay: 2.75s; }
+  [data-delay="6000"]{ animation-delay: 3s; }
+  [data-delay="6500"]{ animation-delay: 3.25s; }
+  [data-delay="7000"]{ animation-delay: 3.5s; }
+  [data-delay="7500"]{ animation-delay: 3.75s; }
+  [data-delay="8000"]{ animation-delay: 4s; }
+  
   
   .fade-in-right {
     animation-name: fadeInRight;
@@ -20,7 +35,7 @@
   
   @keyframes fadeInRight {
     0% {
-      transform: translate3d(20px, 0, 0);
+      transform: translate3d(30px, 0, 0);
       opacity: 0;
     }
   
@@ -36,7 +51,7 @@
   
   @keyframes fadeInLeft {
     0% {
-      transform: translate3d(-20px, 0, 0);
+      transform: translate3d(-30px, 0, 0);
       opacity: 0;
     }
   
@@ -52,7 +67,7 @@
   
   @keyframes fadeInDown {
     0% {
-      transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -30px, 0);
       opacity: 0;
     }
   
@@ -68,7 +83,7 @@
   
   @keyframes fadeInUp {
     0% {
-      transform: translate3d(0, 20px, 0);
+      transform: translate3d(0, 30px, 0);
       opacity: 0;
     }
   
@@ -379,11 +394,11 @@
   0% { transform: translateY(0); }
   20% {
     opacity: 1;
-    transform: translateY(-20px);
+    transform: translateY(-30px);
   }
   100% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
 }
 
