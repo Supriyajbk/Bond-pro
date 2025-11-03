@@ -21,7 +21,7 @@ ul.perspectives-category li > a{padding: 6px 12px; display: block; border-radius
     .perspectives-banner-btns{gap: 32px;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
-    .perspectives-banner-main {padding: 172px 0 40px;}
+    .perspectives-banner-main {padding: 172px 0 9px;}
     .perspectives-banner-text{color: var(--White-80);}
     .perspectives-banner-text p{margin-bottom: 24px;}
     .perspectives-banner-btns{display: block;}
