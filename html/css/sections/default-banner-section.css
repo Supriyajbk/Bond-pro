@@ -43,6 +43,6 @@
     .default-banner-text{padding: 0 6px; color: var(--White-80); font-size: 16px; line-height: 24px;}
     .default-banner-text h1{font-size: 40px; line-height: 44px; margin-bottom: 17px;}
     .default-banner-text p{margin-bottom: 24px;}
-    .default-banner-image{ margin: -18px 0 40px; /* min-width: 346px; left: -6px;  */ }
+    .default-banner-image{ margin: -18px 0 40px;}
     body.page-template-analytics .default-banner-text span.optional-text{margin-bottom: 30px;}
 }
