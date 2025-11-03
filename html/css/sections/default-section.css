@@ -42,6 +42,6 @@ ul.aside-links > li:before{display: none;}
   .default-article .h2{font-size: 40px;}
   .default-article p span {font-size: 20px;}
   .default-article .h2 + p{margin-bottom: 20px;}
-  .default-article p{font-size: 16px;}
+  .default-article {font-size: 16px; line-height: 150%;}
   .asidebar-nav .h5{font-size: 18px; line-height: 22px;}
 }
