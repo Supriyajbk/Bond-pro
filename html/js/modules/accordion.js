@@ -33,6 +33,7 @@ class Accordion {
         // Event Listeners starts here
         const $attr = event.target.closest('.accordion-list').dataset.content;
         if ($attr) {
+          console.log(event.target.closest('.accordion-list'));
           document.querySelectorAll(`.content-art-image`).forEach((img) => {
             img.style.display = 'none';
           });
