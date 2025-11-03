@@ -79,6 +79,9 @@ ul.tab-address > li > a i{color: var(--Light-Blue);}
     .tabs-row{gap: 32px; padding-top: 32px;}
     .tab-list{flex: 0 0 calc(50% - 16px); }
     ul.tab-links { gap: 24px; }
+
+    .tab-text h2 {font-size: 24px;}
+    .tab-pos-link { margin-top: 16px; }
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
     ul.tab-links { width: calc(100% + 48px); left: -24px; }
@@ -88,4 +91,9 @@ ul.tab-address > li > a i{color: var(--Light-Blue);}
     .tab-list:hover .tab-text::after {font-size: 30px; line-height: 300;}
     .tabs-main{padding: 0 0 15px;}
     .tab-section.no-about-intro .tabs-main{padding: 40px 0 15px;}
+
+    .tab-text h2 {font-size: 18px;}
+    .tab-text {align-content: flex-end;}
+    .tab-pos-desc{font-size: 14px;} 
+    .tab-pos-link { margin-top: 16px; }
 }
