@@ -20,5 +20,9 @@
     .connect-banner-text{font-size: 16px; line-height: 24px;}
     .connect-banner-text h1{margin-bottom: 16px; font-size: 56px; line-height: 96%; letter-spacing: -0.56px;}
     .connect-banner-text p{margin-bottom: 20px;}
+
+     body.page-template-bond-institute .connect-banner-wrap { padding: 0 0 45px;}
+     body.page-template-bond-institute .counter-list {padding: 30px 0 43px !important; }
+     body.page-template-bond-institute  .counter-top {margin-bottom: 2px;}
 }
 

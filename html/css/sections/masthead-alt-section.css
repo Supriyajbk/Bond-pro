@@ -9,7 +9,7 @@
 
 }
 @media only screen and (min-width: 760px){
-    .masthead-alt-gradient{ background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)) }
+    .masthead-alt-gradient{ background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); width: 50%;}
     .masthead-alt-main{min-height: 600px;}
     .masthead-alt-text{max-width: 432px; padding: 80px 0;}
     .masthead-alt-text h1{line-height: 110%; margin-bottom: 21px;}
