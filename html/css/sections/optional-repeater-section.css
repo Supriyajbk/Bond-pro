@@ -35,6 +35,7 @@
 
     body.page-template-bond-institute  .optional-repeater-thumb { max-height: 516px; max-width: 516px; }
 
+    body.page-template-services-line .optional-repeater-wrap,  body.page-template-why-bond .optional-repeater-wrap {padding: 80px 0 80px;}
 
 }
 @media only screen and (min-width: 760px){
