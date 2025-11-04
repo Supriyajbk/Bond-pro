@@ -1,4 +1,5 @@
 import { anime } from './modules/animate';
+import { animatables } from './modules/animatable';
 import { counter } from './modules/counter';
 import { header } from './modules/header';
 import { menu } from './modules/menu';
@@ -17,6 +18,7 @@ import { stickme } from './modules/sticksy';
 document.addEventListener('DOMContentLoaded', function () {
   counter.init();
   anime.init();
+  animatables.init();
   header.init();
   menu.init();
 

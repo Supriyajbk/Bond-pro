@@ -14,6 +14,7 @@ class Animate {
 
         if ($ele.is(':in-viewport')) {
           $ele.addClass(animateType + ' visible');
+
           if (timeline && !timeline.played) {
             timeline.restart().play();
             timeline.played = true; // mark as played (avoid repeat)
