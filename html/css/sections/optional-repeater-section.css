@@ -32,6 +32,10 @@
     body.page-template-services-line .optional-repeater-main:nth-child(2n) .optional-repeater-thumb { margin-right: auto; margin-left: inherit;}
     body.page-template-services-line .optional-repeater-pattern{left: -129px!important;}
     body.page-template-services-line .optional-repeater-main:nth-child(even) .optional-repeater-pattern{right: -129px!important; left: auto!important;}
+
+    body.page-template-bond-institute  .optional-repeater-thumb { max-height: 516px; max-width: 516px; }
+
+
 }
 @media only screen and (min-width: 760px){
     .optional-repeater-main:nth-child(odd){flex-direction: row-reverse;}

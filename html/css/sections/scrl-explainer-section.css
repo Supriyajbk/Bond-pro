@@ -58,6 +58,9 @@
     .scrl-explainer-btns{margin-top: 0; padding: 0;}
     .scrl-explainer-btns .button{width: 100%; text-align: center;}
 
+    body.page-template-analytics .scrl-explainer-main {padding: 28px 0 28px;}
+    body.page-template-analytics .scrl-explainer-inner .h3 {margin-bottom: 22px;}
+
 }
 @media only screen and (max-width: 389px) and (min-width: 200px){
     .scrl-explainer-inner{padding: 24px;}
