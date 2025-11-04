@@ -18,7 +18,7 @@ import { stickme } from './modules/sticksy';
 document.addEventListener('DOMContentLoaded', function () {
   counter.init();
   anime.init();
-  animatables.init();
+  // animatables.init();
   header.init();
   menu.init();
 
