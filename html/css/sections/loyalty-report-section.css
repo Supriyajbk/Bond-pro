@@ -23,7 +23,7 @@
 .loyalty-report-row:not(:last-child){margin-bottom: 20px;}
 .loyalty-report-year{padding-bottom: 16px;}
 .loyalty-report-year h2{margin-bottom: 1px;}
-
+.loyalty-report-left:only-child{flex: 0 0 100%;}
 
 
 
