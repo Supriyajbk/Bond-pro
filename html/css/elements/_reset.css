@@ -118,7 +118,7 @@ a.text-link.blue{color: var(--Blue);}
 a.text-link:hover em{left: 8px;}
 
 a.text-link.yellow-i i{color: var(--Fuschia);}
-a.text-link svg{  top: 0.5px; position: relative; transition: var(--b-transition); object-fit: contain;}
+a.text-link svg{ top: -.5px; left: 1px; position: relative; transition: var(--b-transition); object-fit: contain;}
 
 
 a.text-link:hover {color: var(--Fuschia);}
@@ -126,6 +126,11 @@ a.text-link:hover > svg{transform: translateX(4px);}
 
 a.text-link-hover-white:hover{color: var(--White);}
 a.text-link-hover-white:hover .confirmation-icon{color: var(--Fuschia);}
+
+a.text-link span:not(:first-child){position: relative; display: block;}
+a.text-link span:not(:first-child)::after{width: 0; height: 0;  transition: width 0.3s ease-out, height 0.3s ease-out; top: calc(50% + 0.015px); left: 50%; transform: translate(-50%,-50%); position: absolute; z-index: -1; border-radius: 50%; background-color: var(--Fuschia); content: ""; display: block;}
+a.text-link:hover span:not(:first-child)::after{width: 14px; height: 14px; }
+a.text-link:hover svg path{fill: var(--White);}
 
 a.text-link.fs-13{gap: 12px; font-size: 13px; line-height: 13px; letter-spacing: 1.04px;}
 
