@@ -1,4 +1,5 @@
 
+body .cky-consent-container .cky-consent-bar{visibility: visible;}
 body .cky-modal.cky-modal-open button.cky-show-desc-btn:not(:hover):not(:active){color: #008000;}
 body .cky-box-bottom-left{right: 40px; left: auto;}
 body .cky-notice .cky-title{font-family: "arboria", sans-serif;}
