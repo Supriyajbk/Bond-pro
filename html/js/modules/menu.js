@@ -1,6 +1,7 @@
 import $ from 'jquery';
 class Menu {
-  constructor(btn, headerRight, menu) {
+  constructor(header, btn, headerRight, menu) {
+    this.header = document.querySelector(header);
     this.btn = document.querySelector(btn);
     this.headerRight = document.querySelector(headerRight);
     this.menu = document.querySelector(menu);
@@ -24,7 +25,8 @@ class Menu {
     media.addEventListener('change', mediaFun.bind(this)); // bind forever
   }
   handlerBtn(e) {
-    e.target.classList.toggle('open');
+    e.currentTarget.classList.toggle('open');
+    this.header.classList.toggle('navOpen');
     this.headerRight.classList.toggle('open');
   }
   handlerMenu(e) {
@@ -45,4 +47,9 @@ class Menu {
     }
   }
 }
-export const menu = new Menu('.humburger-btn', '.header_right', 'ul.main_menu');
+export const menu = new Menu(
+  'header',
+  '.humburger-btn',
+  '.header_right',
+  'ul.main_menu'
+);
