@@ -28,7 +28,7 @@ span.date{letter-spacing: 1.4px; flex: 1;}
 @media only screen and (min-width: 1024px){
     .blog-news-main{padding: 80px 0;}
     .blog-news-row{gap: 40px;}
-    .blog-news-list{flex: 0 0 calc(33.333333333333% - 30px);}
+    .blog-news-list{flex: 0 0 calc(33.333333333333% - 27px);}
 }
 @media only screen and (min-width: 760px){
     .blog-news-title{flex: 1;}
