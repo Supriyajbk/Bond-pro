@@ -29,12 +29,14 @@ body.home header.site-header:not(.sticky-header) img.black-logo{opacity: 0;}
     
     ul.main_menu > li:not(.button) > a::after{width: 0%; height: 1px; bottom: 0; left: 0; transition: width 0.5s ease-out; content: ""; display: block; background-color: var(--Fuschia);}
     ul.main_menu > li.menu-item-has-children:not(.button) > a::after{ height: 8px; bottom: -4px; border-radius: 8px; position: absolute; z-index: 804;}
+    ul.main_menu > li:not(.button):hover > a::after,
     ul.main_menu > li:not(.button) > a:hover::after{width: 100%;}
     
     body.home header.site-header:not(.sticky-header) ul.main_menu > li:not(.button) > a{color: var(--White-80); padding: 46px 0 47px;}
 
     ul.main_menu > li.button > a{ padding: 11px 16px; font-weight: 700; border-radius: 20px; background-color: var(--Fuschia); color: var(--White);}
-    ul.main_menu > li.current-post-ancestor:not(.button) > a, ul.main_menu > li.current-menu-item:not(.button) > a, ul.main_menu > li.current-menu-parent:not(.button) > a, ul.main_menu > li:not(.button):hover > a, ul.main_menu > li:not(.button) > a:hover{color: var(--Foreground);}
+    ul.main_menu > li.current-post-ancestor:not(.button) > a, ul.main_menu > li.current-menu-item:not(.button) > a, ul.main_menu > li.current-menu-parent:not(.button) > a{color: var(--Fuschia);}
+    ul.main_menu > li:not(.button):hover > a, ul.main_menu > li:not(.button) > a:hover{color: var(--Foreground);}
     
     ul.main_menu > li.button{padding: 0; top: 0px; background: none;}
     
@@ -99,13 +101,13 @@ body.home header.site-header:not(.sticky-header) img.black-logo{opacity: 0;}
     .humburger-btn.open span:nth-child(3) { top: 23px; transform:rotate(-45deg) }
     .humburger-line{width: 18px; height: 2px; display: block; background-color: var(--White);}
 
-    .header_right{top: 73px; transform: translateX(100%); left: 0; width: 100vw; height: 125vh; position: absolute; transition: transform 0.5s ease; display: block; flex-direction: column; background-color: var(--White); overflow-y: auto;}
+    .header_right{top: 73px; transform: translateX(100%); left: 0; width: 100vw; height: 100vh; position: absolute; transition: transform 0.5s ease; display: block; flex-direction: column; background-color: var(--White); overflow-y: auto;}
     .header_right.open{transform: translateX(0);}
 
     .comment-icon{width: 48px; height: 48px; right: 20px; color: var(--White); cursor: pointer;}
     
     
-    nav.navigation{display: block;}
+    nav.navigation{display: block; padding-bottom: 120px;}
 
     ul.main_menu{display: block;}
     ul.main_menu > li{margin: 0;}
