@@ -29,6 +29,7 @@
     .midstream-text{padding-top: 68px;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
+    body.page-template-services-line .midstream-section{margin-bottom: 39px;}
     .midstream-main{padding: 0 0 28px;}
     .midstream-text{padding: 28px 28px 0;}
     .midstream-text h2{font-size: 32px; margin-bottom: 23px;}
