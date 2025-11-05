@@ -57,9 +57,9 @@ a.current .scrolly-line-circle::before{background-color: var(--Fuschia);}
 .scrolly-btns.no_demo_btn a:not(.button){justify-content: flex-start;}
 .no_testimonial_section{margin-top: 6rem;}
 
-.scrolly-sub-lists{gap: 26px 0; padding: 25px 0;}
-.scrolly-sub-list{color: var(--Dark-Gray);}
-.scrolly-sub-list h2{margin-bottom: 3px;}
+.scrolly-sub-lists{padding-top: 25px; color: var(--Dark-Gray);}
+.scrolly-sub-lists h2{margin-bottom: 3px; font-size: 20px; line-height: 25px; color: var(--Fuschia);}
+.scrolly-sub-lists p{margin-bottom: 26px;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1360px){
@@ -116,6 +116,6 @@ a.current .scrolly-line-circle::before{background-color: var(--Fuschia);}
 
     body.page-template-services-line-default .scrolly-main{padding-bottom: 40px;}
     body.page-template-services-line-default .scrolly-row:not(:last-child){margin-bottom: 40px;}
-    .scrolly-sub-lists{gap: 16px 0; padding: 13px 0 19px;}
-    .scrolly-sub-list{font-size: 12px; line-height: 18px;}
+    .scrolly-sub-lists{padding: 13px 0 19px; font-size: 12px; line-height: 18px;}
+    .scrolly-sub-lists p{margin-bottom: 16px;}
 }
