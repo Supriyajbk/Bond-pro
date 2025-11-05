@@ -9,9 +9,7 @@
     animation-fill-mode: both;
     animation-timing-function: ease;
   }
-  [data-animate].visible {
-    visibility: visible;
-  }
+  [data-animate].visible { visibility: visible; }
   [data-delay="500"]{ animation-delay: 0.0015s; }
   [data-delay="1000"]{ animation-delay: 0.15s; }
   [data-delay="1500"]{ animation-delay: 0.75s; }
