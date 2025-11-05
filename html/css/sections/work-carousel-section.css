@@ -49,7 +49,8 @@ ul.categories > li > a:hover{
     .work-carousel-title h2{font-size: 32px;}
     .work-carousel-text h2{font-size: 18px; line-height: 22px;}
 
-    .swiper-initialized .work-carousel-list{width: 308px; margin-right: 26px;}
+    .swiper-initialized .work-carousel-list{width: 662px; margin-right: 26px;}
+     .work-carousel-thumb  img{min-height: 574px; max-height: 574px; object-position: center top;}
 }
 @media screen and (max-width: 759px) and (min-width: 0px){
     .work-carousel-wrap{padding: 18px 0 32px; display: block;}
@@ -61,6 +62,10 @@ ul.categories > li > a:hover{
 
     .swiper-initialized .work-carousel-list{width: 308px; margin-right: 26px;}
     .work-carousel-btn{margin-top: 24px;}
+
+    .work-carousel-list{width: 320px;}
+    .work-carousel-thumb  img{min-height: 278px; max-height: 278px; object-position: center top;}
+    .work-carousel-text{padding: 20px;}
 }
 
 
