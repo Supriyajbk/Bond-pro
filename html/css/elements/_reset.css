@@ -108,56 +108,25 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 
 .button.md span{color: var(--Fuschia);}
 
-a.text-link{gap: 8px; color: var(--Foreground); font-size: 16px; line-height: 100%; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font);}
+a.text-link{gap: 0 5px; color: var(--Foreground); font-size: 16px; line-height: 24px; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font);}
 a.text-link em{color: var(--Fuschia); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 1px; transition: all .5s ease;}
 a.text-link.white{color: var(--White);}
-a.text-link.white:hover em{color: var(--White);}
 a.text-link.black{color: var(--Base-Foreground);}
 a.text-link.black:hover{color: var(--Fuschia);}
-a.text-link.blue{color: var(--Blue);}
-a.text-link:hover em{left: 8px;}
-
-a.text-link.yellow-i i{color: var(--Fuschia);}
-a.text-link svg{ top: -.5px; left: 1px; position: relative; transition: var(--b-transition); object-fit: contain;}
-
 
 a.text-link:hover {color: var(--Fuschia);}
-a.text-link:hover > svg{transform: translateX(4px);}
-
 a.text-link-hover-white:hover{color: var(--White);}
 a.text-link-hover-white:hover .confirmation-icon{color: var(--Fuschia);}
 
-a.text-link > span:not(:first-child){position: relative; display: block;}
+a.text-link > span:not(:first-child){width: 14px; height: 14px; position: relative; display: block;}
 a.text-link > span:not(:first-child)::after{width: 0; height: 0;  transition: width 0.3s ease-out, height 0.3s ease-out; top: calc(50% + 0.015px); left: 50%; transform: translate(-50%,-50%); position: absolute; z-index: -1; border-radius: 50%; background-color: var(--Fuschia); content: ""; display: block;}
-a.text-link:hover > span:not(:first-child)::after{width: 14px; height: 14px; }
+a.text-link:hover > span:not(:first-child)::after{width: 100%; height: 100%; }
+a.text-link svg{ width: 100%; height: 100%; position: absolute; transition: var(--b-transition); object-fit: contain;}
 a.text-link:hover svg path{fill: var(--White);}
 
 a.text-link.fs-13{gap: 12px; font-size: 13px; line-height: 13px; letter-spacing: 1.04px;}
 
-.text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 1.25rem; line-height: 100%;}
-.text-btn-link:hover{color: var(--White);}
-.text-btn-link > span{padding: 10px 16px 10px; flex: 1; border-radius: 28px; border: 8px solid var(--Fuschia); display: inline-block;}
-.text-btn-link svg{ transform: translate(0, 0); transition: var(--b-transition); }
-.text-btn-link:hover svg{ transform: translate(12px, -0.15px); }
-.text-btn-link.sm{font-size: 1rem; line-height: 1rem; }
-.text-btn-link.sm span{border-width: 6px;}
-.text-btn-link.sm svg{width: 23px;}
-
-.text-link-underline{
-    color: var(--Foreground);
-
-font-size: 14px;
-
-line-height: 14px;
-/* letter-spacing: 1.68px; */
-letter-spacing: 0;
-text-decoration-line: underline;
-text-decoration-style: solid;
-text-decoration-skip-ink: auto;
-text-decoration-color: var(--Fuschia);
-text-decoration-thickness: 12%; 
-
-}
+a.text-link-underline{ color: var(--Foreground); font-size: 14px; line-height: 14px; /* letter-spacing: 1.68px; */ letter-spacing: 0; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: var(--Fuschia); text-decoration-thickness: 12%; }
 a.text-link-underline:hover{text-decoration-color: transparent;}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
