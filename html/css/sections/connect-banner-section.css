@@ -22,7 +22,9 @@
     .connect-banner-text p{margin-bottom: 20px;}
 
      body.page-template-bond-institute .connect-banner-wrap { padding: 0 0 45px;}
-     body.page-template-bond-institute .counter-list {padding: 30px 0 43px !important; }
+     body.page-template-bond-institute .counter-list, body.page-template-why-bond .counter-list {padding: 30px 0 43px !important; }
      body.page-template-bond-institute  .counter-top {margin-bottom: 2px;}
+
+      body.page-template-why-bond .connect-banner-wrap {padding:  0 0 41px;}
 }
 
