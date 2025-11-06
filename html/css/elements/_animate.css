@@ -4,16 +4,15 @@
 
 [data-animate] {
     visibility: hidden;
-    animation-delay: 0.15s;
-    animation-duration: 0.65s;
+    animation-delay: 0.10s;
+    animation-duration: 0.75s;
     animation-fill-mode: both;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease;
   }
-  [data-animate].visible {
-    visibility: visible;
-  }
-  [data-delay="500"]{ animation-delay: 0.0015s; }
-  [data-delay="1000"]{ animation-delay: 0.15s; }
+  [data-animate].visible { visibility: visible; }
+  [data-delay="0"]{ animation-delay: 0s; }
+  [data-delay="500"]{ animation-delay: 0.25s; }
+  [data-delay="1000"]{ animation-delay: 0.5s; }
   [data-delay="1500"]{ animation-delay: 0.75s; }
   [data-delay="2000"]{ animation-delay: 1s; }
   [data-delay="2500"]{ animation-delay: 1.25s; }

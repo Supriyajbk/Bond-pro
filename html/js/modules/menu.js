@@ -1,4 +1,4 @@
-import $ from 'jquery';
+// import $ from 'jquery';
 class Menu {
   constructor(header, btn, headerRight, menu) {
     this.header = document.querySelector(header);

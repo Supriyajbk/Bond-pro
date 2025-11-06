@@ -9,16 +9,18 @@ span.counter{  display: block;   letter-spacing: -1.92px; position: relative; }
 
 
 body.page-template-bond-institute .counter-list{padding: 18px 32px 29px;}
-
-
 body.home .counter-main-wrap{padding: 40px 0;}
+
+
+
+/*-- media css starts here --*/
+@media screen and (min-width: 760px){
+    .counter-list{display: flex; flex-direction: column;}
+    .counter-text{margin-top: auto;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
     .counter-list {flex: 0 0 50%;}
-
-
-
 }
-
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .counter-stats{gap: 0}
     .counter-list {flex: 0 0 100%; border-left: none; border-bottom:  1px solid var(--Foreground-25);     padding: 20px 0 42px;}
@@ -27,8 +29,5 @@ body.home .counter-main-wrap{padding: 40px 0;}
     .counter-main-wrap{padding-top: 0; padding-bottom: 0;}
     .counter-list:last-child{border-bottom: none;}
     .counter-list p{font-size: 14px;}
-
     body.home .counter-main-wrap { padding: 0; }
-
-
 }
