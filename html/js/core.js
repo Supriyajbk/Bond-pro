@@ -18,29 +18,24 @@ import { stickme } from './modules/sticksy';
 document.addEventListener('DOMContentLoaded', function () {
   counter.init();
   anime.init();
-  // animatables.init();
+  animatables.init();
   header.init();
   menu.init();
-
   tabHandler.init();
   trustBy.slider();
   accordion.init();
-
   youtube.init();
   vimeo.init();
   video.init();
-
   swiper.init();
   workSwiper.init();
   imageSwiper.init();
   eventSwiper.init();
   divider.load();
   pattern.load();
-
   spyScroll.init();
   formidable.init();
   text.remove();
   serviceCarousel.init();
-
   stickme.init();
 });
