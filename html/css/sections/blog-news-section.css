@@ -35,8 +35,9 @@ span.date{letter-spacing: 1.4px; flex: 1;}
     .blog-news-text{padding: 32px;}
     .blog-news-text h2{margin-bottom: 10px;}
 }
-@media only screen and (max-width: 1279px) and (min-width: 1024px){
-   
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
+   .blog-news-desc h2{font-size: 24px;}
+    
 }
 @media screen and (max-width: 1023px) and (min-width: 760px){
     .blog-news-main{padding: 48px 0;}
@@ -50,7 +51,7 @@ span.date{letter-spacing: 1.4px; flex: 1;}
     .blog-news-title{padding-bottom: 20px;}
     .blog-news-title h2{font-size: 24px; line-height: 30px;}
     .blog-news-srch input:not([type="submit"]){padding: 12px 16px; font-size: 14px; line-height: 19px;}
-    ul.blog-categories{width: calc(100% + 28px); flex-wrap: nowrap; overflow: auto; -ms-overflow-style: none; scrollbar-width: none; }
+    ul.blog-categories{width: calc(100% + 28px); flex-wrap: nowrap; overflow: auto; -ms-overflow-style: none; scrollbar-width: none; margin-bottom: 28px; }
     ul.blog-categories::-webkit-scrollbar { display: none; }
     ul.blog-categories > li > a{font-size: 14px; line-height: 21px; white-space: nowrap;}
     .blog-news-list:not(:last-child){margin-bottom: 40px;}

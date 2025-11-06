@@ -58,12 +58,7 @@ body.home .feature-post-main{padding: 48px 0 80px;}
 
 
 }
-@media screen and (max-width: 1439px) and (min-width: 1280px){
-  .feature-post-image{flex: 0 0 680px;}
-}
-@media screen and (max-width: 1279px) and (min-width: 1024px){
-  .feature-post-image{flex: 0 0 504px;}
-}
+
 @media screen and (max-width: 1023px) and (min-width: 200px){
   .post-feature-text h2{display: -webkit-box; -webkit-line-clamp: 3; text-overflow: ellipsis; overflow: hidden; -webkit-box-orient: vertical; }
 }
