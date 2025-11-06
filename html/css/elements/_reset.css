@@ -48,7 +48,7 @@ blockquote dl dt::before{background-color: var(--White);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 16px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 10px;}
-ul > li::before{top: 12px; left: -13px; width: 4px; height: 4px; border-radius: 50%; opacity: 1; background-color: var(--Fuschia); content: ""; position: absolute;} 
+ul > li::before{top: 11px; left: -13px; width: 4px; height: 4px; border-radius: 50%; opacity: 1; background-color: var(--Fuschia); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 28px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
@@ -108,7 +108,7 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 
 .button.md span{color: var(--Fuschia);}
 
-a.text-link{gap: 0 5px; color: var(--Foreground); font-size: 16px; line-height: 24px; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font);}
+a.text-link{gap: 0 5px; color: var(--Foreground); font-size: 16px; line-height: 24px; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font); align-items: center;}
 a.text-link em{color: var(--Fuschia); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 1px; transition: all .5s ease;}
 a.text-link.white{color: var(--White);}
 a.text-link.black{color: var(--Base-Foreground);}

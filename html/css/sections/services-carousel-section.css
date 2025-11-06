@@ -1,6 +1,8 @@
 
 .services-carousel-row:not(:first-child){display: none;}
-
+ul.services-carousel-tabs{ scrollbar-width: none;}
+ul.services-carousel-tabs::-webkit-scrollbar { display: none; }
+  
 
 
 /*-- media css starts here --*/
@@ -24,7 +26,7 @@
 @media screen and (max-width: 759px) and (min-width: 200px){
     .services-carousel-pos{position: relative; background-color: var(--Foreground);}
     ul.services-carousel-tabs{display: block; margin-top: -30px;}
-    ul.services-carousel-tabs > li > a{padding: 10px 16px; pointer-events: none; background-color: var(--White); color: var(--Fuschia);}
+    ul.services-carousel-tabs > li > a{padding: 10px 16px; width: 100%; pointer-events: none; background-color: var(--White); color: var(--Fuschia);}
     ul.services-carousel-tabs > li:not(:first-child) > a{display: none;}
     .services-carousel-content{display: block;}
     .services-carousel-row{padding: 24px 0 28px;}

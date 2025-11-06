@@ -30,6 +30,15 @@ class serviceCarouselSlider {
                 const activeSlide =
                   this.mySwiper.slides[this.mySwiper.activeIndex];
                 const $slide = activeSlide.dataset.slideFor;
+                $(
+                  document.querySelectorAll(
+                    'ul.services-carousel-tabs > li > a'
+                  )
+                ).hide();
+                document.querySelector(
+                  `ul.services-carousel-tabs > li > a[data-link-nav="${$slide}"]`
+                ).style.display = 'block';
+
                 $(document.querySelectorAll('.services-carousel-row')).hide();
                 $(
                   document.querySelector(

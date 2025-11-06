@@ -11,6 +11,7 @@
 .connected-list:only-child{flex: 0 0 100%;}
 
 @media only screen and (min-width: 1024px) {
+    .connected-section
     .connected-row{gap: 56px;}
     .connected-list{flex: 0 0 calc(33.3333333333% - 38px);}
 }
