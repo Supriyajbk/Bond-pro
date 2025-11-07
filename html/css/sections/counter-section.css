@@ -11,7 +11,7 @@ span.counter{  display: block;   letter-spacing: -1.92px; position: relative; }
 body.page-template-bond-institute .counter-list{padding: 18px 32px 29px;}
 body.home .counter-main-wrap{padding: 40px 0;}
 
-
+body.page-template-default .counter-list .h6{margin-bottom: 12px;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 760px){
