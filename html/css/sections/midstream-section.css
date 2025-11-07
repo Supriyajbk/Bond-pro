@@ -22,14 +22,14 @@
 @media only screen and (max-width: 1023px) and (min-width: 0px){
     .midstream-main{flex-direction: column-reverse;}
     .midstream-text, .midstream-images{flex: 0 0 100%; width: 100%;}
-    .midstream-images{margin: -16px auto 0; position: relative;}
+    .midstream-images{margin: -8px auto 0; position: relative;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .midstream-main{padding: 0 0 68px;}
     .midstream-text{padding-top: 68px;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
-    body.page-template-services-line .midstream-section{margin-bottom: 39px;}
+    
     .midstream-main{padding: 0 0 28px;}
     .midstream-text{padding: 28px 28px 0;}
     .midstream-text h2{font-size: 32px; margin-bottom: 23px;}
