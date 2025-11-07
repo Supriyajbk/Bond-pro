@@ -44,4 +44,7 @@ ul.aside-links > li:before{display: none;}
   .default-article .h2 + p{margin-bottom: 20px;}
   .default-article {font-size: 16px; line-height: 150%;}
   .asidebar-nav .h5{font-size: 18px; line-height: 22px;}
+
+  body.page-template-default .video-main { padding: 32px 0 58px;}
+
 }
