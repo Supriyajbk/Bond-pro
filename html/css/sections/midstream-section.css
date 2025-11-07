@@ -33,7 +33,7 @@
     .midstream-main{padding: 0 0 28px;}
     .midstream-text{padding: 28px 28px 0;}
     .midstream-text h2{font-size: 32px; margin-bottom: 23px;}
-    .midstream-images{width: calc(100% + 32px); left: -16px; }
+    .midstream-images{width: calc(100% + 32px); left: -8px; }
 }
 
 

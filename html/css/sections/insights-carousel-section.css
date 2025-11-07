@@ -58,7 +58,7 @@ ul.categories > li > a:hover{
     .swiper-initialized .insights-carousel-list{width: 308px; margin-right: 26px;}
 }
 @media screen and (max-width: 759px) and (min-width: 0px){
-    .insights-carousel-wrap{padding: 18px 0 32px; display: block;}
+    .insights-carousel-wrap{padding: 18px 0 22px; display: block;}
     .insights-carousel-main{display: block;}
 
     .insights-carousel-head{display: block; margin-bottom: 19px;}
@@ -67,6 +67,7 @@ ul.categories > li > a:hover{
 
     .swiper-initialized .insights-carousel-list{width: 308px; margin-right: 26px;}
     .insights-carousel-btn{margin-top: 24px;}
+    .insights-carousel-text{padding: 20px;}
 }
 
 
