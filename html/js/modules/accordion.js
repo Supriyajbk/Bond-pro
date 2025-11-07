@@ -40,7 +40,9 @@ class Accordion {
               img.style.display = 'none';
             });
           $(
-            document.querySelector(`.content-art-image[data-image="${$attr}"]`)
+            event.target
+              .closest('.content-art-main')
+              .querySelector(`.content-art-image[data-image="${$attr}"]`)
           ).fadeIn(1000);
         }
         // Event Listeners ends here

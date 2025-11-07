@@ -243,7 +243,7 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_s
     body .contact-form .frm_forms .frm_form_fields #frm_field_7_container.frm_form_field.vertical_radio{margin-bottom: 45px;}
 
  
-    body .frm_forms form .frm_required_field div.frm_error{bottom: -15px; position: static;}
+    body .frm_forms form .frm_required_field div.frm_error{bottom: -15px; position: static; text-align: right;}
 
 
     .frm_filed_wrapper{display: block;}
