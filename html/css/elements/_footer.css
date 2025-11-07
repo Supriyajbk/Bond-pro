@@ -19,7 +19,8 @@ ul.footer-links > li > ul > li{margin: 0;}
 ul.footer-links > li > ul > li > a{display: inline-block; color: var(--White); font-size: 14px; font-weight: 400; line-height: 100%; letter-spacing: 0;position: relative;}
 ul.footer-links > li > ul > li > a::after{width: 0%; height: 1px; bottom: -1px; left: 0; transition: width 0.5s ease-out; content: ""; display: block; background-color: var(--Fuschia);}
 ul.footer-links > li > ul > li > a:hover::after{width: 100%;}
-ul.footer-links > li > ul > li.current_page_item > a, ul.footer-links > li > ul > li > a:hover{color: var(--White); animation: shuffleX 0.5s ease-out forwards;}
+ul.footer-links > li > ul > li > a:hover{color: var(--White); animation: shuffleX 0.5s ease-out forwards;}
+ul.footer-links > li > ul > li.current_page_item > a{color: var(--Fuschia);}
 
 
 .copyrights-main{margin-top: 67px; padding: 64px 0 0;}
