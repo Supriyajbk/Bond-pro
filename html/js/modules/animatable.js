@@ -5,6 +5,7 @@ class Animatables {
 
   init() {
     const $accordion = document.querySelectorAll('.accordion-main');
+    if ($accordion.length === 0) return;
     $accordion.forEach(($accordion) => {
       const $list = $accordion.querySelectorAll('.accordion-list');
       $list.forEach(($item, $i) => {
