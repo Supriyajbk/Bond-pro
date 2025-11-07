@@ -5,7 +5,7 @@
 
 .midstream-text span.optional-text{margin-bottom: 15px;}
 .midstream-text h2{margin-bottom: 38px;}
-.midstream-text:only-child, .midstream-main.no_image{display: block;}
+.midstream-text:only-child{flex: 1;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
