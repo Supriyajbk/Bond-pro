@@ -49,6 +49,7 @@ body.page-template-career  .featured-list p:last-of-type { margin-bottom: 0; }
   .featured-list.intro-list-3, .featured-list.intro-list-2{flex: 0 0 100%;}
   .featured-list h2 {font-size: 20px;}
 
+  body.page-template-default .featured-lists {gap: 28px;}
 
   .featured-section.no_video .featured-main{padding: 40px 0 40px;}
 

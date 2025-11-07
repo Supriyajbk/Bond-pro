@@ -12,7 +12,7 @@
 
 .reports-text h2 a{color: var(--Foreground);}
 .reports-text h2 a:hover{color: var(--Fuschia);}
-
+.reports-text span.optional-text{margin-bottom: 5px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -21,6 +21,8 @@
     .reports-title{flex: 1;}
     .reports-row{gap: 40px;}
     .reports-col{flex: 0 0 calc(25% - 30px); flex-grow: 1;}
+
+    body.page-template-default .reports-main{padding: 84px 0 80px;}
 }
 @media only screen and (min-width: 760px){
     .reports-image{margin-bottom: 19px;}
