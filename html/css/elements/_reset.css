@@ -443,7 +443,7 @@ p a:hover{ text-decoration-color: transparent; color: var(--Fuschia); }
     .btn-wrap .text-link{margin-top: 15px;}
 
 
-    .divider{gap: 8px; padding: 18px 0; justify-content: space-between;}
+    .divider{gap: 8px; padding: 18px 0; justify-content: space-between; overflow: hidden;}
 
     span.optional-text{font-size: 12px; line-height: 12px; letter-spacing: 1.2px;}
 
