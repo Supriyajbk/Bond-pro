@@ -45,6 +45,7 @@ a.current .scrolly-line-circle::before{background-color: var(--Fuschia);}
 .scrolly-text ul:last-child{margin-bottom: 0;}
 .scrolly-text ul > li:last-child{margin-bottom: 0;}
 
+.scrooly-text h2{font-size: 28px;}
 
 .no_scrolly_text{display: block;}
 .scrolly-btns.no_demo_btn, .scrolly-btns.no_demo_link{padding: 0; background: none;}
@@ -62,7 +63,7 @@ a.current .scrolly-line-circle::before{background-color: var(--Fuschia);}
 }
 @media screen and (min-width: 1024px){
     .scrolly-main{gap: 80px; }
-    .scrolly-left{flex: 0 0 200px;}
+    .scrolly-left{flex: 0 0 217px;}
     .scrolly-col{flex: 1;}
     .scrolly-data{flex-direction: row-reverse;}
     .scrolly-text{flex: 1;}
