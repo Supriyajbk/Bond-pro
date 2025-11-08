@@ -66,6 +66,8 @@ ul.categories > li > a:hover{
     .work-carousel-list{width: 320px;}
     .work-carousel-thumb  img{min-height: 278px; max-height: 278px; object-position: center top;}
     .work-carousel-text{padding: 20px;}
+
+    body.page-template-services-line-default .work-carousel-wrap{padding: 18px 0 20px;}
 }
 
 
