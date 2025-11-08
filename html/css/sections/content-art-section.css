@@ -17,6 +17,7 @@
 @media screen and (min-width: 1024px){
     .content-art-main{gap: 80px; padding: 40px 0 80px; min-height: 688px;}
     .content-art-text{flex: 0 0 512px;}
+    .content-art-text .accordion-header.lg{ padding: 30px 24px 31px 0;;}
 }
 @media screen and (min-width: 760px){
     .content-art-main{flex-direction: row-reverse;}
