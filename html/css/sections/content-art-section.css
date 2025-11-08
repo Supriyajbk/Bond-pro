@@ -7,7 +7,7 @@
 
 
 .content-art-image:not(:first-child){display: none;}
-
+.content-art-image.open{animation: none;}
 
 
 

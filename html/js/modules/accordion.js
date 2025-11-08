@@ -37,13 +37,14 @@ class Accordion {
             .closest('.content-art-main')
             .querySelectorAll(`.content-art-image`)
             .forEach((img) => {
+              img.classList.remove('open');
               img.style.display = 'none';
             });
-          $(
-            event.target
-              .closest('.content-art-main')
-              .querySelector(`.content-art-image[data-image="${$attr}"]`)
-          ).fadeIn(1000);
+          const myele = event.target
+            .closest('.content-art-main')
+            .querySelector(`.content-art-image[data-image="${$attr}"]`);
+          myele.classList.add('open');
+          $(myele).fadeIn(1000);
         }
         // Event Listeners ends here
       });
