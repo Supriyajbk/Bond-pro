@@ -15,7 +15,7 @@
     
 }
 @media screen and (min-width: 1440px) {
-    .scrolly-cta-main{min-width: 1064px; left: 64px;}
+    .scrolly-cta-main{min-width: 1064px; left: 81px;}
 }
 @media screen and (max-width: 1359px) and (min-width: 1024px){
     .scrolly-cta-main{width: calc(100% - 240px);}   
