@@ -22,10 +22,13 @@ figure.custom-testimonial-thumb{width: 80px; height: 80px;}
     body.single-post .custom-testimonial-profile span{color: var(--White)}
     body.single-post .custom-testimonial-profile p {color: var(--White);}
 
+    body.single-post-custom .custom-testimonial-section .container{margin: 0 64px;}
+
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
 body.page-template-default .custom-testimonial-main{margin-bottom: 55px; padding: 48px;}
 
+body.single-post-custom .custom-testimonial-section{margin-bottom: 64px;}
 
 }
 
@@ -44,7 +47,7 @@ body.page-template-default .custom-testimonial-main{margin-bottom: 55px; padding
     
     body.page-template-about .custom-testimonial-main{ padding: 30px 0; }
     body.single-post .custom-testimonial-text h2 { color: var(--White); font-size: 20px; line-height: 125%;}
-    .perspective-default-main .custom-testimonial-main {padding: 40px 0;}
+    .perspective-default-main .custom-testimonial-main {padding: 40px;}
     .perspective-default-main .custom-testimonial-main { margin-bottom: 54px;}
 }
 
