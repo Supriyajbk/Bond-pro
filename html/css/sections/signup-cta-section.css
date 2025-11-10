@@ -17,17 +17,28 @@ body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field input{ font-si
 body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field input:not([type="checkbox"]):focus, body  .signup-cta-form  .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus:focus{ background: none; border: none; color: var(--White);}
 body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit{ border-radius: 30px; padding: 20px 29px 20px; }
 body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit:hover{ background-color: var(--White); color: var(--Fuschia); }
+body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field.frm_full{flex: 0 0 100%; width: 100%;}
 
-
+body .signup-cta-form .frm_forms form .frm_required_field div.frm_error{bottom: -42px; left: 20px; right: auto; position: absolute;}
+body .signup-cta-form .with_frm_style .frm_loading_form .frm_button_submit{color: var(--Fuschia) !important;}
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 760px){
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field{padding-right: 125px;}
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field.frm_right{top: 14px; right: 0; padding-right: 0; position: absolute;}
+    body .signup-cta-form .frm_forms form .frm_required_field div.frm_error{left: 0;}
+}
 @media only screen and (min-width: 1024px){
     .signup-cta-main{padding: 40px 0;}
     .signup-cta-form{flex: 0 0 470px; padding: 0 0 10px 20px;}
+    /* .signup-cta-line{opacity: 0; visibility: hidden;} */
+    /* .signup-cta-form .frm_forms{margin-left: -20px;} */
+    /* .open-cta-form .signup-cta-line{opacity: 0; visibility: hidden;} */
+    /* .open-cta-form .frm_forms{margin-left: 0;} */
     .signup-cta-icon{width: 62px;}
     .signup-cta-title{flex: 1;}
     .signup-cta-text{gap: 25px; flex: 1;}
-    
+    body .signup-cta-form .with_frm_style .frm_message{margin: 18px 0 0;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .signup-cta-icon{width: 52px;}
@@ -59,6 +70,7 @@ body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit bu
     body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field.frm_right{width: 100%; top: 0; padding: 0;}
     body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit{margin-top: 50px;}
     body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit{width: 100%; justify-content: center;}
+    body .signup-cta-form .with_frm_style .frm_message{padding-left: 20px;}
 }
 
 

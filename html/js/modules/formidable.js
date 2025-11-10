@@ -7,7 +7,7 @@ class Formidable {
     function errorHide(e) {
       let errorDiv = e.target
         .closest('.frm_blank_field')
-        .querySelector('.frm_error');
+        ?.querySelector('.frm_error');
       if (!errorDiv) return;
       let value = e.target.value;
       value.length > 0
