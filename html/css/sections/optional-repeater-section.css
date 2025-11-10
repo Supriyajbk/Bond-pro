@@ -68,6 +68,4 @@
     .optional-repeater-image{overflow: hidden;}
     .optional-repeater-pattern{ left: 0; right: 0; top: -18px; width: 334px; height: 377px; background-image: url('../../images/pattern-mobile@2x.svg');}
 
-    body.page-template-careers .columns-icon{width: 56px; height: 56px;}
-    body.page-template-careers .columns-main {padding: 0 0 16px;}
 }
