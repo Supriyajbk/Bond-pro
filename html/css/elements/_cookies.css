@@ -35,7 +35,7 @@ body .cky-notice-btn-wrapper button.cky-btn.cky-btn-accept:hover, body .cky-pref
   opacity: 1;
 }
 body .cky-accordion-header .cky-always-active{
-  color: var(--Fuschia);
+  color: var(--Fuschia) !important;
   font-weight: 600;
   transition: var(--b-transition);
   font-family: var(--heading-font);

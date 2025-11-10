@@ -18,7 +18,7 @@ class Stickmy {
     if (!this.element) return;
 
     if (this.instance) {
-      this.instance.destroy();
+      // this.instance.destroy(); // No need
       this.instance = null;
     }
 
