@@ -30,9 +30,13 @@
   .columns-main{padding: 0 0 28px;}
   .columns-row{gap: 38px}
   .columns-col{flex:  0 0 100%;}
-  .columns-col h2 {font-size: 20px;}
+  .columns-col h2 {font-size: 20px; margin-bottom: 10px;}
   .columns-col p {font-size: 14px; margin-bottom: 18px;}
 
   body.page-template-why-bond .columns-icon{width: 56px; height: 56px;}
   body.page-template-why-bond  .columns-row { gap: 24px; }
+
+  
+    body.page-template-careers .columns-icon{width: 56px; height: 56px; margin-bottom: 10px;}
+    body.page-template-careers .columns-main {padding: 0 0 16px;}
 }
