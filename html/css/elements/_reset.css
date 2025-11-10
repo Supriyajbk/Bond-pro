@@ -108,6 +108,7 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 
 .button.md{padding: 15px 20px 15px; font-size: 20px; line-height: 100%; border-radius: 25px;}
 .button.lg{padding: 21px 24px 19px; border-radius: 30px;}
+.button.lg::before{border-radius: 30px;}
 
 .button.md span{color: var(--Fuschia);}
 
