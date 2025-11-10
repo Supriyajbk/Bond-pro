@@ -12,4 +12,5 @@
     .view-signup-main{display: block; padding: 28px 0;}
     .view-signup-text h2{font-size: 32px; line-height: 40px;}
     .view-signup-link{padding-top: 20px;}
+    .view-signup-link .button{text-align: center; width: 100%;}
 }
