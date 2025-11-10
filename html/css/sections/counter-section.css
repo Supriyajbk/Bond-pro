@@ -16,6 +16,7 @@ body.page-template-default .counter-list .h6{margin-bottom: 12px;}
 @media screen and (min-width: 760px){
     .counter-list{display: flex; flex-direction: column;}
     .counter-text{margin-top: auto;}
+    .counter-list .h6{margin-bottom: 15px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
     .counter-list {flex: 0 0 50%;}
