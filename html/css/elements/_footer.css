@@ -67,6 +67,7 @@ ul.copyright-links > li.current_page_item > a{color: var(--Fuschia);}
 
     .copyrights-main{display: block; margin-top: 41px; padding-top: 39px;}
     .copyrights{line-height: 15px;}
+    .copyrights p span{display: block;}
     ul.copyright-links{gap: 0 34px; justify-content: flex-start; margin-top: 20px;}
     ul.copyright-links > li::before { left: -20px;}
 }
