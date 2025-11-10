@@ -13,7 +13,7 @@
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .connect-banner-section{background-color: var(--Foreground);}
-    .connect-banner-mbl{position: relative;}
+    .connect-banner-mbl{position: relative; min-height: 390px;}
     .connect-banner-gradient{height: 50%; top: auto; bottom: 0;}
     .connect-banner-bg{position: static;}
     .connect-banner-wrap{padding: 0px 0 31px;}

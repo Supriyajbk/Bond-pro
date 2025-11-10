@@ -10,9 +10,11 @@
 .client-say-text p{font-size: 14px; font-weight: 700; font-family: var(--heading-font); margin-bottom: 3px; line-height:100%}
 .client-say-text span{font-size: 12px; font-weight: 400; line-height: 100%;  font-family: var(--heading-font); opacity: 0.75;}
 
-
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .client-say-main{align-items: center;}
+}
 @media screen and (max-width: 1023px) and (min-width: 760px){
-
     .client-say-main{display: block;}
     .client-say-lt{margin-bottom: 32px;}
 

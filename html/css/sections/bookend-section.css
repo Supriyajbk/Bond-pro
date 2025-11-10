@@ -25,4 +25,6 @@
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .bookend-main{padding: 28px 0 28px;}
     .bookend-main h2{font-size: 40px; line-height: 44px; margin-bottom: 24px;}
+    .bookend-blur{width: 300px; height: 300px;}
+    .bookend-blur.two{top: auto; bottom: 0;}
 }

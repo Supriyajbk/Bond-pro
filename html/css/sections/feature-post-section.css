@@ -80,7 +80,8 @@ body.home .feature-post-main{padding: 48px 0 80px;}
   .post-feature-row:not(:last-child){margin-bottom: 24px;}
   .feature-post-lmbl-link{padding-top: 28px;}
 
-  body.home .feature-post-head h1 {font-size: 32px;}
+  body.home .feature-post-head{display: block;}
+  body.home .feature-post-head h2{font-size: 32px;}
 
 
 }
