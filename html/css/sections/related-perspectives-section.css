@@ -62,7 +62,7 @@ padding: 15px 20px;
     .related-perspectives-row{display: block;}
     .related-perspectives-head{display: block; padding-bottom: 28px;}
     .related-perspectives-title{padding-bottom: 20px;}
-    .related-perspectives-title h2{font-size: 24px; line-height: 30px;}
+    .related-perspectives-title h2{font-size: 32px; line-height: 40px;}
     .related-perspectives-srch input{padding: 12px 16px; font-size: 14px; line-height: 19px;}
    
     .related-perspectives-list:not(:last-child){margin-bottom: 40px;}
