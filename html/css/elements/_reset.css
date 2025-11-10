@@ -8,7 +8,7 @@ html{overflow-y: scroll; overflow-x: hidden; -webkit-text-size-adjust: 100%; -ms
 a{color: var(--Fuschia);text-decoration: none; transition: var(--b-transition);}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
-a:hover{color: var(--Sky-Blue);}
+a:hover{color: var(--Foreground);}
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Base-Foreground); font-weight: 500; font-family: var(--heading-font); text-transform: none;}
 .h1, h1{font-size: 64px; line-height: 110%; margin-bottom: 24px;}
@@ -95,10 +95,13 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 
 
 /* Buttons */
-.button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, button{padding: 11px 16px 9px; gap: 8px; font-size: 16px; font-weight: 700; line-height: 20px; letter-spacing: 0; font-family: var(--heading-font); display: inline-block; background: var(--Fuschia); color: var(--White); border: none; border-radius: 20px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none;  outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0; }
-.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: var(--Foreground); color: var(--White); animation: gelatine 1s ease forwards;}
+.button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, button{padding: 11px 16px 9px; color: var(--White); gap: 8px; font-size: 16px; font-weight: 700; line-height: 20px; letter-spacing: 0; font-family: var(--heading-font); display: inline-block; border: none; border-radius: 20px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none;  outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--transition-5); z-index: 1; margin: 0;}
+.button::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before, button::before{ background: var(--Fuschia); color: var(--White); width: 100%; height: 100%; top: 0; left: 0; border-radius: 20px; content: ""; display: block; position: absolute; z-index: -1; }
+.button:hover::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::before, button:hover::before{background: var(--Foreground); color: var(--White); animation: gelatine 1s ease forwards;}
+.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: inherit; color: var(--White);}
 
-.button.btn-hover-white:hover{background-color: var(--White); color: var(--Fuschia);}
+.button.btn-hover-white:hover:before{background-color: var(--White); color: var(--Fuschia);}
+.button.btn-hover-white:hover{color: var(--Foreground);}
 .button.reverse{flex-direction: row-reverse;}
 
 .button.foreground-bg:hover{background-color: var(--White); color: var(--Foreground);}
@@ -277,9 +280,9 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .play-btn-bg > span { transition: all 0.5s ease; transition-delay: 0s; border-radius: 50%; bottom: 0; content: " "; left: 0; position: absolute; right: 0; top: 0; }
 .play-btn-bg > span:not(:first-child){transform: scale(1); background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%), var(--Fuschia); }
 .play-btn-bg > span:not(:first-child):nth-child(2) {width: 112px; height: 112px; background: var(--Fuschia); left: 50%; transform: translate(-50%, -50%); top: 50%; z-index: 2;}
-.play-btn-bg > span:not(:first-child):nth-child(3) {width: 143px; height: 143px; background: rgba(228, 0, 162, 0.20); left: 50%; transform: translate(-50%, -50%); top: 50%; z-index: 1; transition: opacity 1s ease;}
+.play-btn-bg > span:not(:first-child):nth-child(3) {width: 143px; height: 143px; background: rgba(228, 0, 162, 0.20); left: 50%; transform: translate(-50%, -50%); top: 50%; z-index: 1; transition: var(--b-transition);}
 .play-btn-bg svg{width: 39px; height: 43px; margin: auto; display: block; position: relative; z-index: 3;}
-
+.play-btn-bg:hover > span:not(:first-child):nth-child(3){background: rgba(228, 0, 162, 0.5);}
 
 .play-btn-main.sm .play-btn-bg svg {width: 25px; height: 25px;}
 .play-btn-main.sm .play-btn-bg > span:not(:first-child):nth-child(2) {width: 64px; height: 64px;}
