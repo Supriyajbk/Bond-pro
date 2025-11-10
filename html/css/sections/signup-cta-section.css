@@ -26,7 +26,7 @@ body .signup-cta-form .with_frm_style .frm_loading_form .frm_button_submit{color
 /*-- media css starts here --*/
 @media only screen and (min-width: 760px){
     body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field{padding-right: 125px;}
-    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field.frm_right{top: 14px; right: 0; padding-right: 0; position: absolute;}
+    body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field.frm_right{top: 10px; right: 0; padding-right: 0; position: absolute;}
     body .signup-cta-form .frm_forms form .frm_required_field div.frm_error{left: 0;}
 }
 @media only screen and (min-width: 1024px){
@@ -36,7 +36,7 @@ body .signup-cta-form .with_frm_style .frm_loading_form .frm_button_submit{color
     /* .signup-cta-form .frm_forms{margin-left: -20px;} */
     /* .open-cta-form .signup-cta-line{opacity: 0; visibility: hidden;} */
     /* .open-cta-form .frm_forms{margin-left: 0;} */
-    .signup-cta-icon{width: 62px;}
+    .signup-cta-icon{width: 80px;}
     .signup-cta-title{flex: 1;}
     .signup-cta-text{gap: 25px; flex: 1;}
     body .signup-cta-form .with_frm_style .frm_message{margin: 18px 0 0;}
