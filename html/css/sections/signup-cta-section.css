@@ -56,9 +56,9 @@ body .signup-cta-form .with_frm_style .frm_loading_form .frm_button_submit{color
     body .signup-cta-form .frm_forms{width: 100%;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
-    .signup-cta-main{display: block; padding: 29px 0 16px;}
+    .signup-cta-main{display: block; padding: 19px 0 16px;}
     .signup-cta-text{display: block;}
-    .signup-cta-icon{width: 44px; margin-bottom: 28px;}
+    .signup-cta-icon{width: 56px; margin-bottom: 18px;}
     .signup-cta-title{margin-bottom: 30px;}
     .signup-cta-title h2{font-size: 32px; line-height: 40px;}
     .signup-cta-line{height: 75px;}
