@@ -4,7 +4,8 @@
 
 .optional-repeater-text span.optional-text{margin-bottom: 8px;}
 .optional-repeater-text p{margin-bottom: 24px;}
-.optional-repeater-text ul{margin-bottom: 26px; font-size: 16px; line-height: 24px;}
+.optional-repeater-text ul{margin-bottom: 26px;}
+/* .optional-repeater-text ul{margin-bottom: 26px; font-size: 16px; line-height: 24px;} */
 .optional-repeater-text ul li{margin-bottom: 13px;}
 .optional-repeater-text:first-child:last-child{width: 100%; flex: 0 0 100%;}
 .optional-repeater-image:first-child:last-child{width: 100%; flex: 0 0 100%;}
@@ -63,7 +64,7 @@
     .optional-repeater-text{padding: 40px 0 0; font-size: 16px; line-height: 24px;}
     .optional-repeater-text h2{margin-bottom: 23px; font-size: 24px; line-height: 30px;}
     .optional-repeater-text hr{margin-bottom: 14px;}
-    .optional-repeater-text ul{font-size: 14px; line-height: 21px;}
+    /* .optional-repeater-text ul{font-size: 14px; line-height: 21px;} */
     .optional-repeater-image{overflow: hidden;}
     .optional-repeater-pattern{ left: 0; right: 0; top: -18px; width: 334px; height: 377px; background-image: url('../../images/pattern-mobile@2x.svg');}
 

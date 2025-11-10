@@ -396,7 +396,7 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 
 p a{ color: var(--Coal); font-weight: 700; line-height: 150%; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: color(display-p3 0.8157 0 0.6196); text-decoration-thickness: 12%; text-underline-offset: auto; text-underline-position: from-font; }
 p a:hover{ text-decoration-color: transparent; color: var(--Fuschia); }
-
+body .has-html5video .f-html, body .has-vimeo .f-html, body .has-youtube .f-html{background: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -420,7 +420,7 @@ p a:hover{ text-decoration-color: transparent; color: var(--Fuschia); }
     .ipad-0{padding-left: 0; padding-right: 0;}
 
     img.aligncenter, img.alignleft, img.alignnone, img.alignright{margin: 25px auto; clear: both; float: none; display: block; width: auto;}
-
+    body .has-html5video .f-html, body .has-vimeo .f-html, body .has-youtube .f-html{padding: 32px;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .container{padding: 0 28px;}
@@ -451,6 +451,7 @@ p a:hover{ text-decoration-color: transparent; color: var(--Fuschia); }
     .play-btn-bg > span:not(:first-child):nth-child(3){width: 80px; height: 80px;}
     .play-btn-bg svg{width: 18px; height: 19px;}
     .play-btn-bg > span:not(:first-child):nth-child(2) {width: 56px; height: 56px;}
+    body .has-html5video .f-html, body .has-vimeo .f-html, body .has-youtube .f-html{padding: 20px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
 
