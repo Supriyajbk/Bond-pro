@@ -60,7 +60,7 @@ span.ui-plus::after { width: 2px; height: 24px; }
     .accordion-header{padding: 16px 34px 16px 0; font-size: 14px; line-height: 21px; font-weight: 500; letter-spacing: 0;}
     .accordion-header.lg{padding: 29px 34px 19px 0;}
     .accordion-header span.ui-plus {left: 0; margin-bottom: 20px; display: block; position: relative;}
-    .accordion-desc{padding: 3px 0 22px;}
+    .accordion-desc{padding: 3px 0 22px; font-size: 18px; line-height: 27px;}
     .accordion-wrap { padding: 50px 0 20px; }
     .accordion-head-lt h3 {font-size: 2rem;}
     .accordion-title.fs-20{font-size: 16px; line-height: 20px;}

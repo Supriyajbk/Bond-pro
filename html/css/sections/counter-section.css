@@ -21,11 +21,12 @@ body.page-template-default .counter-list .h6{margin-bottom: 12px;}
     .counter-list {flex: 0 0 50%;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
-    .counter-stats{gap: 0}
-    .counter-list {flex: 0 0 100%; border-left: none; border-bottom:  1px solid var(--Foreground-25);     padding: 20px 0 42px;}
+    .counter-main-wrap{padding: 0 0 10px;}
+    .counter-stats{display: block;}
+    .counter-list:first-child{padding-top: 19px;}
+    .counter-list{border-left: none; border-bottom:  1px solid var(--Foreground-25); padding: 35px 0 42px;}
     .counter-list.inverted{border-bottom-color: var(--White-25); border-left-color: transparent;}
     .counter-list .h6{margin-bottom: 12px; font-size: 16px;}
-    .counter-main-wrap{padding-top: 0; padding-bottom: 0;}
     .counter-list:last-child{border-bottom: none;}
     .counter-list p{font-size: 14px;}
     body.home .counter-main-wrap { padding: 0; }

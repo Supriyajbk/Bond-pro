@@ -42,10 +42,9 @@
     .trust-by-slider-row{gap: 20px;}
     .trust-by-slide{flex: 0 0 128px;} 
     
+    body.page-template-loyalty-report .trust-by-main { padding: 40px 0 32px; }
     body.page-template-about .trust-by-main { padding: 40px 0 32px; }
-
     body.page-template-services-line .trust-by-main { padding: 40px 28px 32px; }
-
     body.home  .trust-by-main{padding: 40px 0 32px;}
 }
 

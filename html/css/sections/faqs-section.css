@@ -29,7 +29,7 @@
     .faqs-main .accordion-title{font-size: 16px; line-height: 20px;}
     .faqs-main .accordion-title::after{font-size: 24px; line-height: 24px;}
     .faqs-main .accordion-desc:not(.fs-20){font-size: 14px; line-height: 21px;}
-    
+    .faqs-image{margin-bottom: 20px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .faqs-main{padding-bottom: 76px;}
