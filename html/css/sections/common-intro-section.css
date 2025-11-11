@@ -29,7 +29,7 @@
     .common-intro-title, .common-intro-subtitle{font-size: 18px; line-height: 22.5px;}
     .common-intro-subtitle{margin-bottom: 18px;}
     .common-intro-text{font-size: 18px; line-height: 27px;}
-    .common-intro-circle{width: 40px; height: 40px; top: 40px;}
+    .common-intro-circle{width: 40px; height: 40px; top: 40px; margin-left: -20px;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .common-intro-main{padding: 45px 0 23px; display: block;}

@@ -50,7 +50,7 @@ body.home .feature-post-head{flex: 1;}
 @media screen and (min-width: 1024px){
 .feature-post-main{gap: 48px; padding: 80px 0 188px;}
 .feature-post-image{flex: 1;}
-
+picture.feature-post-thumb img{min-height: 535px; max-height: 535px;}
 .post-feature-rows{flex: 0 0 335px; gap: 40px 0; flex-direction: column;}
     
 body.home .feature-post-wrap{padding: 80px 0 0;}
