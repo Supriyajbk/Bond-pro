@@ -19,9 +19,10 @@
 .post-feature-thumb img{min-height: 104px; object-fit: cover; object-position: center top;}
 .post-feature-text{flex: 1;}
 
-ul.post-categories{margin: 0 0 4px 0; gap: 8px 10px;}
+ul.post-categories{margin: 0 0 8px; gap: 8px 10px;}
 ul.post-categories > li{margin: 0; position: relative; line-height:15px;}
 ul.post-categories > li{padding: 4px 8px 5px; background: rgba(228, 0, 162, 0.20); font-size: 12px; line-height: 15px; font-weight: 600; letter-spacing: 0; text-transform: capitalize; color: var(--Fuschia); position: relative; display: flex;}
+ul.post-categories > li > a:hover{color: var(--White); opacity: 0.7;}
 ul.post-categories.white > li{background-color: var(--Fuschia); color: var(--White);}
 
 .feature-post-head h1{flex: 1;}
