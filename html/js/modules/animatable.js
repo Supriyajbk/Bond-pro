@@ -51,16 +51,18 @@ class Animatables {
     const $btn = document.querySelector(
       'body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit'
     );
-    $btn.addEventListener('mouseenter', function (e) {
-      e.currentTarget
-        .closest('.signup-cta-form')
-        .classList.add('open-cta-form');
-    });
-    $btn.addEventListener('mouseleave', function (e) {
-      e.currentTarget
-        .closest('.signup-cta-form')
-        .classList.remove('open-cta-form');
-    });
+    if ($btn) {
+      $btn.addEventListener('mouseenter', function (e) {
+        e.currentTarget
+          .closest('.signup-cta-form')
+          .classList.add('open-cta-form');
+      });
+      $btn.addEventListener('mouseleave', function (e) {
+        e.currentTarget
+          .closest('.signup-cta-form')
+          .classList.remove('open-cta-form');
+      });
+    }
   }
 }
 

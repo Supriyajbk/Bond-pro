@@ -50,12 +50,13 @@
     body.page-template-careers .optional-repeater-text p{margin-bottom: 26px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 760px){
-    .optional-repeater-main{gap: 32px; padding: 40px 0 80px;}
+    .optional-repeater-main{gap: 32px; padding: 40px 0 80px; display: block;}
     .optional-repeater-text{flex: 0 0 calc(50% - 16px);}
-    .optional-repeater-image{flex: 0 0 calc(50% - 16px);}
+    .optional-repeater-image{flex: 0 0 calc(50% - 16px); margin-bottom: 32px;}
+    .optional-repeater-thumb{max-width: 536px;}
     .optional-repeater-pattern{right: -253px;}
     .optional-repeater-main:nth-child(even) .optional-repeater-pattern{left: -253px; right: auto;}
-
+    body.page-template-careers .optional-repeater-main{padding-bottom: 40px;}
 }
 @media screen and (max-width: 759px) and (min-width: 0px){
     .optional-repeater-wrap{display: block; padding: 32px 0 32px;}

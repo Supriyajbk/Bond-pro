@@ -65,6 +65,14 @@ class Slider {
     }
 
     if (this.selector === '.image-carousel-slider') {
+      const slides = this.element.querySelectorAll('.image-carousel-slide');
+      const slideCount = slides.length;
+
+      if (slideCount <= 3) {
+        const clone = slides[0].cloneNode(true);
+        this.element.querySelector('.swiper-wrapper').appendChild(clone);
+      }
+
       this.swiper = new Swiper(this.element, {
         slidesPerView: 'auto',
         slidesPerGroup: 1,

@@ -16,6 +16,11 @@ figure.collaborative-thumb img{object-fit: contain;}
     .collaborative-image:nth-child(odd){padding-right: 20px; flex: 0 0 293px;}
     .collaborative-image:nth-child(even){padding-left: 20px; flex: 0 0 293px; margin-left: auto;}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .collaborative-main{gap: 40px;}
+    .collaborative-image:nth-child(odd){flex: 1;}
+    .collaborative-image:nth-child(even){flex: 0 0 213px;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .collaborative-main{padding: 91px 0 93px; display: block;}
     .collaborative-images{padding-top: 60px; max-width: 600px; margin: auto;}
