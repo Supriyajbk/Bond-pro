@@ -10,6 +10,7 @@
 figure.custom-testimonial-thumb{width: 80px; height: 80px;}
 .custom-testimonial-profile{flex: 1; gap: 12px;}
 .custom-testimonial-profile p{padding-left: 12px; border-left: 1px solid var(--Fuschia);}
+.custom-testimonial-profile p:only-child{border-left: none;}
 
  /*-- media css starts here --*/
  @media screen and (min-width: 1024px){

@@ -423,6 +423,7 @@ body .has-html5video .f-html, body .has-vimeo .f-html, body .has-youtube .f-html
 }
 @media only screen and (max-width: 1199px) and (min-width: 760px){
     .container{padding: 0 40px; max-width: 100%;}
+    .divider{overflow: hidden;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .hide-tablet, .swiper-button.hide-tablet{display: none;}
