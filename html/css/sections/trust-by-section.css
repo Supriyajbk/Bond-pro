@@ -9,7 +9,7 @@
 
 
 
-.trust-by-title{margin-bottom: 32px; position: relative; z-index: 2;}
+.trust-by-title{margin-bottom: 16px; position: relative; z-index: 2;}
 .trust-by-thumb img{max-width: 197px; object-fit: contain;}
 .swiper-free-mode .swiper-wrapper { transition-timing-function: linear; margin: 0 auto; }
   
@@ -19,7 +19,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body.page-template-about .trust-by-title h2{font-size: 40px;}
-    .trust-by-main{padding: 56px 0 56px;}
+    .trust-by-main{padding: 56px 0 35px;}
     .trust-by-slider-row{gap: 56px;}
     .trust-by-slide{flex: 0 0 auto; width: fit-content;}
 
