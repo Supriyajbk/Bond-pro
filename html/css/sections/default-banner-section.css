@@ -1,4 +1,4 @@
-.default-banner-gradient{ background: linear-gradient(270deg, rgba(28, 28, 28, 0.00) 50%, #1C1C1C 83.65%); }
+.default-banner-section, .default-banner-gradient{ background: linear-gradient(270deg, rgba(28, 28, 28, 0.00) 50%, #1C1C1C 83.65%); }
 .default-banner-overlay{ opacity: 0.5; background-color: var(--Text-Color);}
 .default-banner-text span.optional-text{margin-bottom: 9px;}
 .default-banner-text h1{line-height: 110%; margin-bottom: 21px;}

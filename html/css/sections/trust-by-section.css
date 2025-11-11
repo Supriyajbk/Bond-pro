@@ -14,7 +14,7 @@
 .swiper-free-mode .swiper-wrapper { transition-timing-function: linear; margin: 0 auto; }
   
 .trust-by-slider-row{flex-wrap: nowrap;}
-
+.trust-by-slider .splide__track{overflow: inherit;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

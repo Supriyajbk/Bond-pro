@@ -70,7 +70,7 @@ a.current .scrolly-line-circle::before{background-color: var(--Fuschia);}
     .scrolly-text:only-child{max-width: 100%;}
     .scrolly-desc{padding-top: 25px;}
 
-    .scrolly-text h2{font-size: 28px;}
+    .scrolly-text h2.h6{font-size: 28px;}
 }
 @media screen and (max-width: 1359px) and (min-width: 1024px){
     .scrolly-section .container{padding-right: 0;}
