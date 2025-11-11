@@ -50,7 +50,7 @@ ul.categories > li > a:hover{ color: var(--White); background-color: var(--Fusch
     .insights-carousel-main{display: block;}
 
     .insights-carousel-head{display: block; margin-bottom: 19px;}
-    .insights-carousel-title h2{font-size: 32px;}
+    .insights-carousel-title h2{font-size: 32px; line-height: 40px;}
     .insights-carousel-text h2{font-size: 18px; line-height: 22px;}
 
     .insights-carousel-main::before{ background-color: var(--White); content: ""; display: block; height: 100%; width: 28px; position: absolute; top: 0; left: -28px; z-index: 2; }

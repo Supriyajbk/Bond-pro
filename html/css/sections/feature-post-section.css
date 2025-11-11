@@ -53,11 +53,14 @@ body.home .feature-post-head{flex: 1;}
 .post-feature-rows{flex: 0 0 335px; gap: 40px 0; flex-direction: column;}
     
 body.home .feature-post-wrap{padding: 80px 0 0;}
-body.home .feature-post-image{flex: 0 0 897px}
 body.home .feature-post-main{padding: 48px 0 80px;}
 
 
 
+}
+@media screen and (max-width: 1199px) and (min-width: 1024px){
+
+.post-feature-rows{flex: 0 0 280px;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 200px){
