@@ -24,6 +24,10 @@ ul.services-carousel-tabs::-webkit-scrollbar { display: none; }
     .services-carousel-btn{width: fit-content;}
     .services-carousel-btn a.button{padding: 11px 16px 10px;}
 }
+@media screen and (max-width: 1023px) and (min-width: 760px){
+    .services-carousel-content{display: block; padding: 40px;}
+    .services-carousel-btn{margin-top: 24px;}
+}
 @media screen and (max-width: 759px) and (min-width: 200px){
     .services-carousel-pos{position: relative; background-color: var(--Foreground);}
     ul.services-carousel-tabs{display: block; margin-top: -30px;}

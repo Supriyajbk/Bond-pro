@@ -13,7 +13,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 760px){
     .client-say-text .h5{ -webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
-    .client-list:only-child{flex: 0 0 100%;}
+    /* .client-list:only-child{flex: 0 0 100%;} */
 }
 @media only screen and (min-width: 1024px){
     .client-say-main{align-items: center;}
@@ -23,11 +23,13 @@
     .client-say-lt{flex: 0 0 380px;}
     .client-say-lt .h3{font-size: 32px; line-height: 40px;}
 }
+@media screen and (max-width: 1100px) and (min-width: 760px){
+    .client-list:only-child{flex: 0 0 100%;}
+}
 @media screen and (max-width: 1023px) and (min-width: 760px){
     .client-say-main{display: block;}
     .client-say-lt{margin-bottom: 32px;}
 }
-
 @media screen and (max-width: 759px) and (min-width: 200px){
     .client-say-main{display: block; padding: 28px 0;}
     .client-say-lt{margin-bottom: 28px;}

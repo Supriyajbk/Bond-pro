@@ -16,7 +16,7 @@ ul.categories > li > a{ padding: 10px 12px 8px; color: var(--Fuschia); backgroun
 ul.categories > li > a:hover{ color: var(--White); background-color: var(--Fuschia); }
 
 .insights-carousel-desc{margin-top: auto;}
-
+.insights-carousel-desc a.text-link > span:not(:first-child){top: 1px;}
 .insights-carousel-text .categories{gap: 12px;}
 
 /*-- media css starts here --*/

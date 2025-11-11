@@ -14,25 +14,33 @@
 
 
 /*-- media css starts here --*/
+@media screen and (min-width: 1360px){
+    .content-art-image img{max-width: 688px; max-height: 688px; min-height: 688px; object-fit: contain;}
+}
 @media screen and (min-width: 1024px){
     .content-art-main{gap: 80px; padding: 40px 0 80px; min-height: 688px;}
     .content-art-text{flex: 0 0 512px;}
     .content-art-text .accordion-header.lg{ padding: 30px 24px 31px 0;;}
-}
-@media screen and (min-width: 760px){
     .content-art-main{flex-direction: row-reverse;}
     .content-art-images{flex: 1; height: auto; justify-content: center; display: flex; flex-direction: column; flex-wrap: wrap;}
-    .content-art-image img{max-width: 688px; max-height: 688px; min-height: 688px; object-fit: contain;}
     .content-art-text .accordion-desc p:not(:last-child){margin-bottom: 18px;}
-
+    
     body.home .content-art-section.reverse .content-art-main{flex-direction: row;}
     body.home .content-art-main .accordion-header.lg.open { padding: 24px 32px 14px 0; }
     body.home .content-art-main .accordion-header.lg { padding: 26px 32px 33px 0; }
-
+}
+@media only screen and (max-width: 1259px) and (min-width: 1024px){
+    .content-art-main{padding: 40px 0 60px;}
+    .content-art-text .accordion-main{padding: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
-    .content-art-main{gap: 40px; padding: 20px 0 60px;}
-    .content-art-text{flex: 0 0 312px;}
+    .content-art-main{padding: 38px 0 60px; display: block;}
+    .content-art-text .accordion-main{padding: 27px 0 40px;}
+    .content-art-text .accordion-desc{font-size: 18px; line-height: 27px;}
+    .content-art-text .accordion-desc p{margin-bottom: 18px;}
+
+    
+    body.home .content-art-text .accordion-main{padding: 27px 0 30px;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .content-art-main{padding: 28px 0; display: block;}
