@@ -52,7 +52,7 @@ ul > li::before{top: 11px; left: -13px; width: 4px; height: 4px; border-radius: 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 28px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ol > li:before{color: var(--Base-Foreground); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -22px; position: absolute; font-size: 1.125rem; line-height: 1.688rem;}
+ol > li:before{color: var(--Base-Foreground); counter-increment: section; content: counter(section, decimal) ; top: 0px; left: -22px; position: absolute; font-size: 1.125rem; line-height: 1.688rem;}
 li > ol {margin: 25px 0 26px 25px;}
 ol[style='list-style-type: upper-roman;']{margin-left: 22px;}
 ol[style='list-style-type: upper-roman;'] > li::before{display: none;}
