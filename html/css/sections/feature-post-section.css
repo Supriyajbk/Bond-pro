@@ -20,10 +20,11 @@
 .post-feature-text{flex: 1;}
 
 ul.post-categories{margin: 0 0 8px; gap: 8px 10px;}
-ul.post-categories > li{margin: 0; position: relative; line-height:15px;}
-ul.post-categories > li{padding: 4px 8px 5px; background: rgba(228, 0, 162, 0.20); font-size: 12px; line-height: 15px; font-weight: 600; letter-spacing: 0; text-transform: capitalize; color: var(--Fuschia); position: relative; display: flex;}
-ul.post-categories > li > a:hover{color: var(--White); opacity: 0.7;}
-ul.post-categories.white > li{background-color: var(--Fuschia); color: var(--White);}
+ul.post-categories > li{margin: 0; position: relative;}
+ul.post-categories > li > a{padding: 4px 8px 5px; border-radius: 16px; background: rgba(228, 0, 162, 0.20); color: var(--Fuschia); font-size: 12px; line-height: 15px; font-weight: 600; letter-spacing: 0; text-transform: capitalize; position: relative; display: flex;}
+ul.post-categories > li > a:hover{background-color: var(--Fuschia); color: var(--White);}
+ul.post-categories.white > li > a{background-color: var(--Fuschia); color: var(--White);}
+ul.post-categories.white > li > a:hover{background-color: var(--White); color: var(--Fuschia);}
 
 .feature-post-head h1{flex: 1;}
 .feature-post-link{width: 64px; height: 64px;}

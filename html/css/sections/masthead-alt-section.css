@@ -25,7 +25,7 @@
 @media only screen and (max-width: 759px) and (min-width: 0px){
     .masthead-alt-section{background-color: var(--Foreground);}
     .masthead-alt-main{padding: 0px 0 32px; display: block;}
-    .masthead-alt-bg{position: relative;}    
+    .masthead-alt-bg{position: relative; margin-bottom: -1px;}    
     .masthead-alt-gradient{height: 50%; top: auto; bottom: 0; background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgb(0, 0, 0));}
     .masthead-alt-wrap{padding: 0px 0 31px;}
     .masthead-alt-text{font-size: 16px; line-height: 24px;}
