@@ -104,11 +104,16 @@ hr.w-64{width: 64px; height: 2px; margin-bottom: 12px;}
 .button.btn-hover-white:hover{color: var(--Foreground);}
 .button.reverse{flex-direction: row-reverse;}
 
-.button.foreground-bg:hover{background-color: var(--White); color: var(--Foreground);}
+.button.foreground-bg{background-color: transparent;}
+.button.foreground-bg::before{background-color: var(--Foreground);}
+.button.foreground-bg:hover{color: var(--White);}
 
 .button.md{padding: 15px 20px 15px; font-size: 20px; line-height: 100%; border-radius: 25px;}
 .button.lg{padding: 21px 24px 19px; border-radius: 30px;}
+.button.md::before{border-radius: 25px;}
+.button.lg::before{border-radius: 30px;}
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before, .button.lg::before{border-radius: 30px;}
+
 
 .button.md span{color: var(--Fuschia);}
 
@@ -418,6 +423,7 @@ body .has-html5video .f-html, body .has-vimeo .f-html, body .has-youtube .f-html
 }
 @media only screen and (max-width: 1199px) and (min-width: 760px){
     .container{padding: 0 40px; max-width: 100%;}
+    .divider{overflow: hidden;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .hide-tablet, .swiper-button.hide-tablet{display: none;}
