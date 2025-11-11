@@ -63,7 +63,7 @@ ul.tab-address > li > a i{color: var(--Light-Blue);}
 @media only screen and (min-width: 1024px){
     body.page-template-about .tabs-main{padding:30px 0 80px;}
 
-
+   body.page-template-about .tabs-section.no-intro .tabs-main {padding: 80px 0 80px;}
 }
 
 
@@ -91,18 +91,21 @@ ul.tab-address > li > a i{color: var(--Light-Blue);}
 
     .tab-text h2 {font-size: 24px;}
     .tab-pos-link { margin-top: 16px; }
+     body.page-template-about .tabs-section.no-intro .tabs-main {padding: 80px 0 80px;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
     ul.tab-links { width: calc(100% + 48px); left: -24px; }
     ul.tab-links > li:first-child{margin-left: 20px;}
-    .tabs-row{display: block; padding-top: 18px;}
+    
     .tab-list{margin-bottom: 24px;}
     .tab-list:hover .tab-text::after {font-size: 30px; line-height: 300;}
-    .tabs-main{padding: 0 0 15px;}
+    .tabs-main{padding: 18px 0 15px;}
     .tab-section.no-about-intro .tabs-main{padding: 40px 0 15px;}
 
     .tab-text h2 {font-size: 18px;}
     .tab-text {align-content: flex-end;}
     .tab-pos-desc{font-size: 14px;} 
     .tab-pos-link { margin-top: 16px; }
+
+     body.page-template-about .tabs-section.no-intro .tabs-main {padding: 30px 0 30px;}
 }
