@@ -1,33 +1,24 @@
 import 'sticksy';
-import { ResizeSensor } from 'css-element-queries';
-
-window.ResizeSensor = ResizeSensor;
 
 class Stickmy {
-  constructor(selector, options) {
-    this.element = document.querySelector(selector)
-      ? document.querySelector(selector)
-      : '';
-    this.options = options;
-    this.instance = null;
-
-    this.media = window.matchMedia('(min-width: 1024px)');
-    this.media.addEventListener('change', () => this.init());
+  constructor(selector, header) {
+    this.stickeles = document.querySelectorAll(selector);
+    this.header = document.querySelector(header);
   }
   init() {
-    if (!this.element) return;
-
-    if (this.instance) {
-      this.instance.destroy(); // No need
-      this.instance = null;
-    }
-
-    if (this.media.matches) {
-      this.instance = new Sticksy(this.element, this.options);
-    }
+    if (this.stickeles.length === 0) return;
+    const height = this.header.getBoundingClientRect().height;
+    this.stickeles.forEach((stickele) => {
+      if (!stickele) return;
+      new Sticksy.initializeAll(
+        stickele,
+        {
+          topSpacing: height,
+          listen: true,
+        },
+        true
+      );
+    });
   }
 }
-export const stickme = new Stickmy('[data-sticky]', {
-  topSpacing: +document.querySelector('[data-top]')?.dataset.top || 0,
-  listen: true,
-});
+export const stickme = new Stickmy('[data-sticky]', 'header');
