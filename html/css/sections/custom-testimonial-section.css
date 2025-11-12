@@ -16,10 +16,10 @@ figure.custom-testimonial-thumb{width: 80px; height: 80px;}
  @media screen and (min-width: 1024px){
     
     body.page-template-default .custom-testimonial-main {padding: 64px;}
-    body.home .custom-testimonial-text h2 {font-size: 40px;}
+    body.home .custom-testimonial-text .h3 {font-size: 40px;}
     body.page-template-default .custom-testimonial-main{margin-bottom: 70px;}
     .perspective-default-main .custom-testimonial-main { padding: 64px 0; margin-bottom: 64px;}
-    body.single-post .custom-testimonial-text h2{color: var(--White); font-size: 31px;}
+    body.single-post .custom-testimonial-text .h3{color: var(--White); font-size: 31px;}
     body.single-post .custom-testimonial-profile span{color: var(--White)}
     body.single-post .custom-testimonial-profile p {color: var(--White);}
 
@@ -47,7 +47,7 @@ body.single-post-custom .custom-testimonial-section{margin-bottom: 64px;}
     body.page-template-default .custom-testimonial-main{margin-bottom: 55px; padding: 28px 28px;}
     
     body.page-template-about .custom-testimonial-main{ padding: 30px 0; }
-    body.single-post .custom-testimonial-text h2 { color: var(--White); font-size: 20px; line-height: 125%;}
+    body.single-post .custom-testimonial-text .h3 { color: var(--White); font-size: 20px; line-height: 125%;}
     .perspective-default-main .custom-testimonial-main {padding: 40px;}
     .perspective-default-main .custom-testimonial-main { margin-bottom: 54px;}
 }
