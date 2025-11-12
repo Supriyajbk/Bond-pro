@@ -7,19 +7,20 @@
 .no_banner_img .default-banner-glows{display: none;}
 .no_banner_img .default-banner-text{max-width: 100%;}
 
+.default-banner-glows{width: 100%; padding: 0; position: absolute; z-index: 0;}
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .default-banner-main {padding: 80px 0; min-height: 600px;}
     /* .default-banner-main{padding: 138px 0 137px; } */
     .default-banner-text {max-width: 512px;}
-    .default-banner-image{width: 688px; height: 688px; top: -47px; right: 0;}
+    .default-banner-image{width: 688px; height: 688px; top: -47px; right: 0; position: absolute;}
     .default-banner-glows{ min-height: 688px; top: 0;}
-    .default-banner-glow{ width: 688px; height: 688px; top: 0; right: 0;}
+    .default-banner-glow{ width: 688px; height: 688px; top: 0; right: 0; margin-left: auto; z-index: 0; }
 }
 @media only screen and (min-width: 760px){
-    .default-banner-image{position: absolute;}
-    .default-banner-glows{ left: 0; right: 0; position: absolute;}
-    .default-banner-glow{ margin-left: auto; z-index: 0; }
+    .default-banner-glows{ left: 0; right: 0;}
     .default-banner-text{width: 100%;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
@@ -27,22 +28,33 @@
     .default-banner-text{max-width: calc(100% - 498px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
-    .default-banner-main {padding: 138px 0 137px;}
+    /* .default-banner-main {padding: 138px 0 137px;}
     .default-banner-glows { min-height: 388px; top: 50%; transform: translateY(-50%); position: absolute; }
     .default-banner-glow { height: 388px; right: -60px; top: 50%; width: 388px; transform: translateY(-50%); }
     .default-banner-image { height: 388px; right: -90px; top: 50%; width: 388px; transform: translateY(-50%); }
     .default-banner-text { max-width: 318px; }
+    .default-banner-text h1{font-size: 46px; line-height: 48px;} */ 
+    /*-- above code is grid box --*/
+
+    .default-banner-main {padding: 0 0 72px; display: block;}
+    .default-banner-glows { min-height: 600px; max-width: 600px; top: 0; left: 40px;}
+    .default-banner-glow { height: 600px; width: 600px; top: 0; left: 0; }
+    .default-banner-image { height: 632px; width: 632px; top: -16px; position: relative;}
+    .default-banner-text{padding-top: 48px;}
     .default-banner-text h1{font-size: 46px; line-height: 48px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 0px){
     .default-banner-text h1 span{font-size: inherit; line-height: inherit;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px){
-    .default-banner-section .container{padding: 0 22px;}
+    .default-banner-section .container:not(.default-banner-glows){padding: 0 22px;}
     .default-banner-main {padding: 0 0 32px; display: block;}
-    .default-banner-text{padding: 0 6px; color: var(--White-80); font-size: 16px; line-height: 24px;}
+    .default-banner-text{padding: 0 6px; color: var(--White-80); font-size: 16px; line-height: 24px; position: relative; z-index: 2;}
     .default-banner-text h1{font-size: 40px; line-height: 44px; margin-bottom: 17px;}
     .default-banner-text p{margin-bottom: 24px;}
     .default-banner-image{ margin: -18px 0 40px;}
+    .default-banner-image::after{width: 100%; height: 100%; top: 0; left: 0; filter: blur(100px); border-radius: 50%; background-color: var(--Fuschia); content: ""; display: block; position: absolute; z-index: -1;}
+    .default-banner-glows {display: none;}
+
     body.page-template-analytics .default-banner-text span.optional-text{margin-bottom: 30px;}
 }
