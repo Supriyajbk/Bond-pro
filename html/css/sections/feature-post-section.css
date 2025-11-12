@@ -86,7 +86,7 @@ body.home .feature-post-main{padding: 48px 0 80px;}
   .feature-post-lmbl-link{padding-top: 28px;}
 
   body.home .feature-post-head{display: block;}
-  body.home .feature-post-head h2{font-size: 32px;}
+  body.home .feature-post-head h2{font-size: 32px; margin-bottom: 10px;}
   ul.post-categories{margin-bottom: 8px;}
 
 }
