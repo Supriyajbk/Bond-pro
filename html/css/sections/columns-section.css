@@ -28,7 +28,7 @@
 }
 @media only screen and (max-width: 759px) and (min-width:200px) {
   .columns-main{padding: 0 0 28px;}
-  .columns-row{gap: 38px}
+  .columns-row{gap: 10px 0; flex-direction: column;}
   .columns-col{flex:  0 0 100%;}
   .columns-col h2 {font-size: 20px; margin-bottom: 10px;}
   .columns-col p {font-size: 14px; margin-bottom: 18px;}
