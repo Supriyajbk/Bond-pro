@@ -26,9 +26,9 @@
 .perspective-default{padding: 32px 0;}
 .perspective-default-main .h3 { font-size: 32px; line-height: 125%; }
 .perspective-default-main > p > span{ font-size: 20px;}
-.perspective-default-main p {font-size: 16px; line-height: 150%; }
+.perspective-default-main{font-size: 16px; line-height: 150%; }
 
-.perspective-default-main .video-main { padding: 36px 0 60px; }
+.perspective-default-main .video-main { padding: 32px 0 55px; }
 
 .perspective-default-main ul > li{font-size: 16px;}
 .perspective-default-main ol > li{font-size: 16px;}

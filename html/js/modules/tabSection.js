@@ -33,6 +33,7 @@ class TabHandler {
 
   bindEvents() {
     this.tabTexts.forEach((tabText) => {
+      console.log(tabText);
       const tabHead = tabText.querySelector('.tab-head');
       const tabArrow = tabHead.querySelector(this.tabArrowSelector);
 
