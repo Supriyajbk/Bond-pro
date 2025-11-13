@@ -406,7 +406,7 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 
 .btn-wrap{gap: 16px;}
 
-p a{ color: var(--Coal); font-weight: 700; line-height: 150%; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: color(display-p3 0.8157 0 0.6196); text-decoration-thickness: 12%; text-underline-offset: auto; text-underline-position: from-font; }
+p a{ color: var(--Foreground); font-weight: 700; line-height: 150%; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: color(--Fuschia); text-decoration-thickness: 12%; text-underline-offset: auto; text-underline-position: from-font; }
 p a:hover{ text-decoration-color: transparent; color: var(--Fuschia); }
 body .has-html5video .f-html, body .has-vimeo .f-html, body .has-youtube .f-html{background: none;}
 body .f-button.is-close-button{width: 50px; height: 50px; padding: 0; position: absolute; border-radius: 50%; background-color: var(--Fuschia); transition: var(--b-transition);}
