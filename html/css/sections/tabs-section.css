@@ -70,7 +70,7 @@ ul.tab-address > li > a i{color: var(--Light-Blue);}
     .tabs-row{gap: 32px;}
     .tab-list{flex: 0 0 calc(33.333333% - 22px); }
 }
-@media screen and (max-width: 1023px) and (min-width: 200px){
+@media screen and (max-width: 1023px) and (min-width: 0px){
     ul.tab-links { padding: 0 0 6px; flex-wrap: nowrap; width: calc(100% + 80px); overflow: auto; -ms-overflow-style: none; scrollbar-width: none; position: relative; left: -40px;}
     ul.tab-links::-webkit-scrollbar { display: none; }
     ul.tab-links > li:first-child{margin-left: 40px;}
@@ -85,7 +85,7 @@ ul.tab-address > li > a i{color: var(--Light-Blue);}
     .tab-pos-link { margin-top: 16px; }
      body.page-template-about .tabs-section.no-intro .tabs-main {padding: 80px 0 80px;}
 }
-@media screen and (max-width: 743px) and (min-width: 200px){
+@media screen and (max-width: 743px) and (min-width: 0px){
     ul.tab-links { width: calc(100% + 48px); left: -24px; }
     ul.tab-links > li:first-child{margin-left: 20px;}
     

@@ -97,7 +97,7 @@ a.current .scrolly-line-circle::before{background-color: var(--Fuschia);}
     .scrolly-row:not(:last-child){margin-bottom: 40px;}
 
 }
-@media screen and (max-width: 759px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 0px){
     .no_testimonial_section{margin-top: 4rem;}
     .scrolly-wrap{padding-bottom: 28px;}
     .scrolly-main{padding: 28px 0 24px; display: block;}

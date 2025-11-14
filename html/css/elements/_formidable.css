@@ -250,6 +250,6 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_s
     body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit {justify-content: center;}
 
 }
-@media screen and (max-width: 389px) and (min-width: 200px){
+@media screen and (max-width: 389px) and (min-width: 0px){
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container, body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column; margin-bottom: 8px;}
 }

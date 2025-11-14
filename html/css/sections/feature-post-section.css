@@ -26,7 +26,9 @@ ul.post-categories > li > a:hover{background-color: var(--Fuschia); color: var(-
 ul.post-categories.white > li > a{background-color: var(--Fuschia); color: var(--White);}
 ul.post-categories.white > li > a:hover{background-color: var(--White); color: var(--Fuschia);}
 
-.feature-post-head h1{flex: 1;}
+.feature-post-head div.fs-40 a{color: var(--White); font-weight: 500; font-family: var(--heading-font);}
+.feature-post-head div.fs-40 a:hover{color: var(--Fuschia);}
+.feature-post-head h1, .feature-post-head div.fs-40 {flex: 1;}
 .feature-post-link{width: 64px; height: 64px;}
 .feature-post-link a:hover i{transform: translateX(4px);}
 
@@ -48,13 +50,13 @@ body.home .feature-post-head{flex: 1;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
-.feature-post-main{gap: 48px; padding: 80px 0 188px;}
+.feature-post-main{gap: 48px; padding: 80px 0 60px;}
 .feature-post-image{flex: 1;}
 picture.feature-post-thumb img{max-height: 800px;}
 .post-feature-rows{flex: 0 0 335px; gap: 40px 0; flex-direction: column;}
     
 body.home .feature-post-wrap{padding: 80px 0 0;}
-body.home .feature-post-main{padding: 48px 0 80px;}
+body.home .feature-post-main{padding: 48px 0 60px;}
 
 
 
@@ -64,7 +66,7 @@ body.home .feature-post-main{padding: 48px 0 80px;}
 .post-feature-rows{flex: 0 0 280px;}
 }
 
-@media screen and (max-width: 1023px) and (min-width: 200px){
+@media screen and (max-width: 1023px) and (min-width: 0px){
   .post-feature-text h2{display: -webkit-box; -webkit-line-clamp: 3; text-overflow: ellipsis; overflow: hidden; -webkit-box-orient: vertical; }
 }
 @media screen and (max-width: 1023px) and (min-width: 760px){

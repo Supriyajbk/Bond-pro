@@ -22,7 +22,7 @@
 
 }
 
-@media only screen and (max-width: 759px) and (min-width: 200px) {
+@media only screen and (max-width: 759px) and (min-width: 0px) {
 .connected-main{padding: 0 0 30px; display: block;}
 .connected-row{display: block;}
 .connected-list{margin-bottom: 28px;}

@@ -28,7 +28,7 @@ ul.services-carousel-tabs::-webkit-scrollbar { display: none; }
     .services-carousel-content{display: block; padding: 40px;}
     .services-carousel-btn{margin-top: 24px;}
 }
-@media screen and (max-width: 759px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 0px){
     .services-carousel-pos{position: relative; background-color: var(--Foreground);}
     ul.services-carousel-tabs{display: block; margin-top: -30px;}
     ul.services-carousel-tabs > li > a{padding: 10px 16px; width: 100%; pointer-events: none; background-color: var(--White); color: var(--Fuschia);}

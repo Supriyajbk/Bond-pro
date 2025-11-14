@@ -1,5 +1,4 @@
 .scrl-explainer{padding: 8px; border: 1px solid var(--Blue);}
-.scrl-explainer-btns{margin-top: 32px; padding: 8px;  }
 .scrl-explainer-card:nth-child(1):last-child{flex: 0 0 100%;}
 .scrl-explainer-desc h2{margin-bottom: 9px; }
 .scrl-explainer-desc p{margin-bottom: 0px; font-size: 16px;}
@@ -18,7 +17,9 @@
     .scrl-explainer-main{gap: 80px; padding: 80px 0 81px;}
     .scrl-explainer-card{flex: 0 0 400px;}
     .scrl-explainer-card span.optional-text{margin-bottom: 39px;}
+    .scrl-explainer-btns{margin-top: 32px; padding: 8px;  }
     .scrl-explainer-btns .button{justify-content: space-between;}
+
 }
 @media only screen and (min-width: 860px){
     .scrl-explainer-inner hr[data-animate]{margin-bottom: 20px;}
@@ -35,18 +36,23 @@
     .scrl-explainer-main{gap: 40px;}
     .scrl-explainer-card{flex: 0 0 300px;}
 }
+@media only screen and (max-width: 1023px) and (min-width: 0px){
+    .scrl-explainer-main{ flex-direction: column-reverse;}
+    .scrl-explainer-segments, .scrl-explainer-card {flex: 0 0 100%;}
+
+}
 @media only screen and (max-width: 1023px) and (min-width: 760px){
-    .scrl-explainer-main{ gap: 32px; padding: 60px 0 68px;}
+    .scrl-explainer-main{ gap: 32px 0;padding: 60px 0 68px;}
     .scrl-explainer-segments{gap: 32px;}
      .scrl-explainer-card{flex: 0 0 240px;}
      .scrl-explainer-inner .h3{font-size: 28px; line-height: 36px;}
 }
 @media only screen and (max-width: 759px) and (min-width: 560px){
-    .scrl-explainer-main{gap: 56px; padding: 40px 0 40px; flex-direction: column;}
+    .scrl-explainer-main{gap: 56px 0; padding: 40px 0 40px;}
     .scrl-explainer-line{height: 100%;}
 }
-@media only screen and (max-width: 559px) and (min-width: 200px){
-    .scrl-explainer-main{padding: 20px 0 28px; gap: 56px; flex-direction: column-reverse;}
+@media only screen and (max-width: 559px) and (min-width: 0px){
+    .scrl-explainer-main{padding: 20px 0 28px; gap: 56px 0;}
     .scrl-explainer-segments{gap: 26px; flex-direction: column;}
     .scrl-explainer-seg{display: block;}
     .scrl-explainer-desc{padding-top: 16px; border-top: 1px solid rgba(48,46,48,.1); border-left: none;}
@@ -61,10 +67,4 @@
     body.page-template-analytics .scrl-explainer-main {padding: 28px 0 28px;}
     body.page-template-analytics .scrl-explainer-inner .h3 {margin-bottom: 22px;}
 
-}
-@media only screen and (max-width: 389px) and (min-width: 200px){
-    .scrl-explainer-inner{padding: 24px;}
-}
-@media only screen and (max-width: 374px) and (min-width: 200px){
-    .scrl-explainer-btns .button{font-size: 0.813rem;}   
 }

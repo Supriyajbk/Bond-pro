@@ -62,7 +62,7 @@ body .cky-preference-header button.cky-btn-close:hover{opacity: 0.5;}
 
 
 /*-- media css starts here --*/
-@media screen and (max-width: 767px) and (min-width: 200px){
+@media screen and (max-width: 767px) and (min-width: 0px){
     body .cky-modal, body .cky-modal.cky-modal-open{top: auto; transform: none; left: 0; bottom: 0;}
     body .cky-box-bottom-left{right: 24px; left: auto; width: calc(100% - 48px);}
     body .cky-preference-center{max-height: calc(100vh - 72px); width: 100%; border-radius: 0;}

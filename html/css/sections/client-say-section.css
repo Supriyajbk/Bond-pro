@@ -30,7 +30,7 @@
     .client-say-main{display: block;}
     .client-say-lt{margin-bottom: 32px;}
 }
-@media screen and (max-width: 759px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 0px){
     .client-say-main{display: block; padding: 28px 0;}
     .client-say-lt{margin-bottom: 28px;}
     .client-say-rt{display: block; margin-bottom: 28px;}

@@ -138,6 +138,10 @@ a.text-link.fs-13{gap: 12px; font-size: 13px; line-height: 13px; letter-spacing:
 a.text-link-underline{ color: var(--Foreground); font-size: 14px; line-height: 14px; /* letter-spacing: 1.68px; */ letter-spacing: 0; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: var(--Fuschia); text-decoration-thickness: 12%; }
 a.text-link-underline:hover{text-decoration-color: transparent;}
 
+
+.blog-news-desc a.text-link.white span.span-reading-time{ display: inline-flex; align-items: baseline; }
+.blog-news-desc a.text-link.white > span:not(:first-child){top: 0.5px;}
+
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
 p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {margin-bottom: 0;}
@@ -355,7 +359,6 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .white-bg-90{background-color: var(--White-90);}
 .fuschia-bg{background-color: var(--Fuschia);}
 .dark-gray-bg{background-color: var(--Dark-Gray);}
-.gray-bg{background: var(--Background);}
 .foreground-bg{background-color: var(--Foreground);}
 .foreground-bg-72{background-color: var(--Foreground-72);}
 .blue-bg{background-color: var(--Blue);}
@@ -406,7 +409,7 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 
 .btn-wrap{gap: 16px;}
 
-p a{ color: var(--Foreground); font-weight: 700; line-height: 150%; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: color(--Fuschia); text-decoration-thickness: 12%; text-underline-offset: auto; text-underline-position: from-font; }
+p a{ color: var(--Foreground); font-weight: 700; line-height: 150%; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: var(--Fuschia); text-decoration-thickness: 12%; text-underline-offset: auto; text-underline-position: from-font; }
 p a:hover{ text-decoration-color: transparent; color: var(--Fuschia); }
 body .has-html5video .f-html, body .has-vimeo .f-html, body .has-youtube .f-html{background: none;}
 body .f-button.is-close-button{width: 50px; height: 50px; padding: 0; position: absolute; border-radius: 50%; background-color: var(--Fuschia); transition: var(--b-transition);}
@@ -472,11 +475,11 @@ body .f-button.is-close-button:hover{background-color: var(--White); color: var(
     body .has-html5video .f-html, body .has-vimeo .f-html, body .has-youtube .f-html{padding: 28px;}
     body .f-button.is-close-button{top: 4px; right: 4px;}
 }
-@media screen and (max-width: 389px) and (min-width: 200px){
+@media screen and (max-width: 389px) and (min-width: 0px){
 
 }
 
-@media screen and (max-width: 374px) and (min-width: 200px){
+@media screen and (max-width: 374px) and (min-width: 0px){
   
 }
 
