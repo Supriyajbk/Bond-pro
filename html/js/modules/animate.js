@@ -6,6 +6,7 @@ class Animate {
     this.eles = document.querySelectorAll(selector);
   }
   init() {
+    if (this.eles.length === 0) return;
     const checkInView = () => {
       this.eles.forEach((ele) => {
         const $ele = $(ele);

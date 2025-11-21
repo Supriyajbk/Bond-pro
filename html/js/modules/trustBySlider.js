@@ -3,13 +3,11 @@ import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
 class mySlider {
   constructor(selector) {
-    this.eles = document.querySelector(selector)
-      ? document.querySelector(selector)
-      : '';
+    this.eles = document.querySelectorAll(selector);
   }
   slider() {
     if (this.eles.length === 0) return;
-    Array.from([this.eles]).forEach((ele) => {
+    this.eles.forEach((ele) => {
       if (ele.dataset.type === 'trustBySlider') {
         const autoScrollSpeed = ele.dataset.speed
           ? parseFloat(ele.dataset.speed)

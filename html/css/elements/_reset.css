@@ -139,7 +139,8 @@ a.text-link-underline{ color: var(--Foreground); font-size: 14px; line-height: 1
 a.text-link-underline:hover{text-decoration-color: transparent;}
 
 
-.blog-news-desc a.text-link.white span.span-reading-time{ display: inline-flex; align-items: baseline; }
+a.text-link.white span.span-reading-time{ display: inline-flex; align-items: baseline; }
+.insights-carousel-desc a.text-link.white > span:not(:first-child),
 .blog-news-desc a.text-link.white > span:not(:first-child){top: 0.5px;}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
@@ -458,14 +459,11 @@ body .f-button.is-close-button:hover{background-color: var(--White); color: var(
     .h6, h6{font-size: 16px; line-height: 24px;}
     /*-- Dont Change edited Oct 23 --*/
 
-
     .btn-wrap{display: block;}
     .btn-wrap .button{width: 100%; justify-content: center; text-align: center;}
     .btn-wrap .text-link{margin-top: 15px;}
 
-
     .divider{gap: 8px; padding: 18px 0; justify-content: space-between; overflow: hidden;}
-
     span.optional-text{font-size: 12px; line-height: 12px; letter-spacing: 1.2px;}
 
     .play-btn-main .play-btn{width: 56px; height: 56px;}
@@ -475,12 +473,4 @@ body .f-button.is-close-button:hover{background-color: var(--White); color: var(
     body .has-html5video .f-html, body .has-vimeo .f-html, body .has-youtube .f-html{padding: 28px;}
     body .f-button.is-close-button{top: 4px; right: 4px;}
 }
-@media screen and (max-width: 389px) and (min-width: 0px){
-
-}
-
-@media screen and (max-width: 374px) and (min-width: 0px){
-  
-}
-
 

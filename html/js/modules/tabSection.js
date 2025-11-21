@@ -5,12 +5,11 @@ class TabHandler {
     this.tabArrowSelector = tabArrowSelector || '.tab-arrow';
 
     this.tabTexts = document.querySelectorAll(this.tabSelector);
-    this.tablinks = document.querySelectorAll('ul.tab-links > li > a');
-
     this.init();
   }
 
   init() {
+    if (this.tabTexts.length === 0) return;
     this.updateHeights();
     this.bindEvents();
   }
@@ -33,7 +32,6 @@ class TabHandler {
 
   bindEvents() {
     this.tabTexts.forEach((tabText) => {
-      console.log(tabText);
       const tabHead = tabText.querySelector('.tab-head');
       const tabArrow = tabHead.querySelector(this.tabArrowSelector);
 
@@ -48,10 +46,6 @@ class TabHandler {
     document.addEventListener('click', (e) => this.onDocumentClick(e));
     window.addEventListener('resize', () => this.updateHeights());
     window.addEventListener('orientationchange', () => this.updateHeights());
-
-    this.tablinks.forEach((tablink) => {
-      tablink.addEventListener('click', (e) => this.onTabLinkClick(e));
-    });
   }
 
   onTabClick(e, tabText) {
@@ -115,9 +109,6 @@ class TabHandler {
   onTabLinkClick(e) {
     e.preventDefault();
     let $this = e.target;
-    this.tablinks.forEach((item) => {
-      item.classList.remove('active');
-    });
     $this.classList.toggle('active');
     let tabattr = $this.getAttribute('data-name');
     const tabRow = document.querySelectorAll('.data-tab-row');

@@ -22,12 +22,11 @@
 @media only screen and (min-width: 1024px){
     body.page-template-about .trust-by-title h2{font-size: 40px;}
     .trust-by-main{padding: 56px 0 35px;}
+    .no_testi_section .trust-by-main{padding: 0 0 56px;}
     .trust-by-slider-row{gap: 56px;}
     .trust-by-slide{flex: 0 0 auto; width: fit-content;}
 
     body.home .trust-by-main { padding: 60px 0; }
-
-
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .trust-by-main{padding: 0 0 60px;}
