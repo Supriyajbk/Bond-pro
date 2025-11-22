@@ -9,7 +9,7 @@
 ul.scrolly-links{margin: 0;}
 ul.scrolly-links li::before{display: none;}
 ul.scrolly-links li{margin: 0;}
-ul.scrolly-links li:first-child a{padding-top: 0;}
+ul.scrolly-links li:first-child a{padding-top: 8px;}
 ul.scrolly-links li a{padding: 25px 16px 34px 34px; display: block; color: var(--Foreground-30); }
 ul.scrolly-links li a.current{color: var(--Foreground); font-weight: 500;}
 
@@ -37,9 +37,7 @@ a.current .scrolly-line-circle::before{background-color: var(--Fuschia);}
 .scrolly-text .h4{margin-bottom: 12px;}
 .scrolly-text hr.sm-line{margin: 12px 0;}
 .scrolly-text ul > li{font-weight: 700;}
-.scrolly-text ul > li::before{
-    /* background: url("../../images/checked-circle-pro.svg"); */
-     background-repeat: no-repeat; background-size: contain; content: ""; height: 20px; left: -28px; position: absolute; top: 5px; width: 20px; }
+.scrolly-text ul > li::before{ background-repeat: no-repeat; background-size: contain; content: ""; height: 20px; left: -28px; position: absolute; top: 5px; width: 20px; }
 .scrolly-text ul > li > a{color: var(--Raisin-Black);}
 .scrolly-text ul > li > a:hover{color: var(--Accent);}
 .scrolly-text ul:last-child{margin-bottom: 0;}
@@ -97,7 +95,7 @@ a.current .scrolly-line-circle::before{background-color: var(--Fuschia);}
     .scrolly-row:not(:last-child){margin-bottom: 40px;}
 
 }
-@media screen and (max-width: 759px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 0px){
     .no_testimonial_section{margin-top: 4rem;}
     .scrolly-wrap{padding-bottom: 28px;}
     .scrolly-main{padding: 28px 0 24px; display: block;}

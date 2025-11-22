@@ -22,15 +22,14 @@ figure.custom-testimonial-thumb{width: 80px; height: 80px;}
     body.single-post .custom-testimonial-text .h3{color: var(--White); font-size: 31px;}
     body.single-post .custom-testimonial-profile span{color: var(--White)}
     body.single-post .custom-testimonial-profile p {color: var(--White);}
-
-    body.single-post-custom .custom-testimonial-section .container{margin: 0 64px;}
-
+}
+@media only screen and (max-width: 1399px) and (min-width: 1024px) {
+    body.page-template-default .custom-testimonial-main{padding: 40px 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
 body.page-template-default .custom-testimonial-main{margin-bottom: 55px; padding: 48px;}
 
-body.single-post-custom .custom-testimonial-section{margin-bottom: 64px;}
-
+.perspective-default-main  .custom-testimonial-main{margin-bottom: 64px;}
 }
 
 
@@ -39,7 +38,8 @@ body.single-post-custom .custom-testimonial-section{margin-bottom: 64px;}
     .custom-testimonial-quote{padding-bottom: 25px; gap: 18px;}
     figure.custom-testimonial-thumb { height: 56px; width: 56px; }
     .custom-testimonial-profile p { border-left: none; padding-left: 0; font-size: 14px!important; line-height: 1;}
-    .custom-testimonial-profile{gap: 0; font-size: 14px;}
+    .custom-testimonial-profile{gap: 0; font-size: 14px; display: block;}
+    .custom-testimonial-profile span{display: block;}
     .custom-testimonial-avatar{padding-top: 5px;}
 
     
@@ -47,8 +47,8 @@ body.single-post-custom .custom-testimonial-section{margin-bottom: 64px;}
     body.page-template-default .custom-testimonial-main{margin-bottom: 55px; padding: 28px 28px;}
     
     body.page-template-about .custom-testimonial-main{ padding: 30px 0; }
-    body.single-post .custom-testimonial-text .h3 { color: var(--White); font-size: 20px; line-height: 125%;}
-    .perspective-default-main .custom-testimonial-main {padding: 40px;}
+    body.single-post .custom-testimonial-text .h3 { color: var(--White); font-size: 24px; line-height: 30px;}
+    .perspective-default-main .custom-testimonial-main {padding: 40px 32px;}
     .perspective-default-main .custom-testimonial-main { margin-bottom: 54px;}
 }
 

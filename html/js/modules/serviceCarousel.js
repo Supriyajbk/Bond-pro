@@ -73,7 +73,6 @@ class serviceCarouselSlider {
               );
               $targetParentEle.classList.toggle('shuffleBg');
 
-              console.log($targetParentEle.classList.contains('shuffleBg'));
               if (!$targetParentEle.classList.contains('shuffleBg')) {
                 setTimeout(function () {
                   $targetParentEle.classList.add('shuffleBg');

@@ -26,7 +26,7 @@
   .columns-row{gap: 43px 56px;}
   .columns-col { flex: 0 0 calc(50% - 28px); }
 }
-@media only screen and (max-width: 759px) and (min-width:200px) {
+@media only screen and (max-width: 759px) and (min-width: 0px) {
   .columns-main{padding: 0 0 28px;}
   .columns-row{gap: 10px 0; flex-direction: column;}
   .columns-col{flex:  0 0 100%;}

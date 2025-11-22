@@ -148,6 +148,14 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_s
 .frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):not([type="range"]):not([readonly]):focus, .frm_style_formidable-style.with_frm_style select:focus, .frm_style_formidable-style.with_frm_style .form-field textarea:focus, .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="text"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="password"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="email"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="number"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="url"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="tel"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="search"], .frm_form_fields_active_style, .frm_style_formidable-style.with_frm_style .frm_focus_field .frm-card-element.StripeElement{ box-shadow: none !important; border-left-color: var(--Fuschia) !important; background-color: var(--Elevated); }
 .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="text"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="password"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="url"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="tel"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="number"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="email"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="checkbox"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="radio"], .frm_style_formidable-style.with_frm_style .frm_blank_field textarea, .frm_style_formidable-style.with_frm_style .frm_blank_field .mce-edit-area iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field select:not(.ui-datepicker-month):not(.ui-datepicker-year), .frm_form_fields_error_style, .frm_style_formidable-style.with_frm_style .frm_blank_field .frm-g-recaptcha iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field .g-recaptcha iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field .frm-card-element.StripeElement, .frm_style_formidable-style.with_frm_style .frm_form_field :invalid{border: none; border-left: 1px solid var(--Red); color: var(--Foreground); background: var(--Elevated);}
 
+body .with_frm_style button.iti__selected-country{background: none;}
+body .with_frm_style button.iti__selected-country::before{display: none;}
+body .frm_forms .frm_form_fields .frm_form_field input::placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::placeholder{ color: var(--Foreground); }
+body .frm_forms .iti__selected-country-primary{background: none !important; border-radius: 0 !important;}
+body .with_frm_style .iti__arrow.iti__arrow--up{transform: translateY(1px) rotate(180deg);}
+body .with_frm_style .iti{width: 100%;}
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 20px); float: none; clear: none; display: inline-block; vertical-align: top;}
@@ -250,6 +258,6 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_s
     body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit {justify-content: center;}
 
 }
-@media screen and (max-width: 389px) and (min-width: 200px){
+@media screen and (max-width: 389px) and (min-width: 0px){
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container, body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column; margin-bottom: 8px;}
 }

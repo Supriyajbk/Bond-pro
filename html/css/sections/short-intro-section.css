@@ -17,7 +17,7 @@
 
     body.page-template-about .short-intro-main{margin-top: 55px;}
 }
-@media only screen and (max-width: 759px) and (min-width: 200px) {
+@media only screen and (max-width: 759px) and (min-width: 0px) {
     .short-intro-main{padding: 28px 0 28px;}
     .short-intro-main h2{font-size: 24px; line-height: 30px;}
     .short-intro-main h2:last-child{margin-bottom: 0;}

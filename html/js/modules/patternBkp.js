@@ -44,4 +44,4 @@ class Patterns {
   }
 }
 
-export const pattern = new Patterns('.optional-repeater-pattern svg');
+export const patternBkp = new Patterns('.optional-repeater-pattern svg');

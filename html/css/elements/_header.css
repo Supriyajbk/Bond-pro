@@ -57,7 +57,7 @@ body.home header.site-header:not(.sticky-header) img.black-logo{opacity: 0;}
     .humburger-btn{display: none;}
 
 
-    ul.main_menu > li > ul > li.hide-nav-overview > a{display: none;}
+    ul.main_menu > li > ul > li.hide-nav-overview{display: none;}
 
     li.no_link > a{pointer-events: none;}
     li.no_cursor > a{cursor: auto;}

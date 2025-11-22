@@ -13,10 +13,10 @@ ul.social-icons li a:hover > .social-icon-circle{animation: socialOutline 1.5s e
 @keyframes socialOutline{ 0%{outline: 4px solid transparent;} 40%, 42%{outline: 4px solid RGB(125, 0, 83);} 50%, 100%{outline: 4px solid transparent;} }
 
 
-ul.footer-links > li{ color: var(--Fuschia); font-size: 14px; font-weight: 500; line-height: 14px; letter-spacing: 1.4px; }
+ul.footer-links > li{ color: var(--Fuschia); font-size: 14px; font-weight: 500; line-height: 16px; letter-spacing: 1.4px; }
 ul.footer-links > li > ul{padding-top: 14px; gap: 16px 0;}
 ul.footer-links > li > ul > li{margin: 0;}
-ul.footer-links > li > ul > li > a{display: inline-block; color: var(--White); font-size: 14px; font-weight: 400; line-height: 100%; letter-spacing: 0;position: relative;}
+ul.footer-links > li > ul > li > a{display: inline-block; color: var(--White); font-size: 14px; font-weight: 400; line-height: 120%; letter-spacing: 0;position: relative;}
 ul.footer-links > li > ul > li > a::after{width: 0%; height: 1px; bottom: -1px; left: 0; transition: width 0.5s ease-out; content: ""; display: block; background-color: var(--Fuschia);}
 ul.footer-links > li > ul > li > a:hover::after{width: 100%;}
 ul.footer-links > li > ul > li > a:hover{color: var(--White); animation: shuffleX 0.5s ease-out forwards;}
@@ -38,7 +38,7 @@ ul.copyright-links > li.current_page_item > a{color: var(--Fuschia);}
 
     .footer-text{max-width: 600px;}
     ul.footer-links{gap: 43px;}
-    ul.footer-links > li{flex: 0 0 auto;}
+    ul.footer-links > li{flex: 0 0 calc(16.66666666666% - 36px);}
     .copyrights{flex: 1;}
 
 }
@@ -49,6 +49,10 @@ ul.copyright-links > li.current_page_item > a{color: var(--Fuschia);}
     .footer-text{flex: 1;}
     ul.social-icons{flex: 0 0 112px; margin-left: auto;}
     ul.social-icons li{flex: 0 0 calc(50% - 8px);}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    ul.footer-links{gap: 20px;}
+    ul.footer-links > li{flex: 0 0 calc(16.66667% - 17px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     ul.footer-links{gap: 40px;}

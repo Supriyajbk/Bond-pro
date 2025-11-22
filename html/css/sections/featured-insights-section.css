@@ -11,7 +11,7 @@ ul.category-date li > a:hover{background-color: var(--Fuschia); color: var(--Whi
 @media only screen and (min-width: 1024px){
     .featured-insights-main{gap: 80px; padding: 80px 0;}
     .featured-insights-head{flex: 0 0 400px; padding: 40px 0 20px;}
-    .featured-insights-thumb img{min-height: 512px;}
+    .featured-insights-thumb img{min-height: 512px; max-height: 512px;}
     .featured-insights-text{padding: 80px 40px 21px;}
 }
 @media only screen and (min-width: 760px){

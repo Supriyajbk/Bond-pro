@@ -40,7 +40,7 @@ span.date{letter-spacing: 1.4px; flex: 1;}
 }
 @media screen and (max-width: 1023px) and (min-width: 760px){
     .blog-news-main{padding: 48px 0;}
-    .blog-news-row{gap: 28px; justify-content: center;}
+    .blog-news-row{gap: 28px;}
     .blog-news-list{flex: 0 0 calc(50% - 14px);}
 }
 @media screen and (max-width: 759px) and (min-width: 0px){
@@ -60,6 +60,7 @@ span.date{letter-spacing: 1.4px; flex: 1;}
     .blog-news-desc{font-size: 14px; line-height: 21px;}
     .blog_load_more{margin-top: 28px;}
 }
+
 
 
 
