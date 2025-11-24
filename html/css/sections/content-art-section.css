@@ -22,6 +22,7 @@
     .content-art-text{flex: 0 0 512px;}
     .content-art-text .accordion-header.lg{ padding: 30px 24px 31px 0;;}
     .content-art-main{flex-direction: row-reverse;}
+    .reverse .content-art-main{flex-direction: row;}
     .content-art-images{flex: 1; height: auto; justify-content: center; display: flex; flex-direction: column; flex-wrap: wrap;}
     .content-art-text .accordion-desc p:not(:last-child){margin-bottom: 18px;}
     
