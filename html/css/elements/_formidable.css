@@ -155,6 +155,7 @@ body .frm_forms .iti__selected-country-primary{background: none !important; bord
 body .with_frm_style .iti__arrow.iti__arrow--up{transform: translateY(1px) rotate(180deg);}
 body .with_frm_style .iti{width: 100%;}
 
+body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field input::placeholder, body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field textarea::placeholder{color: var(--White);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
