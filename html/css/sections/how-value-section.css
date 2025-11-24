@@ -1,0 +1,69 @@
+.how-values{padding: 8px; border: 1px solid var(--Blue);}
+.how-values-card:nth-child(1):last-child{flex: 0 0 100%;}
+.how-values-desc h2{margin-bottom: 9px; }
+.how-values-desc p{margin-bottom: 0px; font-size: 16px;}
+.how-values-icon{width: 80px; height: 80px; margin-right: 20px;}
+.how-values-icon svg{width: 100%; height: 100%; object-fit: contain;}
+.how-values-rect{clip-path: polygon(0 0, 100% 100%, 0 100%);}
+
+.how-values-inner .h3{font-size: 32px;}
+.how-values-desc .h6{margin-bottom: 9px;}
+.how-values-desc{border-left: 1px solid  rgba(48, 46, 48, 0.1);}
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .how-values-main{gap: 80px; padding: 80px 0 81px;}
+    .how-values-card{flex: 0 0 400px;}
+    .how-values-card span.optional-text{margin-bottom: 39px;}
+    .how-values-btns{margin-top: 32px; padding: 8px;  }
+    .how-values-btns .button{justify-content: space-between;}
+
+}
+@media only screen and (min-width: 860px){
+    .how-values-inner hr[data-animate]{margin-bottom: 20px;}
+}
+@media only screen and (min-width: 560px){
+    .how-values-main{flex-direction: row-reverse;}
+    .how-values-segments{flex: 1; gap: 40px; flex-direction: column;}
+    .how-values-icon svg{max-width: 80px;}
+    .how-values-desc{flex: 1; padding: 0 0 0 20px;}
+    .how-values-line{width: 2px; height: 100%; bottom: 0; left: 0; display: block;}
+    .how-values-rect{clip-path: polygon(0 0, 100% 100%, 100% 0);}
+}
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
+    .how-values-main{gap: 40px;}
+    .how-values-card{flex: 0 0 300px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 0px){
+    .how-values-main{ flex-direction: column-reverse;}
+    .how-values-segments, .how-values-card {flex: 0 0 100%;}
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .how-values-main{ gap: 32px 0;padding: 60px 0 68px;}
+    .how-values-segments{gap: 32px;}
+     .how-values-card{flex: 0 0 240px;}
+     .how-values-inner .h3{font-size: 28px; line-height: 36px;}
+}
+@media only screen and (max-width: 759px) and (min-width: 560px){
+    .how-values-main{gap: 56px 0; padding: 40px 0 40px;}
+    .how-values-line{height: 100%;}
+}
+@media only screen and (max-width: 559px) and (min-width: 0px){
+    .how-values-main{padding: 20px 0 28px; gap: 56px 0;}
+    .how-values-segments{gap: 26px; flex-direction: column;}
+    .how-values-seg{display: block;}
+    .how-values-desc{padding-top: 16px; border-top: 1px solid rgba(48,46,48,.1); border-left: none;}
+    .how-values-icon{width: 56px; height: 56px; margin-bottom: 16px; }
+    .how-values-icon svg{max-width: 48px;}
+    .how-values-inner .h3 { font-size: 20px; line-height: 125%; }
+
+    .how-values-desc p{font-size: 14px; line-height: 150%;}
+    .how-values-btns{margin-top: 0; padding: 0;}
+    .how-values-btns .button{width: 100%; text-align: center;}
+
+
+
+}

@@ -23,6 +23,7 @@
     .content-art-text .accordion-header.lg{ padding: 30px 24px 31px 0;;}
     .content-art-main{flex-direction: row-reverse;}
     .reverse .content-art-main{flex-direction: row;}
+    .synapze .content-art-main{padding: 80px 0 40px;}
     .content-art-images{flex: 1; height: auto; justify-content: center; display: flex; flex-direction: column; flex-wrap: wrap;}
     .content-art-text .accordion-desc p:not(:last-child){margin-bottom: 18px;}
     
@@ -36,6 +37,8 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px){
     .content-art-main{padding: 38px 0 60px; display: block;}
+    .synapze .content-art-main{padding: 38px 0 40px;}
+
     .content-art-text .accordion-main{padding: 27px 0 40px;}
     .content-art-text .accordion-desc{font-size: 18px; line-height: 27px;}
     .content-art-text .accordion-desc p{margin-bottom: 18px;}
