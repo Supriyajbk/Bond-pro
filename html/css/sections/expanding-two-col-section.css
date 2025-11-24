@@ -7,12 +7,13 @@
 .expanding-two-col-subtitle{margin-bottom: 29px;}
 .expanding-two-col-btns{gap: 16px; padding-top: 20px;}
 
+
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .expanding-two-col-main{padding: 57px 0 80px;}
     .expanding-two-col-line{width: 1px; height: 100%; top: 0; left: 0;}
     .expanding-two-col-head{flex: 1; padding: 65px 80px 0 0;}
-    .expanding-two-col-text{flex: 1; padding-left: 80px;}
+    .expanding-two-col-text{flex: 1; padding-left: 80px; display: flex; align-items: center;}
     .expanding-two-col-line{top: 24px; height: calc(100% - 24px);}
     .expanding-two-col-text .accordion-main{padding: 0;}
 }

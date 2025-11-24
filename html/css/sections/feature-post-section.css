@@ -92,4 +92,7 @@ body.home .feature-post-main{padding: 48px 0 60px;}
   body.home .feature-post-head h2{font-size: 32px; margin-bottom: 10px;}
   ul.post-categories{margin-bottom: 8px;}
 
+  .feature-post-image.no-image .feature-post-pos {position: relative;}
+  .feature-post-image.no-image  .feature-post-text { padding: 32px 0;}
+
 }
