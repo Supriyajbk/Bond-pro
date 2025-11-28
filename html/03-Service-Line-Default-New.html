@@ -47,7 +47,8 @@
       <div class="header flex flex-vcenter">
         <div class="logo">
           <a href="index.html">
-            <img width="80" height="32" src="images/logo.svg" alt="logo" />
+            <img class="absolute black-logo" width="80" height="32" src="images/logo.svg" alt="logo" />
+            <img width="120" height="48" src="images/logo-white.svg" alt="logo" />
           </a>
         </div>
         <div role="button" aria-label="Open menu"
@@ -76,7 +77,13 @@
               <li>
                 <a href="#">CX</a>
               </li>
-              <li><a href="#">BondX</a></li>
+              <li
+                class="menu-item hide-menu menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3642">
+                <a href="#">BondX</a>
+                <ul>
+                  <li class="hide-nav-overview"><a href="#">Overview</a></li>
+                </ul>
+              </li>
               <li><a href="11-News.html">Insights</a></li>
               <li><a href="09-About.html">About</a></li>
               <li class="button"><a href="14-Contact.html">Contact.</a></li>

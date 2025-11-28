@@ -111,7 +111,7 @@ body.home header.site-header:not(.sticky-header) img.black-logo{opacity: 0;}
     ul.main_menu > li.sib{display: none;}
 
    
-    ul.main_menu > li:not(.button) > a{padding: 19px 24px; border-bottom: 1px solid var(--Elevated); font-size: 16px; line-height: 16px; font-weight: 600; letter-spacing: 0; color: var(--Foreground); display: flex; align-items: center; flex-wrap: wrap; width: 100%; text-transform: capitalize; position: relative;}
+    ul.main_menu > li:not(.button) > a{padding: 19px 24px; text-decoration: none; border-bottom: 1px solid var(--Elevated); font-size: 16px; line-height: 16px; font-weight: 600; letter-spacing: 0; color: var(--Foreground); display: flex; align-items: center; flex-wrap: wrap; width: 100%; text-transform: capitalize; position: relative;}
     ul.main_menu > li:not(.button) > a:hover{color: var(--Fuschia);}
     ul.main_menu > li:not(.button) > a::after{top: 50%; transform: translateY(-50%); right: 24px; content: "\f061"; color: var(--Fuschia); font-size: 18px; line-height: 18px; position: absolute; display: block; font-family: "Font Awesome 7 Pro"; font-weight: 900;}
     ul.main_menu > li:not(.button).menu-item-has-children > a::after{content: "\f078";}
@@ -131,7 +131,7 @@ body.home header.site-header:not(.sticky-header) img.black-logo{opacity: 0;}
     ul.main_menu > li > ul > li::before{display: none;}
     ul.main_menu > li > ul > li{margin-bottom: 0;}
     ul.main_menu > li > ul > li:not(:last-child){margin-bottom: 21px;}
-    ul.main_menu > li > ul > li > a{color: var(--Foreground); font-size: 16px; line-height: 16px; font-weight: 600;}
+    ul.main_menu > li > ul > li > a{color: var(--Foreground); text-decoration: none; font-size: 16px; line-height: 16px; font-weight: 600;}
 
     ul.main_menu > li > ul > li > ul{margin: 0;}
     ul.main_menu > li > ul > li > ul > li::before{display: none;}

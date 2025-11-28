@@ -20,4 +20,6 @@
   .home-banner-wrap{align-items: flex-end; padding: 80px 0 8px;}
   .home-banner-text h1 { font-size: 76px; letter-spacing: -0.76px; line-height: 96%;}
 }
-
+@media only screen and (max-width: 374px) and (min-width: 0px){
+  .home-banner-text h1{font-size: 60px;}
+}
