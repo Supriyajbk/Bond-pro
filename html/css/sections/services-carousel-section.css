@@ -2,7 +2,7 @@
 .services-carousel-row:not(:first-child){display: none;}
 ul.services-carousel-tabs{ scrollbar-width: none;}
 ul.services-carousel-tabs::-webkit-scrollbar { display: none; }
-  
+ul.services-carousel-tabs > li > a{text-decoration: none;}  
 
 
 /*-- media css starts here --*/
@@ -14,8 +14,8 @@ ul.services-carousel-tabs::-webkit-scrollbar { display: none; }
     .services-for-slide:not(:first-child){display: none;}
     .services-for-slide.swiper-slide{height: auto; transform: none;}
     
-    ul.services-carousel-tabs{overflow: auto;}
-    ul.services-carousel-tabs > li{flex: 0 0 170px;}
+    ul.services-carousel-tabs{flex-wrap: wrap;}
+    ul.services-carousel-tabs > li{flex: 0 0 calc(16.666666666%);}
     ul.services-carousel-tabs > li > a{padding: 16px 21px; min-height: 64px;}
     ul.services-carousel-tabs > li.active > a{background-color: var(--White); color: var(--Fuschia);}
 
@@ -27,6 +27,8 @@ ul.services-carousel-tabs::-webkit-scrollbar { display: none; }
 @media screen and (max-width: 1023px) and (min-width: 760px){
     .services-carousel-content{display: block; padding: 40px;}
     .services-carousel-btn{margin-top: 24px;}
+    ul.services-carousel-tabs > li{flex: 0 0 calc(33.333333%);}
+
 }
 @media screen and (max-width: 759px) and (min-width: 0px){
     .services-carousel-pos{position: relative; background-color: var(--Foreground);}

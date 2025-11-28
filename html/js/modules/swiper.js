@@ -75,12 +75,10 @@ class Slider {
 
       this.swiper = new Swiper(this.element, {
         slidesPerView: 'auto',
-        slidesPerGroup: 1,
         centeredSlides: true,
         spaceBetween: 16,
-        speed: 1000,
+        speed: 1600,
         loop: true,
-        cssMode: true,
         navigation: {
           nextEl: '.image-carousel-slider .swiper-button-next',
           prevEl: '.image-carousel-slider .swiper-button-prev',

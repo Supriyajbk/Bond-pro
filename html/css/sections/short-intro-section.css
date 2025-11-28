@@ -4,6 +4,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .short-intro-main{padding: 80px 0 40px;}
+    .no-list .short-intro-main{padding-bottom: 80px;}
     .short-intro-main h2{font-size: 40px; margin-bottom: 0;}
 
     body.page-template-services-line .short-intro-main{padding: 80px 0 80px;}

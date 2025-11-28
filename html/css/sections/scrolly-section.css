@@ -10,7 +10,7 @@ ul.scrolly-links{margin: 0;}
 ul.scrolly-links li::before{display: none;}
 ul.scrolly-links li{margin: 0;}
 ul.scrolly-links li:first-child a{padding-top: 8px;}
-ul.scrolly-links li a{padding: 25px 16px 34px 34px; display: block; color: var(--Foreground-30); }
+ul.scrolly-links li a{text-decoration: none; padding: 25px 16px 34px 34px; display: block; color: var(--Foreground-30); }
 ul.scrolly-links li a.current{color: var(--Foreground); font-weight: 500;}
 
 

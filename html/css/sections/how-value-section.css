@@ -52,14 +52,13 @@
     .how-values-line{height: 100%;}
 }
 @media only screen and (max-width: 559px) and (min-width: 0px){
-    .how-values-main{padding: 20px 0 28px; gap: 56px 0;}
+    .how-values-main{padding: 40px 0 28px; gap: 56px 0;}
     .how-values-segments{gap: 26px; flex-direction: column;}
     .how-values-seg{display: block;}
     .how-values-desc{padding-top: 16px; border-top: 1px solid rgba(48,46,48,.1); border-left: none;}
     .how-values-icon{width: 56px; height: 56px; margin-bottom: 16px; }
     .how-values-icon svg{max-width: 48px;}
     .how-values-inner .h3 { font-size: 20px; line-height: 125%; }
-
     .how-values-desc p{font-size: 14px; line-height: 150%;}
     .how-values-btns{margin-top: 0; padding: 0;}
     .how-values-btns .button{width: 100%; text-align: center;}

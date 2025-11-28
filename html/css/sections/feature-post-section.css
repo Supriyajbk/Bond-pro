@@ -7,7 +7,8 @@
 .feature-post-text{padding: 34px; width: 100%;}
 .feature-post-text h1{color: var(--White);}
 .feature-post-text h1:last-child{margin-bottom: 0;}
-.feature-post-bg{min-height: 232px; top: auto; bottom: 0;  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 1));}
+.feature-post-image{overflow: hidden;}
+.feature-post-bg{min-height: 632px; top: auto; bottom: 0;  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 1));}
 
 
 
@@ -21,16 +22,18 @@
 
 ul.post-categories{margin: 0 0 8px; gap: 8px 10px;}
 ul.post-categories > li{margin: 0; position: relative;}
-ul.post-categories > li > a{padding: 4px 8px 5px; border-radius: 16px; background: rgba(228, 0, 162, 0.20); color: var(--Fuschia); font-size: 12px; line-height: 15px; font-weight: 600; letter-spacing: 0; text-transform: capitalize; position: relative; display: flex;}
+ul.post-categories > li > a{text-decoration: none; padding: 4px 8px 5px; border-radius: 16px; background: rgba(228, 0, 162, 0.20); color: var(--Fuschia); font-size: 12px; line-height: 15px; font-weight: 600; letter-spacing: 0; text-transform: capitalize; position: relative; display: flex;}
 ul.post-categories > li > a:hover{background-color: var(--Fuschia); color: var(--White);}
 ul.post-categories.white > li > a{background-color: var(--Fuschia); color: var(--White);}
 ul.post-categories.white > li > a:hover{background-color: var(--White); color: var(--Fuschia);}
 
-.feature-post-head div.fs-40 a{color: var(--White); font-weight: 500; font-family: var(--heading-font);}
+.feature-post-head div.fs-40 a{color: var(--White); text-decoration: none; font-weight: 500; font-family: var(--heading-font);}
 .feature-post-head div.fs-40 a:hover{color: var(--Fuschia);}
 .feature-post-head h1, .feature-post-head div.fs-40 {flex: 1;}
 .feature-post-link{width: 64px; height: 64px;}
-.feature-post-link a:hover i{transform: translateX(4px);}
+.feature-post-link a:hover i{transform: translateX(4px); color: var(--White);}
+.feature-post-link a:hover em{color: var(--White);}
+
 
 .post-feature-text h2{margin: 0;}
 .post-feature-text h2 a:hover{color: var(--Fuschia);}
@@ -86,6 +89,7 @@ body.home .feature-post-main{padding: 48px 0 60px;}
   .post-feature-rows{display: block; padding: 28px 0 0;}
   .post-feature-row:not(:last-child){margin-bottom: 24px;}
   .feature-post-lmbl-link{padding-top: 28px;}
+  .feature-post-head div.fs-40{font-size: 24px; line-height: 30px;}
 
   
   body.home .feature-post-head{display: block;}

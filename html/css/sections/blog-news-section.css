@@ -6,7 +6,7 @@ ul.blog-news-row{margin: 0;}
 .blog-news-srch input[type="submit"]:hover{background-image: url('../../images/search-hover.svg');}
 
 ul.blog-categories{gap: 12px; margin-bottom: 48px;}
-ul.blog-categories > li > a{ padding: 8px 16px; color: var(--Foreground-75); display: block; }
+ul.blog-categories > li > a{text-decoration: none; padding: 8px 16px; color: var(--Foreground-75); display: block; }
 ul.blog-categories > li > a.open{background-color: var(--Foreground); color: var(--White); }
 ul.blog-categories > li > a:hover{ background-color: var(--Fuschia); color: var(--White); }
 .blog-news-bg{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0.75) 75%); }

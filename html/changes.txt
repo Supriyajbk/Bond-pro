@@ -2,3 +2,4 @@
 2. Client added this "Recognition" section from the Careers template. Can you please add as an optional field? (added in 3rd page )
 3. Client added this module from the Analytics template. Can you please include on 02 as an optional field? -- Done ( Above our work section 2nd page)
 4. Client added this section from the Analytics template, can you please add to 02 as an optional field? -- Done ( Below the repeater 2nd page)
+

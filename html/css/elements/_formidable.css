@@ -156,6 +156,8 @@ body .with_frm_style .iti__arrow.iti__arrow--up{transform: translateY(1px) rotat
 body .with_frm_style .iti{width: 100%;}
 
 body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field input::placeholder, body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field textarea::placeholder{color: var(--White);}
+body .frm_forms .frm_form_fields .frm_form_field .iti input[type="tel"]::placeholder{font-size: 0; line-height: 0;}
+body .frm_forms .iti__search-clear .iti__search-clear-bg{fill: var(--White);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

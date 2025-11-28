@@ -14,7 +14,6 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 760px){
     .locations-list{display: flex; flex-direction: column;}
-    .locations-address{margin-top: auto;}
 }
 @media only screen and (min-width: 1024px){
     .locations-main{gap: 80px; padding: 80px 0 80px;}

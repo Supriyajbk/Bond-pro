@@ -17,7 +17,7 @@ a:hover{color: var(--Foreground);}
 .h4, h4{font-size: 32px; line-height: 125%; margin-bottom: 20px;}
 .h5, h5{font-size: 28px; line-height: 125%; margin-bottom: 19px;}
 .h6, h6{font-size: 20px; line-height: 25px; margin-bottom: 18px;}
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--Base-Foreground);}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--Base-Foreground); text-decoration: none;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--Fuschia);}
 
 .h1 > span, .h2 > span, .h3 > span, .h3 > p > span, .h4 > span, .h5 > span, .h6 > span, h1 > span, h2 > span, h2 > p > span, h3 > span, h3 > p > span, h4 > span, h4 > p > span, h5 > span, h6 > span {color: var(--Fuschia);}
@@ -117,7 +117,7 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before, .
 
 .button.md span{color: var(--Fuschia);}
 
-a.text-link{gap: 0 5px; color: var(--Foreground); font-size: 16px; line-height: 24px; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font); align-items: center;}
+a.text-link{gap: 0 5px; text-decoration: none; color: var(--Foreground); font-size: 16px; line-height: 24px; letter-spacing: normal; font-weight: 700; font-family: var(--heading-font); align-items: center;}
 a.text-link em{color: var(--Fuschia); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 1px; transition: all .5s ease;}
 a.text-link.white{color: var(--White);}
 a.text-link.black{color: var(--Base-Foreground);}
@@ -410,8 +410,9 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 
 .btn-wrap{gap: 16px;}
 
-p a{ color: var(--Foreground); font-weight: 700; line-height: 150%; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: var(--Fuschia); text-decoration-thickness: 12%; text-underline-offset: auto; text-underline-position: from-font; }
-p a:hover{ text-decoration-color: transparent; color: var(--Fuschia); }
+a{ color: var(--Foreground); font-weight: 700; line-height: 150%; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: var(--Fuschia); text-decoration-thickness: 12%; text-underline-offset: auto; text-underline-position: from-font; }
+a:hover{ text-decoration-color: transparent; color: var(--Fuschia); }
+
 body .has-html5video .f-html, body .has-vimeo .f-html, body .has-youtube .f-html{background: none;}
 body .f-button.is-close-button{width: 50px; height: 50px; padding: 0; position: absolute; border-radius: 50%; background-color: var(--Fuschia); transition: var(--b-transition);}
 body .f-button.is-close-button::before{display: none;}

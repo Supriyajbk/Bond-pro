@@ -493,7 +493,7 @@
       transform: translateX(0);
   }
 }
-.shuffleBg {
+/* .shuffleBg {
   animation: shuffleBg 1s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
 }
 
@@ -513,4 +513,4 @@
   100% {
     transform: translateY(0);
   }
-}
+} */

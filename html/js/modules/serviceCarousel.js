@@ -71,13 +71,13 @@ class serviceCarouselSlider {
               const $targetParentEle = $target.parentElement.closest(
                 '.services-nav-slide'
               );
-              $targetParentEle.classList.toggle('shuffleBg');
+              // $targetParentEle.classList.toggle('shuffleBg');
 
-              if (!$targetParentEle.classList.contains('shuffleBg')) {
-                setTimeout(function () {
-                  $targetParentEle.classList.add('shuffleBg');
-                }, 100);
-              }
+              // if (!$targetParentEle.classList.contains('shuffleBg')) {
+              //   setTimeout(function () {
+              //     $targetParentEle.classList.add('shuffleBg');
+              //   }, 100);
+              // }
               $(document.querySelectorAll('.services-for-slide')).hide();
               $(
                 document.querySelector(
