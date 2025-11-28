@@ -30,8 +30,8 @@ ul.aside-links > li:before{display: none;}
 }
 @media only screen and (min-width: 760px) {
   .default-article h2{font-size: 44px; line-height: 100%;}
-  .default-article h3{font-size: 32px; line-height: 100%;}
-  .default-article h4{font-size: 24px; line-height: 100%;}
+  .default-article h3{font-size: 32px; line-height: 100%; padding-top: 24px;}
+  .default-article h4{font-size: 24px; line-height: 100%; padding-top: 24px;}
   .default-article h5{font-size: 20px; line-height: 100%;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){

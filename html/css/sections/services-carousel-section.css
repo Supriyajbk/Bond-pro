@@ -24,6 +24,9 @@ ul.services-carousel-tabs > li > a{text-decoration: none;}
     .services-carousel-btn{width: fit-content;}
     .services-carousel-btn a.button{padding: 11px 16px 10px;}
 }
+@media only screen and (min-width: 1601px){
+    picture.services-for-thumb img{object-position: center top; max-height: inherit;}
+}
 @media screen and (max-width: 1023px) and (min-width: 760px){
     .services-carousel-content{display: block; padding: 40px;}
     .services-carousel-btn{margin-top: 24px;}

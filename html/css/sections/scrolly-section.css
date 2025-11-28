@@ -57,7 +57,7 @@ a.current .scrolly-line-circle::before{background-color: var(--Fuschia);}
 /*-- media css starts here --*/
 @media screen and (min-width: 1360px){
     .scrolly-text{max-width: 532px; margin-right: auto;}
-    .scrolly-image{min-width: 534px; left: calc(100% - 466px); width: 100%; height: 100%; position: absolute;}
+    .scrolly-image{min-width: 534px; max-width: 534px; left: calc(100% - 466px); width: 100%; height: 100%; position: absolute;}
 }
 @media screen and (min-width: 1024px){
     .scrolly-main{gap: 80px; }

@@ -35,7 +35,7 @@ body.home header.site-header:not(.sticky-header) img.black-logo{opacity: 0;}
     
     body.home header.site-header:not(.sticky-header) ul.main_menu > li:not(.button) > a{color: var(--White-80); padding: 46px 0 47px;}
 
-    ul.main_menu > li.button > a{ padding: 9px 14px 8px; font-weight: 700; border-radius: 20px; background-color: var(--Fuschia); color: var(--White);}
+    ul.main_menu > li.button > a{ padding: 9px 14px 8px; text-decoration: none; font-weight: 700; border-radius: 20px; background-color: var(--Fuschia); color: var(--White);}
     ul.main_menu > li.button > a:hover{background-color: var(--Foreground);}
     body.home header.site-header:not(.sticky-header) ul.main_menu > li.button > a:hover{background-color: var(--White); color: var(--Fuschia);}
     ul.main_menu > li.current-post-ancestor:not(.button) > a, ul.main_menu > li.current-menu-item:not(.button) > a, ul.main_menu > li.current-menu-parent:not(.button) > a{color: var(--Fuschia);}

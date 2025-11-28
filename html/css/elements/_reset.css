@@ -5,10 +5,11 @@ html.js{margin-top: 0 !important;}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html{overflow-y: scroll; overflow-x: hidden; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; box-sizing: border-box; scroll-behavior: smooth;}
-a{color: var(--Fuschia);text-decoration: none; transition: var(--b-transition);}
+a{color: var(--Foreground); font-weight: 700; line-height: 150%; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: var(--Fuschia); text-decoration-thickness: 2px; text-underline-offset: auto; text-underline-position: from-font; transition: var(--b-transition);}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
-a:hover{color: var(--Foreground);}
+a:hover{text-decoration-color: transparent; color: var(--Fuschia);}
+
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Base-Foreground); font-weight: 500; font-family: var(--heading-font); text-transform: none;}
 .h1, h1{font-size: 64px; line-height: 110%; margin-bottom: 24px;}
@@ -410,8 +411,7 @@ span.dot.fuschia{background-color: var(--Fuschia);}
 
 .btn-wrap{gap: 16px;}
 
-a{ color: var(--Foreground); font-weight: 700; line-height: 150%; text-decoration-line: underline; text-decoration-style: solid; text-decoration-skip-ink: auto; text-decoration-color: var(--Fuschia); text-decoration-thickness: 12%; text-underline-offset: auto; text-underline-position: from-font; }
-a:hover{ text-decoration-color: transparent; color: var(--Fuschia); }
+
 
 body .has-html5video .f-html, body .has-vimeo .f-html, body .has-youtube .f-html{background: none;}
 body .f-button.is-close-button{width: 50px; height: 50px; padding: 0; position: absolute; border-radius: 50%; background-color: var(--Fuschia); transition: var(--b-transition);}
