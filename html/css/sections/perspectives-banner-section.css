@@ -8,7 +8,7 @@
 
 ul.perspectives-category{gap: 16px; padding-bottom: 24px;}
 ul.perspectives-category li{letter-spacing: 1.4px;}
-ul.perspectives-category li > a{padding: 6px 12px; display: block; border-radius: 16px; background-color: var(--White); color: var(--Fuschia);} 
+ul.perspectives-category li > a{padding: 6px 12px; text-decoration: none; display: block; border-radius: 16px; background-color: var(--White); color: var(--Fuschia);} 
 ul.perspectives-category li > a:hover{background-color: var(--Fuschia); color: var(--White);}
 
 /*-- media css starts here --*/

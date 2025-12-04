@@ -27,7 +27,8 @@ body.page-template-career  .featured-list p:last-of-type { margin-bottom: 0; }
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
   .featured-lists{gap: 56px}
-  .featured-list{flex: 0 0 calc(25% - 42px);}
+  .featured-list{flex: 0 0 calc(25% - 42px); flex-grow: 1;}
+  .featured-list:nth-child(n+4){max-width: calc(25% - 42px);}
 
 
   body.page-template-career .featured-section:nth-child(4) .featured-main{padding-top: 0;}

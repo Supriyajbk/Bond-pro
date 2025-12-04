@@ -21,7 +21,7 @@ a:hover{text-decoration-color: transparent; color: var(--Fuschia);}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--Base-Foreground); text-decoration: none;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--Fuschia);}
 
-.h1 > span, .h2 > span, .h3 > span, .h3 > p > span, .h4 > span, .h5 > span, .h6 > span, h1 > span, h2 > span, h2 > p > span, h3 > span, h3 > p > span, h4 > span, h4 > p > span, h5 > span, h6 > span {color: var(--Fuschia);}
+.h1 > span, .h2 > span, .h3 > span, .h3 > p > span, .h4 > span, .h5 > span, .h6 > span, h1 > span, h2 > span, h2 > p > span, h3 > span, h3 > p > span, h4 > span, h4 > p > span, h5 > span, h6 > span, .h3 p span {color: var(--Fuschia);}
 
 
 address{font-size: 1.125rem; line-height: 1.5rem; margin-bottom: 24px;}
@@ -140,7 +140,7 @@ a.text-link-underline{ color: var(--Foreground); font-size: 14px; line-height: 1
 a.text-link-underline:hover{text-decoration-color: transparent;}
 
 
-a.text-link.white span.span-reading-time{ display: inline-flex; align-items: baseline; }
+/* a.text-link.white span.span-reading-time{ display: inline-flex; align-items: baseline; } */
 .insights-carousel-desc a.text-link.white > span:not(:first-child),
 .blog-news-desc a.text-link.white > span:not(:first-child){top: 0.5px;}
 

@@ -475,8 +475,8 @@
 
 [data-animate="circle"] img{
   clip-path: circle(0% at 50% 50%);
-  transition: clip-path 2s ease-in-out;
-  transition-delay: 0.5s;
+  transition: clip-path 1s ease-in-out;
+  transition-delay: 0s;
 }
 [data-animate="circle"].visible img{
   clip-path: circle(100% at 50% 50%);

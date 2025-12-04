@@ -1,0 +1,49 @@
+
+figure.work-place-thumb img{object-fit: contain;}
+.work-place-text span.optional-text{margin-bottom: 8px;}
+.work-place-divider .divider{padding: 0; gap: 20px;}
+
+/* media css starts here */
+@media only screen and (min-width: 760px){
+    .work-place-text h3{margin-bottom: 21px;}
+    .work-place-divider{left: 0; top: 0;}
+    .one-of-four .work-place-image{flex: 0 0 calc(25% - 12px);}
+}
+@media only screen and (min-width: 1024px){
+    .work-place-main{gap: 40px; padding: 91px 0 93px;}
+    .work-place-text{flex: 1;}
+    .work-place-images{flex: 1; gap: 16px; padding-left: 40px;}
+    .work-place-images:not(.one-of-four) .work-place-image{flex: 0 0 calc(33.333333% - 11px);}
+    .work-place-divider .divider{flex-direction: column;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .work-place-images{gap: 16px; margin-top: 53px; padding-top: 10px;}
+    .work-place-images:not(.one-of-four) .work-place-image{flex: 0 0 calc(33.333333% - 11px);}
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 0px){
+    .work-place-main{padding: 56px 0 19px; display: block;}
+    .work-place-divider{top: 0; left: 0;}
+}
+@media only screen and (max-width: 759px) and (min-width: 0px){
+    .work-place-text{font-size: 16px; line-height: 24px;}
+    .work-place-text h3{margin-bottom: 23px;}
+    .work-place-images{display: block; margin-top: 34px;}
+    .work-place-image:not(:last-child){padding-bottom: 16px;}
+    .work-place-image:not(:first-child){padding-top: 16px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

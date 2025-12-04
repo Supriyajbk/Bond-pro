@@ -2,7 +2,7 @@
 .featured-insights-head span.optional-text{margin-bottom: 24px;}
 ul.category-date{gap: 15px; padding-bottom: 24px;}
 ul.category-date li{letter-spacing: 1.4px;}
-ul.category-date li > a{padding: 6px 12px; display: block; border-radius: 16px; background-color: var(--White); color: var(--Fuschia);} 
+ul.category-date li > a{padding: 6px 12px; text-decoration: none; display: block; border-radius: 16px; background-color: var(--White); color: var(--Fuschia);} 
 ul.category-date li > a:hover{background-color: var(--Fuschia); color: var(--White);}
 .featured-insights-overlay{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 1)); }
 .featured-insights-thumb img{min-height: 449px;}

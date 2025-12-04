@@ -31,8 +31,9 @@ ul.post-categories.white > li > a:hover{background-color: var(--White); color: v
 .feature-post-head div.fs-40 a:hover{color: var(--Fuschia);}
 .feature-post-head h1, .feature-post-head div.fs-40 {flex: 1;}
 .feature-post-link{width: 64px; height: 64px;}
-.feature-post-link a:hover i{transform: translateX(4px); color: var(--White);}
-.feature-post-link a:hover em{color: var(--White);}
+.feature-post-link a{text-decoration: none;}
+.feature-post-link a:hover{background-color: var(--White);}
+.feature-post-link a:hover i, .feature-post-link a:hover em{transform: translateX(4px); color: var(--Fuschia);}
 
 
 .post-feature-text h2{margin: 0;}

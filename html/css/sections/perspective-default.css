@@ -14,39 +14,49 @@
 .share-wrap .h4{margin-bottom: 0;}
 .share-wrap{gap: 20px; flex: 1}
 
+.perspective-default-main iframe{width: 100%; height: auto;}
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-
+    .perspective-default-main iframe{height: 628px;}
 }
-
-
+@media only screen and (min-width: 760px) {
+    .perspective-default-main h2{font-size: 44px; line-height: 100%;}
+    .perspective-default-main h3{font-size: 32px; line-height: 100%; padding-top: 24px;}
+    .perspective-default-main h4{font-size: 24px; line-height: 100%; padding-top: 24px;}
+    .perspective-default-main h5{font-size: 20px; line-height: 100%;}
+  }
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    .perspective-default-main iframe{height: 468px;}
+}
+@media only screen and (max-width: 759px) and (min-width: 414px){
+    .perspective-default-main iframe{height: 50vh;}
+}
 @media only screen and (max-width: 759px) and (min-width: 0px){
-.perspective-default{padding: 32px 0;}
-.perspective-default-main .h3 { font-size: 32px; line-height: 125%; }
-.perspective-default-main > p > span{ font-size: 20px;}
-.perspective-default-main{font-size: 16px; line-height: 150%; }
+    .perspective-default{padding: 32px 0;}
+    .perspective-default-main .h3 { font-size: 32px; line-height: 125%; }
+    .perspective-default-main > p > span{ font-size: 20px;}
+    .perspective-default-main{font-size: 16px; line-height: 150%; }
 
-.perspective-default-main .video-main { padding: 32px 0 55px; }
+    .perspective-default-main .video-main { padding: 32px 0 55px; }
 
-.perspective-default-main ul > li{font-size: 16px;}
-.perspective-default-main ol > li{font-size: 16px;}
-.loyalty-program-wrap {margin: 56px 0 56px; padding: 40px 0 0;}
-.loyalty-program-main span.optional-text {font-size: 12px;}
+    .perspective-default-main ul > li{font-size: 16px;}
+    .perspective-default-main ol > li{font-size: 16px;}
+    .loyalty-program-wrap {margin: 56px 0 56px; padding: 40px 0 0;}
+    .loyalty-program-main span.optional-text {font-size: 12px;}
 
-.perspective-default-main .micro-cta-module {margin: 55px 0 55px;}
+    .perspective-default-main .micro-cta-module {margin: 55px 0 55px;}
 
-.loyalty-program-wrap .counter-main-wrap { padding: 0px 0; }
+    .loyalty-program-wrap .counter-main-wrap { padding: 0px 0; }
 
 
-.share-icon-main{justify-content: space-between; align-items: center; margin-top: 54px;}
-.share-icon { color: var(--Foreground); font-size: 32px; }
-.share-wrap .h4{display: none;}
-.share-wrap { flex: 0 0 32px; text-align: center;}
+    .share-icon-main{justify-content: space-between; align-items: center; margin-top: 54px;}
+    .share-icon { color: var(--Foreground); font-size: 32px; }
+    .share-wrap .h4{display: none;}
+    .share-wrap { flex: 0 0 32px; text-align: center;}
 
 }
 @media screen and (max-width: 374px) and (min-width: 0px){
-
-.share-icon-main{padding: 16px 10px;}
+    .share-icon-main{padding: 16px 10px;}
 }

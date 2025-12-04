@@ -27,7 +27,7 @@ span.ui-plus { width: 24px; height: 24px; left: 27px; }
 span.ui-plus::after, span.ui-plus::before { top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: var(--Blue); content: ""; display: block; position: absolute; z-index: -1; } 
 span.ui-plus::before { width: 24px; height: 2px; } 
 span.ui-plus::after { width: 2px; height: 24px; } 
-.accordion-content{ max-height: 0; transition: max-height 0.9s; overflow: hidden; } 
+.accordion-content{ max-height: 0; transition: max-height 0.5s; overflow: hidden; } 
 .accordion-desc:not(.fs-20){ color: var(--Dark-Gray); line-height: 150%; font-size: 16px; font-weight: 300; font-family: var(--text-font); padding: 4px 12px 28px 22px; }
 .accordion-desc{padding: 0 0 32px;}
 .accordion-desc ol { margin: 0 0 28px 27px; }
