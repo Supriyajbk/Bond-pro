@@ -9,12 +9,12 @@ class mySlider {
     if (this.eles.length === 0) return;
     this.eles.forEach((ele) => {
       if (ele.dataset.type === 'trustBySlider') {
-        const autoScrollSpeed = ele.dataset.speed
-          ? parseFloat(ele.dataset.speed)
-          : 0.5;
+        // const autoScrollSpeed = ele.dataset.speed
+        //   ? parseFloat(ele.dataset.speed)
+        //   : 0.5;
+        const autoScrollSpeed = 0.75;
 
-        const direction = ele.dataset.direction === 'reversed' ? -1 : 1;
-
+        // const direction = ele.dataset.direction === 'reversed' ? -1 : 1;
         const splide = new Splide(ele, {
           pagination: false,
           arrows: false,
