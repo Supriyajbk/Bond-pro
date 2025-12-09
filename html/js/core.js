@@ -7,7 +7,13 @@ import { tabHandler } from './modules/tabSection';
 import { trustBy } from './modules/trustBySlider';
 import { accordion } from './modules/accordion';
 import { youtube, vimeo, video } from './modules/popup';
-import { swiper, workSwiper, imageSwiper, eventSwiper } from './modules/swiper';
+import {
+  swiper,
+  workSwiper,
+  imageSwiper,
+  eventSwiper,
+  testimonialSwiper,
+} from './modules/swiper';
 import { divider, pattern } from './modules/divider';
 import { spyScroll } from './modules/spyScroll';
 import { formidable } from './modules/formidable';
@@ -31,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
   workSwiper.init();
   imageSwiper.init();
   eventSwiper.init();
+  testimonialSwiper.init();
   divider.load();
   pattern.load();
   spyScroll.init();

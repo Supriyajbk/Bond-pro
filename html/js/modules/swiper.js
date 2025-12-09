@@ -116,9 +116,26 @@ class Slider {
         },
       });
     }
+    if (this.selector === '.custom-testimonial-slider') {
+      this.swiper = new Swiper(this.element, {
+        slidesPerView: 1,
+        effect: 'fade',
+        loop: true,
+        speed: 2000,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.custom-testimonial-slider .swiper-pagination',
+          clickable: true,
+        },
+      });
+    }
   }
 }
 export const swiper = new Slider('.carousel-slider');
 export const workSwiper = new Slider('.work-carousel-slider');
 export const imageSwiper = new Slider('.image-carousel-slider');
 export const eventSwiper = new Slider('.events-carousel-slider');
+export const testimonialSwiper = new Slider('.custom-testimonial-slider');

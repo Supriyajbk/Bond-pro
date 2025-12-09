@@ -8,13 +8,17 @@
 .custom-testimonial-icon svg{width: 100%; height: 100%; object-fit: contain;}
 .custom-testimonial-avatar{gap: 12px; padding-top: 20px;}
 figure.custom-testimonial-thumb{width: 80px; height: 80px;}
+figure.custom-testimonial-thumb img{object-fit: contain;}
 .custom-testimonial-profile{flex: 1; gap: 12px;}
 .custom-testimonial-profile p{padding-left: 12px; border-left: 1px solid var(--Fuschia);}
 .custom-testimonial-profile p:only-child{border-left: none;}
+.swiper-horizontal .custom-testimonial-pagi{ margin: 40px 0 0; width: 100%; text-align: left; display: flex; flex-wrap: wrap; gap: 0 5px; }
+.custom-testimonial-pagi span.swiper-pagination-bullet{border-radius: 50%; margin: 0 !important;}
+.custom-testimonial-slider .swiper-slide:not(.swiper-slide-active){opacity: 0; visibility: hidden; animation: testimonialScale 5s ease forwards; }
+@keyframes testimonialScale { 0% { transform: scale(0.75); } 100% { transform: scale(1); } }
 
  /*-- media css starts here --*/
  @media screen and (min-width: 1024px){
-    
     body.page-template-default .custom-testimonial-main {padding: 64px;}
     body.home .custom-testimonial-text .h3 {font-size: 40px;}
     body.page-template-default .custom-testimonial-main{margin-bottom: 70px;}
@@ -22,14 +26,15 @@ figure.custom-testimonial-thumb{width: 80px; height: 80px;}
     body.single-post .custom-testimonial-text .h3{color: var(--White); font-size: 31px;}
     body.single-post .custom-testimonial-profile span{color: var(--White)}
     body.single-post .custom-testimonial-profile p {color: var(--White);}
+    
 }
 @media only screen and (max-width: 1399px) and (min-width: 1024px) {
     body.page-template-default .custom-testimonial-main{padding: 40px 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
-body.page-template-default .custom-testimonial-main{margin-bottom: 55px; padding: 48px;}
+    body.page-template-default .custom-testimonial-main{margin-bottom: 55px; padding: 48px;}
 
-.perspective-default-main  .custom-testimonial-main{margin-bottom: 64px;}
+    .perspective-default-main  .custom-testimonial-main{margin-bottom: 64px;}
 }
 
 
@@ -50,6 +55,7 @@ body.page-template-default .custom-testimonial-main{margin-bottom: 55px; padding
     body.single-post .custom-testimonial-text .h3 { color: var(--White); font-size: 24px; line-height: 30px;}
     .perspective-default-main .custom-testimonial-main {padding: 40px 32px;}
     .perspective-default-main .custom-testimonial-main { margin-bottom: 54px;}
+    .swiper-horizontal .custom-testimonial-pagi{margin-top: 20px;}
 }
 
 
