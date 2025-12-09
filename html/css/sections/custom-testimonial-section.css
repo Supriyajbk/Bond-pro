@@ -15,7 +15,10 @@ figure.custom-testimonial-thumb img{object-fit: contain;}
 .swiper-horizontal .custom-testimonial-pagi{ margin: 40px 0 0; width: 100%; text-align: left; display: flex; flex-wrap: wrap;}
 .custom-testimonial-pagi span.swiper-pagination-bullet{border-radius: 50%;}
 .custom-testimonial-slider .swiper-slide:not(.swiper-slide-active){opacity: 0; visibility: hidden; }
-/* .custom-testimonial-slider .swiper-wrapper{z-index: 8;} */
+
+.custom-testimonial-section:not(.foreground-bg) .swiper-pagination-bullet{background-color: var(--Foreground);}
+.custom-testimonial-pagi:has(.swiper-pagination-bullet:only-child){margin: 0;}
+
 
  /*-- media css starts here --*/
  @media screen and (min-width: 1024px){

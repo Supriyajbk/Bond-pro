@@ -142,7 +142,7 @@ body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 
 
 /* body .frm_forms .frm_form_fields .frm_filed_wrapper::before{margin:1px 0 24px; width: 100%; height: 1px; opacity: 0.32; content: ""; display: block; background-image: repeating-linear-gradient( to right, transparent, transparent 5px, var(--Spun-Pearl) 5px, var(--Spun-Pearl) 10px ); } */
-body .frm_forms .frm_form_fields .frm_filed_wrapper .frm_form_field{flex: 1; margin: 0; color: var(--White-60); font-size: 14px; font-weight: 500; line-height: 100%; letter-spacing: -0.14px; }
+body .frm_forms .frm_form_fields .frm_filed_wrapper .frm_form_field{flex: 0 0 auto; margin: 0; width: fit-content; font-size: 14px; font-weight: 500; line-height: 100%; letter-spacing: -0.14px; }
 body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit{display: flex; margin-left: auto; border-radius: 25px; padding: 15px 20px 15px 20px;}
 
 .frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):not([type="range"]):not([readonly]):focus, .frm_style_formidable-style.with_frm_style select:focus, .frm_style_formidable-style.with_frm_style .form-field textarea:focus, .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="text"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="password"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="email"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="number"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="url"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="tel"], .frm_style_formidable-style.with_frm_style .frm_focus_field input[type="search"], .frm_form_fields_active_style, .frm_style_formidable-style.with_frm_style .frm_focus_field .frm-card-element.StripeElement{ box-shadow: none !important; border-left-color: var(--Fuschia) !important; background-color: var(--Elevated); }
@@ -158,6 +158,7 @@ body .with_frm_style .iti{width: 100%;}
 body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field input::placeholder, body .signup-cta-form .frm_forms .frm_form_fields .frm_form_field textarea::placeholder{color: var(--White);}
 body .frm_forms .frm_form_fields .frm_form_field .iti input[type="tel"]::placeholder{font-size: 0; line-height: 0;}
 body .frm_forms .iti__search-clear .iti__search-clear-bg{fill: var(--White);}
+.frm_filed_radio { display: flex; flex-direction: column; gap: 24px 0; flex: 1; width: fit-content; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -259,7 +260,9 @@ body .frm_forms .iti__search-clear .iti__search-clear-bg{fill: var(--White);}
     .frm_filed_wrapper{display: block;}
     body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox label {font-size: 12px; line-height: 150%; padding: 0 0 0 48px;}
     body .frm_forms .frm_form_fields .frm_form_field .frm_submit button.frm_button_submit {justify-content: center;}
-
+    body .frm_forms .frm_form_fields .frm_filed_wrapper .frm_form_field.form-field.vertical_radio.frm_none_container{flex: 1; width: 100%;}
+    .frm_filed_radio{margin-bottom: 34px; display: block;}
+    body .frm_forms .frm_form_fields .frm_filed_wrapper .frm_form_field{width: 100%;}
 }
 @media screen and (max-width: 389px) and (min-width: 0px){
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container, body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column; margin-bottom: 8px;}

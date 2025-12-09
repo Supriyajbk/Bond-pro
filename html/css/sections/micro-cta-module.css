@@ -10,13 +10,15 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-	.micro-cta-thumb{flex: 0 0 318px;}
 	.micro-cta-text{flex: 1;}
 	/* .micro-cta-desc{max-width: 387px;} */
-
 	body.single-post-custom .micro-cta-module {margin: 64px 0 64px;}
 }
-
+@media only screen and (min-width: 1300px){
+	/* .micro-cta-text{min-height: 350px; display: flex; flex-direction: column; justify-content: center;} */
+	.micro-cta-thumb{flex: 0 0 318px;}
+	.micro-cta-thumb picture img{width: 318px; height: 318px;}
+}
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
 	.micro-cta-module .container{padding: 0;}
 	.micro-cta-text {padding: 30px;}

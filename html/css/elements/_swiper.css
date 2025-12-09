@@ -7,11 +7,8 @@ svg.swiper-navigation-icon{display: none;}
 .swiper-horizontal span.swiper-pagination-bullet{width: 12px; height: 12px; margin: 0; background-color: var(--White); border-radius: 0; opacity: 1;}
 .swiper-horizontal span.swiper-pagination-bullet.swiper-pagination-bullet-active{width: 24px; height: 12px; border-radius: 12px; background-color: var(--Fuschia);}
 
-.swiper-button-next.swiper-button-disabled, .swiper-button-next.swiper-button-hidden, .swiper-button-prev.swiper-button-disabled, .swiper-button-prev.swiper-button-hidden{
-    opacity: 0.5;
-    background-color: var(--Light-Gray);
-    color: var(--Foreground-50);
-}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{ transition: var(--transition-in); }
+.swiper-button-next.swiper-button-disabled, .swiper-button-next.swiper-button-hidden, .swiper-button-prev.swiper-button-disabled, .swiper-button-prev.swiper-button-hidden{ opacity: 0.5; background-color: var(--Light-Gray); color: var(--Foreground-50); }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

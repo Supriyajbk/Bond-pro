@@ -25,8 +25,8 @@ ul.aside-links > li:before{display: none;}
 
 @media only screen and (min-width: 1024px) {
   .default-main{padding: 80px 0 55px; gap: 80px;}
-  .default-article { flex: 1; }
-  .default-aside{flex: 0 0 335px;}
+  .default-article {width: calc(100% - 415px);}
+  .default-aside{width: 335px;}
 }
 @media only screen and (min-width: 760px) {
   .default-article h2{font-size: 44px; line-height: 100%;}
@@ -36,13 +36,14 @@ ul.aside-links > li:before{display: none;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
   .default-main{gap: 40px;}
-  .default-aside{flex: 0 0 315px;}
+  .default-aside{width: 315px;}
+  .default-article {width: calc(100% - 355px);}
 }
 @media screen and (max-width: 1023px) and (min-width: 760px){
   .default-main{padding: 80px 0 55px; display: block;}
 }
 @media only screen and (max-width: 759px) and (min-width: 0px) {
-  .default-main {padding: 30px 0;}
+  .default-main {padding: 30px 0; display: block;}
   .default-article .h2{font-size: 40px;}
   .default-article p span {font-size: 20px;}
   .default-article .h2 + p{margin-bottom: 20px;}

@@ -9,8 +9,9 @@ span.counter{  display: block;   letter-spacing: -1.92px; position: relative; }
 
 
 body.page-template-bond-institute .counter-list{padding: 18px 32px 29px;}
-body.home .counter-main-wrap{padding: 40px 0;}
+/* body.home .counter-main-wrap{padding: 40px 0;} */
 body.page-template-default .counter-list .h6{margin-bottom: 12px;}
+/* .counter-text{margin-top: auto;} */
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
@@ -22,6 +23,7 @@ body.page-template-default .counter-list .h6{margin-bottom: 12px;}
     .counter-list{display: flex; flex-direction: column;}
     .counter-list .h6{margin-bottom: 15px;}
     body.page-template-analytics .counter-main-wrap{padding: 80px 0;}
+    .counter-top{min-height: 64px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
     .counter-list{flex: 0 0 50%;}

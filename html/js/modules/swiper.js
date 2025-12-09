@@ -124,7 +124,7 @@ class Slider {
         speed: 2000,
         autoHeight: true,
         autoplay: {
-          delay: 2000,
+          delay: 8000,
           disableOnInteraction: false,
         },
         pagination: {
