@@ -122,6 +122,7 @@ class Slider {
         effect: 'fade',
         loop: true,
         speed: 2000,
+        autoHeight: true,
         autoplay: {
           delay: 2000,
           disableOnInteraction: false,

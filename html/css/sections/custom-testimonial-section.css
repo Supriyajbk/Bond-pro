@@ -12,10 +12,10 @@ figure.custom-testimonial-thumb img{object-fit: contain;}
 .custom-testimonial-profile{flex: 1; gap: 12px;}
 .custom-testimonial-profile p{padding-left: 12px; border-left: 1px solid var(--Fuschia);}
 .custom-testimonial-profile p:only-child{border-left: none;}
-.swiper-horizontal .custom-testimonial-pagi{ margin: 40px 0 0; width: 100%; text-align: left; display: flex; flex-wrap: wrap; gap: 0 5px; }
-.custom-testimonial-pagi span.swiper-pagination-bullet{border-radius: 50%; margin: 0 !important;}
-.custom-testimonial-slider .swiper-slide:not(.swiper-slide-active){opacity: 0; visibility: hidden; animation: testimonialScale 5s ease forwards; }
-@keyframes testimonialScale { 0% { transform: scale(0.75); } 100% { transform: scale(1); } }
+.swiper-horizontal .custom-testimonial-pagi{ margin: 40px 0 0; width: 100%; text-align: left; display: flex; flex-wrap: wrap;}
+.custom-testimonial-pagi span.swiper-pagination-bullet{border-radius: 50%;}
+.custom-testimonial-slider .swiper-slide:not(.swiper-slide-active){opacity: 0; visibility: hidden; }
+/* .custom-testimonial-slider .swiper-wrapper{z-index: 8;} */
 
  /*-- media css starts here --*/
  @media screen and (min-width: 1024px){
