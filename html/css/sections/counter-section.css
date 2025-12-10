@@ -15,9 +15,8 @@ body.page-template-default .counter-list .h6{margin-bottom: 12px;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
-    .counter-list{flex-grow: 1;}
-    .counter-stats:not(.one-of-three) .counter-list{flex: 0 0 25%;}
-    .one-of-three .counter-list{flex: 0 0 33.33333333%;}
+    .counter-stats:not(.one-of-three) .counter-list{flex: 0 0 25%; flex-grow: 1;}
+    .one-of-three .counter-list{flex: 0 0 33.33333333%; flex-grow: 1;}
 }
 @media screen and (min-width: 760px){
     .counter-list{display: flex; flex-direction: column;}
@@ -38,4 +37,7 @@ body.page-template-default .counter-list .h6{margin-bottom: 12px;}
     .counter-list:last-child{border-bottom: none;}
     .counter-list p{font-size: 14px;}
     body.home .counter-main-wrap { padding: 0; }
+
+    /*-- synapze-lx page top space for below css --*/
+    body.page-template-analytics .counter-main-wrap{padding-top: 28px;}
 }
