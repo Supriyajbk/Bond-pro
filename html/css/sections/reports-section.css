@@ -9,7 +9,6 @@
 .month-read{gap: 6px; color: var(--Foreground-50);}
 .month-read i, .month-read svg, .month-read img{top: 1px; position: relative; max-width: 12px;}
 
-
 .reports-text h2 a{color: var(--Foreground);}
 .reports-text h2 a:hover{color: var(--Fuschia);}
 .reports-text span.optional-text{margin-bottom: 5px;}
@@ -25,8 +24,10 @@
     body.page-template-default .reports-main{padding: 84px 0 80px;}
 }
 @media only screen and (min-width: 760px){
+    .reports-col{display: flex; flex-direction: column;}
     .reports-image{margin-bottom: 19px;}
-
+    .reports-text { display: flex; flex-direction: column; height: 100%; }
+    .reports-text-btn { margin-top: auto; }
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .reports-row{gap: 32px;}
